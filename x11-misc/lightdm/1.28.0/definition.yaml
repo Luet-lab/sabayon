@@ -1,0 +1,22 @@
+category: x11-misc
+conflicts: []
+name: lightdm
+requires:
+- 
+  category: x11-misc
+  name: lightdm-base-1.28.0[introspection=]
+  
+  version: ""
+- 
+  category: x11-misc
+  name: lightdm-qt5
+  
+  version: 1.28.0
+use_flags:
+- audit
+- +gnome
+- +gtk
+- +introspection
+- qt5
+- vala
+version: 1.28.0
