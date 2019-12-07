@@ -13,23 +13,8 @@ requires:
   
   version: 0.35.0
 - 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
   category: media-libs
   name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
   
   version: ""
 - 
@@ -37,6 +22,21 @@ requires:
   name: gtk+
   
   version: "3.20"
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
 - 
   category: media-libs
   name: libcanberra

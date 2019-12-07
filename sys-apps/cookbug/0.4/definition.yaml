@@ -4,11 +4,6 @@ name: cookbug
 requires:
 - 
   category: sys-apps
-  name: pciutils
-  
-  version: ""
-- 
-  category: sys-apps
   name: usbutils
   
   version: ""
@@ -20,6 +15,11 @@ requires:
 - 
   category: sys-apps
   name: coreutils
+  
+  version: ""
+- 
+  category: sys-apps
+  name: pciutils
   
   version: ""
 use_flags:

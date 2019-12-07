@@ -3,23 +3,23 @@ conflicts: []
 name: git-cvs
 requires:
 - 
-  category: dev-libs
-  name: expat
+  category: virtual
+  name: emacs
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -29,12 +29,17 @@ requires:
   version: ""
 - 
   category: dev-vcs
-  name: git
+  name: cvsps
   
-  version: 2.21.0
+  version: "2.1"
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -43,73 +48,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre2[jit(+)]
   
   version: ""
 - 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
   category: dev-lang
   name: perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
   
   version: ""
 - 
@@ -129,12 +79,62 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 use_flags:

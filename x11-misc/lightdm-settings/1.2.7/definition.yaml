@@ -3,11 +3,6 @@ conflicts: []
 name: lightdm-settings
 requires:
 - 
-  category: dev-python
-  name: xapp
-  
-  version: ""
-- 
   category: x11-themes
   name: hicolor-icon-theme
   
@@ -35,6 +30,11 @@ requires:
 - 
   category: sys-auth
   name: polkit
+  
+  version: ""
+- 
+  category: dev-python
+  name: xapp
   
   version: ""
 version: 1.2.7

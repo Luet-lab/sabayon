@@ -3,23 +3,48 @@ conflicts: []
 name: git-cvs
 requires:
 - 
-  category: dev-vcs
-  name: git
+  category: dev-lang
+  name: tk
   
-  version: 2.23.0
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
 - 
   category: app-crypt
   name: libsecret
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: expat
   
   version: ""
 - 
@@ -33,38 +58,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -73,28 +68,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: openssl
   
   version: ""
 - 
@@ -103,28 +78,13 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
   category: dev-vcs
-  name: cvsps
+  name: git
   
-  version: "2.1"
+  version: 2.23.0
 - 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -134,12 +94,52 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 use_flags:

@@ -3,23 +3,13 @@ conflicts: []
 name: git
 requires:
 - 
-  category: dev-perl
-  name: DBI
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
   category: dev-perl
   name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
   
   version: ""
 - 
@@ -33,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -53,28 +43,43 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
   category: dev-vcs
-  name: cvsps
+  name: subversion
   
-  version: "2.1"
+  version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: openssl
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -84,12 +89,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: MailTools
   
   version: ""
 - 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
   category: dev-perl
-  name: Error
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -98,18 +113,13 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libpcre
   
   version: ""
 - 
@@ -120,16 +130,6 @@ requires:
 - 
   category: virtual
   name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
   
   version: ""
 use_flags:

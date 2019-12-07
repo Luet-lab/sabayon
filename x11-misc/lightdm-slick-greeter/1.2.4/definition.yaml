@@ -8,13 +8,13 @@ requires:
   
   version: "1.12"
 - 
+  category: dev-util
+  name: intltool
+  
+  version: 0.35.0
+- 
   category: sys-devel
   name: gettext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
   
   version: ""
 - 
@@ -22,11 +22,6 @@ requires:
   name: freetype
   
   version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.20"
 - 
   category: x11-libs
   name: libXext
@@ -38,10 +33,15 @@ requires:
   
   version: ""
 - 
-  category: dev-util
-  name: intltool
+  category: x11-libs
+  name: cairo
   
-  version: 0.35.0
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.20"
 - 
   category: media-libs
   name: libcanberra

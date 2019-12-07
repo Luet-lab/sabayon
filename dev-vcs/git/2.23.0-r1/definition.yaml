@@ -3,33 +3,18 @@ conflicts: []
 name: git
 requires:
 - 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: virtual
-  name: emacs
+  name: libiconv
   
   version: ""
 - 
@@ -39,17 +24,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
   name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 - 
@@ -59,27 +54,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  name: libressl
   
   version: ""
 - 
@@ -89,17 +64,17 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: HTML-Tree
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
@@ -108,13 +83,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -124,7 +94,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -133,8 +118,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 use_flags:

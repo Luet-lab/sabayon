@@ -4,12 +4,12 @@ name: vdf
 requires:
 - 
   category: dev-python
-  name: pytest-cov
+  name: mock
   
   version: ""
 - 
   category: dev-python
-  name: mock
+  name: pytest-cov
   
   version: ""
 use_flags:

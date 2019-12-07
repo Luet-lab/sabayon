@@ -3,23 +3,18 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
   category: dev-vcs
   name: cvsps
   
   version: "2.1"
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -29,22 +24,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -53,63 +33,13 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
   category: dev-libs
-  name: libpcre
+  name: openssl
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -119,12 +49,47 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libpcre
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -134,7 +99,42 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 use_flags:
