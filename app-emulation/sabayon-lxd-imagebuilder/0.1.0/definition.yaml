@@ -4,17 +4,17 @@ name: sabayon-lxd-imagebuilder
 requires:
 - 
   category: app-emulation
+  name: lxd
+  
+  version: ""
+- 
+  category: app-emulation
   name: docker-companion
   
   version: ""
 - 
   category: app-emulation
   name: docker
-  
-  version: ""
-- 
-  category: app-emulation
-  name: lxd
   
   version: ""
 use_flags:
