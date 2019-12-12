@@ -4,11 +4,6 @@ name: libturpial
 requires:
 - 
   category: dev-python
-  name: oauth
-  
-  version: ""
-- 
-  category: dev-python
   name: requests
   
   version: ""
@@ -20,6 +15,11 @@ requires:
 - 
   category: dev-python
   name: setuptools
+  
+  version: ""
+- 
+  category: dev-python
+  name: oauth
   
   version: ""
 use_flags:

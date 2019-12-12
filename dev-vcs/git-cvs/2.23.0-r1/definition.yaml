@@ -3,8 +3,18 @@ conflicts: []
 name: git-cvs
 requires:
 - 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -14,7 +24,22 @@ requires:
   version: ""
 - 
   category: dev-lang
-  name: tk
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -28,13 +53,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -44,12 +74,42 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -59,17 +119,17 @@ requires:
   version: 2.23.0
 - 
   category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
+  name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
@@ -82,66 +142,6 @@ requires:
   name: cvsps
   
   version: "2.1"
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
 use_flags:
 - +blksha1
 - +curl

@@ -1,0 +1,9 @@
+steps:
+- emerge -b =${PACKAGE_CATEGORY}/wireguard-${PACKAGE_VERSION}
+requires:
+- category: "sys-kernel"
+  version:  "4.19.12"
+  name:     "linux-sabayon"
+
+includes:
+- /usr/portage/packages/.*

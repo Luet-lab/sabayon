@@ -3,43 +3,23 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
   category: dev-perl
-  name: Authen-SASL
+  name: TermReadKey
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: HTML-Tree
   
   version: ""
 - 
@@ -48,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -59,7 +39,62 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -69,67 +104,17 @@ requires:
   version: ""
 - 
   category: dev-lang
-  name: tk
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
   name: CGI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
   
   version: ""
 - 
@@ -139,7 +124,22 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-perl
   name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 use_flags:

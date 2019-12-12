@@ -3,63 +3,23 @@ conflicts: []
 name: gitweb
 requires:
 - 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
   category: dev-lang
   name: tk
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: HTML-Tree
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -69,32 +29,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: Authen-SASL
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  name: CGI
   
   version: ""
 - 
@@ -103,28 +43,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
+  name: emacs
   
   version: ""
 - 
@@ -134,7 +69,52 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -142,6 +122,26 @@ requires:
   name: git
   
   version: 2.23.0
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
 use_flags:
 - +blksha1
 - +curl
