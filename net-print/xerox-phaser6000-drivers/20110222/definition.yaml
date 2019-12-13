@@ -3,13 +3,13 @@ conflicts: []
 name: xerox-phaser6000-drivers
 requires:
 - 
-  category: app-emulation
-  name: emul-linux-x86-baselibs
+  category: net-print
+  name: cups
   
   version: ""
 - 
-  category: net-print
-  name: cups
+  category: app-emulation
+  name: emul-linux-x86-baselibs
   
   version: ""
 use_flags:

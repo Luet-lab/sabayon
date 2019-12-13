@@ -3,8 +3,13 @@ conflicts: []
 name: gitweb
 requires:
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
   category: dev-perl
-  name: DBI
+  name: Error
   
   version: ""
 - 
@@ -13,28 +18,28 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-perl
   name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -43,18 +48,28 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
   name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -74,27 +89,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: dev-perl
   name: Authen-SASL
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
   
   version: ""
 - 
@@ -104,37 +114,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: TermReadKey
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
+  category: sys-libs
+  name: zlib
   
-  version: 2.21.0
+  version: ""
 - 
   category: dev-libs
-  name: expat
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
+  name: libwww-perl
   
   version: ""
 use_flags:

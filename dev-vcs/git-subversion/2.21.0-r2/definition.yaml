@@ -3,8 +3,13 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-perl
-  name: CGI
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -14,22 +19,42 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: MediaWiki-API
   
   version: ""
 - 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
   category: dev-libs
-  name: libpcre2[jit(+)]
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -38,13 +63,38 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -59,82 +109,32 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: TermReadKey
   
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: libressl
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: dev-perl
   name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:

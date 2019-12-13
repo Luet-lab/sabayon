@@ -4,22 +4,22 @@ name: git-subversion
 requires:
 - 
   category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: Error
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
@@ -28,8 +28,48 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -39,52 +79,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: TermReadKey
   
   version: ""
 - 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -93,13 +93,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -108,13 +108,13 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -128,18 +128,18 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-perl
-  name: libwww-perl
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: dev-perl
-  name: MediaWiki-API
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 use_flags:

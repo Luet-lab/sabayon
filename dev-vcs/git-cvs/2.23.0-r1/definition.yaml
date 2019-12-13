@@ -3,28 +3,13 @@ conflicts: []
 name: git-cvs
 requires:
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -33,48 +18,13 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-libs
   name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
   
   version: ""
 - 
@@ -93,18 +43,63 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
   category: app-crypt
   name: libsecret
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
   name: Error
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -114,22 +109,12 @@ requires:
   version: ""
 - 
   category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-libs
-  name: expat
+  name: subversion
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
+  name: libwww-perl
   
   version: ""
 - 
@@ -138,10 +123,25 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: dev-lang
+  name: tk
   
-  version: "2.1"
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
 use_flags:
 - +blksha1
 - +curl

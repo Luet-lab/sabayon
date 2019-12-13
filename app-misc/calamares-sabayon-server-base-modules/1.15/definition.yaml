@@ -8,15 +8,15 @@ conflicts:
 name: calamares-sabayon-server-base-modules
 requires:
 - 
-  category: app-admin
-  name: calamares
-  
-  version: ""
-- 
   category: sys-kernel
   name: dracut
   
   version: "049"
+- 
+  category: app-admin
+  name: calamares
+  
+  version: ""
 use_flags:
 - ""
 version: "1.15"

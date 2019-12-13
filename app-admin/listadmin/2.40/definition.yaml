@@ -14,17 +14,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Term-ReadLine-Perl
-  
-  version: ""
-- 
-  category: dev-perl
   name: Text-Reform
   
   version: ""
 - 
   category: dev-perl
   name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Term-ReadLine-Perl
   
   version: ""
 - 

@@ -4,22 +4,22 @@ name: pinentry
 requires:
 - 
   category: app-crypt
-  name: pinentry-gtk2
-  
-  version: 1.0.0
-- 
-  category: app-crypt
-  name: pinentry-qt5
-  
-  version: 1.0.0
-- 
-  category: app-crypt
   name: pinentry-base
   
   version: 1.0.0
 - 
   category: app-crypt
   name: pinentry-gnome
+  
+  version: 1.0.0
+- 
+  category: app-crypt
+  name: pinentry-gtk2
+  
+  version: 1.0.0
+- 
+  category: app-crypt
+  name: pinentry-qt5
   
   version: 1.0.0
 use_flags:

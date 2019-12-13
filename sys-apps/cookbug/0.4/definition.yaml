@@ -4,22 +4,22 @@ name: cookbug
 requires:
 - 
   category: sys-apps
-  name: usbutils
-  
-  version: ""
-- 
-  category: virtual
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-apps
   name: coreutils
   
   version: ""
 - 
   category: sys-apps
   name: pciutils
+  
+  version: ""
+- 
+  category: sys-apps
+  name: usbutils
+  
+  version: ""
+- 
+  category: virtual
+  name: modutils
   
   version: ""
 use_flags:

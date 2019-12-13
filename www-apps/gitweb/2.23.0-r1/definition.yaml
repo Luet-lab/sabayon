@@ -3,23 +3,8 @@ conflicts: []
 name: gitweb
 requires:
 - 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
   category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: CGI
   
   version: ""
 - 
@@ -29,12 +14,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
+  name: DBI
   
   version: ""
 - 
@@ -43,8 +23,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MediaWiki-API
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
@@ -53,13 +33,18 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -73,13 +58,13 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-vcs
+  name: git
   
-  version: ""
+  version: 2.23.0
 - 
-  category: dev-perl
-  name: Error
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -88,13 +73,18 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -104,7 +94,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -114,32 +109,37 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
   name: libwww-perl
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
+  category: dev-libs
+  name: libpcre
   
-  version: 2.23.0
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
 - 
   category: app-crypt
   name: libsecret
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 use_flags:
