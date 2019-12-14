@@ -1,9 +1,12 @@
 steps:
-- emerge -b =${PACKAGE_CATEGORY}/wireguard-${PACKAGE_VERSION}
+- emerge -b =net-vpn/wireguard-${PACKAGE_VERSION}
 requires:
 - category: "sys-kernel"
   version:  "4.4.195"
   name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.4.195"
+  name:     "sabayon-sources"
 
 includes:
 - /usr/portage/packages/.*

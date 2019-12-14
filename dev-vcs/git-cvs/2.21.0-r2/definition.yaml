@@ -3,8 +3,28 @@ conflicts: []
 name: git-cvs
 requires:
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
   category: dev-perl
-  name: CGI
+  name: Error
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -13,23 +33,38 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
   category: dev-libs
   name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: DBI
   
   version: ""
 - 
@@ -38,15 +73,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
   category: dev-vcs
-  name: subversion
+  name: git
   
-  version: ""
+  version: 2.21.0
 - 
   category: sys-libs
   name: zlib
@@ -58,15 +88,25 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
+  category: dev-perl
+  name: libwww-perl
   
-  version: 2.21.0
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
 - 
   category: dev-libs
   name: openssl
@@ -78,48 +118,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
@@ -133,8 +133,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 use_flags:

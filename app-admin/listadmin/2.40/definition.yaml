@@ -18,16 +18,6 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Term-ReadLine-Perl
-  
-  version: ""
-- 
   category: virtual
   name: perl-MIME-Base64
   
@@ -45,6 +35,16 @@ requires:
 - 
   category: dev-perl
   name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Term-ReadLine-Perl
   
   version: ""
 use_flags:

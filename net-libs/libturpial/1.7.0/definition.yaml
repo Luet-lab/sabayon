@@ -4,11 +4,6 @@ name: libturpial
 requires:
 - 
   category: dev-python
-  name: simplejson
-  
-  version: ""
-- 
-  category: dev-python
   name: setuptools
   
   version: ""
@@ -20,6 +15,11 @@ requires:
 - 
   category: dev-python
   name: requests
+  
+  version: ""
+- 
+  category: dev-python
+  name: simplejson
   
   version: ""
 use_flags:

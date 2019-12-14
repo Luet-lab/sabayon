@@ -1,0 +1,12 @@
+steps:
+- emerge -b =sys-power/bbswitch-${PACKAGE_VERSION}
+requires:
+- category: "sys-kernel"
+  version:  "3.16.56"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "3.16.56"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*

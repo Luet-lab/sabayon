@@ -3,13 +3,23 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
   category: dev-perl
-  name: MediaWiki-API
+  name: CGI
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -18,8 +28,28 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
@@ -34,7 +64,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -43,13 +78,13 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: dev-perl
+  name: DBI
   
-  version: "2.1"
+  version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -58,13 +93,33 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
   category: app-crypt
   name: gnupg
   
   version: ""
 - 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: dev-libs
-  name: libressl
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -73,33 +128,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
   category: app-crypt
   name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
   
   version: ""
 - 
@@ -109,37 +139,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: libwww-perl
   
   version: ""
 use_flags:

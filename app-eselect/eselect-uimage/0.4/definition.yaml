@@ -3,15 +3,15 @@ conflicts: []
 name: eselect-uimage
 requires:
 - 
-  category: app-admin
-  name: eselect
-  
-  version: 1.2.3
-- 
   category: sys-apps
   name: file
   
   version: ""
+- 
+  category: app-admin
+  name: eselect
+  
+  version: 1.2.3
 use_flags:
 - ""
 version: "0.4"

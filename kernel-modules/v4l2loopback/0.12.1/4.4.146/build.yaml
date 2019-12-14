@@ -1,0 +1,12 @@
+steps:
+- emerge -b =media-video/v4l2loopback-${PACKAGE_VERSION}
+requires:
+- category: "sys-kernel"
+  version:  "4.4.146"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.4.146"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*

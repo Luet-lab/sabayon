@@ -13,18 +13,8 @@ requires:
   
   version: 5.2-r5
 - 
-  category: media-libs
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -34,12 +24,47 @@ requires:
   version: ""
 - 
   category: media-libs
+  name: libsdl
+  
+  version: ""
+- 
+  category: sys-fs
+  name: fuse
+  
+  version: ""
+- 
+  category: media-libs
   name: freetype
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
+  category: app-crypt
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-apps
+  name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  name: ibm-powerpc-utils
   
   version: ""
 - 
@@ -52,31 +77,6 @@ requires:
   name: lvm2
   
   version: 2.02.45
-- 
-  category: sys-fs
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-apps
-  name: powerpc-utils
-  
-  version: ""
-- 
-  category: sys-boot
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
 use_flags:
 - debug
 - device-mapper

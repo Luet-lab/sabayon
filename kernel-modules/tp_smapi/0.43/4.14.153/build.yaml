@@ -1,0 +1,12 @@
+steps:
+- emerge -b =app-laptop/tp_smapi-${PACKAGE_VERSION}
+requires:
+- category: "sys-kernel"
+  version:  "4.14.153"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.14.153"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
