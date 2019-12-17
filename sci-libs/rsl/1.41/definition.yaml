@@ -1,3 +1,25 @@
 category: sci-libs
+conflicts: []
+description: Radar Software Library
+license: LGPL-2
 name: rsl
+requires:
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+uri:
+- ftp://trmm-fc.gsfc.nasa.gov/software/rsl-v1.41.tar.gz
+use_flags:
+- ""
 version: "1.41"

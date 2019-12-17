@@ -2,81 +2,118 @@ category: sys-boot
 conflicts:
 - 
   category: sys-boot
+  description: ""
+  license: ""
   name: grub
   
   version: ""
+description: GNU GRUB boot loader
+license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-libs
-  name: ncurses
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
-  version: 5.2-r5
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: powerpc-utils
+  
+  version: ""
 - 
   category: sys-devel
+  description: ""
+  license: ""
   name: gettext
   
   version: ""
 - 
   category: app-arch
+  description: ""
+  license: ""
   name: xz-utils
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
+  
+  version: ""
+- 
   category: media-libs
+  description: ""
+  license: ""
   name: libsdl
   
   version: ""
 - 
   category: sys-fs
-  name: fuse
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-boot
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-fs
+  description: ""
+  license: ""
   name: zfs
   
   version: ""
 - 
-  category: sys-apps
-  name: powerpc-utils
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
   
   version: ""
 - 
-  category: sys-apps
-  name: ibm-powerpc-utils
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
-  version: ""
+  version: 5.2-r5
 - 
   category: sys-boot
+  description: ""
+  license: ""
   name: os-prober
   
   version: ""
 - 
-  category: sys-fs
-  name: lvm2
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
   
-  version: 2.02.45
+  version: ""
+uri:
+- mirror://gnu/grub-2.02_beta3-r1/grub-2.02_beta3-r1-.tar.xz
+- mirror://gentoo/grub-2.02_beta3-r1-.tar.xz
+- 'https://dev.gentoo.org/~floppym/dist/grub-2.02_beta3-r1-.tar.xz fonts? ( mirror://gnu/unifont/unifont-8.0.01/unifont-8.0.01.pcf.gz '
+- 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.35.zip '
 use_flags:
 - debug
 - device-mapper
