@@ -1,5 +1,5 @@
 steps:
-- emerge -b ={{.PackageCategory}}/{{.PackageName}}-${PACKAGE_VERSION}
+- emerge -b ={{.PackageCategory}}/{{.PackageName}}-{{.PackageVersion}}
 requires:
 - category: "{{.LayerCategory}}"
   version:  "{{.LayerVersion}}"
