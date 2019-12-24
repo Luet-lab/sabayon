@@ -1,5 +1,5 @@
 steps:
-- emerge -b =sys-fs/vhba-${PACKAGE_VERSION}
+- emerge -b =sys-fs-4.14/vhba-20190410
 requires:
 - category: "sys-kernel"
   version:  "4.14.131"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

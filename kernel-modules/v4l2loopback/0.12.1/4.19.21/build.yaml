@@ -1,5 +1,5 @@
 steps:
-- emerge -b =media-video/v4l2loopback-${PACKAGE_VERSION}
+- emerge -b =media-video-4.19/v4l2loopback-0.12.1
 requires:
 - category: "sys-kernel"
   version:  "4.19.21"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

@@ -1,0 +1,13 @@
+steps:
+- emerge -b =net-firewall-5.3/rtsp-conntrack-4.18
+requires:
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

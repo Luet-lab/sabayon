@@ -1,0 +1,13 @@
+steps:
+- emerge -b =x11-drivers-5.4/nvidia-drivers-340.107-r1
+requires:
+- category: "sys-kernel"
+  version:  "5.4.3"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.4.3"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

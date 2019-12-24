@@ -1,0 +1,13 @@
+steps:
+- emerge -b =sys-fs-5.3/zfs-kmod-0.8.2
+requires:
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

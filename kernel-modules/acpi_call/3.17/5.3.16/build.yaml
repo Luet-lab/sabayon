@@ -1,0 +1,13 @@
+steps:
+- emerge -b =sys-power-5.3/acpi_call-3.17
+requires:
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.3.16"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

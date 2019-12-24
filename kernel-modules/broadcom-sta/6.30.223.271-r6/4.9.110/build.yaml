@@ -1,5 +1,5 @@
 steps:
-- emerge -b =net-wireless/broadcom-sta-${PACKAGE_VERSION}
+- emerge -b =net-wireless-4.9/broadcom-sta-6.30.223.271-r6
 requires:
 - category: "sys-kernel"
   version:  "4.9.110"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

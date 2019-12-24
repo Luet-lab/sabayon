@@ -1,5 +1,5 @@
 steps:
-- emerge -b =sys-fs/zfs-kmod-${PACKAGE_VERSION}
+- emerge -b =sys-fs-5.3/zfs-kmod-0.8.2
 requires:
 - category: "sys-kernel"
   version:  "5.3.11"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

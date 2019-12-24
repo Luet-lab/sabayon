@@ -1,5 +1,5 @@
 steps:
-- emerge -b =sys-power/acpi_call-${PACKAGE_VERSION}
+- emerge -b =sys-power-4.19/acpi_call-3.17
 requires:
 - category: "sys-kernel"
   version:  "4.19.76"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

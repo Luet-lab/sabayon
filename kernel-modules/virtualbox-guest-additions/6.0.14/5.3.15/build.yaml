@@ -1,5 +1,5 @@
 steps:
-- emerge -b =app-emulation/virtualbox-guest-additions-${PACKAGE_VERSION}
+- emerge -b =app-emulation-5.3/virtualbox-guest-additions-6.0.14
 requires:
 - category: "sys-kernel"
   version:  "5.3.15"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

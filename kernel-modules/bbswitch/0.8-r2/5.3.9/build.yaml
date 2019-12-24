@@ -1,5 +1,5 @@
 steps:
-- emerge -b =sys-power/bbswitch-${PACKAGE_VERSION}
+- emerge -b =sys-power-5.3/bbswitch-0.8-r2
 requires:
 - category: "sys-kernel"
   version:  "5.3.9"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

@@ -1,5 +1,5 @@
 steps:
-- emerge -b =net-vpn/wireguard-${PACKAGE_VERSION}
+- emerge -b =net-vpn-4.9/wireguard-0.0.20190406-r1
 requires:
 - category: "sys-kernel"
   version:  "4.9.107"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

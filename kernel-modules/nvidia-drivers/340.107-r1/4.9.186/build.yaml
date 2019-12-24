@@ -1,5 +1,5 @@
 steps:
-- emerge -b =x11-drivers/nvidia-drivers-${PACKAGE_VERSION}
+- emerge -b =x11-drivers-4.9/nvidia-drivers-340.107-r1
 requires:
 - category: "sys-kernel"
   version:  "4.9.186"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

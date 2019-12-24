@@ -1,0 +1,13 @@
+steps:
+- emerge -b =sys-fs-5.4/vhba-20190410
+requires:
+- category: "sys-kernel"
+  version:  "5.4.3"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.4.3"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

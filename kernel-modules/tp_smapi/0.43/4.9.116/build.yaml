@@ -1,5 +1,5 @@
 steps:
-- emerge -b =app-laptop/tp_smapi-${PACKAGE_VERSION}
+- emerge -b =app-laptop-4.9/tp_smapi-0.43
 requires:
 - category: "sys-kernel"
   version:  "4.9.116"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

@@ -1,5 +1,5 @@
 steps:
-- emerge -b =app-emulation/virtualbox-modules-${PACKAGE_VERSION}
+- emerge -b =app-emulation-4.14/virtualbox-modules-6.0.14
 requires:
 - category: "sys-kernel"
   version:  "4.14.102"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+

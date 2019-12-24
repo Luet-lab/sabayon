@@ -1,5 +1,5 @@
 steps:
-- emerge -b =net-firewall/rtsp-conntrack-${PACKAGE_VERSION}
+- emerge -b =net-firewall-5.3/rtsp-conntrack-4.18
 requires:
 - category: "sys-kernel"
   version:  "5.3.11"
@@ -10,3 +10,4 @@ requires:
 
 includes:
 - /usr/portage/packages/.*
+
