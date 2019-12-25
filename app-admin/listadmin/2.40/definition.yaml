@@ -13,6 +13,34 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-TokeParser-Simple
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Term-ReadLine-Perl
+  
+  version: ""
+- 
   category: net-mail
   description: ""
   license: ""
@@ -30,14 +58,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-TokeParser-Simple
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TermReadKey
+  name: Text-Reform
   
   version: ""
 - 
@@ -45,27 +66,6 @@ requires:
   description: ""
   license: ""
   name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Text-Reform
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Term-ReadLine-Perl
   
   version: ""
 uri:

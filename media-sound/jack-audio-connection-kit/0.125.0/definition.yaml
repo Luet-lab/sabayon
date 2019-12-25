@@ -1,19 +1,19 @@
 category: media-sound
 conflicts:
 - 
-  category: <=app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs
-  
-  version: 20130224-r7
-- 
   category: media-sound
   description: ""
   license: ""
   name: jack-cvs
   
   version: ""
+- 
+  category: <=app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs
+  
+  version: 20130224-r7
 - 
   category: app-emulation
   description: ""
@@ -26,13 +26,6 @@ license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -40,19 +33,19 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: sys-auth
   description: ""
   license: ""
-  name: lsof
+  name: realtime-base
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: db
+  name: libsndfile
   
-  version: ""
+  version: 1.0.0
 - 
   category: media-libs
   description: ""
@@ -68,19 +61,26 @@ requires:
   
   version: 0.1.8-r1
 - 
-  category: sys-auth
+  category: sys-process
   description: ""
   license: ""
-  name: realtime-base
+  name: lsof
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: db
   
-  version: 1.0.0
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

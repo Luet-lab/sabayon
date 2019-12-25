@@ -15,6 +15,20 @@ requires:
   category: gnome-base
   description: ""
   license: ""
+  name: gconf
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
   name: libglade
   
   version: ""
@@ -32,20 +46,6 @@ requires:
   name: gtk+
   
   version: "2.18"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.17.0.orig.tar.gz
 use_flags:

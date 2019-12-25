@@ -5,17 +5,17 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
   name: packagekit-base
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 - 
@@ -26,31 +26,17 @@ requires:
   
   version: "2.34"
 - 
-  category: app-backup
+  category: x11-libs
   description: ""
   license: ""
-  name: duplicity
+  name: libnotify
   
-  version: 0.7.14
+  version: "0.7"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: appstream-glib
+  name: gnome-online-accounts
   
   version: ""
 - 
@@ -61,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: gnome-base
   description: ""
   license: ""
-  name: libsecret
+  name: gvfs
   
   version: ""
 - 
@@ -82,17 +68,31 @@ requires:
   
   version: "3.10"
 - 
-  category: x11-libs
+  category: app-backup
   description: ""
   license: ""
-  name: libnotify
+  name: duplicity
   
-  version: "0.7"
+  version: 0.7.14
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: appstream-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
   
   version: ""
 uri:

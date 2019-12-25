@@ -5,13 +5,6 @@ license: GPL-2
 name: nautilus-image-converter
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -25,6 +18,13 @@ requires:
   name: nautilus
   
   version: "3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 uri:
 - mirror://sabayon//nautilus-image-converter/nautilus-image-converter-0.3.0.tar.gz
 use_flags:

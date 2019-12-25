@@ -8,6 +8,13 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: Wx
   
   version: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: alsa-oss
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
   
   version: ""
 - 
@@ -50,21 +50,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: IO-stringy
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
   
   version: ""
 - 
@@ -82,10 +68,24 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
   name: p7zip
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 - 

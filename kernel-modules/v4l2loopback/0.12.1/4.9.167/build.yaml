@@ -1,5 +1,12 @@
 steps:
-- emerge -b =media-video-4.9/v4l2loopback-0.12.1
+- emerge -b =${GENTOO_CATEGORY}/v4l2loopback-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv v4l2loopback-${GENTOO_VERSION}.tbz2 v4l2loopback-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=0.12.1"
+- "GENTOO_CATEGORY=media-video"
 requires:
 - category: "sys-kernel"
   version:  "4.9.167"

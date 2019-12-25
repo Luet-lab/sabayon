@@ -26,13 +26,6 @@ requires:
   
   version: ""
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: dialog
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -43,7 +36,21 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dmidecode
+  name: sed
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: 239-r2
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: dialog
   
   version: ""
 - 
@@ -64,16 +71,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: dmidecode
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
 uri: []
 use_flags:
 - ""

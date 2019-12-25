@@ -1,5 +1,12 @@
 steps:
-- emerge -b =sys-fs-4.4/vhba-20190410
+- emerge -b =${GENTOO_CATEGORY}/vhba-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv vhba-${GENTOO_VERSION}.tbz2 vhba-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=20190410"
+- "GENTOO_CATEGORY=sys-fs"
 requires:
 - category: "sys-kernel"
   version:  "4.4.206"

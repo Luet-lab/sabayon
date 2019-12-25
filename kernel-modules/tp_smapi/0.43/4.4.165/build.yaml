@@ -1,5 +1,12 @@
 steps:
-- emerge -b =app-laptop-4.4/tp_smapi-0.43
+- emerge -b =${GENTOO_CATEGORY}/tp_smapi-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv tp_smapi-${GENTOO_VERSION}.tbz2 tp_smapi-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=0.43"
+- "GENTOO_CATEGORY=app-laptop"
 requires:
 - category: "sys-kernel"
   version:  "4.4.165"

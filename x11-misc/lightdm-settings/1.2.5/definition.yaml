@@ -5,6 +5,27 @@ license: GPL-3
 name: lightdm-settings
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: xapp
+  
+  version: ""
+- 
   category: x11-themes
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: setproctitle
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: xapp
   
   version: ""
 uri:

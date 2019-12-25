@@ -22,14 +22,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: libdaemon
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -39,13 +53,6 @@ requires:
   name: dbus-python
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
 - 
   category: dev-python
   description: ""
@@ -64,14 +71,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libdaemon
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
+  name: glib
   
   version: ""
 - 
@@ -82,19 +82,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: twisted
+  
+  version: 16.0.0
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

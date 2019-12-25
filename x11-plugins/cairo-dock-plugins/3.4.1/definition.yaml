@@ -5,17 +5,10 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: cairo
   
   version: ""
 - 
@@ -26,10 +19,45 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtkglext
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzeitgeist
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
   
   version: ""
 - 
@@ -40,17 +68,17 @@ requires:
   
   version: 1.4.0
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libindicator
+  name: libxklavier
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: dbus-glib
+  name: gnome-menus
   
   version: ""
 - 
@@ -68,62 +96,6 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oauth
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
-  
-  version: ""
-- 
   category: xfce-base
   description: ""
   license: ""
@@ -131,17 +103,17 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: gnote
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
-  name: simplejson
+  name: oauth
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libindicator
   
   version: ""
 - 
@@ -152,10 +124,31 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtkglext
   
   version: ""
 - 
@@ -173,10 +166,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libzeitgeist
+  name: gnote
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
   
   version: ""
 uri:

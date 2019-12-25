@@ -8,6 +8,7 @@ MODULES=(
 "app-laptop@tp_smapi@0.43"
 "media-video@v4l2loopback@0.12.1"
 "net-firewall@rtsp-conntrack@4.18"
+"net-firewall@xtables-addons@3.7"
 "net-wireless@broadcom-sta@6.30.223.271-r6"
 "sys-fs@vhba@20190410"
 "sys-fs@zfs-kmod@0.8.2"
@@ -41,8 +42,10 @@ do
                                         -s LayerCategory="sys-kernel" \
                                         -s LayerVersion=$i \
                                         -s LayerName="linux-sabayon" \
+                                        -s PackageCategory="${parts[0]}" \
                                         -s PackageName="$pn" \
-                                        -s PackageCategory="$cat" \
+                                        -s GentooVersion="${pkg_version}" \
+                                        -s PackageVersion="${ver}" \
                                         -s Binhost="true" \
                                         -o $basedir/build.yaml
 
@@ -51,9 +54,10 @@ do
                                         -s LayerCategory="sys-kernel" \
                                         -s LayerVersion=$i \
                                         -s LayerName="linux-sabayon" \
+                                        -s PackageCategory="${parts[0]}" \
                                         -s PackageName="$pn" \
-                                        -s PackageCategory="$cat" \
-                                        -s PackageVersion="${pkg_version}" \
+                                        -s PackageVersion="${ver}" \
+                                        -s GentooVersion="${pkg_version}" \
                                         -s Binhost="true" \
                                         -o $basedir/build.yaml
         fi

@@ -5,6 +5,20 @@ license: GPL-2
 name: multipath-tools
 requires:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "171"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -25,20 +39,6 @@ requires:
   name: systemd
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "171"
 uri:
 - http://christophe.varoqui.free.fr/multipath-tools/multipath-tools-0.5.0.tar.bz2
 use_flags:

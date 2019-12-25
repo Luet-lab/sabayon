@@ -1,5 +1,12 @@
 steps:
-- emerge -b =sys-power-4.4/acpi_call-3.17
+- emerge -b =${GENTOO_CATEGORY}/acpi_call-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv acpi_call-${GENTOO_VERSION}.tbz2 acpi_call-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=3.17"
+- "GENTOO_CATEGORY=sys-power"
 requires:
 - category: "sys-kernel"
   version:  "4.4.175"

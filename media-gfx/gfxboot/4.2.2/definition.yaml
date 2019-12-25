@@ -5,6 +5,13 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
   category: app-text
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: nasm
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
 uri:
 - mirror://ubuntu/pool/main/g/gfxboot/gfxboot_4.2.2.orig.tar.gz
 - mirror://ubuntu/pool/main/g/gfxboot/gfxboot_4.2.2-1ubuntu1.diff.gz

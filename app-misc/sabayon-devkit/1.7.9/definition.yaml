@@ -5,13 +5,6 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -29,7 +22,7 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: querypkg
+  name: pax-utils
   
   version: ""
 - 
@@ -50,20 +43,6 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: gentoolkit
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
   name: portage-utils
   
   version: ""
@@ -75,10 +54,31 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: querypkg
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gentoolkit
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
   
   version: ""
 uri:

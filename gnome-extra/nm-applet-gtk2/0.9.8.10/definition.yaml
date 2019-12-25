@@ -19,75 +19,12 @@ requires:
   
   version: 0.96-r1
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.7.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.20"
-- 
   category: app-text
   description: ""
   license: ""
   name: iso-codes
   
   version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.990
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: 0.9.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.6
 - 
   category: virtual
   description: ""
@@ -103,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -110,12 +54,47 @@ requires:
   
   version: 1.4.1
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: "2.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.8
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.20"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: glib
   
-  version: "0.88"
+  version: "2.26"
 - 
   category: gnome-base
   description: ""
@@ -124,24 +103,45 @@ requires:
   
   version: "2.26"
 - 
-  category: gnome-base
+  category: net-wireless
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: gnome-bluetooth
   
-  version: "2.20"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.20"
+  version: 2.27.6
 - 
   category: gnome-base
   description: ""
   license: ""
   name: libgnome-keyring
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.6
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: modemmanager
+  
+  version: 0.7.990
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.88"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: mobile-broadband-provider-info
   
   version: ""
 uri: []

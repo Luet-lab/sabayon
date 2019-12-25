@@ -1,5 +1,12 @@
 steps:
-- emerge -b =net-wireless-4.19/broadcom-sta-6.30.223.271-r6
+- emerge -b =${GENTOO_CATEGORY}/broadcom-sta-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv broadcom-sta-${GENTOO_VERSION}.tbz2 broadcom-sta-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=6.30.223.271-r6"
+- "GENTOO_CATEGORY=net-wireless"
 requires:
 - category: "sys-kernel"
   version:  "4.19.44"

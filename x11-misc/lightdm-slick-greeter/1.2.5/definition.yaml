@@ -8,20 +8,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "3.20"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXext
   
   version: ""
@@ -51,6 +37,20 @@ requires:
   description: ""
   license: ""
   name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.20"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 uri:

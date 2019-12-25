@@ -5,13 +5,6 @@ license: GPL-3
 name: quassel
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -19,10 +12,17 @@ requires:
   
   version: ""
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtscript
+  name: qtsql
   
   version: ""
 - 
@@ -33,24 +33,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  name: qtwebengine
   
   version: ""
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: qtcore
   
   version: ""
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kcoreaddons
+  name: qtscript
   
   version: ""
 - 
@@ -61,38 +61,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
   name: qtgui
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.13.1
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
   
   version: ""
 - 
@@ -106,14 +78,35 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
+  name: ktextwidgets
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kxmlgui
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
   
   version: ""
 - 
@@ -131,6 +124,13 @@ requires:
   
   version: 0.7.0
 - 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.13.1
+- 
   category: app-crypt
   description: ""
   license: ""
@@ -138,10 +138,17 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: virtual
   description: ""
   license: ""
-  name: openldap
+  name: logger
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
   
   version: ""
 - 
@@ -155,21 +162,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifications
+  name: kconfigwidgets
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
+  name: kwidgetsaddons
   
   version: ""
 uri:

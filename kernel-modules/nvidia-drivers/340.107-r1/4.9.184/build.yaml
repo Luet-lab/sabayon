@@ -1,5 +1,12 @@
 steps:
-- emerge -b =x11-drivers-4.9/nvidia-drivers-340.107-r1
+- emerge -b =${GENTOO_CATEGORY}/nvidia-drivers-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv nvidia-drivers-${GENTOO_VERSION}.tbz2 nvidia-drivers-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=340.107-r1"
+- "GENTOO_CATEGORY=x11-drivers"
 requires:
 - category: "sys-kernel"
   version:  "4.9.184"

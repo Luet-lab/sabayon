@@ -12,17 +12,10 @@ requires:
   
   version: 2.32.3
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: audit
   
   version: ""
 - 
@@ -33,12 +26,12 @@ requires:
   
   version: "1"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: pambase
+  name: libxml2
   
-  version: 20101024-r2
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -50,16 +43,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libxklavier
   
   version: "5"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -67,6 +60,13 @@ requires:
   name: accountsservice
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: 20101024-r2
 uri:
 - https://launchpad.net/lightdm//1.24.0/+download/lightdm-1.24.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

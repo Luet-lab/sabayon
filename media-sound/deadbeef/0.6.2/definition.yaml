@@ -13,12 +13,12 @@ license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.
 name: deadbeef
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcdio
+  name: gtkglext
   
-  version: "0.90"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -30,7 +30,14 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: wavpack
+  name: timidity-freepats
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
   
   version: ""
 - 
@@ -44,42 +51,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: adplug
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libzip
+  name: libcdio
   
-  version: ""
+  version: "0.90"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: flac
+  name: libcddb
   
   version: ""
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: timidity-freepats
+  name: gtk+
   
   version: ""
 - 
@@ -87,6 +80,13 @@ requires:
   description: ""
   license: ""
   name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
   
   version: ""
 - 
@@ -100,7 +100,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: adplug
+  name: faad2
   
   version: ""
 - 
@@ -125,17 +125,10 @@ requires:
   
   version: "9"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
+  name: flac
   
   version: ""
 - 
@@ -146,24 +139,24 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: libmad
+  name: musepack-tools
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: faad2
+  name: wavpack
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcddb
+  name: libzip
   
   version: ""
 - 
@@ -171,6 +164,13 @@ requires:
   description: ""
   license: ""
   name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
   
   version: ""
 uri:

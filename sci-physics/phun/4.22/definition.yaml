@@ -5,13 +5,6 @@ license: free-noncomm
 name: phun
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sdl-image
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -30,6 +23,13 @@ requires:
   description: ""
   license: ""
   name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sdl-image
   
   version: ""
 uri:

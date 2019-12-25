@@ -36,20 +36,6 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: dialog
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: keyboard-configuration-helpers
   
   version: ""
@@ -64,14 +50,28 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dmidecode
+  name: systemd
   
-  version: ""
+  version: 239-r2
 - 
   category: app-eselect
   description: ""
   license: ""
   name: eselect-opengl
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: dialog
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dmidecode
   
   version: ""
 uri:

@@ -5,6 +5,13 @@ license: GPL-2
 name: pidgin-libnotify
 requires:
 - 
+  category: net-im
+  description: ""
+  license: ""
+  name: pidgin
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -18,13 +25,6 @@ requires:
   name: libnotify
   
   version: 0.3.2
-- 
-  category: net-im
-  description: ""
-  license: ""
-  name: pidgin
-  
-  version: ""
 uri:
 - mirror://sourceforge/gaim-libnotify/pidgin-libnotify-0.14.tar.gz
 use_flags:

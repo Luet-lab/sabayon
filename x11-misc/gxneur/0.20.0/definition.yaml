@@ -12,6 +12,13 @@ license: GPL-2
 name: gxneur
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libglade
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: libintl
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libglade
   
   version: ""
 uri:

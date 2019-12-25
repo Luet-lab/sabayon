@@ -1,5 +1,12 @@
 steps:
-- emerge -b =net-firewall-4.19/rtsp-conntrack-4.18
+- emerge -b =${GENTOO_CATEGORY}/rtsp-conntrack-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv rtsp-conntrack-${GENTOO_VERSION}.tbz2 rtsp-conntrack-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=4.18"
+- "GENTOO_CATEGORY=net-firewall"
 requires:
 - category: "sys-kernel"
   version:  "4.19.83"

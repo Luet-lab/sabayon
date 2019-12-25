@@ -8,6 +8,13 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: diffutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: sandbox
   
   version: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: rsync
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: diffutils
   
   version: ""
 uri: []

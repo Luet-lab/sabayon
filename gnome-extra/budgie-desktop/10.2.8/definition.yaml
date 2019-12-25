@@ -5,40 +5,19 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: gnome-base
+  category: media-sound
   description: ""
   license: ""
-  name: gnome-menus
-  
-  version: 3.10.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
+  name: pulseaudio
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-control-center
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: "0.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
+  version: "3.16"
 - 
   category: sys-auth
   description: ""
@@ -54,6 +33,41 @@ requires:
   
   version: ""
 - 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.16"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
   category: sys-power
   description: ""
   license: ""
@@ -64,37 +78,23 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: gnome-menus
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
+  version: 3.10.1
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-desktop
+  name: gnome-settings-daemon
   
-  version: 3.18.0
+  version: ""
 - 
-  category: net-wireless
+  category: sys-apps
   description: ""
   license: ""
-  name: gnome-bluetooth
+  name: accountsservice
   
-  version: "3.16"
+  version: "0.6"
 uri: []
 use_flags:
 - +introspection

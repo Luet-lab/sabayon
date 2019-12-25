@@ -5,31 +5,10 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
-  category: app-portage
+  category: sys-apps
   description: ""
   license: ""
-  name: layman
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
+  name: gentoo-functions
   
   version: ""
 - 
@@ -43,14 +22,21 @@ requires:
   category: app-portage
   description: ""
   license: ""
+  name: layman
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
   name: gentoolkit
   
   version: ""
 - 
-  category: dev-lang
+  category: app-portage
   description: ""
   license: ""
-  name: perl
+  name: portage-utils
   
   version: ""
 - 
@@ -68,13 +54,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
@@ -82,10 +61,31 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
   category: app-portage
   description: ""
   license: ""
   name: eix
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 uri:

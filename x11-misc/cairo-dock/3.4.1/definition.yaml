@@ -5,10 +5,10 @@ license: GPL-3
 name: cairo-dock
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXtst
+  name: glib
   
   version: ""
 - 
@@ -22,21 +22,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libxml2
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libxml2
+  name: curl
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: cairo
   
   version: ""
 - 
@@ -50,42 +50,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXinerama
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
   
   version: ""
 - 
@@ -99,7 +64,42 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
   
   version: ""
 - 

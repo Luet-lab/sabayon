@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: notify-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pygtk
   
   version: ""
@@ -18,13 +25,6 @@ requires:
   name: magneto-loader
   
   version: "318"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: notify-python
-  
-  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-318.tar.bz2
 use_flags:

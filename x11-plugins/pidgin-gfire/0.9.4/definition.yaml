@@ -5,6 +5,13 @@ license: GPL-3
 name: pidgin-gfire
 requires:
 - 
+  category: net-im
+  description: ""
+  license: ""
+  name: pidgin
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -23,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: libnotify
-  
-  version: ""
-- 
-  category: net-im
-  description: ""
-  license: ""
-  name: pidgin
   
   version: ""
 uri:

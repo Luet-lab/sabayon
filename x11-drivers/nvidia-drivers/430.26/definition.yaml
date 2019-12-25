@@ -5,6 +5,27 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.0"
+- 
   category: x11-drivers
   description: ""
   license: ""
@@ -19,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
   category: x11-base
   description: ""
   license: ""
@@ -33,45 +47,24 @@ requires:
   
   version: 1.20.99
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: libvdpau
+  name: eselect-opengl
   
-  version: "1.0"
+  version: 1.0.9
 - 
-  category: x11-drivers
+  category: app-misc
   description: ""
   license: ""
-  name: nvidia-userspace-430.26[tools=]
-  
-  version: ""
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-userspace-430.26[X=]
+  name: pax-utils
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: "1.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11-1.6.2[abi_x86_32]
+  name: wayland
   
   version: ""
 - 
@@ -82,24 +75,31 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: x11-drivers
   description: ""
   license: ""
-  name: eselect-opengl
-  
-  version: 1.0.9
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
+  name: nvidia-userspace-430.26[tools=]
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-kernel
   description: ""
   license: ""
-  name: wayland
+  name: sabayon-dracut
+  
+  version: "1.3"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-430.26[X=]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11-1.6.2[abi_x86_32]
   
   version: ""
 uri:

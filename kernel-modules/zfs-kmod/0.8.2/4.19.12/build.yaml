@@ -1,5 +1,12 @@
 steps:
-- emerge -b =sys-fs-4.19/zfs-kmod-0.8.2
+- emerge -b =${GENTOO_CATEGORY}/zfs-kmod-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv zfs-kmod-${GENTOO_VERSION}.tbz2 zfs-kmod-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=0.8.2"
+- "GENTOO_CATEGORY=sys-fs"
 requires:
 - category: "sys-kernel"
   version:  "4.19.12"

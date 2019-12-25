@@ -12,17 +12,52 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: freetype
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: powerpc-utils
   
   version: ""
 - 
@@ -40,6 +75,20 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -50,7 +99,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: fuse
+  name: zfs
   
   version: ""
 - 
@@ -58,55 +107,6 @@ requires:
   description: ""
   license: ""
   name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
   
   version: ""
 uri:

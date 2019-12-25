@@ -5,6 +5,62 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.16"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: "0.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
+  
+  version: ""
+- 
   category: sys-power
   description: ""
   license: ""
@@ -33,66 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: "0.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
-  
-  version: 3.10.1
-- 
   category: gnome-base
   description: ""
   license: ""
   name: gnome-settings-daemon
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit-0.110[introspection=]
   
   version: ""
 uri: []

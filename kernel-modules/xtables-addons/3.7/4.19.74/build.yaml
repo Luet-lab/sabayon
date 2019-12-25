@@ -1,0 +1,20 @@
+steps:
+- emerge -b =${GENTOO_CATEGORY}/xtables-addons-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv xtables-addons-${GENTOO_VERSION}.tbz2 xtables-addons-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=3.7"
+- "GENTOO_CATEGORY=net-firewall"
+requires:
+- category: "sys-kernel"
+  version:  "4.19.74"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.19.74"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+
