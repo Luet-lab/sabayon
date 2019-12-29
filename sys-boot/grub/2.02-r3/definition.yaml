@@ -19,10 +19,24 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libsdl
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
@@ -33,12 +47,26 @@ requires:
   
   version: 2.02.45
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: ibm-powerpc-utils
+  name: zfs
   
-  version: 1.3.5
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
+  
+  version: ""
 - 
   category: sys-boot
   description: ""
@@ -47,10 +75,24 @@ requires:
   
   version: ""
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
   category: sys-boot
   description: ""
   license: ""
   name: os-prober
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
   
   version: ""
 - 
@@ -65,48 +107,6 @@ requires:
   description: ""
   license: ""
   name: gettext
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
   
   version: ""
 uri:

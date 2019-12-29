@@ -8,20 +8,6 @@ requires:
   category: x11-themes
   description: ""
   license: ""
-  name: arc-theme
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: numix-icon-theme-circle
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
   name: numix-icon-theme
   
   version: ""
@@ -51,6 +37,20 @@ requires:
   description: ""
   license: ""
   name: elementary-icon-theme
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: arc-theme
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: numix-icon-theme-circle
   
   version: ""
 uri:

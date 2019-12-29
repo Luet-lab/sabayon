@@ -6,45 +6,24 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: knotifications
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: ktextwidgets
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kxmlgui
   
   version: ""
 - 
@@ -58,7 +37,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebengine
+  name: qtgui
   
   version: ""
 - 
@@ -69,6 +48,13 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -76,40 +62,19 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtdbus
+  name: kwidgetsaddons
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifications
+  name: kconfigwidgets
   
   version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.13.1
 - 
   category: kde-frameworks
   description: ""
@@ -121,7 +86,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: knotifyconfig
   
   version: ""
 - 
@@ -131,6 +96,41 @@ requires:
   name: snorenotify
   
   version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.13.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
 uri:
 - https://quassel-irc.org/pub/quassel-0.13.1.tar.bz2
 use_flags:

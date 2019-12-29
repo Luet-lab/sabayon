@@ -16,21 +16,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: imlib2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
+  name: libvorbis
   
   version: ""
 - 
@@ -41,17 +27,31 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: imlib2
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
-  name: wavpack
+  name: timidity-freepats
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: adplug
+  name: libmms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
   
   version: ""
 - 
@@ -69,38 +69,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
   name: musepack-tools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzip
   
   version: ""
 - 
@@ -114,21 +86,35 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: adplug
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: alsa-lib
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: ffmpeg
+  name: libcddb
   
-  version: "9"
+  version: ""
 - 
   category: media-sound
   description: ""
   license: ""
-  name: timidity-freepats
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
   
   version: ""
 - 
@@ -139,6 +125,27 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -146,12 +153,12 @@ requires:
   
   version: "0.90"
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: libcddb
+  name: ffmpeg
   
-  version: ""
+  version: "9"
 - 
   category: x11-libs
   description: ""
@@ -163,14 +170,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
+  name: libsndfile
   
   version: ""
 uri:

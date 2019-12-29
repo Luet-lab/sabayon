@@ -8,6 +8,41 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-6.4.0[gcj?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[multilib?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[altivec?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[cxx?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[objc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-6.4.0[nls?]
   
   version: ""
@@ -29,7 +64,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[fixed-point?]
+  name: base-gcc-6.4.0[graphite?]
   
   version: ""
 - 
@@ -43,42 +78,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[objc++?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[gcj?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-6.4.0[objc-gc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[multilib?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[vanilla?]
   
   version: ""
 - 
@@ -92,21 +92,21 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[cxx?]
+  name: base-gcc-6.4.0[fixed-point?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[objc?]
+  name: base-gcc-6.4.0[objc++?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[graphite?]
+  name: base-gcc-6.4.0[vanilla?]
   
   version: ""
 uri: []

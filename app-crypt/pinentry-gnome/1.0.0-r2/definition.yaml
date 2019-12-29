@@ -8,6 +8,20 @@ requires:
   category: app-crypt
   description: ""
   license: ""
+  name: gcr
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
   name: pinentry-base
   
   version: 1.0.0
@@ -23,20 +37,6 @@ requires:
   description: ""
   license: ""
   name: libcap
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
   
   version: ""
 uri:

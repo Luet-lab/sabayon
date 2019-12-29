@@ -29,14 +29,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: reiserfsprogs
+  name: jfsutils
   
   version: ""
 - 
@@ -44,20 +37,6 @@ requires:
   description: ""
   license: ""
   name: ntfs3g
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
   
   version: ""
 - 
@@ -75,10 +54,31 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: jfsutils
+  name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
   
   version: ""
 uri: []

@@ -8,6 +8,13 @@ requires:
   category: media-gfx
   description: ""
   license: ""
+  name: gimp
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
   name: sane-backends
   
   version: ""
@@ -18,13 +25,6 @@ requires:
   name: xsane
   
   version: "0.999"
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: gimp
-  
-  version: ""
 uri:
 - http://www.xsane.org/download/xsane-0.999.tar.gz
 - http://dev.gentoo.org/~dilfridge/distfiles/xsane-0.998-patches-2.tar.xz

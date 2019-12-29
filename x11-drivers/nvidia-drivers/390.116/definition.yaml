@@ -5,10 +5,17 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: app-eselect
+  category: x11-libs
   description: ""
   license: ""
-  name: eselect-opencl
+  name: libX11-1.6.2[abi_x86_32]
+  
+  version: ""
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-390.116[tools=]
   
   version: ""
 - 
@@ -19,19 +26,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: libvdpau
+  name: eselect-opengl
   
-  version: "1.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11-1.6.2[abi_x86_32]
-  
-  version: ""
+  version: 1.0.9
 - 
   category: x11-libs
   description: ""
@@ -50,9 +50,23 @@ requires:
   category: app-eselect
   description: ""
   license: ""
-  name: eselect-opengl
+  name: eselect-opencl
   
-  version: 1.0.9
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
 - 
   category: x11-base
   description: ""
@@ -61,12 +75,19 @@ requires:
   
   version: 1.20.99
 - 
-  category: x11-drivers
+  category: x11-libs
   description: ""
   license: ""
-  name: nvidia-userspace-390.116[tools=]
+  name: libvdpau
   
-  version: ""
+  version: "1.0"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
 - 
   category: sys-kernel
   description: ""
@@ -79,27 +100,6 @@ requires:
   description: ""
   license: ""
   name: pax-utils
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
   
   version: ""
 uri:

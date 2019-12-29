@@ -1,12 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
+  category: <sys-boot
   description: ""
   license: ""
-  name: grep-2.13*
+  name: grub
   
-  version: ""
+  version: 2.00-r2
 - 
   category: sys-fs
   description: ""
@@ -15,12 +15,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-boot
+  category: =sys-apps
   description: ""
   license: ""
-  name: grub
+  name: grep-2.13*
   
-  version: 2.00-r2
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
@@ -33,45 +33,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -82,10 +47,38 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: sys-devel
   description: ""
   license: ""
-  name: parted
+  name: bc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
   
   version: ""
 - 
@@ -103,17 +96,24 @@ requires:
   
   version: 0.7.12
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 uri:

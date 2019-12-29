@@ -19,38 +19,10 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
   category: app-eselect
   description: ""
   license: ""
   name: eselect-opengl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: dialog
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyboard-configuration-helpers
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
   
   version: ""
 - 
@@ -65,6 +37,34 @@ requires:
   description: ""
   license: ""
   name: pciutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: 239-r2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dmidecode
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: dialog
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
   
   version: ""
 - 

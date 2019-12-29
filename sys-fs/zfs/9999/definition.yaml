@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: <sys-boot
   description: ""
   license: ""
@@ -21,52 +14,17 @@ conflicts:
   name: grep-2.13*
   
   version: ""
-description: Userland utilities for ZFS Linux kernel module
-license: BSD-2 CDDL MIT
-name: zfs
-requires:
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+  name: zfs-fuse
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
+description: Userland utilities for ZFS Linux kernel module
+license: BSD-2 CDDL MIT
+name: zfs
+requires:
 - 
   category: sys-fs
   description: ""
@@ -79,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
   
   version: ""
 - 
@@ -103,10 +54,59 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 uri: []

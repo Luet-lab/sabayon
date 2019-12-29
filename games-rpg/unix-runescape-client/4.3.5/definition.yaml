@@ -5,73 +5,10 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-stringy
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: libpng-compat
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: wget
   
   version: ""
 - 
@@ -89,10 +26,73 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
   name: pulseaudio
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: wine
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Wx
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-stringy
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: wget
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 uri:

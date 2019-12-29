@@ -15,13 +15,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libxklavier
   
   version: "5"
@@ -51,6 +44,13 @@ requires:
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 

@@ -5,13 +5,6 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-Parser
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
@@ -58,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: docbook-xml-dtd
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Parser
   
   version: ""
 uri:

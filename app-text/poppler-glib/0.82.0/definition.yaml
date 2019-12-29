@@ -5,6 +5,13 @@ license: GPL-2
 name: poppler-glib
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -23,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: poppler-base-0.82.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
   
   version: ""
 uri:

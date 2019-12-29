@@ -5,17 +5,17 @@ license: GPL-3
 name: protontricks
 requires:
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: winetricks
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: vdf
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: winetricks
   
   version: ""
 uri:

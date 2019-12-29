@@ -5,27 +5,6 @@ license: Subversion
 name: subversion-java
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -58,6 +37,27 @@ requires:
   description: ""
   license: ""
   name: libutf8proc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
   
   version: ""
 uri:

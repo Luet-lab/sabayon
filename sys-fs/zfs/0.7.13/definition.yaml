@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: =sys-apps
   description: ""
   license: ""
@@ -14,17 +21,17 @@ conflicts:
   name: zfs-fuse
   
   version: ""
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
 - 
   category: sys-block
   description: ""
@@ -33,31 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: modutils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
   
   version: ""
 - 
@@ -71,28 +57,35 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: awk
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 - 
@@ -110,10 +103,17 @@ requires:
   
   version: 0.7.13
 - 
-  category: sys-devel
+  category: sys-fs
   description: ""
   license: ""
-  name: bc
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
   
   version: ""
 uri:

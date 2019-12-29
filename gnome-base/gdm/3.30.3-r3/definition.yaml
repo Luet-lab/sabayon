@@ -13,17 +13,52 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-shell
+  
+  version: 3.1.90
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.5.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXdmcp
   
   version: ""
 - 
-  category: sys-boot
+  category: x11-misc
   description: ""
   license: ""
-  name: plymouth
+  name: xdg-utils
+  
+  version: 1.0.2-r3
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: "3.6"
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xhost
   
   version: ""
 - 
@@ -41,62 +76,6 @@ requires:
   
   version: ""
 - 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: 1.0.2-r3
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: "3.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: 0.6.35
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -104,19 +83,19 @@ requires:
   
   version: "239.3"
 - 
-  category: sys-auth
+  category: gnome-extra
   description: ""
   license: ""
-  name: fprintd
+  name: mousetweaks
   
   version: ""
 - 
-  category: app-text
+  category: gnome-base
   description: ""
   license: ""
-  name: iso-codes
+  name: gnome-settings-daemon
   
-  version: ""
+  version: 3.1.4
 - 
   category: gnome-base
   description: ""
@@ -132,54 +111,26 @@ requires:
   
   version: "0.4"
 - 
-  category: sys-apps
+  category: x11-base
   description: ""
   license: ""
-  name: dbus
+  name: xorg-server
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.44"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: iso-codes
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-shell
-  
-  version: 3.1.90
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
-  
-  version: ""
+  version: 2.91.1
 - 
   category: gnome-base
   description: ""
@@ -191,35 +142,42 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXau
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: fprintd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
   
   version: ""
 - 
@@ -233,9 +191,37 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: systemd
   
-  version: "7.6"
+  version: "186"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
 - 
   category: app-accessibility
   description: ""
@@ -244,12 +230,26 @@ requires:
   
   version: "3.10"
 - 
-  category: gnome-base
+  category: sys-apps
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: accountsservice
   
-  version: 3.1.4
+  version: 0.6.35
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: "7.6"
 uri:
 - 'https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz '
 use_flags:

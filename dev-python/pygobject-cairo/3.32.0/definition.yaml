@@ -5,6 +5,13 @@ license: LGPL-2.1+
 name: pygobject-cairo
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycairo
+  
+  version: 1.11.1
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -39,13 +46,6 @@ requires:
   name: pygobject-base
   
   version: 3.32.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycairo
-  
-  version: 1.11.1
 uri: []
 use_flags:
 - examples

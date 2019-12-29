@@ -12,10 +12,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libXinerama
   
   version: ""
 - 
@@ -26,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -33,38 +40,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: glibc
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: librsvg
   
   version: ""
 - 
@@ -78,21 +64,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: dbus-glib
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-apps
   description: ""
   license: ""
-  name: librsvg
+  name: dbus
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glibc
+  name: libXtst
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
   
   version: ""
 - 

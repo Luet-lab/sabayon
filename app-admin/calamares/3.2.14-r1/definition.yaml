@@ -8,7 +8,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpwquality
+  name: libatasmart
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
   
   version: ""
 - 
@@ -18,48 +25,6 @@ requires:
   name: polkit-qt[qt5(+)]
   
   version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.0"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.55"
 - 
   category: sys-apps
   description: ""
@@ -88,6 +53,41 @@ requires:
   name: PythonQt
   
   version: "3.1"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.55"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.0"
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

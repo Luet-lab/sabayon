@@ -15,49 +15,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: nettle
   
   version: ""
 - 
-  category: dev-lang
+  category: games-fps
   description: ""
   license: ""
-  name: lua
+  name: unvanquished-data
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opusfile
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
+  version: 0.48.0
 - 
   category: net-misc
   description: ""
   license: ""
   name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
   
   version: ""
 - 
@@ -71,30 +50,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
+  name: opusfile
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openal
+  name: libX11
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nettle
+  name: gmp
   
   version: ""
-- 
-  category: games-fps
-  description: ""
-  license: ""
-  name: unvanquished-data
-  
-  version: 0.48.0
 - 
   category: sys-libs
   description: ""
@@ -110,38 +82,24 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
+  name: glu
   
   version: ""
 - 
@@ -155,7 +113,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: glu
+  name: jpeg
   
   version: ""
 - 
@@ -163,6 +121,48 @@ requires:
   description: ""
   license: ""
   name: geoip
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
   
   version: ""
 uri:

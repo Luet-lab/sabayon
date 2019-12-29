@@ -12,12 +12,19 @@ requires:
   
   version: "1.12"
 - 
-  category: sys-devel
+  category: dev-util
   description: ""
   license: ""
-  name: gettext
+  name: intltool
   
-  version: ""
+  version: 0.35.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.20"
 - 
   category: media-libs
   description: ""
@@ -33,19 +40,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: libXext
+  name: gettext
   
   version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: intltool
-  
-  version: 0.35.0
 - 
   category: x11-libs
   description: ""
@@ -64,9 +64,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXext
   
-  version: "3.20"
+  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.6.tar.gz -> lightdm-slick-greeter-1.2.6.tar.gz
 use_flags:

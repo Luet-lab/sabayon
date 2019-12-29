@@ -5,10 +5,17 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: polkit-0.110[introspection=]
+  name: accountsservice
+  
+  version: "0.6"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 - 
@@ -40,6 +47,41 @@ requires:
   
   version: ""
 - 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.16"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.16"
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -53,48 +95,6 @@ requires:
   name: gnome-settings-daemon
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: "3.16"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: "0.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
 uri: []
 use_flags:
 - +introspection

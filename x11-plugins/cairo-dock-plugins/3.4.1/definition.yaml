@@ -5,38 +5,66 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: app-misc
+  category: xfce-base
   description: ""
   license: ""
-  name: gnote
+  name: thunar
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzeitgeist
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: vala
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libXxf86vm
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libindicator
   
   version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-menus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kdelibs
+  name: librsvg
   
   version: ""
 - 
@@ -54,38 +82,17 @@ requires:
   
   version: 1.4.0
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: simplejson
+  name: libxklavier
   
   version: ""
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
+  name: gnote
   
   version: ""
 - 
@@ -96,24 +103,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libindicator
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
+  name: simplejson
   
   version: ""
 - 
@@ -124,13 +117,6 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: cairo-dock
-  
-  version: 3.4.1
-- 
   category: media-libs
   description: ""
   license: ""
@@ -138,45 +124,59 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: sys-apps
   description: ""
   license: ""
-  name: vala
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: thunar
+  name: dbus
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzeitgeist
+  name: cairo
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: cairo-dock
+  
+  version: 3.4.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdelibs
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 uri:

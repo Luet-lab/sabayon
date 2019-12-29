@@ -15,42 +15,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango[X]
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
+  name: cairo
   
   version: ""
 - 
@@ -64,14 +29,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXv
+  name: pango[X]
   
   version: ""
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: gtk+
+  name: eselect-opengl
+  
+  version: 1.0.9
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opencl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
   
   version: ""
 - 
@@ -82,26 +82,33 @@ requires:
   
   version: 1.20.99
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: wayland
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf[X]
+  name: libvdpau
+  
+  version: "1.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
   
   version: ""
 - 
-  category: app-eselect
+  category: x11-libs
   description: ""
   license: ""
-  name: eselect-opengl
+  name: libXxf86vm
   
-  version: 1.0.9
+  version: ""
 - 
   category: app-misc
   description: ""
@@ -113,7 +120,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: atk
   
   version: ""
 - 
@@ -131,47 +138,40 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: sys-libs
   description: ""
   license: ""
-  name: eselect-opencl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: zlib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtk+
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
+  name: gdk-pixbuf[X]
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libvdpau
+  name: libX11
   
-  version: "1.0"
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/390.116/NVIDIA-FreeBSD-x86_64-390.116.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/390.116/NVIDIA-Linux-x86_64-390.116.run '

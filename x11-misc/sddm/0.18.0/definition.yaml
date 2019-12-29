@@ -8,23 +8,16 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdeclarative
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
   name: qtgui
   
   version: 5.9.4
 - 
-  category: dev-qt
+  category: x11-base
   description: ""
   license: ""
-  name: qtnetwork
+  name: xorg-server
   
-  version: 5.9.4
+  version: 1.15.1
 - 
   category: x11-libs
   description: ""
@@ -32,6 +25,34 @@ requires:
   name: libxcb
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: 5.9.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.9.4
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: 0.9.4
 - 
   category: sys-libs
   description: ""
@@ -57,37 +78,16 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtdbus
   
   version: 5.9.4
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtnetwork
   
   version: 5.9.4
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.15.1
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: 0.9.4
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.18.0/sddm-0.18.0.tar.gz
 use_flags:

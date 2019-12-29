@@ -8,19 +8,19 @@ conflicts:
   
   version: ""
 - 
-  category: <=app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs
-  
-  version: 20130224-r7
-- 
   category: app-emulation
   description: ""
   license: ""
   name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
   
   version: ""
+- 
+  category: <=app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs
+  
+  version: 20130224-r7
 description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
@@ -29,14 +29,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: 1.0.0
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
+  name: libffado
   
   version: ""
 - 
@@ -64,16 +57,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libsndfile
   
-  version: 1.0.27.2
+  version: 1.0.0
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: lsof
+  
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libffado
+  name: alsa-lib
   
-  version: ""
+  version: 1.0.27.2
 - 
   category: media-libs
   description: ""

@@ -26,20 +26,6 @@ license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: realtime-base
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -50,16 +36,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libsndfile
   
-  version: 1.0.27.2
+  version: 1.0.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: alsa-lib
   
-  version: 1.0.0
+  version: 1.0.27.2
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: lsof
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -74,6 +67,13 @@ requires:
   name: libsamplerate
   
   version: 0.1.8-r1
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: realtime-base
+  
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.124.1.tar.gz
 use_flags:

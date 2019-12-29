@@ -5,6 +5,20 @@ license: LGPL-3
 name: plank
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -37,20 +51,6 @@ requires:
   description: ""
   license: ""
   name: libwnck
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.32"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
   
   version: ""
 uri:

@@ -5,24 +5,17 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
   
   version: ""
 - 
@@ -33,10 +26,38 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
   name: gettext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mutagen
   
   version: ""
 - 
@@ -50,35 +71,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
+  name: libsndfile
   
   version: ""
 - 
@@ -92,7 +85,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: mutagen
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
   
   version: ""
 - 
@@ -103,17 +110,10 @@ requires:
   
   version: 0.116.0
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
+  name: mysql-python
   
   version: ""
 uri:
