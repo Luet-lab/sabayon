@@ -8,13 +8,6 @@ conflicts:
   
   version: "1000"
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hal
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -26,6 +19,13 @@ conflicts:
   description: ""
   license: ""
   name: eselect-init
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hal
   
   version: ""
 description: Sabayon system release virtual package
@@ -40,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: man
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: gcc-config
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-python
   
   version: ""
 - 
@@ -79,6 +65,20 @@ requires:
   description: ""
   license: ""
   name: base-gcc
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-python
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: man
   
   version: ""
 uri: []

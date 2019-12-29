@@ -12,20 +12,6 @@ requires:
   
   version: 2.6.1
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: "1.0"
-- 
   category: x11-drivers
   description: ""
   license: ""
@@ -40,12 +26,12 @@ requires:
   
   version: ""
 - 
-  category: x11-base
+  category: sys-kernel
   description: ""
   license: ""
-  name: xorg-server
+  name: sabayon-dracut
   
-  version: 1.20.99
+  version: "1.3"
 - 
   category: app-eselect
   description: ""
@@ -61,10 +47,45 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.0"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-430.26[tools=]
+  
+  version: ""
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-430.26[X=]
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: wayland
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11-1.6.2[abi_x86_32]
   
   version: ""
 - 
@@ -75,31 +96,10 @@ requires:
   
   version: ""
 - 
-  category: x11-drivers
+  category: sys-power
   description: ""
   license: ""
-  name: nvidia-userspace-430.26[tools=]
-  
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: "1.3"
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-userspace-430.26[X=]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11-1.6.2[abi_x86_32]
+  name: acpid
   
   version: ""
 uri:

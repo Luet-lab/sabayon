@@ -5,13 +5,6 @@ license: GPL-2
 name: xbindkeys-config
 requires:
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xbindkeys
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -23,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xbindkeys
   
   version: ""
 uri:

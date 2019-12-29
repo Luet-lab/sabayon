@@ -5,6 +5,13 @@ license: GPL-2
 name: nmap
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: ""
+- 
   category: dev-vcs
   description: ""
   license: ""
@@ -53,13 +60,6 @@ requires:
   name: lua
   
   version: "5.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr
-  
-  version: ""
 uri:
 - http://nmap.org/dist/nmap-7.40.tar.bz2
 use_flags:

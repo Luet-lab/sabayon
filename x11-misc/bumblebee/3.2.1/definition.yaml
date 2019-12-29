@@ -6,6 +6,13 @@ license: GPL-3
 name: bumblebee
 requires:
 - 
+  category: sys-power
+  description: ""
+  license: ""
+  name: bbswitch
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -17,13 +24,6 @@ requires:
   description: ""
   license: ""
   name: virtualgl
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: bbswitch
   
   version: ""
 uri:

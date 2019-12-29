@@ -19,13 +19,6 @@ license: LGPL-2.1+
 name: pygobject-base
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 1.46.0
-- 
   category: virtual
   description: ""
   license: ""
@@ -39,6 +32,13 @@ requires:
   name: glib
   
   version: "2.38"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 1.46.0
 uri: []
 use_flags:
 - examples

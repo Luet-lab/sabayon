@@ -36,7 +36,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsprogs
+  name: reiserfsprogs
   
   version: ""
 - 
@@ -57,7 +57,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: reiserfsprogs
+  name: xfsprogs
   
   version: ""
 - 

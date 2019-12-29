@@ -1,19 +1,19 @@
 category: media-sound
 conflicts:
 - 
-  category: <=app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs
-  
-  version: 20130224-r7
-- 
   category: media-sound
   description: ""
   license: ""
   name: jack-cvs
   
   version: ""
+- 
+  category: <=app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs
+  
+  version: 20130224-r7
 - 
   category: app-emulation
   description: ""
@@ -25,20 +25,6 @@ description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
 - 
   category: sys-process
   description: ""
@@ -53,6 +39,20 @@ requires:
   name: realtime-base
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
 - 
   category: media-libs
   description: ""

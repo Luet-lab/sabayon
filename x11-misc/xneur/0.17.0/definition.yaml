@@ -13,12 +13,12 @@ license: GPL-2
 name: xneur
 requires:
 - 
-  category: app-text
+  category: x11-libs
   description: ""
   license: ""
-  name: enchant
+  name: libnotify
   
-  version: ""
+  version: 0.4.0
 - 
   category: x11-libs
   description: ""
@@ -31,34 +31,6 @@ requires:
   description: ""
   license: ""
   name: gst-plugins-alsa
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
   
   version: ""
 - 
@@ -76,6 +48,34 @@ requires:
   
   version: 0.10.6
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freealut
+  
+  version: 1.0.1
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: 1.0.17
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -86,16 +86,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: libXtst
   
-  version: 0.4.0
+  version: ""
 - 
-  category: media-sound
+  category: app-text
   description: ""
   license: ""
-  name: alsa-utils
+  name: enchant
   
-  version: 1.0.17
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -104,12 +104,12 @@ requires:
   
   version: "1.1"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freealut
+  name: gtk+
   
-  version: 1.0.1
+  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

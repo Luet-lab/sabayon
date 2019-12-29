@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: httplib2
+  
+  version: 0.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pygtk
   
   version: ""
@@ -25,13 +32,6 @@ requires:
   name: libxml2
   
   version: 2.7.6
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: httplib2
-  
-  version: 0.6.0
 uri:
 - mirror://sourceforge/torrent-search/torrent-search_0.11.2.tar.gz
 version: 0.11.2

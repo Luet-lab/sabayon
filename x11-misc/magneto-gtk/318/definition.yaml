@@ -5,6 +5,13 @@ license: GPL-2
 name: magneto-gtk
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: magneto-loader
+  
+  version: "318"
+- 
   category: dev-python
   description: ""
   license: ""
@@ -18,13 +25,6 @@ requires:
   name: pygtk
   
   version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: magneto-loader
-  
-  version: "318"
 uri:
 - mirror://sabayon/sys-apps/entropy-318.tar.bz2
 use_flags:

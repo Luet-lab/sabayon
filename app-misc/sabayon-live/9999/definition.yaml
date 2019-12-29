@@ -36,16 +36,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: keyboard-configuration-helpers
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
 - 
   category: dev-util
   description: ""
@@ -64,9 +57,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
+  name: sed
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: 239-r2
 - 
   category: sys-apps
   description: ""

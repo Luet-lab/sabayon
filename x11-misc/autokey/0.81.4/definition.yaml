@@ -8,13 +8,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtksourceview
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: python-xlib
   
   version: ""
@@ -44,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: pyatspi
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtksourceview
   
   version: ""
 uri:

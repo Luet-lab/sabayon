@@ -5,27 +5,6 @@ license: GPL-2
 name: sabayon-sark
 requires:
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: shyaml
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -44,6 +23,27 @@ requires:
   description: ""
   license: ""
   name: tini
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: shyaml
   
   version: ""
 uri:

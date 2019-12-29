@@ -8,6 +8,34 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-7.3.0[graphite?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[vanilla?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[fixed-point?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[cxx?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-7.3.0[openmp?]
   
   version: ""
@@ -22,7 +50,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[vanilla?]
+  name: base-gcc-7.3.0[objc++?]
   
   version: ""
 - 
@@ -43,13 +71,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-7.3.0[hardened?]
   
   version: ""
@@ -57,14 +78,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[fixed-point?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[objc++?]
+  name: base-gcc-7.3.0[objc?]
   
   version: ""
 - 
@@ -85,21 +99,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[graphite?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[cxx?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[objc?]
+  name: base-gcc-7.3.0[altivec?]
   
   version: ""
 uri: []

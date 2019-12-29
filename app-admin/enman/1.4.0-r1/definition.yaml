@@ -5,20 +5,6 @@ license: ""
 name: enman
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Encode
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -58,6 +44,20 @@ requires:
   description: ""
   license: ""
   name: LWP-Protocol-https
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Encode
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
   
   version: ""
 uri:

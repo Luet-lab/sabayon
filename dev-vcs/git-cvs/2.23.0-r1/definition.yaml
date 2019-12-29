@@ -5,10 +5,10 @@ license: GPL-2
 name: git-cvs
 requires:
 - 
-  category: dev-perl
+  category: dev-libs
   description: ""
   license: ""
-  name: CGI
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -22,16 +22,16 @@ requires:
   category: dev-vcs
   description: ""
   license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
   name: git
   
   version: 2.23.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
 - 
   category: app-crypt
   description: ""
@@ -40,10 +40,52 @@ requires:
   
   version: ""
 - 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: MailTools
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -68,6 +110,13 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
   category: app-text
   description: ""
   license: ""
@@ -78,14 +127,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: HTML-Tree
   
   version: ""
 - 
-  category: dev-perl
+  category: dev-lang
   description: ""
   license: ""
-  name: Authen-SASL
+  name: tk
   
   version: ""
 - 
@@ -99,35 +148,14 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: libiconv
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
+  name: CGI
   
   version: ""
 - 
@@ -135,13 +163,6 @@ requires:
   description: ""
   license: ""
   name: DBI
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
   
   version: ""
 - 
@@ -155,49 +176,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: emacs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Error
+  name: MailTools
   
   version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-Tree
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MediaWiki-API
   
   version: ""
 uri:

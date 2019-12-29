@@ -5,20 +5,6 @@ license: Apache-2.0 GPL-2 GPL-3
 name: kupfer
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -36,7 +22,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: libwnck-python
+  name: pycairo
   
   version: ""
 - 
@@ -47,10 +33,17 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
+  name: pygtk
   
   version: ""
 - 
@@ -61,10 +54,17 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: nautilus
+  name: keybinder
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libwnck-python
   
   version: ""
 uri:

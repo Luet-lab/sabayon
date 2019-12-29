@@ -5,20 +5,6 @@ license: free-noncomm
 name: phun
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: "1.5"
-- 
   category: virtual
   description: ""
   license: ""
@@ -32,6 +18,20 @@ requires:
   name: sdl-image
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: "1.5"
 uri:
 - 'http://www.phunland.com/download/Phun_beta___linux32.tar.bz2 '
 - 'http://www.phunland.com/download/Phun_beta___linux64.tar.bz2 '

@@ -5,6 +5,13 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: gnote
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -16,62 +23,6 @@ requires:
   description: ""
   license: ""
   name: gtk+
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzeitgeist
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: 1.4.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
   
   version: ""
 - 
@@ -96,10 +47,45 @@ requires:
   
   version: ""
 - 
-  category: xfce-base
+  category: net-libs
   description: ""
   license: ""
-  name: thunar
+  name: webkit-gtk
+  
+  version: 1.4.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
@@ -117,17 +103,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: dbus-glib
   
   version: ""
 - 
@@ -135,13 +114,6 @@ requires:
   description: ""
   license: ""
   name: librsvg
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
   
   version: ""
 - 
@@ -159,6 +131,13 @@ requires:
   
   version: 3.4.1
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -166,17 +145,38 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: xfce-base
   description: ""
   license: ""
-  name: gnote
+  name: thunar
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: simplejson
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzeitgeist
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
   
   version: ""
 uri:

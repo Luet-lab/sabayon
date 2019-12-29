@@ -5,6 +5,13 @@ license: GPL-3
 name: lightdm-slick-greeter
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: gtk+
   
   version: "3.20"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.5.tar.gz -> slick-greeter-1.2.5.tar.gz
 version: 1.2.5

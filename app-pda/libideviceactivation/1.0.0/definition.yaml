@@ -8,6 +8,13 @@ requires:
   category: app-pda
   description: ""
   license: ""
+  name: usbmuxd
+  
+  version: ""
+- 
+  category: app-pda
+  description: ""
+  license: ""
   name: libimobiledevice
   
   version: 1.1.4
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: curl
-  
-  version: ""
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: usbmuxd
   
   version: ""
 uri:

@@ -8,7 +8,14 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: calamares-sabayon-branding
+  name: calamares-sabayon-base-modules
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
   
   version: ""
 - 
@@ -26,17 +33,24 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: calamares-sabayon-base-modules
+  name: xfsdump
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
+  name: btrfs-progs
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-branding
   
   version: ""
 - 
@@ -50,21 +64,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsdump
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: ntfs3g
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
   
   version: ""
 uri:

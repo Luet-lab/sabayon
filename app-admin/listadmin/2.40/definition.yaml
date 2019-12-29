@@ -13,6 +13,34 @@ requires:
   
   version: ""
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailman
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Text-Reform
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
@@ -30,35 +58,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: Term-ReadLine-Perl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailman
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Text-Reform
   
   version: ""
 - 

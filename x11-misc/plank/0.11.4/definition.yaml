@@ -5,27 +5,6 @@ license: LGPL-3
 name: plank
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: bamf
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -53,6 +32,27 @@ requires:
   name: glib
   
   version: "2.32"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: bamf
+  
+  version: ""
 uri:
 - http://launchpad.net/plank/1.0/0.11.4/+download/plank-0.11.4.tar.xz
 use_flags:

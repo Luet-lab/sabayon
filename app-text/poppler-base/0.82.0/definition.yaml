@@ -5,17 +5,10 @@ license: GPL-2
 name: poppler-base
 requires:
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: fontconfig
   
   version: ""
 - 
@@ -36,7 +29,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: tiff
   
   version: ""
 - 
@@ -50,14 +43,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: freetype
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: freetype
+  name: zlib
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -78,7 +78,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: libpng
   
   version: ""
 uri:

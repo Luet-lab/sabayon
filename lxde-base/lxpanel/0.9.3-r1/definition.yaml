@@ -5,38 +5,10 @@ license: GPL-2
 name: lxpanel
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: lxde-base
   description: ""
   license: ""
   name: lxmenu-data
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
   
   version: ""
 - 
@@ -50,35 +22,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libfm
-  
-  version: 1.2.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libwnck
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: menu-cache
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -93,6 +37,62 @@ requires:
   description: ""
   license: ""
   name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf[X]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wireless-tools
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libfm
+  
+  version: 1.2.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: menu-cache
   
   version: ""
 uri:

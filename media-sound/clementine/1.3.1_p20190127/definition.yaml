@@ -8,6 +8,20 @@ requires:
   category: media-plugins
   description: ""
   license: ""
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-soup
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
   name: gst-plugins-taglib
   
   version: ""
@@ -44,20 +58,6 @@ requires:
   description: ""
   license: ""
   name: sqlite
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-soup
   
   version: ""
 uri:

@@ -8,30 +8,16 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
   name: gnome-menus
   
   version: 3.10.1
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.16"
 - 
   category: sys-apps
   description: ""
@@ -39,6 +25,20 @@ requires:
   name: accountsservice
   
   version: "0.6"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -64,7 +64,21 @@ requires:
   category: gnome-base
   description: ""
   license: ""
+  name: gnome-session
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
   name: gnome-settings-daemon
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
   
   version: ""
 - 
@@ -75,26 +89,12 @@ requires:
   
   version: ""
 - 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: "3.16"
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: "3.16"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
 - 
   category: sys-auth
   description: ""

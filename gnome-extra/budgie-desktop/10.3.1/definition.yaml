@@ -5,17 +5,24 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: gnome-base
+  category: sys-power
   description: ""
   license: ""
-  name: gnome-menus
+  name: upower[introspection=]
   
-  version: 3.10.1
+  version: ""
 - 
-  category: dev-util
+  category: sys-apps
   description: ""
   license: ""
-  name: desktop-file-utils
+  name: accountsservice
+  
+  version: "0.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
   
   version: ""
 - 
@@ -25,6 +32,13 @@ requires:
   name: polkit-0.110[introspection=]
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
 - 
   category: sys-power
   description: ""
@@ -36,56 +50,28 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-control-center
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: wxGTK
+  name: gtk+
   
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: "3.18"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: "0.6"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
+  version: "3.16"
 - 
   category: gnome-base
   description: ""
   license: ""
   name: gnome-settings-daemon
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
   
   version: ""
 - 
@@ -96,12 +82,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: gtk+
+  name: gnome-menus
   
-  version: "3.16"
+  version: 3.10.1
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: ""
 uri: []
 use_flags:
 - +bluetooth
