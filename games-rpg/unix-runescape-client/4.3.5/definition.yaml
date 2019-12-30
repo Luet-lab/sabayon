@@ -5,6 +5,20 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-stringy
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -12,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: app-emulation
   description: ""
   license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
+  name: wine
   
   version: ""
 - 
@@ -33,17 +40,17 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: dev-lang
   description: ""
   license: ""
-  name: pulseaudio
+  name: perl
   
   version: ""
 - 
-  category: app-emulation
+  category: dev-perl
   description: ""
   license: ""
-  name: wine
+  name: Archive-Extract
   
   version: ""
 - 
@@ -61,20 +68,6 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-stringy
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
@@ -82,17 +75,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: jre
+  name: alsa-oss
   
   version: ""
 - 
-  category: dev-lang
+  category: x11-libs
   description: ""
   license: ""
-  name: perl
+  name: cairo
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 uri:

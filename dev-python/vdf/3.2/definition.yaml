@@ -8,14 +8,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: mock
+  name: pytest-cov
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pytest-cov
+  name: mock
   
   version: ""
 uri:

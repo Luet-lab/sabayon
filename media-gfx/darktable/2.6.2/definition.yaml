@@ -19,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libsoup
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: flickcurl
   
   version: ""
 - 
@@ -40,10 +33,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: lcms
+  name: libxml2
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -54,31 +54,10 @@ requires:
   
   version: ""
 - 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphicsmagick
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: opencl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
   
   version: ""
 - 
@@ -89,13 +68,6 @@ requires:
   
   version: 0.25-r2
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -103,10 +75,73 @@ requires:
   
   version: ""
 - 
-  category: net-print
+  category: x11-libs
   description: ""
   license: ""
-  name: cups
+  name: colord-gtk
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: osm-gps-map
+  
+  version: 1.1.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: pugixml
   
   version: ""
 - 
@@ -124,12 +159,12 @@ requires:
   
   version: 5.34.0-r1
 - 
-  category: media-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: lensfun
+  name: graphicsmagick
   
-  version: 0.2.3
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -145,13 +180,6 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
   category: dev-db
   description: ""
   license: ""
@@ -159,26 +187,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pugixml
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: lensfun
   
-  version: ""
+  version: 0.2.3
 - 
   category: x11-libs
   description: ""
@@ -187,26 +201,12 @@ requires:
   
   version: "3.14"
 - 
-  category: x11-libs
+  category: net-print
   description: ""
   license: ""
-  name: colord-gtk
+  name: cups
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flickcurl
-  
-  version: ""
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: osm-gps-map
-  
-  version: 1.1.0
 uri:
 - https://github.com/darktable-org/darktable/releases/download/release-2.6.2/darktable-2.6.2.tar.xz
 use_flags:

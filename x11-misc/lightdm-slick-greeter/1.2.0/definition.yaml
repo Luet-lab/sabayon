@@ -8,6 +8,20 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-base
+  
+  version: "1.12"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: pixman
   
   version: ""
@@ -39,20 +53,6 @@ requires:
   name: libcanberra
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: lightdm-base
-  
-  version: "1.12"
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.0.tar.gz -> slick-greeter-1.2.0.tar.gz
 version: 1.2.0

@@ -6,10 +6,24 @@ license: GPL-2
 name: listadmin
 requires:
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Text-Reform
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: perl-Getopt-Long
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-TokeParser-Simple
   
   version: ""
 - 
@@ -23,21 +37,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Text-Reform
+  name: TermReadKey
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
+  name: Term-ReadLine-Perl
   
   version: ""
 - 
@@ -55,17 +62,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: HTML-TokeParser-Simple
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Term-ReadLine-Perl
+  name: perl-Getopt-Long
   
   version: ""
 uri:

@@ -8,14 +8,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpeas
-  
-  version: "1.0"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
+  name: appstream-glib
   
   version: ""
 - 
@@ -26,26 +19,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-admin
   description: ""
   license: ""
-  name: gtk+
+  name: packagekit-base
   
-  version: "3.10"
+  version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnotify
+  name: libpeas
   
-  version: "0.7"
-- 
-  category: app-backup
-  description: ""
-  license: ""
-  name: duplicity
-  
-  version: 0.7.14
+  version: "1.0"
 - 
   category: dev-libs
   description: ""
@@ -61,10 +47,24 @@ requires:
   
   version: ""
 - 
-  category: app-admin
+  category: app-backup
   description: ""
   license: ""
-  name: packagekit-base
+  name: duplicity
+  
+  version: 0.7.14
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
   
   version: ""
 - 
@@ -82,19 +82,19 @@ requires:
   
   version: "2.34"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: appstream-glib
+  name: gtk+
   
-  version: ""
+  version: "3.10"
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: dconf
+  name: libnotify
   
-  version: ""
+  version: "0.7"
 uri:
 - https://launchpad.net/deja-dup/38/38.1/+download/deja-dup-38.1.tar.xz
 use_flags:

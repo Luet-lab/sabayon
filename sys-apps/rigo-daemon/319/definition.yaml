@@ -5,6 +5,13 @@ license: GPL-3
 name: rigo-daemon
 requires:
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: polkit
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
   
   version: ""
 uri:

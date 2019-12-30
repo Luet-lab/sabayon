@@ -1,20 +1,6 @@
 category: app-misc
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: "1000"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect-init
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -28,22 +14,29 @@ conflicts:
   name: consolekit
   
   version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect-init
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: "1000"
 description: Sabayon system release virtual package
 license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: virtual
+  category: app-eselect
   description: ""
   license: ""
-  name: man
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc-config
+  name: eselect-python
   
   version: ""
 - 
@@ -61,13 +54,6 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-python
-  
-  version: ""
-- 
   category: sys-kernel
   description: ""
   license: ""
@@ -75,10 +61,24 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: man
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
   name: base-gcc
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc-config
   
   version: ""
 uri: []

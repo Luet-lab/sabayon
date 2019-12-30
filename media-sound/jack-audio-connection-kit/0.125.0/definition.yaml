@@ -29,9 +29,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libffado
+  name: libsamplerate
   
-  version: ""
+  version: 0.1.8-r1
 - 
   category: sys-auth
   description: ""
@@ -78,9 +78,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: libffado
   
-  version: 0.1.8-r1
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

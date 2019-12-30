@@ -5,68 +5,12 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
-  
-  version: 3.10.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
   category: gnome-base
   description: ""
   license: ""
   name: gnome-desktop
   
   version: 3.18.0
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower-pm-utils[introspection=]
-  
-  version: ""
 - 
   category: net-wireless
   description: ""
@@ -82,17 +26,24 @@ requires:
   
   version: "0.6"
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: pulseaudio
+  name: gtk+
+  
+  version: "3.16"
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
   
   version: ""
 - 
-  category: sys-auth
+  category: gnome-base
   description: ""
   license: ""
-  name: polkit-0.110[introspection=]
+  name: gnome-session
   
   version: ""
 - 
@@ -100,6 +51,55 @@ requires:
   description: ""
   license: ""
   name: wxGTK
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower-pm-utils[introspection=]
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
   
   version: ""
 uri: []

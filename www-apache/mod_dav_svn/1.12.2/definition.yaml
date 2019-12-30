@@ -12,17 +12,17 @@ license: Subversion
 name: mod_dav_svn
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: apr-util
+  
+  version: "1.3"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
   
   version: ""
 - 
@@ -40,19 +40,33 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-db
   description: ""
   license: ""
-  name: file
+  name: sqlite
+  
+  version: 3.7.12
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libutf8proc
   
   version: ""
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: db
+  name: lz4
   
-  version: 4.0.14
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: "1.3"
 - 
   category: virtual
   description: ""
@@ -68,6 +82,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: 4.0.14
+- 
   category: www-servers
   description: ""
   license: ""
@@ -75,31 +96,10 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.7.12
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: apr
-  
-  version: "1.3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr-util
-  
-  version: "1.3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libutf8proc
+  name: expat
   
   version: ""
 uri:

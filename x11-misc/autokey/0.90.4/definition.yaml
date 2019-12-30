@@ -5,17 +5,38 @@ license: GPL-3
 name: autokey
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyatspi
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyinotify
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: pango
   
   version: ""
 - 
@@ -36,7 +57,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyinotify
+  name: dbus-python
   
   version: ""
 - 
@@ -57,35 +78,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: gtk+
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyatspi
+  name: gtksourceview
   
   version: ""
 uri:

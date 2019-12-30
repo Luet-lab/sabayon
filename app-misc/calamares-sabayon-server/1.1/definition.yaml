@@ -1,17 +1,17 @@
 category: app-misc
 conflicts:
 - 
-  category: '!app-admin'
-  description: ""
-  license: ""
-  name: anaconda
-  
-  version: ""
-- 
   category: '!app-misc'
   description: ""
   license: ""
   name: calamares-sabayon
+  
+  version: ""
+- 
+  category: '!app-admin'
+  description: ""
+  license: ""
+  name: anaconda
   
   version: ""
 description: Sabayon Official Installer
@@ -22,7 +22,7 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: calamares-sabayon-server-branding
+  name: calamares-sabayon-server-base-modules
   
   version: ""
 - 
@@ -36,14 +36,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: ntfs3g
+  name: xfsdump
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: xfsdump
+  name: ntfs3g
   
   version: ""
 - 
@@ -57,7 +57,7 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: calamares-sabayon-server-base-modules
+  name: calamares-sabayon-server-branding
   
   version: ""
 - 

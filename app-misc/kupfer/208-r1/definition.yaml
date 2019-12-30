@@ -8,21 +8,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyxdg
+  name: libgnome-python
   
   version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: libwnck-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycairo
+  name: keybinder
   
   version: ""
 - 
@@ -36,14 +29,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
+  name: dbus-python
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pycairo
   
   version: ""
 - 
@@ -57,14 +50,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: libgnome-python
+  name: pygtk
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: keybinder
+  name: pyxdg
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libwnck-python
   
   version: ""
 uri:

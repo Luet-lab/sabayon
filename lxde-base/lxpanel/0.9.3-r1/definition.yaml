@@ -8,14 +8,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libwnck
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libXpm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
   category: lxde-base
   description: ""
   license: ""
-  name: lxmenu-data
+  name: menu-cache
   
   version: ""
 - 
@@ -36,35 +50,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libfm
   
   version: 1.2.0
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: lxde-base
   description: ""
   license: ""
-  name: menu-cache
+  name: lxmenu-data
   
   version: ""
 - 
@@ -72,13 +72,6 @@ requires:
   description: ""
   license: ""
   name: wireless-tools
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -93,6 +86,13 @@ requires:
   description: ""
   license: ""
   name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf[X]
   
   version: ""
 uri:

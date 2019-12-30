@@ -5,6 +5,13 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
+- 
   category: net-wireless
   description: ""
   license: ""
@@ -12,10 +19,17 @@ requires:
   
   version: "3.18"
 - 
-  category: gnome-base
+  category: sys-apps
   description: ""
   license: ""
-  name: gnome-control-center
+  name: accountsservice
+  
+  version: "0.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
   
   version: ""
 - 
@@ -33,24 +47,24 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower-pm-utils[introspection=]
   
   version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: gnome-session
   
   version: ""
 - 
@@ -64,13 +78,6 @@ requires:
   category: sys-power
   description: ""
   license: ""
-  name: upower-pm-utils[introspection=]
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
   name: upower[introspection=]
   
   version: ""
@@ -78,30 +85,23 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-menus
+  name: gnome-control-center
   
-  version: 3.10.1
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-desktop
+  name: gnome-settings-daemon
   
-  version: 3.18.0
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: wxGTK
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: "0.6"
+  version: "3.16"
 uri: []
 use_flags:
 - +bluetooth

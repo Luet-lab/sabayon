@@ -5,12 +5,54 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: app-eselect
+  category: x11-libs
   description: ""
   license: ""
-  name: eselect-opencl
+  name: libX11-1.6.2[abi_x86_32]
   
   version: ""
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-430.26[X=]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-430.26[tools=]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
 - 
   category: app-eselect
   description: ""
@@ -29,37 +71,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11-1.6.2[abi_x86_32]
-  
-  version: ""
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-userspace-430.26[tools=]
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libvdpau
   
   version: "1.0"
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opencl
+  
+  version: ""
 - 
   category: sys-kernel
   description: ""
@@ -81,27 +102,6 @@ requires:
   name: nvidia-userspace
   
   version: "430.26"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-userspace-430.26[X=]
-  
-  version: ""
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/430.26/NVIDIA-FreeBSD-x86_64-430.26.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/430.26/NVIDIA-Linux-x86_64-430.26.run '

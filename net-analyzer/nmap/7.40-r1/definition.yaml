@@ -5,27 +5,6 @@ license: GPL-2
 name: nmap
 requires:
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -58,6 +37,27 @@ requires:
   description: ""
   license: ""
   name: libpcap
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 uri:

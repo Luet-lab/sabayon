@@ -5,24 +5,31 @@ license: GPL-3
 name: calamares
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
   name: polkit-qt[qt5(+)]
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: PythonQt
+  
+  version: "3.1"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
   
   version: ""
 - 
@@ -40,6 +47,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -47,38 +61,10 @@ requires:
   
   version: 3.0.3
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PythonQt
-  
-  version: "3.1"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: rsync
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.55"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
   
   version: ""
 - 
@@ -88,6 +74,20 @@ requires:
   name: parted
   
   version: "3.0"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.55"
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

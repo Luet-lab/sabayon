@@ -5,17 +5,17 @@ license: GPL-2
 name: sabayon-mce
 requires:
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: sabayon-live
-  
-  version: ""
-- 
   category: media-tv
   description: ""
   license: ""
   name: kodi
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: sabayon-live
   
   version: ""
 uri: []

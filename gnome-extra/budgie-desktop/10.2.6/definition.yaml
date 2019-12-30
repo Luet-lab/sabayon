@@ -5,6 +5,13 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -22,7 +29,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: wxGTK
+  name: gtk+
+  
+  version: "3.16"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
   
   version: ""
 - 
@@ -36,14 +50,14 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-menus
+  name: gnome-session
   
-  version: 3.10.1
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-settings-daemon
   
   version: ""
 - 
@@ -54,13 +68,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -68,12 +75,19 @@ requires:
   
   version: 3.18.0
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: polkit-0.110[introspection=]
+  name: wxGTK
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
 - 
   category: net-wireless
   description: ""
@@ -81,20 +95,6 @@ requires:
   name: gnome-bluetooth
   
   version: "3.16"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: ""
 uri: []
 use_flags:
 - +introspection

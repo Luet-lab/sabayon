@@ -5,6 +5,13 @@ license: GPL-2+
 name: networkmanager-l2tp
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: dbus
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
   
   version: ""
 uri:

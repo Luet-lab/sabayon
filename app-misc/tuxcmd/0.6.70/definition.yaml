@@ -8,6 +8,13 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: pango
+  
+  version: 1.4.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: cairo
   
   version: ""
@@ -46,13 +53,6 @@ requires:
   name: glib
   
   version: 2.16.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.4.0
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-0.6.70.tar.bz2
 use_flags:

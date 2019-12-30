@@ -8,6 +8,13 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: dbus-glib
+  
+  version: "0.100"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: glib
   
   version: "2.32"
@@ -25,13 +32,6 @@ requires:
   name: libappindicator
   
   version: 0.4.90
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.100"
 uri: []
 use_flags:
 - ayatana

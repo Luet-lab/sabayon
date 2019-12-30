@@ -5,6 +5,27 @@ license: Subversion
 name: subversion-java
 requires:
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.8"
+- 
   category: dev-vcs
   description: ""
   license: ""
@@ -39,27 +60,6 @@ requires:
   name: file
   
   version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.8"
 uri:
 - mirror://apache/subversion/subversion-1.12.2.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/subversion-1.10.0_rc1-patches-1.tar.xz

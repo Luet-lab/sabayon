@@ -8,14 +8,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: file
+  name: entropy
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: entropy
+  name: file
   
   version: ""
 uri: []

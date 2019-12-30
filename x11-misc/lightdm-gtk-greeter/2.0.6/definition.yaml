@@ -8,6 +8,13 @@ requires:
   category: x11-themes
   description: ""
   license: ""
+  name: adwaita-icon-theme
+  
+  version: 3.14.1
+- 
+  category: x11-themes
+  description: ""
+  license: ""
   name: sabayon-artwork-core
   
   version: ""
@@ -46,13 +53,6 @@ requires:
   name: gnome-themes-standard
   
   version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: 3.14.1
 uri:
 - https://launchpad.net/lightdm-gtk-greeter//2.0.6/+download/lightdm-gtk-greeter-2.0.6.tar.gz
 use_flags:

@@ -5,24 +5,17 @@ license: GPL-2
 name: idjc
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
+  name: libsndfile
   
   version: ""
 - 
@@ -33,24 +26,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: media-sound
   description: ""
   license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
+  name: twolame
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: eyeD3
+  name: pygtk
   
   version: ""
 - 
@@ -71,21 +57,35 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: flac
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
   
   version: ""
 - 
@@ -96,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pygtk
+  name: libvorbis
   
   version: ""
 - 
@@ -110,10 +110,10 @@ requires:
   
   version: 0.116.0
 - 
-  category: dev-python
+  category: sys-devel
   description: ""
   license: ""
-  name: mysql-python
+  name: gettext
   
   version: ""
 uri:

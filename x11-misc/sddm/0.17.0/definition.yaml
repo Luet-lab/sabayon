@@ -12,27 +12,6 @@ requires:
   
   version: "5.6"
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: "5.6"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: "5.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -61,12 +40,33 @@ requires:
   
   version: "5.6"
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: "5.6"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: "5.6"
+- 
   category: x11-base
   description: ""
   license: ""
   name: xorg-server
   
   version: 1.15.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
 - 
   category: sys-auth
   description: ""

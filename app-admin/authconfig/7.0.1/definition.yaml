@@ -5,27 +5,6 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: "0.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: newt
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libglade
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -44,6 +23,27 @@ requires:
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: newt
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libglade
   
   version: ""
 uri:

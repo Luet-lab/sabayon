@@ -5,6 +5,13 @@ license: LGPL-2.1
 name: avahi-mono
 requires:
 - 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
+  
+  version: ""
+- 
   category: dev-dotnet
   description: ""
   license: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
   
   version: ""
 uri:

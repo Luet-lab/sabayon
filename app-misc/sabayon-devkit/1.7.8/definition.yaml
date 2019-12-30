@@ -5,10 +5,17 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
-  category: dev-perl
+  category: app-portage
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: gentoolkit
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
   
   version: ""
 - 
@@ -26,17 +33,31 @@ requires:
   
   version: ""
 - 
-  category: app-portage
+  category: app-misc
   description: ""
   license: ""
-  name: gentoolkit
+  name: querypkg
   
   version: ""
 - 
   category: app-portage
   description: ""
   license: ""
-  name: portage-utils
+  name: eix
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: layman
   
   version: ""
 - 
@@ -54,31 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-perl
   description: ""
   license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: querypkg
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
+  name: DBD-SQLite
   
   version: ""
 uri:

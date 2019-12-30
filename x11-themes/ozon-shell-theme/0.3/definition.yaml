@@ -5,19 +5,19 @@ license: GPL-3+
 name: ozon-shell-theme
 requires:
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-shell
-  
-  version: "3.12"
-- 
   category: gnome-extra
   description: ""
   license: ""
   name: gnome-shell-extensions
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-shell
+  
+  version: "3.12"
 uri:
 - https://github.com/ozonos/ozon-shell-theme/archive/v0.3.tar.gz -> ozon-shell-theme-0.3.tar.gz
 version: "0.3"
