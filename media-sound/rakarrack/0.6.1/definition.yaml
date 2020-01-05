@@ -5,13 +5,6 @@ license: GPL-2
 name: rakarrack
 requires:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: 0.100.0
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -39,6 +32,13 @@ requires:
   name: alsa-utils
   
   version: "0.9"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-audio-connection-kit
+  
+  version: 0.100.0
 uri:
 - mirror://sourceforge/rakarrack/rakarrack-0.6.1.tar.bz2
 use_flags:

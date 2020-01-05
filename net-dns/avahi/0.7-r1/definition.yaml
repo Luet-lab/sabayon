@@ -8,13 +8,6 @@ requires:
   category: net-dns
   description: ""
   license: ""
-  name: avahi-qt5
-  
-  version: 0.7-r1
-- 
-  category: net-dns
-  description: ""
-  license: ""
   name: avahi-base-0.7-r1[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-compat=,introspection=,ipv6=,mdnsresponder-compat=,python=,test=,nls=,selinux=,]
   
   version: ""
@@ -37,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: avahi-mono
+  
+  version: 0.7-r1
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi-qt5
   
   version: 0.7-r1
 uri: []

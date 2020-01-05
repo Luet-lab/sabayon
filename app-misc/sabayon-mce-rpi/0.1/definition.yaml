@@ -12,17 +12,17 @@ license: GPL-2
 name: sabayon-mce-rpi
 requires:
 - 
-  category: media-video
-  description: ""
-  license: ""
-  name: raspberrypi-omxplayer
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
   name: sabayon-auto-updater
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: raspberrypi-omxplayer
   
   version: ""
 uri:

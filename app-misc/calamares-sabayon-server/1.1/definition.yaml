@@ -19,17 +19,10 @@ license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: jfsutils
+  name: xfsprogs
   
   version: ""
 - 
@@ -57,6 +50,13 @@ requires:
   category: app-misc
   description: ""
   license: ""
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
   name: calamares-sabayon-server-branding
   
   version: ""
@@ -71,14 +71,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: reiserfsprogs
+  name: jfsutils
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: xfsprogs
+  name: reiserfsprogs
   
   version: ""
 uri: []

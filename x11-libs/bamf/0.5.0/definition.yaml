@@ -5,6 +5,27 @@ license: LGPL-3
 name: bamf
 requires:
 - 
+  category: dev-util
+  description: ""
+  license: ""
+  name: gdbus-codegen
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgtop
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: dbus-glib
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: gdbus-codegen
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgtop
   
   version: ""
 uri:

@@ -5,6 +5,13 @@ license: GPL-2
 name: tuxcmd
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.16.0
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: gtk+
   
   version: 2.4.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.16.0
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-0.6.70.tar.bz2
 use_flags:

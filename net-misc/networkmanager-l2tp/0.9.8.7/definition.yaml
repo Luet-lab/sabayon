@@ -5,6 +5,13 @@ license: GPL-2+
 name: networkmanager-l2tp
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: networkmanager
   
   version: 0.9.6.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
 uri:
 - https://github.com/seriyps/NetworkManager-l2tp/archive/0.9.8.7.tar.gz -> networkmanager-l2tp-0.9.8.7.tar.gz
 use_flags:

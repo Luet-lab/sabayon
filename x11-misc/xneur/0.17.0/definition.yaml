@@ -13,68 +13,12 @@ license: GPL-2
 name: xneur
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: 0.10.6
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: 1.0.17
-- 
   category: media-libs
   description: ""
   license: ""
   name: gst-plugins-good
   
   version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
 - 
   category: x11-libs
   description: ""
@@ -93,6 +37,34 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libnotify
+  
+  version: 0.4.0
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: enchant
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: gtk+
   
   version: ""
@@ -100,16 +72,44 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
-  
-  version: 0.4.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: xosd
   
   version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-alsa
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: 0.10.6
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: 1.0.17
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "5.0"
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

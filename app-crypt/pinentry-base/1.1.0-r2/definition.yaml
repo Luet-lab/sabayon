@@ -5,6 +5,13 @@ license: GPL-2
 name: pinentry-base
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.7-r5
+- 
   category: app-eselect
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: libcap
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.7-r5
 uri:
 - mirror://gnupg/pinentry/pinentry-1.1.0.tar.bz2
 use_flags:

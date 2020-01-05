@@ -12,13 +12,6 @@ license: GPL-2
 name: xneur
 requires:
 - 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -26,19 +19,33 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: 1.0.17
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: xosd
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: libX11
   
-  version: 0.4.0
+  version: "1.1"
 - 
   category: app-text
   description: ""
@@ -47,10 +54,31 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freealut
+  
+  version: 1.0.1
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: xosd
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -71,28 +99,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libnotify
   
-  version: ""
+  version: 0.4.0
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freealut
-  
-  version: 1.0.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
+  name: gst-plugins-alsa
   
   version: ""
 - 
@@ -102,20 +116,6 @@ requires:
   name: zlib
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: "1.1"
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: 1.0.17
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.20.0.orig.tar.gz
 use_flags:

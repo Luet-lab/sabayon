@@ -8,20 +8,6 @@ requires:
   category: x11-themes
   description: ""
   license: ""
-  name: sabayon-artwork-cursor
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
   name: sabayon-artwork-plymouth-default
   
   version: ""
@@ -37,6 +23,20 @@ requires:
   description: ""
   license: ""
   name: findutils
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-cursor
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
   
   version: ""
 uri: []

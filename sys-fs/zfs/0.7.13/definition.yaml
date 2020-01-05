@@ -29,14 +29,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: awk
   
   version: ""
 - 
@@ -47,10 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: sys-fs
   description: ""
   license: ""
-  name: procps
+  name: mdadm
   
   version: ""
 - 
@@ -58,6 +51,20 @@ requires:
   description: ""
   license: ""
   name: cpio
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
@@ -71,35 +78,28 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: udev-init-scripts
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.13
+- 
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
@@ -110,10 +110,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: mdadm
+  name: modutils
   
   version: ""
 uri:

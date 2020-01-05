@@ -6,6 +6,34 @@ license: GPL-2
 name: listadmin
 requires:
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailman
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
@@ -30,13 +58,6 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: TermReadKey
   
   version: ""
@@ -45,27 +66,6 @@ requires:
   description: ""
   license: ""
   name: Term-ReadLine-Perl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailman
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
   
   version: ""
 uri:

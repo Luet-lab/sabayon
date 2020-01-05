@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: d2to1
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pyyaml
   
   version: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: setuptools
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: d2to1
   
   version: ""
 uri:

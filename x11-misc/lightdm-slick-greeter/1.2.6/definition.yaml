@@ -8,30 +8,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: cairo
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gtk+
+  name: freetype
   
-  version: "3.20"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -61,10 +47,24 @@ requires:
   
   version: 0.35.0
 - 
-  category: media-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: freetype
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
   
   version: ""
 uri:

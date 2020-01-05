@@ -8,6 +8,13 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Module-Build
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: App-Cmd
   
   version: ""
@@ -51,13 +58,6 @@ requires:
   description: ""
   license: ""
   name: perl-Term-ANSIColor
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Module-Build
   
   version: ""
 uri:

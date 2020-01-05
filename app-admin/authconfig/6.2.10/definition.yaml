@@ -5,6 +5,27 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libglade
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: 2.14.0
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: hicolor-icon-theme
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: policycoreutils
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libglade
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: 2.14.0
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: hicolor-icon-theme
   
   version: ""
 uri:

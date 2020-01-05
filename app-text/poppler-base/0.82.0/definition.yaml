@@ -5,10 +5,10 @@ license: GPL-2
 name: poppler-base
 requires:
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: fontconfig
+  name: poppler-data
   
   version: ""
 - 
@@ -40,6 +40,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: "3.19"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -47,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: media-libs
   description: ""
   license: ""
-  name: poppler-data
+  name: fontconfig
   
   version: ""
 - 
@@ -65,20 +79,6 @@ requires:
   description: ""
   license: ""
   name: jpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: "3.19"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
   
   version: ""
 uri:

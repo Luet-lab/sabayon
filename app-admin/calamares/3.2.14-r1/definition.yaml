@@ -12,6 +12,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: kpmcore
+  
+  version: 3.0.3
+- 
   category: dev-python
   description: ""
   license: ""
@@ -19,19 +26,26 @@ requires:
   
   version: "3.1"
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libatasmart
   
   version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.55"
 - 
   category: sys-apps
   description: ""
@@ -44,27 +58,6 @@ requires:
   description: ""
   license: ""
   name: dmidecode
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: kpmcore
-  
-  version: 3.0.3
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
   
   version: ""
 - 
@@ -85,9 +78,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: boost
+  name: libpwquality
   
-  version: "1.55"
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

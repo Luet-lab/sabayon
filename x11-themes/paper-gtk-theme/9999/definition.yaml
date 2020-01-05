@@ -5,17 +5,17 @@ license: GPL-3
 name: paper-gtk-theme
 requires:
 - 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gtk-engines
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gtk-engines
   
   version: ""
 uri: []

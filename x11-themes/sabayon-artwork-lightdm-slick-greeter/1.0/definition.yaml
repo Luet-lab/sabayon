@@ -5,13 +5,6 @@ license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-lightdm-slick-greeter
 requires:
 - 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-core
-  
-  version: ""
-- 
   category: x11-misc
   description: ""
   license: ""
@@ -23,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: lightdm-settings
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-core
   
   version: ""
 uri: []

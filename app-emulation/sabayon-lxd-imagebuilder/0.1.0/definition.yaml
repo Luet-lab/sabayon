@@ -8,6 +8,13 @@ requires:
   category: app-emulation
   description: ""
   license: ""
+  name: lxd
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
   name: docker-companion
   
   version: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: docker
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: lxd
   
   version: ""
 uri:

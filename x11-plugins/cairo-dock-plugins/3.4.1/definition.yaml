@@ -5,45 +5,24 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libzeitgeist
   
   version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-menus
+  name: librsvg
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: 1.4.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: cairo
   
   version: ""
 - 
@@ -53,41 +32,6 @@ requires:
   name: cairo-dock
   
   version: 3.4.1
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: thunar
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: gnote
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: simplejson
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -99,28 +43,56 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: vte
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: vala
+  name: libxklavier
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oauth
+  name: simplejson
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: 1.4.0
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: gnote
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libindicator
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -138,24 +110,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libindicator
+  name: gnome-menus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: vte
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: vala
+  
+  version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: thunar
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libzeitgeist
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
+  name: dbus-glib
   
   version: ""
 - 
@@ -166,17 +152,31 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oauth
   
   version: ""
 uri:

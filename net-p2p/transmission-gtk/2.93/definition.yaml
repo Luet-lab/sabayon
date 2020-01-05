@@ -5,20 +5,6 @@ license: ""
 name: transmission-gtk
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.100"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.32"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -32,6 +18,20 @@ requires:
   name: libappindicator
   
   version: 0.4.90
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.100"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
 uri: []
 use_flags:
 - ayatana

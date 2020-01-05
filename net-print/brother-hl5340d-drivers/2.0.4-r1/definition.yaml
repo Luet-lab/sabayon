@@ -5,6 +5,13 @@ license: as-is
 name: brother-hl5340d-drivers
 requires:
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-baselibs
+  
+  version: ""
+- 
   category: app-text
   description: ""
   license: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: cups
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-baselibs
   
   version: ""
 uri:
