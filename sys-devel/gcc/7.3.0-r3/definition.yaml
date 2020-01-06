@@ -15,20 +15,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[graphite?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[hardened?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-7.3.0[cxx?]
   
   version: ""
@@ -36,7 +22,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[vanilla?]
+  name: base-gcc-7.3.0[objc?]
   
   version: ""
 - 
@@ -44,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: base-gcc-7.3.0[multilib?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[nls?]
   
   version: ""
 - 
@@ -71,7 +50,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[objc-gc?]
+  name: base-gcc-7.3.0[graphite?]
   
   version: ""
 - 
@@ -85,14 +64,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[openmp?]
+  name: base-gcc-7.3.0[hardened?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[objc?]
+  name: base-gcc-7.3.0[nls?]
   
   version: ""
 - 
@@ -100,6 +79,27 @@ requires:
   description: ""
   license: ""
   name: base-gcc-7.3.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[objc-gc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[vanilla?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[openmp?]
   
   version: ""
 uri: []

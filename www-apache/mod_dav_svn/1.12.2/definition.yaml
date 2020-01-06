@@ -12,26 +12,12 @@ license: Subversion
 name: mod_dav_svn
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libutf8proc
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: file
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr
-  
-  version: "1.3"
 - 
   category: www-servers
   description: ""
@@ -40,10 +26,24 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: app-arch
   description: ""
   license: ""
-  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
+  name: bzip2
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.7.12
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -54,31 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: 4.0.14
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: apr-util
-  
-  version: "1.3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
+  name: libutf8proc
   
   version: ""
 - 
@@ -89,6 +68,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: 4.0.14
+- 
   category: virtual
   description: ""
   license: ""
@@ -96,12 +82,26 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-vcs
   description: ""
   license: ""
-  name: sqlite
+  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
   
-  version: 3.7.12
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: "1.3"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr-util
+  
+  version: "1.3"
 uri:
 - mirror://apache/subversion/subversion-1.12.2.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/subversion-1.10.0_rc1-patches-1.tar.xz

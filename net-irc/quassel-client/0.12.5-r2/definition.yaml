@@ -9,41 +9,6 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: snorenotify
-  
-  version: 0.7.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kconfigwidgets
   
   version: ""
@@ -51,56 +16,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: sonnet
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
   
   version: ""
 - 
@@ -118,6 +34,41 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.12.5
+- 
   category: kde-frameworks
   description: ""
   license: ""
@@ -125,10 +76,59 @@ requires:
   
   version: ""
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: ""
 uri:

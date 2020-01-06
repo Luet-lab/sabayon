@@ -5,6 +5,13 @@ license: GPL-3 LGPL-3
 name: lightdm-qt5
 requires:
 - 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-base
+  
+  version: 1.28.0
+- 
   category: dev-qt
   description: ""
   license: ""
@@ -25,13 +32,6 @@ requires:
   name: qtgui
   
   version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: lightdm-base
-  
-  version: 1.28.0
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

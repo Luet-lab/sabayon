@@ -9,13 +9,6 @@ requires:
   category: app-crypt
   description: ""
   license: ""
-  name: pinentry-base
-  
-  version: 1.0.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
   name: pinentry-gnome
   
   version: 1.0.0
@@ -31,6 +24,13 @@ requires:
   description: ""
   license: ""
   name: pinentry-qt5
+  
+  version: 1.0.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: pinentry-base
   
   version: 1.0.0
 uri: []

@@ -22,14 +22,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygobject-base-3.32.0[examples=,]
+  name: pygobject-cairo-3.32.0[test=,]
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject-cairo-3.32.0[test=,]
+  name: pygobject-base-3.32.0[examples=,]
   
   version: ""
 uri: []

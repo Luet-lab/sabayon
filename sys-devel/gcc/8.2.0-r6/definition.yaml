@@ -8,14 +8,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[graphite?]
+  name: base-gcc-8.2.0[cxx?]
   
   version: ""
 - 
@@ -29,20 +22,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[vanilla?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[fixed-point?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-8.2.0[multilib?]
   
   version: ""
@@ -50,28 +29,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[nls?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[nptl?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-8.2.0[openmp?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[objc-gc?]
   
   version: ""
 - 
@@ -92,7 +50,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[cxx?]
+  name: base-gcc-8.2.0[nls?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[graphite?]
   
   version: ""
 - 
@@ -100,6 +65,41 @@ requires:
   description: ""
   license: ""
   name: base-gcc-8.2.0[objc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[objc-gc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[nptl?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[altivec?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[fixed-point?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[vanilla?]
   
   version: ""
 uri: []

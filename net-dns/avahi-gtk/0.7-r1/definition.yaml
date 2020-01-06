@@ -5,17 +5,17 @@ license: LGPL-2.1
 name: avahi-gtk
 requires:
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi-base-0.7[dbus=,gdbm=,nls=]
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi-base-0.7[dbus=,gdbm=,nls=]
   
   version: ""
 uri:

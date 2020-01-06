@@ -8,6 +8,27 @@ requires:
   category: x11-themes
   description: ""
   license: ""
+  name: sabayon-artwork-core
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: equinox-themes
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: elementary-icon-theme
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
   name: arc-theme
   
   version: ""
@@ -32,27 +53,6 @@ requires:
   name: gnome-shell-extensions
   
   version: "3.12"
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-core
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: equinox-themes
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: elementary-icon-theme
-  
-  version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-gnome/sabayon-artwork-gnome-15-r1.tar.xz
 use_flags:

@@ -4,14 +4,14 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 description: GNU GRUB boot loader
@@ -23,6 +23,34 @@ requires:
   description: ""
   license: ""
   name: sbsigntools
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
@@ -40,24 +68,24 @@ requires:
   
   version: 2.02.45
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
   category: sys-boot
   description: ""
   license: ""
   name: efibootmgr
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
   
   version: ""
 - 
@@ -71,42 +99,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: libsdl
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
 - 
   category: sys-devel
   description: ""
   license: ""
   name: gettext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
   
   version: ""
 uri:

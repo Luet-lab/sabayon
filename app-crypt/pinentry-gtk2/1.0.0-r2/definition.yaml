@@ -12,13 +12,6 @@ license: GPL-2
 name: pinentry-gtk2
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -37,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 uri:

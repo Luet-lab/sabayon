@@ -5,20 +5,6 @@ license: GPL-2
 name: sabayon-greeter
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject-base
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: simplejson
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -30,6 +16,20 @@ requires:
   description: ""
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject-base
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
   
   version: ""
 uri:

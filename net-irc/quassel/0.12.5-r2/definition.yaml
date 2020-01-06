@@ -5,24 +5,10 @@ license: GPL-3
 name: quassel
 requires:
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: logger
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
+  name: phonon[qt5(+)]
   
   version: ""
 - 
@@ -33,17 +19,10 @@ requires:
   
   version: 0.12.5
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtgui
   
   version: ""
 - 
@@ -51,6 +30,34 @@ requires:
   description: ""
   license: ""
   name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
   
   version: ""
 - 
@@ -71,14 +78,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: ktextwidgets
+  name: kwidgetsaddons
   
   version: ""
 - 
-  category: kde-frameworks
+  category: x11-libs
   description: ""
   license: ""
-  name: sonnet
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
   
   version: ""
 - 
@@ -96,10 +110,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: qtwidgets
   
   version: ""
 - 
@@ -110,31 +124,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
+  name: ktextwidgets
   
   version: ""
 - 
@@ -145,17 +138,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: snorenotify
+  name: sonnet
   
-  version: 0.7.0
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtscript
   
   version: ""
 - 
@@ -163,6 +156,13 @@ requires:
   description: ""
   license: ""
   name: qtsql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 uri:

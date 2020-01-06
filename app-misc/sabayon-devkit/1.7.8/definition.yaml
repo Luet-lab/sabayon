@@ -8,14 +8,7 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: gentoolkit
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
+  name: layman
   
   version: ""
 - 
@@ -30,6 +23,20 @@ requires:
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
   
   version: ""
 - 
@@ -64,21 +71,14 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: layman
+  name: gentoolkit
   
   version: ""
 - 
-  category: dev-perl
+  category: app-portage
   description: ""
   license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
+  name: portage-utils
   
   version: ""
 uri:

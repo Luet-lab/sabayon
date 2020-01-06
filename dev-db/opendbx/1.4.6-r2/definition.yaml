@@ -5,6 +5,13 @@ license: LGPL-2.1
 name: opendbx
 requires:
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: firebird
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: firebird
   
   version: ""
 uri:

@@ -8,6 +8,20 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: popt
   
   version: ""
@@ -23,20 +37,6 @@ requires:
   description: ""
   license: ""
   name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
   
   version: ""
 uri:

@@ -19,27 +19,6 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: dialog
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: pciutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyboard-configuration-helpers
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -61,10 +40,31 @@ requires:
   
   version: ""
 - 
+  category: dev-util
+  description: ""
+  license: ""
+  name: dialog
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: gawk
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: pciutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
   
   version: ""
 - 

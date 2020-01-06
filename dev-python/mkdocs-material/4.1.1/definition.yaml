@@ -8,13 +8,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygments
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: pymdown-extensions
   
   version: "4.11"
@@ -32,6 +25,13 @@ requires:
   name: mkdocs
   
   version: 1.0.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygments
+  
+  version: ""
 uri:
 - mirror://pypi/m/mkdocs-material/mkdocs-material-4.1.1.tar.gz
 use_flags:

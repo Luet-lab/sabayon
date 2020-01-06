@@ -8,35 +8,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -50,14 +22,28 @@ requires:
   category: dev-vcs
   description: ""
   license: ""
-  name: subversion
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: TermReadKey
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: zlib
+  name: tk
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 - 
@@ -68,31 +54,59 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: app-crypt
   description: ""
   license: ""
-  name: DBI
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Error
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MediaWiki-API
+  name: MailTools
   
   version: ""
 - 
@@ -106,28 +120,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-perl
   description: ""
   license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
+  name: Authen-SASL
   
   version: ""
 - 
@@ -138,24 +138,10 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -166,17 +152,38 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
   license: ""
-  name: perl
+  name: zlib
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: gnupg
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -187,17 +194,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-SASL
+  name: curl
   
   version: ""
 uri:

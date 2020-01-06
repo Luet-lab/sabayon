@@ -5,31 +5,31 @@ license: GPL-3
 name: cairo-dock
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo
+  name: glib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXinerama
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: glibc
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXtst
+  name: libxml2
   
   version: ""
 - 
@@ -37,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: librsvg
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
   
   version: ""
 - 
@@ -57,14 +50,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
+  name: libXrender
   
   version: ""
 - 
@@ -75,17 +61,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: libXcomposite
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: gtkglext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
   
   version: ""
 - 
@@ -99,14 +106,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
+  name: gtk+
   
   version: ""
 uri:

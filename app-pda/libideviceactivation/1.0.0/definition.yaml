@@ -5,6 +5,13 @@ license: GPL-2
 name: libideviceactivation
 requires:
 - 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libplist
+  
+  version: "1.8"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -32,13 +39,6 @@ requires:
   name: libimobiledevice
   
   version: 1.1.4
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: "1.8"
 uri:
 - http://www.libimobiledevice.org/downloads/libideviceactivation-1.0.0.tar.bz2
 use_flags:

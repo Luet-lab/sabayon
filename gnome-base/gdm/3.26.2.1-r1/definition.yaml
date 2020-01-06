@@ -27,12 +27,12 @@ requires:
   
   version: 3.1.4
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: libcanberra
   
-  version: ""
+  version: "0.4"
 - 
   category: sys-auth
   description: ""
@@ -41,40 +41,26 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: app-accessibility
   description: ""
   license: ""
-  name: gnome-shell
+  name: orca
   
-  version: 3.1.90
+  version: "3.10"
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: pam_fprint
+  name: fprintd
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-misc
   description: ""
   license: ""
-  name: accountsservice
+  name: xdg-utils
   
-  version: 0.6.35
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
+  version: 1.0.2-r3
 - 
   category: x11-libs
   description: ""
@@ -90,24 +76,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: accountsservice
+  
+  version: 0.6.35
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
   
   version: ""
 - 
@@ -118,6 +97,48 @@ requires:
   
   version: ""
 - 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xhost
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
   category: sys-boot
   description: ""
   license: ""
@@ -125,12 +146,89 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-shell
+  
+  version: 3.1.90
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.5.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXau
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: "7.6"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: "3.6"
+- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: "2.36"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pam_fprint
+  
+  version: ""
 - 
   category: x11-apps
   description: ""
@@ -146,97 +244,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: "7.6"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: fprintd
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.4"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: "3.6"
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: orca
-  
-  version: "3.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -251,19 +258,12 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: gnome-extra
   description: ""
   license: ""
-  name: xdg-utils
+  name: mousetweaks
   
-  version: 1.0.2-r3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
+  version: ""
 uri:
 - 'https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz '
 use_flags:

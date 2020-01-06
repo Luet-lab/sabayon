@@ -8,6 +8,13 @@ requires:
   category: net-dns
   description: ""
   license: ""
+  name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
   name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
   
   version: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: gtk-sharp
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
   
   version: ""
 uri:

@@ -8,34 +8,6 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: App-Cmd
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-Protocol-https
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Encode
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: libintl-perl
   
   version: ""
@@ -58,6 +30,34 @@ requires:
   description: ""
   license: ""
   name: Module-Build
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: App-Cmd
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-Protocol-https
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Encode
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
   
   version: ""
 uri:

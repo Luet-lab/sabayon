@@ -1,17 +1,17 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: "044"
-- 
   category: sys-fs
   description: ""
   license: ""
   name: eudev
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: openresolv
   
   version: ""
 - 
@@ -22,10 +22,17 @@ conflicts:
   
   version: "2.16"
 - 
-  category: net-dns
+  category: <sys-kernel
   description: ""
   license: ""
-  name: openresolv
+  name: dracut
+  
+  version: "044"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: nss-myhostname
   
   version: ""
 - 
@@ -35,52 +42,10 @@ conflicts:
   name: udev
   
   version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: nss-myhostname
-  
-  version: ""
 description: System and service manager for Linux
 license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux[kill(-)]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libapparmor
-  
-  version: ""
 - 
   category: net-libs
   description: ""
@@ -92,14 +57,42 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: elfutils
   
-  version: 1.4.5
+  version: "0.158"
 - 
-  category: net-firewall
+  category: sys-apps
   description: ""
   license: ""
-  name: iptables
+  name: acl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: 5.0.5-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
+  
+  version: 2.3.3
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
@@ -113,21 +106,84 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: kmod
+  name: sysvinit
   
-  version: "15"
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: 0.9.33
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libseccomp
+  name: libcap
   
-  version: 2.3.3
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.1.4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.4.1
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: coreutils[kill(-)]
+  name: baselayout
+  
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux[kill(-)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libapparmor
   
   version: ""
 - 
@@ -141,14 +197,14 @@ requires:
   category: net-dns
   description: ""
   license: ""
-  name: libidn2
+  name: libidn
   
   version: ""
 - 
-  category: sys-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: zlib
+  name: qrencode
   
   version: ""
 - 
@@ -159,12 +215,40 @@ requires:
   
   version: "1.6"
 - 
-  category: net-libs
+  category: net-dns
   description: ""
   license: ""
-  name: gnutls
+  name: libidn2
   
-  version: 3.1.4
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[kill(-)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.1.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.4.5
 - 
   category: sys-process
   description: ""
@@ -172,6 +256,13 @@ requires:
   name: procps[kill(+)]
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
 - 
   category: sys-apps
   description: ""
@@ -187,103 +278,12 @@ requires:
   
   version: "2"
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: qrencode
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.4.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
-  
-  version: "0.158"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.5-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: sysvinit
+  name: kmod
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.1.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd
-  
-  version: 0.9.33
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: "2.2"
+  version: "15"
 uri:
 - https://github.com/systemd/systemd/archive/v242/systemd-242.tar.gz
 use_flags:

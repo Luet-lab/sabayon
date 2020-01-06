@@ -5,13 +5,6 @@ license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: 20101024-r2
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -22,9 +15,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: libX11
   
-  version: "5"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -33,19 +26,12 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: sys-auth
   description: ""
   license: ""
-  name: audit
+  name: pambase
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1"
+  version: 20101024-r2
 - 
   category: dev-libs
   description: ""
@@ -64,9 +50,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libxklavier
+  
+  version: "5"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1"
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

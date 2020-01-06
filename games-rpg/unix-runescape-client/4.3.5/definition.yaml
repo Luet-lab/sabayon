@@ -5,27 +5,6 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -43,6 +22,13 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: IO-stringy
   
   version: ""
@@ -51,6 +37,34 @@ requires:
   description: ""
   license: ""
   name: wget
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-oss
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Wx
   
   version: ""
 - 
@@ -75,24 +89,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: app-emulation
   description: ""
   license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
+  name: wine
   
   version: ""
 uri:

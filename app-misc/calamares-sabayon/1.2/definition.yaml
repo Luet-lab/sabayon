@@ -5,6 +5,20 @@ license: CC-BY-SA-4.0
 name: calamares-sabayon
 requires:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: ntfs3g
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: btrfs-progs
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -22,21 +36,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: reiserfsprogs
+  name: xfsprogs
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: ntfs3g
+  name: xfsdump
   
   version: ""
 - 
@@ -57,14 +64,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsdump
+  name: reiserfsprogs
   
   version: ""
 uri:

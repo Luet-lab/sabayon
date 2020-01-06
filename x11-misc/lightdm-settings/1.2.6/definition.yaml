@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: setproctitle
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pygobject
   
   version: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: lightdm-slick-greeter
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: setproctitle
   
   version: ""
 uri:

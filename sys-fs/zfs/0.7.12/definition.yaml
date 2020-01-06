@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -14,17 +21,17 @@ conflicts:
   name: zfs-fuse
   
   version: ""
-- 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
 - 
   category: sys-block
   description: ""
@@ -33,10 +40,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: modutils
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -47,17 +54,45 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: pax-utils
+  name: zfs-kmod
+  
+  version: 0.7.12
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-process
   description: ""
   license: ""
-  name: bc
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
@@ -75,45 +110,10 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: app-misc
   description: ""
   license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.7.12
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
+  name: pax-utils
   
   version: ""
 uri:

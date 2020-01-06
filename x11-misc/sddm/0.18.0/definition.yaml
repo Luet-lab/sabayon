@@ -5,12 +5,19 @@ license: GPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0 public-domain
 name: sddm
 requires:
 - 
-  category: sys-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: pam
+  name: qtdbus
   
-  version: ""
+  version: 5.9.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.9.4
 - 
   category: x11-base
   description: ""
@@ -22,42 +29,21 @@ requires:
   category: sys-auth
   description: ""
   license: ""
-  name: consolekit
-  
-  version: 0.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.9.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
+  name: elogind
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-power
   description: ""
   license: ""
-  name: elogind
+  name: upower
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -78,16 +64,30 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtdeclarative
   
   version: 5.9.4
 - 
-  category: sys-power
+  category: dev-qt
   description: ""
   license: ""
-  name: upower
+  name: qtgui
+  
+  version: 5.9.4
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: 0.9.4
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.18.0/sddm-0.18.0.tar.gz
 use_flags:

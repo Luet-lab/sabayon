@@ -1,26 +1,12 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-fs
+  category: <sys-kernel
   description: ""
   license: ""
-  name: eudev
+  name: dracut
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: nss-myhostname
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: openresolv
-  
-  version: ""
+  version: "044"
 - 
   category: sys-fs
   description: ""
@@ -36,135 +22,30 @@ conflicts:
   
   version: "2.16"
 - 
-  category: <sys-kernel
+  category: net-dns
   description: ""
   license: ""
-  name: dracut
+  name: openresolv
   
-  version: "044"
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: nss-myhostname
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: eudev
+  
+  version: ""
 description: System and service manager for Linux
 license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: qrencode
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: "2.2"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.5.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.4.5
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.5-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "15"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre2
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -180,17 +61,73 @@ requires:
   
   version: 0.4.1
 - 
-  category: sys-fs
+  category: net-firewall
   description: ""
   license: ""
-  name: cryptsetup
+  name: iptables
   
-  version: "1.6"
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: qrencode
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps[kill(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: elfutils
+  
+  version: "0.158"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.1.4
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: 0.9.33
 - 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2
   
   version: ""
 - 
@@ -204,16 +141,9 @@ requires:
   category: sys-process
   description: ""
   license: ""
-  name: procps[kill(+)]
+  name: audit
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
+  version: "2"
 - 
   category: net-misc
   description: ""
@@ -222,13 +152,6 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.1.4
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -236,19 +159,89 @@ requires:
   
   version: 1.1.0
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: elfutils
+  name: lz4
   
-  version: "0.158"
+  version: 0_p131
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: 5.0.5-r1
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libmicrohttpd
+  name: gnutls
   
-  version: 0.9.33
+  version: 3.5.3
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "15"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libapparmor
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.4.5
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[kill(-)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: "1.6"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -257,17 +250,17 @@ requires:
   
   version: 2.3.3
 - 
-  category: sys-apps
+  category: sec-policy
   description: ""
   license: ""
-  name: sysvinit
+  name: selinux-base-policy
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libapparmor
+  name: acl
   
   version: ""
 - 
@@ -281,9 +274,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: coreutils[kill(-)]
+  name: util-linux
   
-  version: ""
+  version: "2.30"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: "2.2"
 uri:
 - https://github.com/systemd/systemd/archive/v242/systemd-242.tar.gz
 use_flags:

@@ -5,24 +5,17 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: mysql-python
+  name: libvorbis
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
+  name: mutagen
   
   version: ""
 - 
@@ -30,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
   
   version: ""
 - 
@@ -51,41 +37,6 @@ requires:
   description: ""
   license: ""
   name: flac
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
   
   version: ""
 - 
@@ -106,6 +57,13 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: speex
   
   version: ""
@@ -114,6 +72,48 @@ requires:
   description: ""
   license: ""
   name: twolame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
   
   version: ""
 uri:

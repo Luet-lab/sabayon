@@ -8,13 +8,6 @@ requires:
   category: media-fonts
   description: ""
   license: ""
-  name: cicle
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
   name: asenine
   
   version: ""
@@ -23,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: animal-tracks
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: cicle
   
   version: ""
 uri: []
