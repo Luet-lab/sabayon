@@ -8,20 +8,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pymdown-extensions
-  
-  version: "4.11"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: mkdocs
   
   version: 1.0.1
@@ -30,6 +16,20 @@ requires:
   description: ""
   license: ""
   name: pygments
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pymdown-extensions
+  
+  version: "4.11"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: setuptools
   
   version: ""
 uri:

@@ -6,6 +6,34 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
@@ -24,41 +52,6 @@ requires:
   description: ""
   license: ""
   name: qtwebengine
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
   
   version: ""
 - 
@@ -83,12 +76,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: snorenotify
+  name: kwidgetsaddons
   
-  version: 0.7.0
+  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -97,17 +90,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: zlib
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -118,17 +125,10 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
+  category: media-libs
   description: ""
   license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
+  name: phonon[qt5(+)]
   
   version: ""
 uri:

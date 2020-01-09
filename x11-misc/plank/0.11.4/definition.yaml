@@ -5,6 +5,13 @@ license: LGPL-3
 name: plank
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libwnck
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: libdbusmenu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
   
   version: ""
 uri:

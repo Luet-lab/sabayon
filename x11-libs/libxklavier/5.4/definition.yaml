@@ -8,35 +8,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: "2.16"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xkbcomp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
+  version: "1.30"
 - 
   category: app-text
   description: ""
   license: ""
   name: iso-codes
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
   
   version: ""
 - 
@@ -64,9 +43,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: glib
   
-  version: "1.30"
+  version: "2.16"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xkbcomp
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 uri:
 - http://distfiles.sabayon.org//libxklavier-5.4.tar.bz2
 use_flags:

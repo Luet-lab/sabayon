@@ -5,13 +5,6 @@ license: GPL-2
 name: magneto-gtk3
 requires:
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: magneto-loader
-  
-  version: "322"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -39,6 +32,13 @@ requires:
   name: libnotify
   
   version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: magneto-loader
+  
+  version: "322"
 uri:
 - mirror://sabayon/sys-apps/entropy-322.tar.bz2
 use_flags:

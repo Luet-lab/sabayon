@@ -5,34 +5,6 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: nasm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
   category: "(\tapp-text"
   description: ""
   license: ""
@@ -58,6 +30,34 @@ requires:
   description: ""
   license: ""
   name: HTML-Parser
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: nasm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
   
   version: ""
 uri:

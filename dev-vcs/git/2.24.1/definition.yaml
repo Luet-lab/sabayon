@@ -5,38 +5,31 @@ license: GPL-2
 name: git
 requires:
 - 
-  category: dev-lang
+  category: app-text
   description: ""
   license: ""
-  name: perl
+  name: highlight
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: curl
+  name: openssl
   
   version: ""
 - 
-  category: dev-perl
+  category: sys-libs
   description: ""
   license: ""
-  name: MailTools
+  name: zlib
   
   version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
+  name: emacs
   
   version: ""
 - 
@@ -50,28 +43,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre2[jit(+)]
+  name: DBI
   
   version: ""
 - 
@@ -79,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -99,6 +78,20 @@ requires:
   category: dev-vcs
   description: ""
   license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
   name: cvsps
   
   version: "2.1"
@@ -110,17 +103,38 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: net-misc
   description: ""
   license: ""
-  name: TermReadKey
+  name: curl
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: DBI
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tree
   
   version: ""
 - 
@@ -131,10 +145,31 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: emacs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -155,42 +190,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: highlight
+  name: TermReadKey
   
   version: ""
 uri:

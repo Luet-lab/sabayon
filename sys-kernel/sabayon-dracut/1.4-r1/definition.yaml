@@ -5,20 +5,6 @@ license: GPL-3
 name: sabayon-dracut
 requires:
 - 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -37,6 +23,20 @@ requires:
   description: ""
   license: ""
   name: lvm2
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: dracut
   
   version: ""
 uri: []

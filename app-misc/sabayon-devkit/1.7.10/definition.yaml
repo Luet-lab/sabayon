@@ -22,14 +22,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: Sort-Versions
   
   version: ""
 - 
-  category: app-emulation
+  category: app-portage
   description: ""
   license: ""
-  name: docker
+  name: layman
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 - 
@@ -54,27 +61,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
-  
-  version: ""
-- 
   category: app-portage
   description: ""
   license: ""
@@ -85,7 +71,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Sort-Versions
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
   
   version: ""
 uri:

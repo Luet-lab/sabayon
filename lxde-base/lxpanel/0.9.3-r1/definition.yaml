@@ -8,34 +8,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: lxmenu-data
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: menu-cache
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gtk+
   
   version: ""
@@ -61,6 +33,20 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: menu-cache
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -75,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: libfm
+  name: wireless-tools
   
-  version: 1.2.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -95,6 +81,20 @@ requires:
   name: cairo
   
   version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: lxmenu-data
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libfm
+  
+  version: 1.2.0
 uri:
 - mirror://sourceforge/lxde/lxpanel-0.9.3.tar.xz
 use_flags:

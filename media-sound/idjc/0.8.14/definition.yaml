@@ -5,17 +5,17 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libvorbis
+  name: mysql-python
   
   version: ""
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: mutagen
+  name: eyeD3
   
   version: ""
 - 
@@ -25,13 +25,6 @@ requires:
   name: libsndfile
   
   version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: 0.116.0
 - 
   category: media-libs
   description: ""
@@ -47,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: opus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
   
   version: ""
 - 
@@ -75,10 +54,38 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-audio-connection-kit
+  
+  version: 0.116.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mutagen
   
   version: ""
 - 
@@ -89,31 +96,24 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: sys-devel
   description: ""
   license: ""
-  name: mysql-python
+  name: gettext
   
   version: ""
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pygtk
+  name: speex
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
+  name: libvorbis
   
   version: ""
 uri:

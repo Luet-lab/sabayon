@@ -5,6 +5,13 @@ license: Subversion
 name: subversion-java
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
@@ -51,13 +58,6 @@ requires:
   description: ""
   license: ""
   name: libutf8proc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
   
   version: ""
 uri:

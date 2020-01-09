@@ -1,17 +1,24 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-kernel
+  category: sys-auth
   description: ""
   license: ""
-  name: dracut
+  name: nss-myhostname
   
-  version: "044"
+  version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
   name: udev
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: openresolv
   
   version: ""
 - 
@@ -22,19 +29,12 @@ conflicts:
   
   version: "2.16"
 - 
-  category: net-dns
+  category: <sys-kernel
   description: ""
   license: ""
-  name: openresolv
+  name: dracut
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: nss-myhostname
-  
-  version: ""
+  version: "044"
 - 
   category: sys-fs
   description: ""
@@ -47,24 +47,66 @@ license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
 - 
-  category: sys-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libselinux
+  name: cryptsetup
+  
+  version: "1.6"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.5.3
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: 0.9.33
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux[kill(-)]
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libxkbcommon
+  name: util-linux
   
-  version: 0.4.1
+  version: "2.30"
 - 
-  category: net-firewall
+  category: sys-libs
   description: ""
   license: ""
-  name: iptables
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libapparmor
   
   version: ""
 - 
@@ -82,73 +124,24 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: net-dns
   description: ""
   license: ""
-  name: procps[kill(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
-  
-  version: "0.158"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.1.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd
-  
-  version: 0.9.33
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: libidn
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: libselinux
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libpcre2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux[kill(-)]
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: selinux-base-policy
   
   version: ""
 - 
@@ -159,12 +152,12 @@ requires:
   
   version: 1.1.0
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: lz4
+  name: elfutils
   
-  version: 0_p131
+  version: "0.158"
 - 
   category: app-arch
   description: ""
@@ -173,19 +166,33 @@ requires:
   
   version: 5.0.5-r1
 - 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: "2.2"
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: sabayon-dracut
+  
+  version: "1.3"
+- 
   category: net-libs
   description: ""
   license: ""
   name: gnutls
   
-  version: 3.5.3
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
-  
-  version: ""
+  version: 3.1.4
 - 
   category: sys-apps
   description: ""
@@ -194,10 +201,59 @@ requires:
   
   version: "15"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.4.1
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps[kill(+)]
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: "2"
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: libapparmor
+  name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[kill(-)]
   
   version: ""
 - 
@@ -215,31 +271,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[kill(-)]
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: "1.6"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
+  name: zlib
   
   version: ""
 - 
@@ -249,41 +284,6 @@ requires:
   name: libseccomp
   
   version: 2.3.3
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: "1.3"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: "2.2"
 uri:
 - https://github.com/systemd/systemd/archive/v242/systemd-242.tar.gz
 use_flags:

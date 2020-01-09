@@ -13,40 +13,12 @@ license: GPL-2
 name: xneur
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: 0.10.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libpcre
   
   version: "5.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: "1.1"
 - 
   category: x11-libs
   description: ""
@@ -62,10 +34,17 @@ requires:
   
   version: 1.0.17
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: gst-plugins-good
+  name: enchant
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-alsa
   
   version: ""
 - 
@@ -73,6 +52,27 @@ requires:
   description: ""
   license: ""
   name: libintl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: 0.10.6
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freealut
+  
+  version: 1.0.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
   
   version: ""
 - 
@@ -90,12 +90,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freealut
+  name: libX11
   
-  version: 1.0.1
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -103,13 +110,6 @@ requires:
   name: libnotify
   
   version: 0.4.0
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

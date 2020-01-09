@@ -8,13 +8,6 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: JSON-XS
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: URI
   
   version: ""
@@ -39,6 +32,13 @@ requires:
   name: perl
   
   version: "5.10"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: JSON-XS
+  
+  version: ""
 uri:
 - https://github.com/Enlik/querypkg/archive/v2.4.tar.gz -> querypkg-2.4.tar.gz
 use_flags:

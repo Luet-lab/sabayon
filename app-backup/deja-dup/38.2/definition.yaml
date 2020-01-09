@@ -5,20 +5,6 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.34"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: "1.0"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -26,54 +12,12 @@ requires:
   
   version: "3.10"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
   category: app-backup
   description: ""
   license: ""
   name: duplicity
   
   version: 0.7.14
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: appstream-glib
-  
-  version: ""
 - 
   category: gnome-base
   description: ""
@@ -95,6 +39,62 @@ requires:
   name: packagekit-base
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.34"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: appstream-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: "1.0"
 uri:
 - https://launchpad.net/deja-dup/38/38.2/+download/deja-dup-38.2.tar.xz
 use_flags:

@@ -5,68 +5,12 @@ license: Subversion GPL-2
 name: subversion
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr
-  
-  version: "1.3"
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: db
   
-  version: ""
+  version: 4.0.14
 - 
   category: sys-apps
   description: ""
@@ -75,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: serf
-  
-  version: 1.3.4
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kcoreaddons
   
   version: ""
 - 
@@ -93,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: kwallet
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
   
   version: ""
 - 
@@ -113,14 +57,63 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libutf8proc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: glib
   
   version: ""
 - 
-  category: kde-frameworks
+  category: gnome-base
   description: ""
   license: ""
-  name: kcoreaddons
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: serf
+  
+  version: 1.3.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -148,28 +141,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libutf8proc
+  name: expat
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: zlib
   
-  version: 4.0.14
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtgui
   
   version: ""
 - 
-  category: dev-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: ki18n
   
   version: ""
 - 
@@ -179,6 +172,13 @@ requires:
   name: apache[apache2_modules_dav]
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: "1.3"
 uri:
 - mirror://apache/subversion/subversion-1.12.0.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/subversion-1.10.0_rc1-patches-1.tar.xz

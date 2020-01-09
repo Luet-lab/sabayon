@@ -5,24 +5,10 @@ license: GPL-2
 name: git-gui-tools
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: MailTools
+  name: CGI
   
   version: ""
 - 
@@ -36,14 +22,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBI
+  name: MediaWiki-API
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-Tree
+  name: libwww-perl
   
   version: ""
 - 
@@ -57,42 +43,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
   
   version: ""
 - 
@@ -106,14 +57,28 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: TermReadKey
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-perl
   description: ""
   license: ""
-  name: perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: emacs
   
   version: ""
 - 
@@ -127,7 +92,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: CGI
+  name: Error
   
   version: ""
 - 
@@ -141,14 +106,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -159,10 +117,45 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
+  name: MailTools
   
   version: ""
 - 
@@ -173,31 +166,38 @@ requires:
   
   version: 2.24.1
 - 
-  category: virtual
+  category: dev-lang
   description: ""
   license: ""
-  name: emacs
+  name: tk
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TermReadKey
+  name: DBD-SQLite
   
   version: ""
 uri:

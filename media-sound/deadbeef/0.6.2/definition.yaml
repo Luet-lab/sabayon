@@ -13,6 +13,48 @@ license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.
 name: deadbeef
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -24,13 +66,6 @@ requires:
   description: ""
   license: ""
   name: wavpack
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
   
   version: ""
 - 
@@ -48,41 +83,6 @@ requires:
   
   version: "0.90"
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "9"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -90,17 +90,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: net-misc
   description: ""
   license: ""
-  name: imlib2
+  name: curl
   
   version: ""
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: timidity-freepats
+  name: libmms
   
   version: ""
 - 
@@ -121,35 +121,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
+  name: imlib2
   
   version: ""
 - 
@@ -167,10 +139,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: media-sound
   description: ""
   license: ""
-  name: dbus
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: adplug
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
   
   version: ""
 uri:

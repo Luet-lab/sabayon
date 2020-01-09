@@ -26,17 +26,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libdaemon
+  name: twisted
   
-  version: ""
+  version: 16.0.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: expat
   
   version: ""
 - 
@@ -61,20 +61,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -82,17 +68,31 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- 
   category: sec-policy
   description: ""
   license: ""
   name: selinux-avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdaemon
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
   
   version: ""
 uri:

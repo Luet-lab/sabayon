@@ -5,10 +5,10 @@ license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxml2
+  name: pam
   
   version: ""
 - 
@@ -19,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: accountsservice
+  name: libxklavier
   
-  version: ""
+  version: "5"
 - 
   category: sys-auth
   description: ""
@@ -40,24 +40,24 @@ requires:
   
   version: 2.44.0
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: pam
+  name: libxml2
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: "5"
 - 
   category: sys-process
   description: ""
   license: ""
   name: audit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
   
   version: ""
 - 

@@ -4,16 +4,16 @@ conflicts:
   category: <dev-python
   description: ""
   license: ""
-  name: pygtk
+  name: pygobject
   
-  version: "2.13"
+  version: 2.28.6-r50
 - 
   category: <dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: pygtk
   
-  version: 2.28.6-r50
+  version: "2.13"
 description: GLib's GObject library bindings for Python, meta package
 license: LGPL-2.1+
 name: pygobject
@@ -22,14 +22,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygobject-cairo-3.32.0[test=,]
+  name: pygobject-base-3.32.0[examples=,]
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject-base-3.32.0[examples=,]
+  name: pygobject-cairo-3.32.0[test=,]
   
   version: ""
 uri: []

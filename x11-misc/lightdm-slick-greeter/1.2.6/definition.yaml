@@ -12,6 +12,13 @@ requires:
   
   version: "1.12"
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -40,13 +47,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -54,19 +54,19 @@ requires:
   
   version: 0.35.0
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: "3.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.6.tar.gz -> lightdm-slick-greeter-1.2.6.tar.gz
 use_flags:

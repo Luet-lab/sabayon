@@ -22,16 +22,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: systemd
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
-  
-  version: ""
+  version: 239-r2
 - 
   category: app-eselect
   description: ""
@@ -44,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: dialog
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
   
   version: ""
 - 
@@ -64,16 +64,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
+  name: sed
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: dmidecode
   
-  version: 239-r2
+  version: ""
 uri: []
 use_flags:
 - ""

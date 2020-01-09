@@ -8,13 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hal
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
@@ -28,10 +21,31 @@ conflicts:
   name: sysvinit
   
   version: "1000"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hal
+  
+  version: ""
 description: Sabayon system release virtual package
 license: GPL-2
 name: sabayon-version
 requires:
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -47,24 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: ""
-- 
   category: app-eselect
   description: ""
   license: ""
   name: eselect-python
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python
   
   version: ""
 - 
@@ -75,10 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-kernel
   description: ""
   license: ""
-  name: base-gcc
+  name: sabayon-dracut
   
   version: ""
 uri: []

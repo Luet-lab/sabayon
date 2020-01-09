@@ -29,7 +29,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: gawk
   
   version: ""
 - 
@@ -37,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: dmidecode
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
   
   version: ""
 - 
@@ -57,23 +64,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
+  name: sed
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: gawk
+  name: systemd
   
-  version: ""
+  version: 239-r2
 uri:
 - https://github.com/Sabayon/sabayon-live/archive/v25.tar.gz -> 25.tar.gz
 use_flags:
