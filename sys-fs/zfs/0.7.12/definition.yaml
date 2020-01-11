@@ -1,17 +1,17 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
+  
+  version: ""
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
   
   version: ""
 - 
@@ -29,48 +29,6 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
   name: modutils
   
   version: ""
@@ -81,13 +39,6 @@ requires:
   name: zfs-kmod
   
   version: 0.7.12
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
 - 
   category: sys-devel
   description: ""
@@ -103,6 +54,48 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -110,10 +103,17 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: pax-utils
+  name: mdadm
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

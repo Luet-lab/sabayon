@@ -8,13 +8,6 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: jfsutils
   
   version: ""
@@ -26,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: ntfs3g
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
+  name: calamares-sabayon-base-modules
   
   version: ""
 - 
@@ -44,6 +30,20 @@ requires:
   description: ""
   license: ""
   name: calamares-sabayon-branding
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: btrfs-progs
   
   version: ""
 - 
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: calamares-sabayon-base-modules
+  name: ntfs3g
   
   version: ""
 uri:

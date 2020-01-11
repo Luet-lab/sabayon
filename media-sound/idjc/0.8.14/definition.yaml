@@ -5,24 +5,10 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: mutagen
   
   version: ""
 - 
@@ -43,7 +29,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: opus
+  name: speex
   
   version: ""
 - 
@@ -51,6 +37,69 @@ requires:
   description: ""
   license: ""
   name: twolame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 - 
@@ -67,55 +116,6 @@ requires:
   name: jack-audio-connection-kit
   
   version: 0.116.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
 uri:
 - mirror://sourceforge/idjc/idjc-0.8.14.tar.gz
 use_flags:

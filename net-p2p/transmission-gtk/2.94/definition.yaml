@@ -8,13 +8,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libappindicator
-  
-  version: 0.4.90
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: dbus-glib
   
   version: "0.100"
@@ -32,6 +25,13 @@ requires:
   name: gtk+
   
   version: "3.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
+  
+  version: 0.4.90
 uri: []
 use_flags:
 - ayatana

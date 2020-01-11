@@ -8,13 +8,6 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: mdadm
   
   version: ""
@@ -37,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: dracut
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: btrfs-progs
   
   version: ""
 uri: []

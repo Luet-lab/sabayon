@@ -5,6 +5,27 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: newt
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: hicolor-icon-theme
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: "0.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: newt
   
   version: ""
 uri:

@@ -5,6 +5,13 @@ license: MIT
 name: raspi-config
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: newt
+  
+  version: ""
+- 
   category: sys-block
   description: ""
   license: ""
@@ -23,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: triggerhappy
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: newt
   
   version: ""
 uri: []

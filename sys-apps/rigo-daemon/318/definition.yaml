@@ -5,6 +5,13 @@ license: GPL-3
 name: rigo-daemon
 requires:
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
@@ -32,13 +39,6 @@ requires:
   name: entropy
   
   version: "318"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-318.tar.bz2
 use_flags:

@@ -1,5 +1,5 @@
 steps:
-- emerge -b =${GENTOO_CATEGORY}/wireguard-${GENTOO_VERSION}
+- emerge -j  -t --nospinner -b =${GENTOO_CATEGORY}/wireguard-${GENTOO_VERSION}
 
 - cd /usr/portage/packages/${GENTOO_CATEGORY}
 - mv wireguard-${GENTOO_VERSION}.tbz2 wireguard-${PACKAGE_VERSION}.tbz2

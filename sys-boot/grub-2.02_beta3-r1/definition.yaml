@@ -12,24 +12,17 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: ibm-powerpc-utils
+  name: ncurses
   
-  version: ""
+  version: 5.2-r5
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: powerpc-utils
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: xz-utils
   
   version: ""
 - 
@@ -40,26 +33,33 @@ requires:
   
   version: 2.02.45
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
   category: sys-boot
   description: ""
   license: ""
-  name: os-prober
+  name: efibootmgr
   
   version: ""
 - 
-  category: app-arch
+  category: x11-themes
   description: ""
   license: ""
-  name: xz-utils
+  name: sabayon-artwork-grub
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
 - 
   category: media-libs
   description: ""
@@ -71,35 +71,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: fuse
   
   version: ""
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
+  name: powerpc-utils
   
   version: ""
 - 
@@ -107,6 +86,27 @@ requires:
   description: ""
   license: ""
   name: sbsigntools
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 uri:

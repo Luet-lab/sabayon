@@ -8,6 +8,13 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: pixman
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: cairo
   
   version: ""
@@ -46,13 +53,6 @@ requires:
   name: lightdm-base
   
   version: "1.12"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.0.tar.gz -> slick-greeter-1.2.0.tar.gz
 version: 1.2.0

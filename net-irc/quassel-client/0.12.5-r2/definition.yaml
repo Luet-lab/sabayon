@@ -6,27 +6,6 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -37,49 +16,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: sonnet
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
   
   version: ""
 - 
@@ -107,6 +44,41 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.12.5
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtgui
   
   version: ""
@@ -118,10 +90,17 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtdbus
+  name: knotifications
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: sonnet
   
   version: ""
 - 
@@ -129,6 +108,27 @@ requires:
   description: ""
   license: ""
   name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
   
   version: ""
 uri:

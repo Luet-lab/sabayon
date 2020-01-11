@@ -19,19 +19,12 @@ license: LGPL-2.1
 name: avahi-base
 requires:
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: pygobject
+  name: libdaemon
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
 - 
   category: dev-libs
   description: ""
@@ -40,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdbm
+  name: glib
   
   version: ""
 - 
@@ -61,10 +54,17 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pygobject
   
   version: ""
 - 
@@ -75,26 +75,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libdaemon
+  name: gdbm
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: glib
+  name: dbus-python
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: gobject-introspection
+  name: twisted
   
-  version: ""
+  version: 16.0.0
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

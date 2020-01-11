@@ -5,6 +5,13 @@ license: GPL-2
 name: sabayon-sark
 requires:
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: tini
+  
+  version: ""
+- 
   category: app-emulation
   description: ""
   license: ""
@@ -37,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: sabayon-devkit
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: tini
   
   version: ""
 uri:

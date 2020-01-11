@@ -5,10 +5,31 @@ license: GPL-3 CC-BY-SA-2.5 CC-BY-SA-3.0
 name: unvanquished
 requires:
 - 
-  category: dev-lang
+  category: media-libs
   description: ""
   license: ""
-  name: lua
+  name: libvorbis
+  
+  version: ""
+- 
+  category: games-fps
+  description: ""
+  license: ""
+  name: unvanquished-data
+  
+  version: 0.48.0
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -22,7 +43,63 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: glew
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: openal
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: screen
   
   version: ""
 - 
@@ -30,6 +107,13 @@ requires:
   description: ""
   license: ""
   name: geoip
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
   
   version: ""
 - 
@@ -50,7 +134,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: nettle
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
   
   version: ""
 - 
@@ -61,24 +152,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opusfile
+  name: glu
   
   version: ""
 - 
@@ -86,83 +163,6 @@ requires:
   description: ""
   license: ""
   name: jpeg
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: screen
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: games-fps
-  description: ""
-  license: ""
-  name: unvanquished-data
-  
-  version: 0.48.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
   
   version: ""
 uri:

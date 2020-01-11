@@ -15,7 +15,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pycairo
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libwnck-python
   
   version: ""
 - 
@@ -23,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libgnome-python
   
   version: ""
 - 
@@ -50,21 +64,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: libwnck-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycairo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libgnome-python
+  name: dbus-python
   
   version: ""
 uri:

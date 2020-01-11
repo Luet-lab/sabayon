@@ -12,6 +12,13 @@ license: GPL-2
 name: pinentry-gtk2
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
   category: app-crypt
   description: ""
   license: ""
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: gtk+
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
   
   version: ""
 uri:

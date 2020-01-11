@@ -1,5 +1,5 @@
 steps:
-- emerge -b =${GENTOO_CATEGORY}/virtualbox-guest-additions-${GENTOO_VERSION}
+- emerge -j  -t --nospinner -b =${GENTOO_CATEGORY}/virtualbox-guest-additions-${GENTOO_VERSION}
 
 - cd /usr/portage/packages/${GENTOO_CATEGORY}
 - mv virtualbox-guest-additions-${GENTOO_VERSION}.tbz2 virtualbox-guest-additions-${PACKAGE_VERSION}.tbz2

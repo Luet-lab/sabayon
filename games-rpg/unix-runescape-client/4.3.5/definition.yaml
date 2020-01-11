@@ -5,6 +5,20 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-stringy
+  
+  version: ""
+- 
   category: net-misc
   description: ""
   license: ""
@@ -15,14 +29,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libpng-compat
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: alsa-oss
   
   version: ""
 - 
-  category: x11-libs
+  category: media-sound
   description: ""
   license: ""
-  name: cairo
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: wine
   
   version: ""
 - 
@@ -43,7 +71,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: IO-stringy
+  name: Config-IniFiles
   
   version: ""
 - 
@@ -54,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpng-compat
+  name: cairo
   
   version: ""
 - 
@@ -65,34 +93,6 @@ requires:
   description: ""
   license: ""
   name: p7zip
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
   
   version: ""
 uri:

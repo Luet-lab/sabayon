@@ -12,6 +12,13 @@ requires:
   
   version: ""
 - 
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -19,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: app-emulation
   description: ""
   license: ""
-  name: Sort-Versions
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
+  name: docker
   
   version: ""
 - 
@@ -50,7 +50,7 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: eix
+  name: layman
   
   version: ""
 - 
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: app-portage
+  category: dev-perl
   description: ""
   license: ""
-  name: repoman
+  name: Sort-Versions
   
   version: ""
 - 
@@ -75,17 +75,17 @@ requires:
   
   version: ""
 - 
+  category: app-portage
+  description: ""
+  license: ""
+  name: eix
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: gentoo-functions
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
   
   version: ""
 uri:

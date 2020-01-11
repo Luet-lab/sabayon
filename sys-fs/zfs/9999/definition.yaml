@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -14,13 +21,6 @@ conflicts:
   name: grep-2.13*
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
@@ -29,70 +29,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: lsscsi
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
+  name: modutils
   
   version: ""
 - 
@@ -103,10 +47,66 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: awk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 uri: []

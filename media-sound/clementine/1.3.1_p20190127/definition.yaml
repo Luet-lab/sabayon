@@ -5,6 +5,13 @@ license: GPL-3
 name: clementine
 requires:
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: media-plugins
   description: ""
   license: ""
@@ -51,13 +58,6 @@ requires:
   description: ""
   license: ""
   name: qca
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
   
   version: ""
 uri:

@@ -8,35 +8,21 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-7.3.0[altivec?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[cxx?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-7.3.0[openmp?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[doc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[objc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[objc-gc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[multilib?]
   
   version: ""
 - 
@@ -50,13 +36,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[graphite?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-7.3.0[hardened?]
   
   version: ""
@@ -64,14 +43,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-7.3.0[nptl?]
+  name: base-gcc-7.3.0[objc?]
   
   version: ""
 - 
@@ -92,6 +64,27 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-7.3.0[nptl?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[graphite?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[objc-gc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-7.3.0[vanilla?]
   
   version: ""
@@ -99,7 +92,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-7.3.0[cxx?]
+  name: base-gcc-7.3.0[multilib?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-7.3.0[doc?]
   
   version: ""
 uri: []

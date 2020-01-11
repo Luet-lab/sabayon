@@ -19,10 +19,52 @@ license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-branding
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsdump
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: ntfs3g
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
   name: btrfs-progs
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
   
   version: ""
 - 
@@ -37,48 +79,6 @@ requires:
   description: ""
   license: ""
   name: reiserfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsdump
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: ntfs3g
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-branding
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
   
   version: ""
 uri: []

@@ -8,13 +8,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.48"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: gobject-introspection
   
   version: "1.54"
@@ -25,6 +18,13 @@ requires:
   name: libffi
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.48"
 uri: []
 use_flags:
 - examples

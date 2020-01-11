@@ -5,27 +5,6 @@ license: LGPL-2+
 name: realmd
 requires:
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -44,6 +23,27 @@ requires:
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: packagekit-base
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 uri:

@@ -8,21 +8,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: pango
   
   version: ""
 - 
@@ -36,14 +22,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: gtkglext
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-libs
   description: ""
   license: ""
-  name: librsvg
+  name: glibc
   
   version: ""
 - 
@@ -51,6 +44,13 @@ requires:
   description: ""
   license: ""
   name: curl
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
   
   version: ""
 - 
@@ -68,34 +68,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -107,6 +79,34 @@ requires:
   description: ""
   license: ""
   name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 uri:

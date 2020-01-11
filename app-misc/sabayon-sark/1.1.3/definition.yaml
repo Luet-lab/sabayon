@@ -5,6 +5,20 @@ license: GPL-2
 name: sabayon-sark
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: shyaml
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: pkgs-checker
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -30,20 +44,6 @@ requires:
   description: ""
   license: ""
   name: perl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: shyaml
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: pkgs-checker
   
   version: ""
 uri:

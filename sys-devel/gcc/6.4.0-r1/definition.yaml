@@ -8,55 +8,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[openmp?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[objc-gc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[gcj?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[multilib?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[doc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[vanilla?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[nls?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-6.4.0[fixed-point?]
   
   version: ""
@@ -71,13 +22,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[objc++?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-6.4.0[objc?]
   
   version: ""
@@ -85,7 +29,28 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[nptl?]
+  name: base-gcc-6.4.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[multilib?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[nls?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[openmp?]
   
   version: ""
 - 
@@ -99,7 +64,21 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[graphite?]
+  name: base-gcc-6.4.0[vanilla?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[gcj?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[nptl?]
   
   version: ""
 - 
@@ -107,6 +86,27 @@ requires:
   description: ""
   license: ""
   name: base-gcc-6.4.0[hardened?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[doc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[graphite?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[objc-gc?]
   
   version: ""
 uri: []

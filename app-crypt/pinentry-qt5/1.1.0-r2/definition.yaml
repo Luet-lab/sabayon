@@ -4,41 +4,20 @@ conflicts:
   category: app-crypt
   description: ""
   license: ""
-  name: pinentry-qt4
+  name: pinentry-base
   
   version: ""
 - 
   category: app-crypt
   description: ""
   license: ""
-  name: pinentry-base
+  name: pinentry-qt4
   
   version: ""
 description: Qt5 frontend for pinentry
 license: GPL-2
 name: pinentry-qt5
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
 - 
   category: dev-qt
   description: ""
@@ -60,6 +39,27 @@ requires:
   name: pinentry-base
   
   version: 1.1.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
 uri:
 - mirror://gnupg/pinentry/pinentry-1.1.0.tar.bz2
 use_flags:

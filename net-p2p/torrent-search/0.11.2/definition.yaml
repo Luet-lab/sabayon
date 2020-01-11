@@ -5,6 +5,13 @@ license: GPL-3
 name: torrent-search
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.6
+- 
   category: dev-python
   description: ""
   license: ""
@@ -25,13 +32,6 @@ requires:
   name: dbus-python
   
   version: "0.83"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.7.6
 uri:
 - mirror://sourceforge/torrent-search/torrent-search_0.11.2.tar.gz
 version: 0.11.2

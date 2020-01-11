@@ -5,10 +5,10 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: app-eselect
+  category: sys-power
   description: ""
   license: ""
-  name: eselect-opencl
+  name: acpid
   
   version: ""
 - 
@@ -26,12 +26,12 @@ requires:
   
   version: "1.0"
 - 
-  category: sys-libs
+  category: x11-drivers
   description: ""
   license: ""
-  name: glibc
+  name: nvidia-userspace
   
-  version: 2.6.1
+  version: "430.26"
 - 
   category: sys-kernel
   description: ""
@@ -47,10 +47,17 @@ requires:
   
   version: 1.0.9
 - 
-  category: sys-power
+  category: sys-libs
   description: ""
   license: ""
-  name: acpid
+  name: glibc
+  
+  version: 2.6.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11-1.6.2[abi_x86_32]
   
   version: ""
 - 
@@ -82,19 +89,12 @@ requires:
   
   version: 1.20.99
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: libX11-1.6.2[abi_x86_32]
+  name: eselect-opencl
   
   version: ""
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-userspace
-  
-  version: "430.26"
 - 
   category: x11-drivers
   description: ""

@@ -5,6 +5,20 @@ license: GPL-2
 name: magneto-gtk3
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -25,20 +39,6 @@ requires:
   name: magneto-loader
   
   version: "319"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-319.tar.bz2
 use_flags:

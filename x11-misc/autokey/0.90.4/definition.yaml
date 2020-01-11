@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pyatspi
   
   version: ""
@@ -19,45 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-xlib
-  
-  version: ""
-- 
   category: gnome-extra
   description: ""
   license: ""
   name: zenity
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -78,6 +50,13 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: gobject-introspection
   
   version: ""
@@ -86,6 +65,27 @@ requires:
   description: ""
   license: ""
   name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-xlib
   
   version: ""
 uri:

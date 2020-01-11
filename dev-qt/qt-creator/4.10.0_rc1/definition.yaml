@@ -5,73 +5,10 @@ license: GPL-3
 name: qt-creator
 requires:
 - 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: git
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: mercurial
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
+  name: qtscript
   
   version: 5.12.3
 - 
@@ -85,14 +22,28 @@ requires:
   category: dev-util
   description: ""
   license: ""
-  name: cmake[server(+)]
+  name: cppcheck
   
   version: ""
 - 
-  category: dev-util
+  category: dev-qt
   description: ""
   license: ""
-  name: cppcheck
+  name: qtserialport
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvs
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: mercurial
   
   version: ""
 - 
@@ -106,7 +57,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols
+  name: qtconcurrent
   
   version: 5.12.3
 - 
@@ -116,6 +67,55 @@ requires:
   name: clang
   
   version: "8"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: qbs
+  
+  version: 1.13.1
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: designer
+  
+  version: 5.12.3
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gdb
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -127,7 +127,21 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtxml
+  
+  version: 5.12.3
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: cmake[server(+)]
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qttranslations
   
   version: 5.12.3
 - 
@@ -138,17 +152,24 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-util
+  category: dev-qt
   description: ""
   license: ""
-  name: qbs
+  name: qtwebengine
   
-  version: 1.13.1
+  version: 5.12.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: elfutils
+  
+  version: ""
 - 
   category: dev-vcs
   description: ""
   license: ""
-  name: bzr
+  name: git
   
   version: ""
 - 
@@ -169,28 +190,28 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdeclarative
+  name: qtnetwork
   
   version: 5.12.3
 - 
-  category: sys-devel
+  category: dev-qt
   description: ""
   license: ""
-  name: gdb
+  name: qtsvg
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qttranslations
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
+  name: qtsql
   
   version: 5.12.3
 - 
@@ -201,33 +222,12 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtserialport
-  
-  version: 5.12.3
-- 
   category: dev-vcs
   description: ""
   license: ""
-  name: cvs
+  name: bzr
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: designer
-  
-  version: 5.12.3
 uri:
 - https://download.qt.io/official_releases/qtcreator//4.10.0/qt-creator-opensource-src-4.10.0.tar.xz
 use_flags:

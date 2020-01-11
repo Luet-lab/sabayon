@@ -12,17 +12,17 @@ license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-base
 requires:
 - 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: findutils
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
   
   version: ""
 uri:

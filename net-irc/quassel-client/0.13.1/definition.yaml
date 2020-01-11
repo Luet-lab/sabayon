@@ -9,91 +9,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: snorenotify
-  
-  version: 0.7.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: ktextwidgets
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
+  name: kconfigwidgets
   
   version: ""
 - 
@@ -111,10 +41,17 @@ requires:
   
   version: 0.13.1
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtwidgets
+  name: kwidgetsaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
   
   version: ""
 - 
@@ -125,10 +62,73 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
   
   version: ""
 uri:

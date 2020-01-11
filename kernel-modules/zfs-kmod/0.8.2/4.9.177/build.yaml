@@ -1,5 +1,5 @@
 steps:
-- emerge -b =${GENTOO_CATEGORY}/zfs-kmod-${GENTOO_VERSION}
+- emerge -j  -t --nospinner -b =${GENTOO_CATEGORY}/zfs-kmod-${GENTOO_VERSION}
 
 - cd /usr/portage/packages/${GENTOO_CATEGORY}
 - mv zfs-kmod-${GENTOO_VERSION}.tbz2 zfs-kmod-${PACKAGE_VERSION}.tbz2

@@ -5,6 +5,13 @@ license: LGPL-2
 name: libxklavier
 requires:
 - 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xkbcomp
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -12,10 +19,24 @@ requires:
   
   version: "1.30"
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: iso-codes
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.16"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -40,31 +61,10 @@ requires:
   
   version: 2.4.1-r3
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xkbcomp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: iso-codes
   
   version: ""
 uri:

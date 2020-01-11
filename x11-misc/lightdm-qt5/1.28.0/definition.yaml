@@ -8,6 +8,13 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtdbus
   
   version: ""
@@ -25,13 +32,6 @@ requires:
   name: lightdm-base
   
   version: 1.28.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

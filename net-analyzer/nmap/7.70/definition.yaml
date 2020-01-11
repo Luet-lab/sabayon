@@ -5,17 +5,31 @@ license: GPL-2
 name: nmap
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: openssl
+  name: libpcap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh2
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: apr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -40,31 +54,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-vcs
   description: ""
   license: ""
-  name: libpcap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh2
+  name: subversion
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: apr
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
+  name: libressl
   
   version: ""
 uri:
