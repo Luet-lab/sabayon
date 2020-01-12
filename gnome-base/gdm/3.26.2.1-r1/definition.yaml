@@ -13,82 +13,19 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: accountsservice
+  name: libX11
   
-  version: 0.6.35
+  version: ""
 - 
   category: x11-apps
   description: ""
   license: ""
-  name: sessreg
+  name: xhost
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: orca
-  
-  version: "3.10"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: "0.20"
 - 
   category: x11-base
   description: ""
@@ -100,14 +37,56 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libXext
   
   version: ""
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: pam_fprint
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXau
+  
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: orca
+  
+  version: "3.10"
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 - 
@@ -117,41 +96,6 @@ requires:
   name: gnome-shell
   
   version: 3.1.90
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -170,30 +114,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: fontconfig
   
-  version: "0.4"
+  version: 2.5.0
 - 
-  category: sys-process
+  category: x11-libs
   description: ""
   license: ""
-  name: audit
+  name: libXdmcp
   
   version: ""
 - 
-  category: x11-misc
+  category: sys-auth
   description: ""
   license: ""
-  name: xdg-utils
+  name: pambase
   
-  version: 1.0.2-r3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
+  version: ""
 - 
   category: gnome-extra
   description: ""
@@ -202,45 +139,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.36"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
+  name: pam_fprint
   
   version: ""
 - 
@@ -251,6 +153,34 @@ requires:
   
   version: "3.6"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.36"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: 3.1.4
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: 1.0.2-r3
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -258,10 +188,80 @@ requires:
   
   version: "7.6"
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.4"
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: sessreg
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
   name: fprintd
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: "0.20"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: 0.6.35
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 uri:

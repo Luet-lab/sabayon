@@ -1,19 +1,19 @@
 category: app-pda
 conflicts:
 - 
-  category: <app-pda
-  description: ""
-  license: ""
-  name: usbmuxd
-  
-  version: 1.0.8_p1
-- 
   category: =app-pda
   description: ""
   license: ""
   name: usbmuxd
   
   version: 1.0.9
+- 
+  category: <app-pda
+  description: ""
+  license: ""
+  name: usbmuxd
+  
+  version: 1.0.8_p1
 description: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
 license: GPL-2+ LGPL-2.1+
 name: libusbmuxd

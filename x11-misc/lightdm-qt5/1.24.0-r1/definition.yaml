@@ -8,6 +8,13 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtdbus
   
   version: ""
@@ -25,13 +32,6 @@ requires:
   name: lightdm-base
   
   version: 1.24.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
 uri:
 - https://launchpad.net/lightdm//1.24.0/+download/lightdm-1.24.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

@@ -12,6 +12,13 @@ license: GPL-2
 name: gxneur
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.18"
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -39,13 +46,6 @@ requires:
   name: gettext
   
   version: 0.16.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.18"
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.17.0.orig.tar.gz
 use_flags:

@@ -13,12 +13,117 @@ license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.
 name: deadbeef
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmms
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: musepack-tools
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: imlib2
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
 - 
   category: x11-libs
   description: ""
@@ -51,28 +156,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.90"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
+  name: adplug
   
   version: ""
 - 
@@ -87,90 +171,6 @@ requires:
   description: ""
   license: ""
   name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: timidity-freepats
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "9"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
   
   version: ""
 uri:

@@ -15,13 +15,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libfm
-  
-  version: 1.2.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libwnck
   
   version: ""
@@ -47,10 +40,17 @@ requires:
   
   version: ""
 - 
-  category: lxde-base
+  category: x11-libs
   description: ""
   license: ""
-  name: menu-cache
+  name: gdk-pixbuf[X]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
@@ -71,9 +71,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf[X]
+  name: libfm
   
-  version: ""
+  version: 1.2.0
 - 
   category: x11-libs
   description: ""
@@ -89,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: lxde-base
   description: ""
   license: ""
-  name: alsa-lib
+  name: menu-cache
   
   version: ""
 uri:

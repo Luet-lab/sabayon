@@ -12,6 +12,41 @@ license: GPL-2+
 name: nm-applet-gtk2
 requires:
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.20"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.8
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.88"
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -40,66 +75,10 @@ requires:
   
   version: 0.7.990
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.88"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.26"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: "2.20"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.20"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: libgudev
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
   
   version: ""
 - 
@@ -109,6 +88,34 @@ requires:
   name: glib
   
   version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.26"
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: "2.20"
 - 
   category: sys-auth
   description: ""
@@ -127,9 +134,9 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: networkmanager
+  name: mobile-broadband-provider-info
   
-  version: 0.9.8
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -137,13 +144,6 @@ requires:
   name: gconf
   
   version: "2.20"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: ""
 uri: []
 use_flags:
 - bluetooth

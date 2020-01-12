@@ -5,17 +5,17 @@ license: GPL-2
 name: pykickstart
 requires:
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: app-i18n
   description: ""
   license: ""
   name: transifex-client
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 uri:

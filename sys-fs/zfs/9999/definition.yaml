@@ -26,20 +26,6 @@ license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
@@ -47,10 +33,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: mdadm
+  name: parted
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 - 
@@ -68,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: parted
+  name: lsscsi
   
   version: ""
 - 
@@ -103,10 +96,17 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: virtual
   description: ""
   license: ""
-  name: pax-utils
+  name: modutils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
   
   version: ""
 uri: []

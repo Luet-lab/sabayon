@@ -8,37 +8,9 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtdbus
   
   version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.9.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -51,6 +23,34 @@ requires:
   description: ""
   license: ""
   name: upower
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.15.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: 0.9.4
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
   
   version: ""
 - 
@@ -68,26 +68,26 @@ requires:
   
   version: 5.9.4
 - 
-  category: x11-base
+  category: dev-qt
   description: ""
   license: ""
-  name: xorg-server
+  name: qtgui
   
-  version: 1.15.1
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: 0.9.4
+  version: 5.9.4
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtnetwork
   
   version: 5.9.4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.18.0/sddm-0.18.0.tar.gz
 use_flags:

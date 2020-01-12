@@ -5,6 +5,13 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -15,7 +22,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: IO-stringy
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Wx
   
   version: ""
 - 
@@ -23,6 +44,34 @@ requires:
   description: ""
   license: ""
   name: wget
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-IniFiles
   
   version: ""
 - 
@@ -40,59 +89,10 @@ requires:
   
   version: ""
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: wine
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
   
   version: ""
 uri:

@@ -8,77 +8,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Error
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -89,24 +19,17 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: highlight
+  name: libiconv
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: DateTime-Format-ISO8601
+  name: Error
   
   version: ""
 - 
@@ -120,14 +43,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: virtual
+  category: dev-perl
   description: ""
   license: ""
-  name: libiconv
+  name: MailTools
   
   version: ""
 - 
@@ -138,24 +75,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBI
+  name: curl
   
   version: ""
 - 
@@ -169,14 +92,63 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-Tree
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-perl
   description: ""
   license: ""
-  name: libsecret
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
   
   version: ""
 - 
@@ -187,10 +159,38 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 uri:

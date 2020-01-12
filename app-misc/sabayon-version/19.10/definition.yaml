@@ -1,12 +1,12 @@
 category: app-misc
 conflicts:
 - 
-  category: sys-apps
+  category: <sys-apps
   description: ""
   license: ""
-  name: hal
+  name: sysvinit
   
-  version: ""
+  version: "1000"
 - 
   category: sys-auth
   description: ""
@@ -22,12 +22,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-apps
+  category: sys-apps
   description: ""
   license: ""
-  name: sysvinit
+  name: hal
   
-  version: "1000"
+  version: ""
 description: Sabayon system release virtual package
 license: GPL-2
 name: sabayon-version
@@ -44,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: gcc-config
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-python
   
   version: ""
 - 
@@ -72,6 +65,13 @@ requires:
   description: ""
   license: ""
   name: man
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-python
   
   version: ""
 - 

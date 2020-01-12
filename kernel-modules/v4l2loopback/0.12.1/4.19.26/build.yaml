@@ -1,5 +1,5 @@
 steps:
-- emerge -j  -t --nospinner -b =${GENTOO_CATEGORY}/v4l2loopback-${GENTOO_VERSION}
+- source /etc/profile && emerge -j 3 -t --nospinner -b =${GENTOO_CATEGORY}/v4l2loopback-${GENTOO_VERSION}
 
 - cd /usr/portage/packages/${GENTOO_CATEGORY}
 - mv v4l2loopback-${GENTOO_VERSION}.tbz2 v4l2loopback-${PACKAGE_VERSION}.tbz2

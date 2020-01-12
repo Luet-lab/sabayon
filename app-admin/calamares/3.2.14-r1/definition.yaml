@@ -15,16 +15,51 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: boost
+  
+  version: "1.55"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libpwquality
   
   version: ""
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
   license: ""
-  name: parted
+  name: dbus
   
-  version: "3.0"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dmidecode
+  
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -47,47 +82,12 @@ requires:
   
   version: "3.1"
 - 
-  category: app-admin
+  category: sys-block
   description: ""
   license: ""
-  name: sudo
+  name: parted
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.55"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
+  version: "3.0"
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

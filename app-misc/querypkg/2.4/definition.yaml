@@ -5,6 +5,13 @@ license: MIT
 name: querypkg
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Scalar-List-Utils
+  
+  version: 1.350.0
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -32,13 +39,6 @@ requires:
   name: libwww-perl
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Scalar-List-Utils
-  
-  version: 1.350.0
 uri:
 - https://github.com/Enlik/querypkg/archive/v2.4.tar.gz -> querypkg-2.4.tar.gz
 use_flags:

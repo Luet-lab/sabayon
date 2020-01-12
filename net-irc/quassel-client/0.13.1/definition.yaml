@@ -6,17 +6,17 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
   name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
   
   version: ""
 - 
@@ -27,24 +27,38 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtwebengine
+  name: kcoreaddons
   
   version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.13.1
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
   
   version: ""
 - 
@@ -62,47 +76,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-irc
   description: ""
   license: ""
-  name: snorenotify
+  name: quassel-common
   
-  version: 0.7.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
+  version: 0.13.1
 - 
   category: kde-frameworks
   description: ""
@@ -114,14 +93,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: kwidgetsaddons
   
   version: ""
 - 
-  category: sys-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: zlib
+  name: kxmlgui
   
   version: ""
 - 
@@ -129,6 +108,27 @@ requires:
   description: ""
   license: ""
   name: qtgui
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 uri:

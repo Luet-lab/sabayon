@@ -8,19 +8,19 @@ conflicts:
   
   version: ""
 - 
-  category: <=app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs
-  
-  version: 20130224-r7
-- 
   category: media-sound
   description: ""
   license: ""
   name: jack-cvs
   
   version: ""
+- 
+  category: <=app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs
+  
+  version: 20130224-r7
 description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
@@ -33,26 +33,26 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: realtime-base
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: libsndfile
   
   version: 1.0.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.8-r1
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: realtime-base
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -68,12 +68,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libsamplerate
+  name: lsof
   
-  version: 0.1.8-r1
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.124.1.tar.gz
 use_flags:

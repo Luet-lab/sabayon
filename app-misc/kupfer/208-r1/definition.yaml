@@ -8,6 +8,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pyxdg
   
   version: ""
@@ -16,20 +23,6 @@ requires:
   description: ""
   license: ""
   name: pycairo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libwnck-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
   
   version: ""
 - 
@@ -47,24 +40,31 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libwnck-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
   
   version: ""
 uri:

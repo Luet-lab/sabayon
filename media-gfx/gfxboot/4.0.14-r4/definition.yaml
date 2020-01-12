@@ -5,6 +5,13 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -53,13 +60,6 @@ requires:
   name: nasm
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
 uri:
 - http://download.opensuse.org/distribution/11.0/repo/src-oss/suse/src/gfxboot-4.0.14-.1.src.rpm
 use_flags:

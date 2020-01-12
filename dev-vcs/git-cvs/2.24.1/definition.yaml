@@ -5,6 +5,13 @@ license: GPL-2
 name: git-cvs
 requires:
 - 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: 2.24.1
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -12,19 +19,40 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: emacs
+  name: expat
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: MailTools
+  name: Error
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
 - 
   category: dev-perl
   description: ""
@@ -50,14 +78,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -68,10 +89,24 @@ requires:
   
   version: ""
 - 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre2[jit(+)]
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
   
   version: ""
 - 
@@ -82,31 +117,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
+  name: libsecret
   
   version: ""
 - 
@@ -120,35 +141,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: git
-  
-  version: 2.24.1
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
+  name: MailTools
   
   version: ""
 - 
@@ -166,10 +159,31 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: net-misc
   description: ""
   license: ""
-  name: subversion
+  name: curl
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -180,24 +194,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: Error
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DateTime-Format-ISO8601
+  name: emacs
   
   version: ""
 uri:

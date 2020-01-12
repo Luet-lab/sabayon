@@ -5,13 +5,6 @@ license: GPL-3
 name: citadel
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4.2"
-- 
   category: virtual
   description: ""
   license: ""
@@ -60,6 +53,13 @@ requires:
   name: libcitadel
   
   version: "8.04"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4.2"
 uri:
 - http://easyinstall.citadel.org/citadel-8.04.tar.gz
 use_flags:

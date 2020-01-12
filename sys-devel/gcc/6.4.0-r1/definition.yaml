@@ -8,14 +8,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[fixed-point?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[cxx?]
+  name: base-gcc-6.4.0[multilib?]
   
   version: ""
 - 
@@ -29,20 +22,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[objc++?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[multilib?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-6.4.0[nls?]
   
   version: ""
@@ -50,21 +29,35 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[openmp?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-6.4.0[vanilla?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[doc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[fixed-point?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[graphite?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[hardened?]
   
   version: ""
 - 
@@ -85,21 +78,28 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[hardened?]
+  name: base-gcc-6.4.0[openmp?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[doc?]
+  name: base-gcc-6.4.0[altivec?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-6.4.0[graphite?]
+  name: base-gcc-6.4.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-6.4.0[cxx?]
   
   version: ""
 - 

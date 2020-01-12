@@ -5,6 +5,27 @@ license: GPL-2
 name: pinentry-base
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.7-r5
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-pinentry
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.7-r5
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-pinentry
   
   version: ""
 uri:

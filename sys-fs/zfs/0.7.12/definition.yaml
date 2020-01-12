@@ -1,17 +1,17 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: =sys-apps
   description: ""
   license: ""
   name: grep-2.13*
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
   
   version: ""
 - 
@@ -29,7 +29,21 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 - 
@@ -40,6 +54,41 @@ requires:
   
   version: 0.7.12
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
@@ -47,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: virtual
   description: ""
   license: ""
-  name: parted
+  name: modutils
   
   version: ""
 - 
@@ -65,55 +114,6 @@ requires:
   description: ""
   license: ""
   name: udev-init-scripts
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
   
   version: ""
 uri:

@@ -8,16 +8,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: entropy
+  name: file
   
-  version: "320"
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: file
+  name: entropy
   
-  version: ""
+  version: "320"
 uri:
 - mirror://sabayon/sys-apps/entropy-320.tar.bz2
 use_flags:

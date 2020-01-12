@@ -5,19 +5,26 @@ license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1"
+- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: 2.32.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -40,17 +47,17 @@ requires:
   
   version: 20101024-r2
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: pam
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
   
   version: ""
 - 
@@ -60,13 +67,6 @@ requires:
   name: accountsservice
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1"
 uri:
 - https://launchpad.net/lightdm//1.24.0/+download/lightdm-1.24.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

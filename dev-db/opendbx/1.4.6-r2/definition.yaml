@@ -8,6 +8,20 @@ requires:
   category: dev-db
   description: ""
   license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: oracle-instantclient-basic
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
   name: firebird
   
   version: ""
@@ -23,20 +37,6 @@ requires:
   description: ""
   license: ""
   name: postgresql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: oracle-instantclient-basic
   
   version: ""
 uri:

@@ -8,20 +8,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyinotify
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: dbus-python
   
   version: ""
@@ -44,6 +30,20 @@ requires:
   description: ""
   license: ""
   name: python-xlib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyinotify
   
   version: ""
 uri:

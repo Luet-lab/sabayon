@@ -5,6 +5,13 @@ license: GPL-2
 name: libuser
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
   category: net-nds
   description: ""
   license: ""
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
   
   version: ""
 uri:

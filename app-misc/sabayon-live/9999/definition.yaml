@@ -19,10 +19,10 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
-  category: dev-util
+  category: sys-apps
   description: ""
   license: ""
-  name: dialog
+  name: dmidecode
   
   version: ""
 - 
@@ -36,7 +36,21 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: systemd
+  
+  version: 239-r2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: pciutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
   
   version: ""
 - 
@@ -54,24 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-util
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
+  name: dialog
   
   version: ""
 uri: []

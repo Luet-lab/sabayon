@@ -1,13 +1,6 @@
 category: media-sound
 conflicts:
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -21,43 +14,36 @@ conflicts:
   name: emul-linux-x86-soundlibs
   
   version: 20130224-r7
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
+  
+  version: ""
 description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libffado
+  name: db
   
   version: ""
 - 
-  category: media-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: alsa-lib
+  name: realtime-base
   
-  version: 1.0.27.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: 0.1.8-r1
+  version: ""
 - 
   category: sys-process
   description: ""
   license: ""
   name: lsof
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
   
   version: ""
 - 
@@ -75,12 +61,26 @@ requires:
   
   version: 1.0.0
 - 
-  category: sys-auth
+  category: media-libs
   description: ""
   license: ""
-  name: realtime-base
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libffado
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.8-r1
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

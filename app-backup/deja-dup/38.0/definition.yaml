@@ -5,41 +5,6 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- 
-  category: app-backup
-  description: ""
-  license: ""
-  name: duplicity
-  
-  version: 0.7.14
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: appstream-glib
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -75,6 +40,41 @@ requires:
   
   version: "1.0"
 - 
+  category: app-backup
+  description: ""
+  license: ""
+  name: duplicity
+  
+  version: 0.7.14
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: appstream-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: packagekit-base
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -89,10 +89,10 @@ requires:
   
   version: "0.7"
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gvfs
+  name: dbus-glib
   
   version: ""
 uri:

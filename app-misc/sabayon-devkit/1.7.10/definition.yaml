@@ -8,14 +8,14 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: portage-utils
+  name: eix
   
   version: ""
 - 
   category: app-portage
   description: ""
   license: ""
-  name: repoman
+  name: portage-utils
   
   version: ""
 - 
@@ -26,17 +26,17 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
+  category: dev-perl
   description: ""
   license: ""
-  name: docker
+  name: DBD-SQLite
   
   version: ""
 - 
-  category: app-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: pax-utils
+  name: gentoo-functions
   
   version: ""
 - 
@@ -44,6 +44,13 @@ requires:
   description: ""
   license: ""
   name: querypkg
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 - 
@@ -61,6 +68,13 @@ requires:
   
   version: ""
 - 
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
@@ -68,24 +82,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: app-emulation
   description: ""
   license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
+  name: docker
   
   version: ""
 uri:

@@ -5,10 +5,10 @@ license: GPL-3
 name: autokey
 requires:
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: pygobject
+  name: glib
   
   version: ""
 - 
@@ -16,6 +16,55 @@ requires:
   description: ""
   license: ""
   name: pyatspi
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-xlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
   
   version: ""
 - 
@@ -36,56 +85,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gtk+
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-xlib
   
   version: ""
 uri:

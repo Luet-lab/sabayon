@@ -19,66 +19,10 @@ requires:
   
   version: 5.2-r5
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: freetype
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: powerpc-utils
   
   version: ""
 - 
@@ -96,6 +40,20 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -107,6 +65,48 @@ requires:
   description: ""
   license: ""
   name: gettext
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: powerpc-utils
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
   
   version: ""
 uri:

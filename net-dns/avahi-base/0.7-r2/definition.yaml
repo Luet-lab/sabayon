@@ -29,13 +29,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
   
   version: ""
@@ -54,34 +47,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -92,9 +57,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: twisted
   
   version: 16.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
+  
+  version: ""
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

@@ -5,17 +5,17 @@ license: GPL-2
 name: sabayon-artwork-sddm-base
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: findutils
-  
-  version: ""
-- 
   category: x11-misc
   description: ""
   license: ""
   name: sddm
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: findutils
   
   version: ""
 uri: []

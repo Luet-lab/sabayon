@@ -8,35 +8,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: libXinerama
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
+  name: librsvg
   
   version: ""
 - 
@@ -47,10 +26,17 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libXrender
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
   
   version: ""
 - 
@@ -64,14 +50,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libxml2
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -85,7 +78,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: gtkglext
   
   version: ""
 - 
@@ -96,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: dbus-glib
   
   version: ""
 - 
@@ -107,6 +100,13 @@ requires:
   description: ""
   license: ""
   name: glib
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 uri:

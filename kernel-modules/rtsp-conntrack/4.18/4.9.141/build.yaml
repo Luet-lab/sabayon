@@ -1,5 +1,5 @@
 steps:
-- emerge -j  -t --nospinner -b =${GENTOO_CATEGORY}/rtsp-conntrack-${GENTOO_VERSION}
+- source /etc/profile && emerge -j 3 -t --nospinner -b =${GENTOO_CATEGORY}/rtsp-conntrack-${GENTOO_VERSION}
 
 - cd /usr/portage/packages/${GENTOO_CATEGORY}
 - mv rtsp-conntrack-${GENTOO_VERSION}.tbz2 rtsp-conntrack-${PACKAGE_VERSION}.tbz2
