@@ -6,13 +6,6 @@ license: GPL-2
 name: ossp
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -26,6 +19,13 @@ requires:
   name: fuse
   
   version: 2.8.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
 uri:
 - mirror://sourceforge/osspd/ossp-1.3.2.tar.gz
 use_flags:

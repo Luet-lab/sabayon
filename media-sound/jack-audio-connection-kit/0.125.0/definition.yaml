@@ -33,20 +33,6 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: realtime-base
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -71,16 +57,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libffado
+  name: libsamplerate
   
-  version: ""
+  version: 0.1.8-r1
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: libffado
   
-  version: 0.1.8-r1
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: lsof
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: realtime-base
+  
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

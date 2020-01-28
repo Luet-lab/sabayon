@@ -5,6 +5,13 @@ license: LGPL-2.1
 name: avahi-mono
 requires:
 - 
+  category: dev-dotnet
+  description: ""
+  license: ""
+  name: gtk-sharp
+  
+  version: "2"
+- 
   category: net-dns
   description: ""
   license: ""
@@ -18,13 +25,6 @@ requires:
   name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
   
   version: ""
-- 
-  category: dev-dotnet
-  description: ""
-  license: ""
-  name: gtk-sharp
-  
-  version: "2"
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

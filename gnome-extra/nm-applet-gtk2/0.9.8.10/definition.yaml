@@ -12,10 +12,66 @@ license: GPL-2+
 name: nm-applet-gtk2
 requires:
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: glib
+  
+  version: "2.26"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: 2.27.6
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.88"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.26"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.4.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -33,33 +89,12 @@ requires:
   
   version: 0.9.8
 - 
-  category: virtual
+  category: gnome-base
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: gconf
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.88"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.4.1
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
+  version: "2.20"
 - 
   category: dev-libs
   description: ""
@@ -75,38 +110,10 @@ requires:
   
   version: 0.7.990
 - 
-  category: virtual
+  category: app-crypt
   description: ""
   license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.26"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
+  name: libsecret
   
   version: ""
 - 
@@ -124,12 +131,12 @@ requires:
   
   version: 0.96-r1
 - 
-  category: x11-libs
+  category: app-text
   description: ""
   license: ""
-  name: libnotify
+  name: iso-codes
   
-  version: 0.7.0
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -137,13 +144,6 @@ requires:
   name: mobile-broadband-provider-info
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.20"
 uri: []
 use_flags:
 - bluetooth

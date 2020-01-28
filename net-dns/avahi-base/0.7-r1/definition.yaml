@@ -4,14 +4,14 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
 description: System which facilitates service discovery on a local network (base pkg)
@@ -19,10 +19,24 @@ license: LGPL-2.1
 name: avahi-base
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libdaemon
+  name: gdbm
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
   
   version: ""
 - 
@@ -40,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
   
   version: ""
 - 
@@ -75,24 +89,10 @@ requires:
   
   version: 16.0.0
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
+  name: libdaemon
   
   version: ""
 uri:

@@ -12,6 +12,20 @@ license: LGPL-2.1
 name: avahi-gtk3
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi-base-0.7[bookmarks=,dbus=,gdbm=,introspection=,nls=,python=]
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -37,20 +51,6 @@ requires:
   description: ""
   license: ""
   name: dbus-python
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi-base-0.7[bookmarks=,dbus=,gdbm=,introspection=,nls=,python=]
   
   version: ""
 uri:

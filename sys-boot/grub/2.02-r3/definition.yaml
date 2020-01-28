@@ -4,20 +4,55 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 description: GNU GRUB boot loader
 license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -29,9 +64,23 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: fuse
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
 - 
   category: app-crypt
   description: ""
@@ -40,24 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: libsdl
   
   version: ""
 - 
@@ -74,41 +109,6 @@ requires:
   name: ncurses
   
   version: 5.2-r5
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
 uri:
 - 'mirror://gnu/grub/grub-2.02.tar.xz fonts? ( mirror://gnu/unifont/unifont-9.0.06/unifont-9.0.06.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

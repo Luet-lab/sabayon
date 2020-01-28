@@ -5,10 +5,17 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: querypkg
+  
+  version: ""
+- 
   category: app-portage
   description: ""
   license: ""
-  name: eix
+  name: layman
   
   version: ""
 - 
@@ -26,10 +33,24 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
   category: app-portage
   description: ""
   license: ""
-  name: layman
+  name: eix
   
   version: ""
 - 
@@ -54,31 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: docker
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: querypkg
   
   version: ""
 uri:

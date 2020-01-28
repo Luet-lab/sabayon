@@ -5,6 +5,20 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: "0.9"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -32,20 +46,6 @@ requires:
   name: hicolor-icon-theme
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: "0.9"
 uri:
 - https://pagure.io/releases/authconfig/authconfig-7.0.0.tar.bz2
 use_flags:

@@ -16,37 +16,72 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
-  
-  version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXext
   
   version: ""
 - 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: 1.0.2-r3
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: sessreg
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXau
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: "7.6"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: "3.6"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-shell
+  
+  version: 3.1.90
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.36"
 - 
   category: sys-apps
   description: ""
@@ -62,69 +97,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: orca
-  
-  version: "3.10"
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-shell
-  
-  version: 3.1.90
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -132,94 +104,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pam_fprint
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: "3.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.36"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: 1.0.2-r3
-- 
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: "7.6"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.4"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: sessreg
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
   
   version: ""
 - 
@@ -244,6 +132,90 @@ requires:
   
   version: "0.20"
 - 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pam_fprint
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.5.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.4"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdmcp
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: mousetweaks
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: 3.1.4
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -254,14 +226,42 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXft
+  name: libX11
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-apps
   description: ""
   license: ""
-  name: pam
+  name: xhost
+  
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: orca
+  
+  version: "3.10"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 uri:

@@ -1,6 +1,20 @@
 category: app-misc
 conflicts:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hal
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect-init
+  
+  version: ""
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -14,36 +28,15 @@ conflicts:
   name: consolekit
   
   version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect-init
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hal
-  
-  version: ""
 description: Sabayon system release virtual package
 license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: sys-devel
+  category: app-eselect
   description: ""
   license: ""
-  name: base-gcc
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc-config
+  name: eselect-python
   
   version: ""
 - 
@@ -61,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: sabayon-dracut
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -68,17 +68,17 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: sys-devel
   description: ""
   license: ""
-  name: eselect-python
+  name: gcc-config
   
   version: ""
 - 
-  category: sys-kernel
+  category: sys-devel
   description: ""
   license: ""
-  name: sabayon-dracut
+  name: base-gcc
   
   version: ""
 uri: []

@@ -5,13 +5,6 @@ license: free-noncomm
 name: phun
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -32,6 +25,13 @@ requires:
   name: glew
   
   version: "1.5"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
 uri:
 - 'http://www.phunland.com/download/Phun_beta___linux32.tar.bz2 '
 - 'http://www.phunland.com/download/Phun_beta___linux64.tar.bz2 '

@@ -1,12 +1,12 @@
 category: app-misc
 conflicts:
 - 
-  category: <sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: sysvinit
+  name: consolekit
   
-  version: "1000"
+  version: ""
 - 
   category: app-admin
   description: ""
@@ -15,17 +15,17 @@ conflicts:
   
   version: ""
 - 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: "1000"
+- 
   category: sys-apps
   description: ""
   license: ""
   name: hal
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
   
   version: ""
 description: Sabayon system release virtual package
@@ -33,17 +33,10 @@ license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: app-eselect
+  category: sys-devel
   description: ""
   license: ""
-  name: eselect-python
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: man
+  name: base-gcc
   
   version: ""
 - 
@@ -75,10 +68,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: virtual
   description: ""
   license: ""
-  name: base-gcc
+  name: man
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-python
   
   version: ""
 uri: []

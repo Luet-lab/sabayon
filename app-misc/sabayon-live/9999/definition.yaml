@@ -22,20 +22,6 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dmidecode
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gawk
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: systemd
   
   version: 239-r2
@@ -43,14 +29,21 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: pciutils
+  name: dmidecode
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: dialog
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
+  name: pciutils
   
   version: ""
 - 
@@ -68,10 +61,17 @@ requires:
   
   version: ""
 - 
-  category: dev-util
+  category: sys-apps
   description: ""
   license: ""
-  name: dialog
+  name: gawk
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
   
   version: ""
 uri: []

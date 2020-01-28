@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -14,17 +21,31 @@ conflicts:
   name: grub
   
   version: 2.00-r2
-- 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
 - 
   category: sys-devel
   description: ""
@@ -33,10 +54,38 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: app-arch
   description: ""
   license: ""
-  name: parted
+  name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
@@ -51,55 +100,6 @@ requires:
   description: ""
   license: ""
   name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
   
   version: ""
 - 

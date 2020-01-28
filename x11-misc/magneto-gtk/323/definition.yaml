@@ -5,13 +5,6 @@ license: GPL-2
 name: magneto-gtk
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
@@ -23,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: notify-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
   
   version: ""
 uri:

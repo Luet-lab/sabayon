@@ -5,19 +5,19 @@ license: GPL-2
 name: eselect-uimage
 requires:
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect
-  
-  version: 1.2.3
-- 
   category: sys-apps
   description: ""
   license: ""
   name: file
   
   version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect
+  
+  version: 1.2.3
 uri: []
 use_flags:
 - ""

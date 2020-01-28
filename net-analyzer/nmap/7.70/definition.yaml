@@ -12,13 +12,6 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh2
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -29,7 +22,7 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libpcap
+  name: libssh2
   
   version: ""
 - 
@@ -37,6 +30,20 @@ requires:
   description: ""
   license: ""
   name: apr
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.2"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
   
   version: ""
 - 
@@ -60,13 +67,6 @@ requires:
   name: libressl
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.2"
 uri:
 - https://nmap.org/dist/nmap-7.70.tar.bz2
 use_flags:

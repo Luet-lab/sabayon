@@ -8,6 +8,13 @@ requires:
   category: net-dns
   description: ""
   license: ""
+  name: avahi-gtk3-0.7-r2[dbus=,gdbm=,introspection=,nls=,python=]
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
   name: avahi-mono
   
   version: 0.7-r2
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: avahi-gtk-0.7-r2[gdbm=,nls=,dbus=]
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi-gtk3-0.7-r2[dbus=,gdbm=,introspection=,nls=,python=]
   
   version: ""
 uri: []

@@ -12,19 +12,40 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: app-eselect
+  category: media-libs
   description: ""
   license: ""
-  name: eselect-opencl
+  name: libglvnd[abi_x86_32]
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-power
   description: ""
   license: ""
-  name: libXext-1.3.2[abi_x86_32]
+  name: acpid
   
   version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
+  
+  version: 1.0.9
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
 - 
   category: x11-drivers
   description: ""
@@ -33,19 +54,19 @@ requires:
   
   version: ""
 - 
-  category: x11-drivers
+  category: app-eselect
   description: ""
   license: ""
-  name: nvidia-userspace-440.44[X=]
+  name: eselect-opencl
   
   version: ""
 - 
-  category: sys-kernel
+  category: app-misc
   description: ""
   license: ""
-  name: sabayon-dracut
+  name: pax-utils
   
-  version: "1.3"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -57,28 +78,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libvdpau
-  
-  version: "1.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
+  name: libXext-1.3.2[abi_x86_32]
   
   version: ""
 - 
@@ -96,33 +96,33 @@ requires:
   
   version: "440.44"
 - 
-  category: app-eselect
+  category: sys-libs
   description: ""
   license: ""
-  name: eselect-opengl
+  name: glibc
   
-  version: 1.0.9
+  version: 2.6.1
 - 
-  category: media-libs
+  category: sys-kernel
   description: ""
   license: ""
-  name: libglvnd[abi_x86_32]
+  name: sabayon-dracut
+  
+  version: "1.3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.0"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-userspace-440.44[X=]
   
   version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/440.44/NVIDIA-FreeBSD-x86_64-440.44.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/440.44/NVIDIA-Linux-x86_64-440.44.run '

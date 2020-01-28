@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
+- 
   category: =sys-apps
   description: ""
   license: ""
@@ -14,17 +21,45 @@ conflicts:
   name: grub
   
   version: 2.00-r2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.13
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -54,27 +89,6 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -89,24 +103,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
+  name: lsscsi
   
   version: ""
 - 

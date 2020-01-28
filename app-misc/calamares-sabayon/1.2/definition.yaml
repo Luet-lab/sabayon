@@ -8,7 +8,21 @@ requires:
   category: app-misc
   description: ""
   license: ""
+  name: calamares-sabayon-base-modules
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
   name: calamares-sabayon-branding
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: jfsutils
   
   version: ""
 - 
@@ -36,21 +50,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-base-modules
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: jfsutils
+  name: dosfstools
   
   version: ""
 - 
@@ -64,7 +64,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
+  name: btrfs-progs
   
   version: ""
 uri:

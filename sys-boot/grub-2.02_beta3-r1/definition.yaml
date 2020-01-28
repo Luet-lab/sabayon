@@ -12,24 +12,24 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
   name: sbsigntools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
   
   version: ""
 - 
@@ -47,24 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: media-libs
   description: ""
   license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: libsdl
   
   version: ""
 - 
@@ -74,13 +60,6 @@ requires:
   name: lvm2
   
   version: 2.02.45
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
 - 
   category: sys-fs
   description: ""
@@ -103,10 +82,31 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libsdl
+  name: freetype
   
   version: ""
 uri:

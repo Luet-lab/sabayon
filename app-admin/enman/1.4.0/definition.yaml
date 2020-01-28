@@ -8,6 +8,20 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Module-Build
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: App-Cmd
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: LWP-Protocol-https
   
   version: ""
@@ -44,20 +58,6 @@ requires:
   description: ""
   license: ""
   name: perl-Term-ANSIColor
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Module-Build
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: App-Cmd
   
   version: ""
 uri:

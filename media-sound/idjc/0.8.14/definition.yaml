@@ -5,41 +5,6 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -64,20 +29,6 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: twolame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
   name: jack-audio-connection-kit
   
   version: 0.116.0
@@ -85,14 +36,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: speex
+  name: flac
   
   version: ""
 - 
-  category: dev-python
+  category: media-sound
   description: ""
   license: ""
-  name: eyeD3
+  name: lame
   
   version: ""
 - 
@@ -103,17 +54,66 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: opus
+  name: ffmpeg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: flac
+  name: speex
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mutagen
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
   
   version: ""
 uri:

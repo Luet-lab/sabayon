@@ -5,13 +5,6 @@ license: GPL-2
 name: tuxcmd
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -53,6 +46,13 @@ requires:
   name: expat
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.4"
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-0.6.70.tar.bz2
 use_flags:

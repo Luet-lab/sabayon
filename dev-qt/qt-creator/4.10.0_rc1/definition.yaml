@@ -8,16 +8,30 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtconcurrent
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtnetwork
   
   version: 5.12.3
 - 
-  category: dev-vcs
+  category: dev-qt
   description: ""
   license: ""
-  name: mercurial
+  name: qtxml
   
-  version: ""
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -29,28 +43,35 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtconcurrent
+  name: qtquickcontrols
   
   version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols
+  name: qtsvg
   
   version: 5.12.3
 - 
-  category: dev-util
+  category: dev-qt
   description: ""
   license: ""
-  name: qbs
+  name: qtwidgets
   
-  version: 1.13.1
+  version: 5.12.3
 - 
-  category: dev-util
+  category: dev-qt
   description: ""
   license: ""
-  name: cmake[server(+)]
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: bzr
   
   version: ""
 - 
@@ -58,6 +79,34 @@ requires:
   description: ""
   license: ""
   name: cppcheck
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: 5.12.3
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: cmake[server(+)]
   
   version: ""
 - 
@@ -78,23 +127,9 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtsql
   
   version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: designer
-  
-  version: 5.12.3
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
-  
-  version: ""
 - 
   category: dev-qt
   description: ""
@@ -106,56 +141,7 @@ requires:
   category: dev-vcs
   description: ""
   license: ""
-  name: bzr
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: clang
-  
-  version: "8"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
+  name: git
   
   version: ""
 - 
@@ -169,20 +155,6 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtscript
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtserialport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
   name: qtgui
   
   version: 5.12.3
@@ -190,30 +162,37 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtprintsupport
+  name: designer
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtsql
+  name: elfutils
   
-  version: 5.12.3
+  version: ""
 - 
-  category: dev-qt
+  category: sys-apps
   description: ""
   license: ""
-  name: qtsvg
+  name: systemd
   
-  version: 5.12.3
+  version: ""
 - 
-  category: dev-qt
+  category: dev-util
   description: ""
   license: ""
-  name: qtwebengine
+  name: qbs
   
-  version: 5.12.3
+  version: 1.13.1
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gdb
+  
+  version: ""
 - 
   category: dev-vcs
   description: ""
@@ -222,10 +201,31 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: clang
+  
+  version: "8"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtserialport
+  
+  version: 5.12.3
+- 
   category: dev-vcs
   description: ""
   license: ""
-  name: git
+  name: mercurial
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
   
   version: ""
 uri:

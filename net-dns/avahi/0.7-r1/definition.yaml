@@ -8,13 +8,6 @@ requires:
   category: net-dns
   description: ""
   license: ""
-  name: avahi-base-0.7-r1[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-compat=,introspection=,ipv6=,mdnsresponder-compat=,python=,test=,nls=,selinux=,]
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
   name: avahi-gtk-0.7-r1[gdbm=,nls=,dbus=]
   
   version: ""
@@ -39,6 +32,13 @@ requires:
   name: avahi-qt5
   
   version: 0.7-r1
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi-base-0.7-r1[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-compat=,introspection=,ipv6=,mdnsresponder-compat=,python=,test=,nls=,selinux=,]
+  
+  version: ""
 uri: []
 use_flags:
 - autoipd

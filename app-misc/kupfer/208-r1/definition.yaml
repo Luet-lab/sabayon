@@ -8,6 +8,27 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pycairo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pygtk
   
   version: ""
@@ -22,7 +43,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
+  name: pygobject
   
   version: ""
 - 
@@ -30,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: libgnome-python
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
   
   version: ""
 - 
@@ -51,20 +65,6 @@ requires:
   description: ""
   license: ""
   name: libwnck-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
   
   version: ""
 uri:

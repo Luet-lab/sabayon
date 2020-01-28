@@ -5,6 +5,13 @@ license: GPL-3
 name: aweather
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
   category: sci-libs
   description: ""
   license: ""
@@ -18,13 +25,6 @@ requires:
   name: grits
   
   version: 0.6.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
 uri:
 - http://lug.rose-hulman.edu/proj/aweather/files/aweather-0.6.3.tar.gz
 use_flags:

@@ -5,13 +5,6 @@ license: GPL-2
 name: jackd-firewire
 requires:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: 0.124.1
-- 
   category: media-libs
   description: ""
   license: ""
@@ -25,6 +18,13 @@ requires:
   name: libffado
   
   version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-audio-connection-kit
+  
+  version: 0.124.1
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.124.1.tar.gz
 use_flags:

@@ -5,80 +5,17 @@ license: GPL-3 CC-BY-3.0
 name: darktable
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.14"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: flickcurl
+  name: lcms
   
   version: ""
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libgphoto2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: osm-gps-map
-  
-  version: 1.1.0
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphicsmagick
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: libsoup
   
   version: ""
 - 
@@ -89,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
   category: net-print
   description: ""
   license: ""
@@ -96,10 +40,52 @@ requires:
   
   version: ""
 - 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: graphicsmagick
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: lcms
+  name: libwebp
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: exiv2
+  
+  version: 0.25-r2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
   
   version: ""
 - 
@@ -117,10 +103,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libpng
+  name: zlib
   
   version: ""
 - 
@@ -131,13 +117,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -145,17 +124,45 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtk+
+  
+  version: "3.14"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: pugixml
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flickcurl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
   
   version: ""
 - 
@@ -169,37 +176,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: libxml2
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pugixml
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openexr
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: exiv2
-  
-  version: 0.25-r2
 - 
   category: media-libs
   description: ""
@@ -207,6 +186,27 @@ requires:
   name: lensfun
   
   version: 0.2.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: osm-gps-map
+  
+  version: 1.1.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
+  
+  version: ""
 uri:
 - https://github.com/darktable-org/darktable/releases/download/release-2.6.2/darktable-2.6.2.tar.xz
 use_flags:

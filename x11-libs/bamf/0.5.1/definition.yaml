@@ -8,20 +8,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: gdbus-codegen
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
   
   version: ""
@@ -53,6 +39,20 @@ requires:
   name: libwnck
   
   version: 3.4.7
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: gdbus-codegen
+  
+  version: ""
 uri:
 - http://launchpad.net/bamf/0.5/0.5.1/+download/bamf-0.5.1.tar.gz
 use_flags:

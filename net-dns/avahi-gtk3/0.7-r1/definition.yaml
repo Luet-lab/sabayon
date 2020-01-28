@@ -12,27 +12,6 @@ license: LGPL-2.1
 name: avahi-gtk3
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: net-dns
   description: ""
   license: ""
@@ -51,6 +30,27 @@ requires:
   description: ""
   license: ""
   name: pygobject
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 uri:
