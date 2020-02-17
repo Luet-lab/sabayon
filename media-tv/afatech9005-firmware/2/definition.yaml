@@ -1,6 +1,7 @@
 category: media-tv
 conflicts: []
 description: Firmware for the Afatech 9005 DVB-T device
+id: 0
 license: AS-IS
 name: afatech9005-firmware
 requires: []

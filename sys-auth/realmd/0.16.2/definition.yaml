@@ -1,33 +1,14 @@
 category: sys-auth
 conflicts: []
 description: DBus service for configuring kerberos and other online identities
+id: 0
 license: LGPL-2+
 name: realmd
 requires:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: krb5
   
@@ -35,6 +16,7 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: systemd
   
@@ -42,8 +24,33 @@ requires:
 - 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: packagekit-base
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
   
   version: ""
 uri:

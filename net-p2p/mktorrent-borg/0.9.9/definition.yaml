@@ -1,5 +1,6 @@
 category: net-p2p
 description: Console .torrent file creator. It support Multi Trackers (tier groups)
+id: 0
 license: BSD
 name: mktorrent-borg
 uri: []

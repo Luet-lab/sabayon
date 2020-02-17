@@ -1,12 +1,14 @@
 category: virtual
 conflicts: []
 description: Virtual for Linux kernel binaries
+id: 0
 license: ""
 name: linux-binary
 requires:
 - 
   category: sys-kernel
   description: ""
+  id: 0
   license: ""
   name: linux-sabayon
   

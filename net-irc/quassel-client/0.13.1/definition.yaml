@@ -2,54 +2,46 @@ category: net-irc
 conflicts: []
 description: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client
   only)
+id: 0
 license: GPL-3
 name: quassel-client
 requires:
 - 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
+  id: 0
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
   license: ""
   name: kwidgetsaddons
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
+  id: 0
   license: ""
   name: sonnet
   
@@ -57,6 +49,7 @@ requires:
 - 
   category: net-irc
   description: ""
+  id: 0
   license: ""
   name: quassel-common
   
@@ -64,48 +57,79 @@ requires:
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: qtcore
+  name: qtdbus
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
+  id: 0
   license: ""
   name: kcoreaddons
   
   version: ""
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: snorenotify
-  
-  version: 0.7.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: qtmultimedia
+  name: qtgui
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
+  id: 0
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
   license: ""
   name: kconfigwidgets
   
@@ -113,22 +137,17 @@ requires:
 - 
   category: kde-frameworks
   description: ""
+  id: 0
   license: ""
-  name: ktextwidgets
+  name: knotifications
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
+  id: 0
   license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: knotifyconfig
   
   version: ""
 uri:

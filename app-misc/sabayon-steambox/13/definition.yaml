@@ -1,12 +1,14 @@
 category: app-misc
 conflicts: []
 description: Sabayon Steam Box provisioning tools
+id: 0
 license: GPL-2
 name: sabayon-steambox
 requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: sabayon-live
   

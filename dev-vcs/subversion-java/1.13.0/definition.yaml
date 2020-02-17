@@ -1,26 +1,14 @@
 category: dev-vcs
 conflicts: []
 description: Java bindings for Subversion
+id: 0
 license: Subversion
 name: subversion-java
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.8"
-- 
   category: dev-vcs
   description: ""
+  id: 0
   license: ""
   name: subversion
   
@@ -28,6 +16,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: apr
   
@@ -35,6 +24,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: apr-util
   
@@ -42,6 +32,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libutf8proc
   
@@ -49,6 +40,7 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: file
   
@@ -56,10 +48,27 @@ requires:
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: bzip2
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  id: 0
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: "1.8"
 uri:
 - mirror://apache/subversion/subversion-1.13.0.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/subversion-1.10.0_rc1-patches-1.tar.xz

@@ -1,0 +1,28 @@
+category: app-misc
+conflicts: []
+description: Official Sabayon Linux Entropy Notification Applet Loader
+id: 0
+license: GPL-2
+name: magneto-loader
+requires:
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: magneto-core
+  
+  version: "324"
+- 
+  category: app-admin
+  description: ""
+  id: 0
+  license: ""
+  name: rigo
+  
+  version: "324"
+uri:
+- mirror://sabayon/sys-apps/entropy-324.tar.bz2
+use_flags:
+- ""
+version: "324"

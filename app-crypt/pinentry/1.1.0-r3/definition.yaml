@@ -2,19 +2,14 @@ category: app-crypt
 conflicts: []
 description: Simple passphrase entry dialogs which utilize the Assuan protocol (meta
   package)
+id: 0
 license: GPL-2
 name: pinentry
 requires:
 - 
   category: app-crypt
   description: ""
-  license: ""
-  name: pinentry-qt5
-  
-  version: 1.1.0
-- 
-  category: app-crypt
-  description: ""
+  id: 0
   license: ""
   name: gcr
   
@@ -22,6 +17,7 @@ requires:
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-base
   
@@ -29,6 +25,7 @@ requires:
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-gnome
   
@@ -36,8 +33,17 @@ requires:
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-gtk2
+  
+  version: 1.1.0
+- 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: pinentry-qt5
   
   version: 1.1.0
 uri: []

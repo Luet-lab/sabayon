@@ -3,31 +3,44 @@ conflicts:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: gxneur
   
   version: ""
 description: In-place conversion of text typed in with a wrong keyboard layout
+id: 0
 license: GPL-2
 name: xneur
 requires:
 - 
-  category: media-sound
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: alsa-utils
+  name: zlib
   
-  version: 1.0.17
+  version: ""
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: enchant
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gstreamer
   
@@ -35,48 +48,23 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: freealut
   
   version: 1.0.1
 - 
-  category: x11-libs
+  category: media-sound
   description: ""
+  id: 0
   license: ""
-  name: xosd
+  name: alsa-utils
   
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: 1.0.17
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: libnotify
   
@@ -84,13 +72,39 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-good
   
   version: ""
 - 
+  category: media-plugins
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-alsa
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
+  id: 0
+  license: ""
+  name: xosd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre
+  
+  version: "5.0"
+- 
+  category: x11-libs
+  description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -98,6 +112,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libXi
   
@@ -105,15 +120,17 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libXtst
   
   version: ""
 - 
-  category: virtual
+  category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libintl
+  name: gtk+
   
   version: ""
 uri:

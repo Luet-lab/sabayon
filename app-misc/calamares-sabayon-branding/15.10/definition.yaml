@@ -1,12 +1,14 @@
 category: app-misc
 conflicts: []
 description: Sabayon Official Calamares branding
+id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-branding
 requires:
 - 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: calamares
   

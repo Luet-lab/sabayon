@@ -1,26 +1,62 @@
 category: app-admin
 conflicts: []
 description: Distribution-independent installer framework
+id: 0
 license: GPL-3
 name: calamares
 requires:
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: parted
+  name: dbus
   
-  version: "3.0"
+  version: ""
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: dmidecode
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: polkit-qt[qt5(+)]
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: PythonQt
+  
+  version: "3.1"
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  id: 0
+  license: ""
+  name: yaml-cpp
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: boost
   
@@ -28,62 +64,39 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libpwquality
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-block
   description: ""
+  id: 0
   license: ""
-  name: dbus
+  name: parted
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit-qt[qt5(+)]
-  
-  version: ""
+  version: "3.0"
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: kpmcore
   
   version: 3.0.3
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PythonQt
-  
-  version: "3.1"
-- 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: sudo
   
   version: ""
 - 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libatasmart
   

@@ -1,12 +1,14 @@
 category: app-misc
 conflicts: []
 description: Tux Commander - Fast and Small filemanager - VFS modules
+id: 0
 license: GPL-2 unrar? ( unRAR )
 name: tuxcmd-modules
 requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: tuxcmd
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -21,6 +24,7 @@ requires:
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gvfs
   
@@ -28,6 +32,7 @@ requires:
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: libarchive
   

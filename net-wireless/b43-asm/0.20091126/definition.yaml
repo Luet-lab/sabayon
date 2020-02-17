@@ -1,5 +1,6 @@
 category: net-wireless
 description: Assembler for Broadcom BCM43xx firmware
+id: 0
 license: GPL-2
 name: b43-asm
 uri:

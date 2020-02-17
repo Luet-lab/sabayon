@@ -1,5 +1,6 @@
 category: net-wireless
 description: OpenBroadcom Firmware
+id: 0
 license: GPL-2
 name: b43-openfwwf
 uri:

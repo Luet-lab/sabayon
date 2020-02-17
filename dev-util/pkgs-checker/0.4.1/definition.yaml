@@ -1,6 +1,7 @@
 category: dev-util
 conflicts: []
 description: Sabayon Packages Checker
+id: 0
 license: GPL-3
 name: pkgs-checker
 requires: []

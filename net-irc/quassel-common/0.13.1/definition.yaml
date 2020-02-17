@@ -1,6 +1,7 @@
 category: net-irc
 conflicts: []
 description: Qt/KDE IRC client supporting a remote daemon (common files)
+id: 0
 license: GPL-3
 name: quassel-common
 requires: []

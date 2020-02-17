@@ -1,12 +1,14 @@
 category: sys-apps
 conflicts: []
 description: Tools for certain user account management tasks
+id: 0
 license: GPL-2
 name: usermode
 requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: shadow
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: util-linux
   

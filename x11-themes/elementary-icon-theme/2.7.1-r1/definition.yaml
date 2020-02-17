@@ -1,6 +1,7 @@
 category: x11-themes
 conflicts: []
 description: Elementary gnome icon theme
+id: 0
 license: GPL-2
 name: elementary-icon-theme
 requires: []

@@ -1,12 +1,22 @@
 category: net-print
 conflicts: []
 description: CUPS filters and drivers for Brother HL-5340D
+id: 0
 license: as-is
 name: brother-hl5340d-drivers
 requires:
 - 
+  category: app-emulation
+  description: ""
+  id: 0
+  license: ""
+  name: emul-linux-x86-baselibs
+  
+  version: ""
+- 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: ghostscript-gpl
   
@@ -14,15 +24,9 @@ requires:
 - 
   category: net-print
   description: ""
+  id: 0
   license: ""
   name: cups
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-baselibs
   
   version: ""
 uri:

@@ -1,40 +1,22 @@
 category: app-text
 conflicts: []
 description: PDF rendering library based on the xpdf-3.0 code base (meta package)
+id: 0
 license: GPL-2
 name: poppler
 requires:
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
-  name: poppler-base-0.82.0[debug=]
+  name: poppler-base-0.82.0[lcms=]
   
   version: ""
 - 
   category: app-text
   description: ""
-  license: ""
-  name: poppler-base-0.82.0[jpeg=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[png=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[nss=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
+  id: 0
   license: ""
   name: poppler-base-0.82.0[tiff=]
   
@@ -42,6 +24,7 @@ requires:
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: poppler-base-0.82.0[utils=]
   
@@ -49,20 +32,15 @@ requires:
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
-  name: poppler-base-0.82.0[cxx=]
+  name: poppler-base-0.82.0[nss=]
   
   version: ""
 - 
   category: app-text
   description: ""
-  license: ""
-  name: poppler-base-0.82.0[curl=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
+  id: 0
   license: ""
   name: poppler-base-0.82.0[jpeg2k=]
   
@@ -70,8 +48,41 @@ requires:
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
-  name: poppler-base-0.82.0[lcms=]
+  name: poppler-base-0.82.0[png=]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: poppler-base-0.82.0[cxx=]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: poppler-base-0.82.0[curl=]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: poppler-base-0.82.0[debug=]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: poppler-base-0.82.0[jpeg=]
   
   version: ""
 uri: []

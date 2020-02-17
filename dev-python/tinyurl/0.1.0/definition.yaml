@@ -1,6 +1,7 @@
 category: dev-python
 conflicts: []
 description: Super tiny library and command-line interface to tinyurl.com
+id: 0
 license: MIT
 name: tinyurl
 requires: []

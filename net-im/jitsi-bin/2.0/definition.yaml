@@ -2,6 +2,7 @@ category: net-im
 conflicts: []
 description: Secure IM communicator that supports SIP, XMPP/Jabber, AIM/ICQ, Windows
   Live, Yahoo
+id: 0
 license: LGPL-2
 name: jitsi-bin
 requires: []

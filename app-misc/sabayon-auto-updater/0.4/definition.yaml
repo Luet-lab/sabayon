@@ -2,6 +2,7 @@ category: app-misc
 conflicts: []
 description: Sabayon Automatic Updater systemd service. Do not use in production or
   @home!
+id: 0
 license: GPL-2
 name: sabayon-auto-updater
 requires: []

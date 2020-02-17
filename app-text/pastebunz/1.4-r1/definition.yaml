@@ -1,6 +1,7 @@
 category: app-text
 conflicts: []
 description: command line interface to http://pastebin.sabayonlinux.org/
+id: 0
 license: GPL-2
 name: pastebunz
 requires: []

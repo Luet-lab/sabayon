@@ -1,110 +1,54 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-boot
+  category: =sys-apps
   description: ""
+  id: 0
   license: ""
-  name: grub
+  name: grep-2.13*
   
-  version: 2.00-r2
+  version: ""
 - 
   category: sys-fs
   description: ""
+  id: 0
   license: ""
   name: zfs-fuse
   
   version: ""
 - 
-  category: =sys-apps
+  category: <sys-boot
   description: ""
+  id: 0
   license: ""
-  name: grep-2.13*
+  name: grub
   
-  version: ""
+  version: 2.00-r2
 description: Userland utilities for ZFS Linux kernel module
+id: 0
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
+  id: 0
   license: ""
   name: zfs-kmod
   
   version: 0.7.12
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
   category: sys-block
   description: ""
+  id: 0
   license: ""
   name: parted
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: cpio
   
@@ -112,8 +56,81 @@ requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  id: 0
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: mdadm
   
   version: ""
 uri:

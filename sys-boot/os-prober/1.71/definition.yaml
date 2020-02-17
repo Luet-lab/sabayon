@@ -1,5 +1,6 @@
 category: sys-boot
 description: Utility to detect other OSs on a set of drives
+id: 0
 license: GPL-3
 name: os-prober
 uri:

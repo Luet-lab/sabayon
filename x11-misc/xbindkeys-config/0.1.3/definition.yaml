@@ -1,19 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Gtk+ program for configuring xbindkeys
+id: 0
 license: GPL-2
 name: xbindkeys-config
 requires:
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xbindkeys
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -21,8 +16,17 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  id: 0
+  license: ""
+  name: xbindkeys
   
   version: ""
 uri:

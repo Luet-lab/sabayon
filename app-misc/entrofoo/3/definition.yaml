@@ -1,12 +1,14 @@
 category: app-misc
 conflicts: []
 description: Sabayon Linux Entropy Test Package (fooooon't install this)
+id: 0
 license: GPL-2
 name: entrofoo
 requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: entrofoo-fail
   

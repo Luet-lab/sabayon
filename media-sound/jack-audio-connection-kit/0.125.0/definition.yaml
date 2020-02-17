@@ -3,6 +3,7 @@ conflicts:
 - 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: jack-cvs
   
@@ -10,6 +11,7 @@ conflicts:
 - 
   category: <=app-emulation
   description: ""
+  id: 0
   license: ""
   name: emul-linux-x86-soundlibs
   
@@ -17,59 +19,20 @@ conflicts:
 - 
   category: app-emulation
   description: ""
+  id: 0
   license: ""
   name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
   
   version: ""
 description: A low-latency audio server
+id: 0
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: 0.1.8-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libffado
-  
-  version: ""
-- 
   category: sys-process
   description: ""
+  id: 0
   license: ""
   name: lsof
   
@@ -77,10 +40,59 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: realtime-base
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.0
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libffado
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.8-r1
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

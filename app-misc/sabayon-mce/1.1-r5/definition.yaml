@@ -1,12 +1,14 @@
 category: app-misc
 conflicts: []
 description: Sabayon Linux Media Center Infrastructure
+id: 0
 license: GPL-2
 name: sabayon-mce
 requires:
 - 
   category: media-tv
   description: ""
+  id: 0
   license: ""
   name: kodi
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: sabayon-live
   

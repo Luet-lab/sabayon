@@ -1,6 +1,7 @@
 category: x11-themes
 conflicts: []
 description: Sabayon GRUB2 background images
+id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-grub
 requires: []

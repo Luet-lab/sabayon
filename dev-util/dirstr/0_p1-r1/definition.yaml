@@ -1,6 +1,7 @@
 category: dev-util
 conflicts: []
 description: Makes a directory structure according to a specifcation file
+id: 0
 license: Apache-2.0
 name: dirstr
 requires: []

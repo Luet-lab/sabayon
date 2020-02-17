@@ -1,40 +1,22 @@
 category: sys-devel
 conflicts: []
 description: The GNU Compiler Collection
+id: 0
 license: ""
 name: gcc
 requires:
 - 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
-  name: base-gcc-6.4.0[altivec?]
+  name: base-gcc-6.4.0[nptl?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
-  license: ""
-  name: base-gcc-6.4.0[cxx?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[gcj?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[openmp?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
+  id: 0
   license: ""
   name: base-gcc-6.4.0[fixed-point?]
   
@@ -42,6 +24,7 @@ requires:
 - 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
   name: base-gcc-6.4.0[objc?]
   
@@ -49,48 +32,7 @@ requires:
 - 
   category: sys-devel
   description: ""
-  license: ""
-  name: base-gcc-6.4.0[nls?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[doc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[objc-gc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[vanilla?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[hardened?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-6.4.0[objc++?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
+  id: 0
   license: ""
   name: base-gcc-6.4.0[graphite?]
   
@@ -98,6 +40,63 @@ requires:
 - 
   category: sys-devel
   description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[objc-gc?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[vanilla?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[gcj?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[nls?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[hardened?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[cxx?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
   license: ""
   name: base-gcc-6.4.0[multilib?]
   
@@ -105,8 +104,25 @@ requires:
 - 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
-  name: base-gcc-6.4.0[nptl?]
+  name: base-gcc-6.4.0[openmp?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[altivec?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc-6.4.0[doc?]
   
   version: ""
 uri: []

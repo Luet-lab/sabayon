@@ -3,17 +3,28 @@ conflicts:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: xneur
   
   version: ""
 description: GTK+ based GUI for xneur
+id: 0
 license: GPL-2
 name: gxneur
 requires:
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libappindicator
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gconf
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: libintl
   
@@ -28,6 +40,7 @@ requires:
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: libglade
   
@@ -35,6 +48,7 @@ requires:
 - 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
   name: gettext
   
@@ -42,17 +56,11 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: "2.18"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libappindicator
-  
-  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.20.0.orig.tar.gz
 use_flags:

@@ -1,12 +1,14 @@
 category: app-admin
 conflicts: []
 description: Sabayon Mirrors Updater
+id: 0
 license: GPL-3
 name: sabayon-mirrors
 requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: wget
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: shyaml
   

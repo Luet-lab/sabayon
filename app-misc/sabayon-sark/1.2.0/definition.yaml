@@ -1,19 +1,14 @@
 category: app-misc
 conflicts: []
 description: Sabayon Automated Repository Kit
+id: 0
 license: GPL-2
 name: sabayon-sark
 requires:
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
   
@@ -21,6 +16,7 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: shyaml
   
@@ -28,6 +24,7 @@ requires:
 - 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: pkgs-checker
   
@@ -35,6 +32,7 @@ requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: sabayon-devkit
   
@@ -42,8 +40,17 @@ requires:
 - 
   category: sys-process
   description: ""
+  id: 0
   license: ""
   name: tini
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  id: 0
+  license: ""
+  name: docker
   
   version: ""
 uri:

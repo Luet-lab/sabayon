@@ -1,12 +1,22 @@
 category: sci-libs
 conflicts: []
 description: Virtual Globe library
+id: 0
 license: GPL-3
 name: grits
 requires:
 - 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsoup
+  
+  version: "2.26"
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.26"
 uri:
 - http://lug.rose-hulman.edu/proj/grits/grits-0.6.3.tar.gz
 use_flags:

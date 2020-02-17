@@ -1,12 +1,14 @@
 category: x11-themes
 conflicts: []
 description: Themes for the Equinox GTK engine
+id: 0
 license: GPL-2
 name: equinox-themes
 requires:
 - 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: gtk-engines-equinox
   

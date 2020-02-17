@@ -1,12 +1,22 @@
 category: x11-misc
 conflicts: []
 description: Entropy Package Manager notification applet GTK2 frontend
+id: 0
 license: GPL-2
 name: magneto-gtk
 requires:
 - 
   category: dev-python
   description: ""
+  id: 0
+  license: ""
+  name: notify-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
   license: ""
   name: pygtk
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: magneto-loader
   
   version: "322"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: notify-python
-  
-  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-322.tar.bz2
 use_flags:

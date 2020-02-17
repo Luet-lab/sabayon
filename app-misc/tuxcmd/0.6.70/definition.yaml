@@ -1,12 +1,22 @@
 category: app-misc
 conflicts: []
 description: Tux Commander - Fast and Small filemanager using GTK2
+id: 0
 license: GPL-2
 name: tuxcmd
 requires:
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  
+  version: "1.4"
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: atk
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -28,6 +40,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: pango
   
@@ -35,6 +48,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
@@ -42,17 +56,11 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: expat
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-0.6.70.tar.bz2
 use_flags:

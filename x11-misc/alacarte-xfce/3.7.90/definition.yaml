@@ -1,12 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Simple GNOME menu editor (meta package)
+id: 0
 license: metapackage
 name: alacarte-xfce
 requires:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: alacarte
   

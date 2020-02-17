@@ -1,47 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Simple Desktop Display Manager
+id: 0
 license: GPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0 public-domain
 name: sddm
 requires:
 - 
   category: dev-qt
   description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: "5.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
+  id: 0
   license: ""
   name: qtcore
   
@@ -49,34 +16,23 @@ requires:
 - 
   category: dev-qt
   description: ""
-  license: ""
-  name: qtdbus
-  
-  version: "5.6"
-- 
-  category: dev-qt
-  description: ""
+  id: 0
   license: ""
   name: qtdeclarative
   
   version: "5.6"
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: qtgui
+  name: qtnetwork
   
   version: "5.6"
 - 
   category: x11-base
   description: ""
+  id: 0
   license: ""
   name: xorg-server
   
@@ -84,10 +40,67 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtdbus
+  
+  version: "5.6"
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtgui
+  
+  version: "5.6"
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
   license: ""
   name: consolekit
   
   version: 0.9.4
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  id: 0
+  license: ""
+  name: upower
+  
+  version: ""
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.17.0/sddm-0.17.0.tar.gz
 use_flags:

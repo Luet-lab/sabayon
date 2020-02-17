@@ -3,17 +3,20 @@ conflicts:
 - 
   category: '!app-misc'
   description: ""
+  id: 0
   license: ""
   name: calamares-sabayon-base-modules
   
   version: ""
 description: Sabayon Official Calamares base modules
+id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server-base-modules
 requires:
 - 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: calamares
   
@@ -21,6 +24,7 @@ requires:
 - 
   category: sys-kernel
   description: ""
+  id: 0
   license: ""
   name: dracut
   

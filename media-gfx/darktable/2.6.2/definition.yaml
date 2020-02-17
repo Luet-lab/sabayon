@@ -1,75 +1,46 @@
 category: media-gfx
 conflicts: []
 description: A virtual lighttable and darkroom for photographers
+id: 0
 license: GPL-3 CC-BY-3.0
 name: darktable
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: lcms
+  name: libxml2
   
   version: ""
 - 
-  category: net-libs
+  category: virtual
   description: ""
+  id: 0
   license: ""
-  name: libsoup
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: colord-gtk
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
+  name: jpeg
   
   version: ""
 - 
   category: media-gfx
   description: ""
+  id: 0
   license: ""
   name: graphicsmagick
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
+  id: 0
   license: ""
-  name: json-glib
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
+  name: sqlite
   
   version: ""
 - 
   category: media-gfx
   description: ""
+  id: 0
   license: ""
   name: exiv2
   
@@ -77,125 +48,15 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.14"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pugixml
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flickcurl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgphoto2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwallet
-  
-  version: 5.34.0-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lensfun
-  
-  version: 0.2.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
+  name: lcms
   
   version: ""
 - 
   category: sci-geosciences
   description: ""
+  id: 0
   license: ""
   name: osm-gps-map
   
@@ -203,8 +64,177 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: openexr
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  id: 0
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: flickcurl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: kwallet
+  
+  version: 5.34.0-r1
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: pugixml
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: colord-gtk
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: openjpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: "3.14"
+- 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: lensfun
+  
+  version: 0.2.3
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsoup
   
   version: ""
 uri:

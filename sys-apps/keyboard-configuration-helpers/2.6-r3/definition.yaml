@@ -1,6 +1,7 @@
 category: sys-apps
 conflicts: []
 description: Sabayon Keyboard configuration wrapper
+id: 0
 license: GPL-2
 name: keyboard-configuration-helpers
 requires: []

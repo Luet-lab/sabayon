@@ -1,6 +1,7 @@
 category: sys-apps
 conflicts: []
 description: A daemon to run x86 code in an emulated environment
+id: 0
 license: GPL-2
 name: v86d
 requires: []

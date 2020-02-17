@@ -3,11 +3,13 @@ conflicts:
 - 
   category: media-plugins
   description: ""
+  id: 0
   license: ""
   name: deadbeef-ffmpeg
   
   version: ""
 description: foobar2k-like music player
+id: 0
 license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.9.2
   )\n\tshn? ( shorten )"
 name: deadbeef
@@ -15,6 +17,7 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: alsa-lib
   
@@ -22,104 +25,23 @@ requires:
 - 
   category: media-libs
   description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzip
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.90"
-- 
-  category: media-libs
-  description: ""
+  id: 0
   license: ""
   name: imlib2
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: flac
+  
+  version: ""
+- 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: timidity-freepats
   
@@ -127,48 +49,151 @@ requires:
 - 
   category: media-sound
   description: ""
+  id: 0
   license: ""
-  name: pulseaudio
+  name: musepack-tools
   
   version: ""
 - 
   category: media-libs
   description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "9"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
+  id: 0
   license: ""
   name: libsndfile
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libzip
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: adplug
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcddb
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtkglext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libmms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: zlib
   

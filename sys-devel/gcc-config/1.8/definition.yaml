@@ -1,5 +1,6 @@
 category: sys-devel
 description: utility to manage compilers
+id: 0
 license: GPL-2
 name: gcc-config
 uri:

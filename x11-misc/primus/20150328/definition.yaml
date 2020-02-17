@@ -1,12 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Faster OpenGL offloading for Bumblebee
+id: 0
 license: ISC
 name: primus
 requires:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: bumblebee[video_cards_nvidia]
   

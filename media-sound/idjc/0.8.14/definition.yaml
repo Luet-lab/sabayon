@@ -1,82 +1,62 @@
 category: media-sound
 conflicts: []
 description: IDJC has two media players, jingles player, crossfader, VoIP and streaming
+id: 0
 license: GPL-2
 name: idjc
 requires:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
-  
-  version: ""
-- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: mysql-python
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: eyeD3
   
   version: ""
 - 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: jack-audio-connection-kit
   
   version: 0.116.0
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: lame
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: mutagen
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: opus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: pygtk
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
   category: media-libs
   description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
+  id: 0
   license: ""
   name: libsamplerate
   
@@ -84,36 +64,73 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libvorbis
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
+  id: 0
   license: ""
-  name: mutagen
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
+  name: mpg123
   
   version: ""
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libsndfile
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: opus
+  name: flac
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: speex
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: twolame
   
   version: ""
 uri:

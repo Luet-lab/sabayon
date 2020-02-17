@@ -1,12 +1,14 @@
 category: dev-util
 conflicts: []
 description: Eclipse SDK
+id: 0
 license: EPL-1.0
 name: eclipse-sdk-bin
 requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: jdk
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   

@@ -2,6 +2,7 @@ category: app-cdr
 conflicts: []
 description: Provides a way of making use of the ISO9660 application data area to
   store md5sum data about the iso
+id: 0
 license: GPL-2
 name: isomd5sum
 requires: []

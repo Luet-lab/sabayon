@@ -3,46 +3,29 @@ conflicts:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: gxneur
   
   version: ""
 description: In-place conversion of text typed in with a wrong keyboard layout (Punto
   Switcher replacement)
+id: 0
 license: GPL-2
 name: xneur
 requires:
 - 
-  category: media-libs
+  category: media-sound
   description: ""
+  id: 0
   license: ""
-  name: gstreamer
+  name: alsa-utils
   
-  version: 0.10.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xosd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: 1.0.17
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: enchant
   
@@ -50,34 +33,15 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-good
   
   version: ""
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: 1.0.17
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.4.0
-- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: libintl
   
@@ -85,13 +49,31 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libXtst
+  name: libX11
+  
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: xosd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
   
   version: ""
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: freealut
   
@@ -99,17 +81,51 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libX11
+  name: libnotify
   
-  version: "1.1"
+  version: 0.4.0
 - 
   category: media-plugins
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-alsa
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gstreamer
+  
+  version: 0.10.6
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre
+  
+  version: "5.0"
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

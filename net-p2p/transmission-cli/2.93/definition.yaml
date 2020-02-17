@@ -1,5 +1,6 @@
 category: net-p2p
 description: A Fast, Easy and Free BitTorrent client - command line (CLI) version
+id: 0
 license: ""
 name: transmission-cli
 uri: []

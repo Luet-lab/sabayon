@@ -1,12 +1,14 @@
 category: net-print
 conflicts: []
 description: CUPS filters and drivers for Xerox Phaser 6000B and 6010
+id: 0
 license: as-is
 name: xerox-phaser6000-drivers
 requires:
 - 
   category: net-print
   description: ""
+  id: 0
   license: ""
   name: cups
   

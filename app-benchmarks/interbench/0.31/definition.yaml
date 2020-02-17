@@ -1,6 +1,7 @@
 category: app-benchmarks
 conflicts: []
 description: Con Kolivas' Benchmarking Suite -- Successor to Contest
+id: 0
 license: GPL-2
 name: interbench
 requires: []

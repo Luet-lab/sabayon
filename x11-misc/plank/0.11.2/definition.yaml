@@ -1,19 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Dock panel famious docky
+id: 0
 license: LGPL-3
 name: plank
 requires:
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: bamf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -21,6 +16,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libdbusmenu
   
@@ -28,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libwnck
   
@@ -35,6 +32,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -42,6 +40,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgee
   
@@ -49,8 +48,17 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: bamf
   
   version: ""
 uri:

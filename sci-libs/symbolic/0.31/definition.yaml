@@ -1,6 +1,7 @@
 category: sci-libs
 conflicts: []
 description: a library for manipulating mathematical expressions
+id: 0
 license: MIT
 name: symbolic
 requires: []

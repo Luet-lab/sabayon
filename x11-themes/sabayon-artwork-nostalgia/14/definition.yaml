@@ -3,11 +3,13 @@ conflicts:
 - 
   category: <x11-themes
   description: ""
+  id: 0
   license: ""
   name: sabayon-artwork-core
   
   version: "14"
 description: Official Sabayon Linux Nostalgia Wallpapers Artwork
+id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-nostalgia
 requires: []

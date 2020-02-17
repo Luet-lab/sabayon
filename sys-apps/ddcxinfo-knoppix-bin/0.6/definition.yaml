@@ -1,6 +1,7 @@
 category: sys-apps
 conflicts: []
 description: Program to automatically probe a monitor for information
+id: 0
 license: GPL-2
 name: ddcxinfo-knoppix-bin
 requires: []

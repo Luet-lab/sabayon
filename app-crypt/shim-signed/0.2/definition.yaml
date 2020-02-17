@@ -1,6 +1,7 @@
 category: app-crypt
 conflicts: []
 description: A Microsoft-signed version of the UEFI Shim bootloader for SecureBoot
+id: 0
 license: as-is
 name: shim-signed
 requires: []

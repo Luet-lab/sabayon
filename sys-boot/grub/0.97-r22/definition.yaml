@@ -1,12 +1,14 @@
 category: sys-boot
 conflicts: []
 description: GNU GRUB Legacy boot loader
+id: 0
 license: GPL-2
 name: grub
 requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: ncurses
   

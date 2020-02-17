@@ -1,5 +1,6 @@
 category: app-misc
 description: Allow users in the entropy group to run system upgrades without password
+id: 0
 license: GPL-2
 name: passwordless-upgrade
 uri: []

@@ -1,12 +1,14 @@
 category: net-p2p
 conflicts: []
 description: A Fast, Easy and Free BitTorrent client - Gtk+ UI
+id: 0
 license: ""
 name: transmission-gtk
 requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: dbus-glib
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -21,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -28,6 +32,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libappindicator
   

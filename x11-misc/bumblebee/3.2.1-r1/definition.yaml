@@ -2,19 +2,14 @@ category: x11-misc
 conflicts: []
 description: Service providing elegant and stable means of managing Optimus graphics
   chipsets
+id: 0
 license: GPL-3
 name: bumblebee
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: virtualgl
   
@@ -22,8 +17,17 @@ requires:
 - 
   category: sys-power
   description: ""
+  id: 0
   license: ""
   name: bbswitch
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: opengl
   
   version: ""
 uri:

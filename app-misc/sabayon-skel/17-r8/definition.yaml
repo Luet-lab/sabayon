@@ -3,11 +3,13 @@ conflicts:
 - 
   category: <=app-misc
   description: ""
+  id: 0
   license: ""
   name: sabayonlinux-skel
   
   version: 3.5-r6
 description: Sabayon Linux skel tree
+id: 0
 license: GPL-2
 name: sabayon-skel
 requires: []

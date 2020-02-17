@@ -1,22 +1,25 @@
 category: app-misc
 conflicts:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
-- 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: eselect-init
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
   category: <sys-apps
   description: ""
+  id: 0
   license: ""
   name: sysvinit
   
@@ -24,31 +27,20 @@ conflicts:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: hal
   
   version: ""
 description: Sabayon system release virtual package
+id: 0
 license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc-config
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: python
   
@@ -56,29 +48,49 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: systemd
   
   version: ""
 - 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: ""
-- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: man
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: base-gcc
+  
+  version: ""
+- 
   category: app-eselect
   description: ""
+  id: 0
   license: ""
   name: eselect-python
+  
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  id: 0
+  license: ""
+  name: sabayon-dracut
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gcc-config
   
   version: ""
 uri: []

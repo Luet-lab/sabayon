@@ -1,19 +1,14 @@
 category: media-gfx
 conflicts: []
 description: XSane plugin for GIMP
+id: 0
 license: GPL-2
 name: xsane-gimp
 requires:
 - 
   category: media-gfx
   description: ""
-  license: ""
-  name: sane-backends
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
+  id: 0
   license: ""
   name: xsane
   
@@ -21,8 +16,17 @@ requires:
 - 
   category: media-gfx
   description: ""
+  id: 0
   license: ""
   name: gimp
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  id: 0
+  license: ""
+  name: sane-backends
   
   version: ""
 uri:

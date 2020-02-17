@@ -1,26 +1,14 @@
 category: app-misc
 conflicts: []
 description: A simple CLI interface to packages.sabayon.org
+id: 0
 license: MIT
 name: querypkg
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Scalar-List-Utils
-  
-  version: 1.350.0
-- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
   
@@ -28,6 +16,7 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: JSON-XS
   
@@ -35,10 +24,27 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: URI
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: perl-Scalar-List-Utils
+  
+  version: 1.350.0
 uri:
 - https://github.com/Enlik/querypkg/archive/v2.4.tar.gz -> querypkg-2.4.tar.gz
 use_flags:

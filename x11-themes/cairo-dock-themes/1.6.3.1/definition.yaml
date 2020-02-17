@@ -1,12 +1,14 @@
 category: x11-themes
 conflicts: []
 description: Official themes for Cairo-dock
+id: 0
 license: GPL-2
 name: cairo-dock-themes
 requires:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: cairo-dock
   

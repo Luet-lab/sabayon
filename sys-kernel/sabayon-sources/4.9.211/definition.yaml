@@ -1,5 +1,6 @@
 category: sys-kernel
 description: Official Sabayon Linux Standard kernel sources
+id: 0
 license: ""
 name: sabayon-sources
 uri: []

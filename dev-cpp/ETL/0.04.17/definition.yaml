@@ -1,6 +1,7 @@
 category: dev-cpp
 conflicts: []
 description: ETL is a multi-platform class and template library
+id: 0
 license: GPL-2
 name: ETL
 requires: []

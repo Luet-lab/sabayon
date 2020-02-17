@@ -1,26 +1,14 @@
 category: x11-misc
 conflicts: []
 description: Desktop automation utility for Linux and X11
+id: 0
 license: GPL-3
 name: autokey
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtksourceview
   
@@ -28,27 +16,15 @@ requires:
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: pango
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: pygobject
   
@@ -56,13 +32,7 @@ requires:
 - 
   category: dev-python
   description: ""
-  license: ""
-  name: pyatspi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pyinotify
   
@@ -70,13 +40,23 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: python-xlib
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pyatspi
+  
+  version: ""
+- 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: zenity
   
@@ -84,8 +64,41 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libnotify
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-python
   
   version: ""
 uri:

@@ -1,12 +1,14 @@
 category: sys-apps
 conflicts: []
 description: Entropy Package Manager notification applet library
+id: 0
 license: GPL-2
 name: magneto-core
 requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: rigo-daemon
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: xdg-utils
   

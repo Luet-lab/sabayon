@@ -1,12 +1,14 @@
 category: sys-apps
 conflicts: []
 description: Entropy Package Manager server-side tools
+id: 0
 license: GPL-2
 name: entropy-server
 requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: entropy
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: matter
   

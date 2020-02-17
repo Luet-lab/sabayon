@@ -1,23 +1,26 @@
 category: kde-misc
 conflicts: []
 description: Entropy Package Manager notification applet KDE frontend
+id: 0
 license: GPL-2
 name: magneto-kde
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PyQt5
-  
-  version: ""
-- 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: magneto-loader
   
   version: "323"
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: PyQt5
+  
+  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-323.tar.bz2
 use_flags:

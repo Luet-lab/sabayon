@@ -1,6 +1,7 @@
 category: x11-themes
 conflicts: []
 description: the Paper theme official icons.
+id: 0
 license: CC-BY-SA-4.0
 name: paper-icon-theme
 requires: []

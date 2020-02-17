@@ -1,21 +1,24 @@
 category: x11-themes
 conflicts: []
 description: Official Sabayon Linux Plymouth Artwork
+id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-default
 requires:
 - 
-  category: x11-themes
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: sabayon-artwork-plymouth-base
+  name: findutils
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-themes
   description: ""
+  id: 0
   license: ""
-  name: findutils
+  name: sabayon-artwork-plymouth-base
   
   version: ""
 uri:

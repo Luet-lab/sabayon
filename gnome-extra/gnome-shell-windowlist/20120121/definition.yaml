@@ -1,12 +1,14 @@
 category: gnome-extra
 conflicts: []
 description: Adds a window switcher to the top bar of gnome-shell
+id: 0
 license: GPL-2
 name: gnome-shell-windowlist
 requires:
 - 
   category: app-eselect
   description: ""
+  id: 0
   license: ""
   name: eselect-gnome-shell-extensions
   
@@ -14,6 +16,7 @@ requires:
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gnome-shell
   

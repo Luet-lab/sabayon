@@ -1,0 +1,60 @@
+category: app-admin
+conflicts: []
+description: Rigo, the Sabayon Application Browser
+id: 0
+license: GPL-3
+name: rigo
+requires:
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: vte
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  id: 0
+  license: ""
+  name: xdg-utils
+  
+  version: 1.1.0_rc1_p20120319
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: entropy
+  
+  version: "324"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: rigo-daemon
+  
+  version: "324"
+uri:
+- mirror://sabayon/sys-apps/entropy-324.tar.bz2
+use_flags:
+- +passwordless-upgrade
+version: 324-r1

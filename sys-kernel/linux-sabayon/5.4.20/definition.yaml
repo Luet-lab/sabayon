@@ -1,0 +1,7 @@
+category: sys-kernel
+description: Official Sabayon Linux Standard kernel image
+id: 0
+license: ""
+name: linux-sabayon
+uri: []
+version: 5.4.20

@@ -2,19 +2,14 @@ category: media-sound
 conflicts: []
 description: OSS Proxy Daemon is Linux userland OSS sound device implementation using
   CUSE
+id: 0
 license: GPL-2
 name: ossp
 requires:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
+  id: 0
   license: ""
   name: fuse
   
@@ -22,8 +17,17 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: alsa-lib
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
   
   version: ""
 uri:

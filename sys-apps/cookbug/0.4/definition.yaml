@@ -1,19 +1,14 @@
 category: sys-apps
 conflicts: []
 description: Sabayon Bug Report hardware information collector
+id: 0
 license: GPL-2
 name: cookbug
 requires:
 - 
   category: sys-apps
   description: ""
-  license: ""
-  name: coreutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
+  id: 0
   license: ""
   name: pciutils
   
@@ -21,6 +16,7 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: usbutils
   
@@ -28,8 +24,17 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: modutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: coreutils
   
   version: ""
 uri: []

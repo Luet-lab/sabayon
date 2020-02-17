@@ -1,82 +1,22 @@
 category: games-rpg
 conflicts: []
 description: RuneScape client for Linux and Unix
+id: 0
 license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libpng-compat
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-stringy
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: wget
-  
-  version: ""
-- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: alsa-oss
   
@@ -84,15 +24,89 @@ requires:
 - 
   category: app-emulation
   description: ""
+  id: 0
   license: ""
   name: wine
   
   version: ""
 - 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: Wx
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: wget
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  id: 0
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: IO-stringy
   
   version: ""
 uri:

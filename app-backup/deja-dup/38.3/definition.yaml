@@ -1,47 +1,22 @@
 category: app-backup
 conflicts: []
 description: Simple backup tool using duplicity back-end
+id: 0
 license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: dev-libs
+  category: app-admin
   description: ""
+  id: 0
   license: ""
-  name: glib
-  
-  version: "2.34"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: appstream-glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
+  name: packagekit-base
   
   version: ""
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: libsecret
   
@@ -49,6 +24,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libpeas
   
@@ -56,13 +32,39 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: "3.10"
 - 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.34"
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libnotify
   
@@ -70,6 +72,7 @@ requires:
 - 
   category: app-backup
   description: ""
+  id: 0
   license: ""
   name: duplicity
   
@@ -77,22 +80,33 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: dbus-glib
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: gnome-online-accounts
+  name: appstream-glib
   
   version: ""
 - 
-  category: app-admin
+  category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: packagekit-base
+  name: dconf
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gvfs
   
   version: ""
 uri:

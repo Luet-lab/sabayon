@@ -1,5 +1,6 @@
 category: sys-apps
 description: SNIA HBAAPI vendor library built on top of the scsi_transport_fc interfaces.
+id: 0
 license: SNIA
 name: libhbalinux
 uri:

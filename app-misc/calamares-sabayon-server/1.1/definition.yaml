@@ -3,6 +3,7 @@ conflicts:
 - 
   category: '!app-admin'
   description: ""
+  id: 0
   license: ""
   name: anaconda
   
@@ -10,66 +11,20 @@ conflicts:
 - 
   category: '!app-misc'
   description: ""
+  id: 0
   license: ""
   name: calamares-sabayon
   
   version: ""
 description: Sabayon Official Installer
+id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
 - 
   category: sys-fs
   description: ""
-  license: ""
-  name: jfsutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: reiserfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: ntfs3g
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-branding
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
+  id: 0
   license: ""
   name: xfsdump
   
@@ -77,8 +32,65 @@ requires:
 - 
   category: sys-fs
   description: ""
+  id: 0
+  license: ""
+  name: ntfs3g
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: jfsutils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
   license: ""
   name: btrfs-progs
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: calamares-sabayon-server-branding
   
   version: ""
 uri: []

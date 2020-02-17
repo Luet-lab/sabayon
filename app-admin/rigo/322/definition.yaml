@@ -1,6 +1,7 @@
 category: app-admin
 conflicts: []
 description: Rigo, the Sabayon Application Browser
+id: 0
 license: GPL-3
 name: rigo
 requires: []

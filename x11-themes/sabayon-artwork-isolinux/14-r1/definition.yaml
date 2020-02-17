@@ -1,6 +1,7 @@
 category: x11-themes
 conflicts: []
 description: Sabayon Isolinux Live Images Background
+id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-isolinux
 requires: []
