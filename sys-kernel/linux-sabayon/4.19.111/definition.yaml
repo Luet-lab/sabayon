@@ -1,0 +1,5 @@
+category: sys-kernel
+description: Official Sabayon Linux Standard kernel image
+id: 0
+name: linux-sabayon
+version: 4.19.111

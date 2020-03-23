@@ -5,19 +5,15 @@ id: 0
 license: GPL-3
 name: protontricks
 requires:
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
   name: winetricks
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: vdf
   
   version: ""

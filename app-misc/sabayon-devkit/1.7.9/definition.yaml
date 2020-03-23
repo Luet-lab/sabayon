@@ -5,92 +5,70 @@ id: 0
 license: GPL-2
 name: sabayon-devkit
 requires:
-- 
-  category: app-portage
-  description: ""
-  id: 0
-  license: ""
-  name: eix
   
-  version: ""
-- 
   category: app-portage
-  description: ""
   id: 0
-  license: ""
-  name: gentoolkit
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  id: 0
-  license: ""
   name: portage-utils
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  id: 0
-  license: ""
-  name: perl
   
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  id: 0
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  id: 0
-  license: ""
-  name: docker
-  
-  version: ""
-- 
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: pax-utils
   
   version: ""
-- 
-  category: app-portage
-  description: ""
-  id: 0
-  license: ""
-  name: repoman
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: querypkg
   
   version: ""
-- 
+  
   category: app-portage
-  description: ""
   id: 0
-  license: ""
+  name: eix
+  
+  version: ""
+  
+  category: app-portage
+  id: 0
+  name: repoman
+  
+  version: ""
+  
+  category: dev-lang
+  id: 0
+  name: perl
+  
+  version: ""
+  
+  category: dev-perl
+  id: 0
+  name: DBD-SQLite
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: gentoo-functions
+  
+  version: ""
+  
+  category: app-emulation
+  id: 0
+  name: docker
+  
+  version: ""
+  
+  category: app-portage
+  id: 0
   name: layman
+  
+  version: ""
+  
+  category: app-portage
+  id: 0
+  name: gentoolkit
   
   version: ""
 uri:

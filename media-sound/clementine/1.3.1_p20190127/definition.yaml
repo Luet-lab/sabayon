@@ -5,68 +5,52 @@ id: 0
 license: GPL-3
 name: clementine
 requires:
-- 
-  category: media-plugins
-  description: ""
-  id: 0
-  license: ""
-  name: gst-plugins-taglib
   
-  version: ""
-- 
   category: media-plugins
-  description: ""
   id: 0
-  license: ""
   name: gst-plugins-libmms
   
   version: ""
-- 
+  
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: gvfs
   
   version: ""
-- 
+  
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
   name: udisks
   
   version: ""
-- 
+  
   category: app-crypt
-  description: ""
   id: 0
-  license: ""
   name: qca
   
   version: ""
-- 
+  
   category: dev-db
-  description: ""
   id: 0
-  license: ""
   name: sqlite
   
   version: ""
-- 
+  
   category: media-plugins
-  description: ""
   id: 0
-  license: ""
   name: gst-plugins-meta
   
   version: ""
-- 
+  
   category: media-plugins
-  description: ""
   id: 0
-  license: ""
   name: gst-plugins-soup
+  
+  version: ""
+  
+  category: media-plugins
+  id: 0
+  name: gst-plugins-taglib
   
   version: ""
 uri:

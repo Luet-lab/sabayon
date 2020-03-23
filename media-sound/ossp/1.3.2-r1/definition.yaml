@@ -6,27 +6,21 @@ id: 0
 license: GPL-2
 name: ossp
 requires:
-- 
+  
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
   name: fuse
   
   version: 2.8.0
-- 
+  
   category: media-libs
-  description: ""
   id: 0
-  license: ""
   name: alsa-lib
   
   version: ""
-- 
+  
   category: media-sound
-  description: ""
   id: 0
-  license: ""
   name: pulseaudio
   
   version: ""

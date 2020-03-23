@@ -3,5 +3,4 @@ description: A mix of tools for Docker
 id: 0
 license: GPL-2
 name: docker-companion
-uri: []
 version: 0.4.5

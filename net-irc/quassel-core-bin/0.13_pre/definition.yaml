@@ -5,15 +5,12 @@ id: 0
 license: GPL-3
 name: quassel-core-bin
 requires:
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: zlib
   
   version: ""
-uri: []
 use_flags:
 - ""
 version: 0.13_pre

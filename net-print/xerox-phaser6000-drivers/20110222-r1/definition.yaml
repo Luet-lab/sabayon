@@ -5,11 +5,9 @@ id: 0
 license: as-is
 name: xerox-phaser6000-drivers
 requires:
-- 
+  
   category: net-print
-  description: ""
   id: 0
-  license: ""
   name: cups
   
   version: ""

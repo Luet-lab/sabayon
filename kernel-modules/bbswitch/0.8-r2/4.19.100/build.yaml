@@ -1,0 +1,20 @@
+steps:
+- source /etc/profile && emerge -j 3 -t --nospinner -b =${GENTOO_CATEGORY}/bbswitch-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv bbswitch-${GENTOO_VERSION}.tbz2 bbswitch-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=0.8-r2"
+- "GENTOO_CATEGORY=sys-power"
+requires:
+- category: "sys-kernel"
+  version:  "4.19.100"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.19.100"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

@@ -5,21 +5,16 @@ id: 0
 license: GPL-3
 name: sabayon-mirrors
 requires:
-- 
+  
   category: net-misc
-  description: ""
   id: 0
-  license: ""
   name: wget
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: shyaml
   
   version: ""
-uri: []
 version: "1.0"

@@ -5,15 +5,12 @@ id: 0
 license: metapackage
 name: alacarte-xfce
 requires:
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: alacarte
   
   version: ""
-uri: []
 use_flags:
 - ""
 version: 3.7.90

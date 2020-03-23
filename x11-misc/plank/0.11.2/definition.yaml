@@ -5,60 +5,46 @@ id: 0
 license: LGPL-3
 name: plank
 requires:
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libX11
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libdbusmenu
-  
-  version: ""
-- 
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: libwnck
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: glib
   
   version: "2.32"
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: libgee
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: gtk+
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: bamf
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libX11
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libdbusmenu
   
   version: ""
 uri:

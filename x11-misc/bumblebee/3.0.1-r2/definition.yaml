@@ -6,27 +6,21 @@ id: 0
 license: GPL-3
 name: bumblebee
 requires:
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: virtualgl
   
   version: ""
-- 
+  
   category: sys-power
-  description: ""
   id: 0
-  license: ""
   name: bbswitch
   
   version: ""
-- 
+  
   category: virtual
-  description: ""
   id: 0
-  license: ""
   name: opengl
   
   version: ""

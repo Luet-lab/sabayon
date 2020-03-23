@@ -1,0 +1,7 @@
+category: sys-kernel
+description: Official Sabayon Linux Standard kernel sources
+id: 0
+name: sabayon-sources
+use_flags:
+- sources_standalone
+version: 5.4.23

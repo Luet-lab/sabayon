@@ -5,11 +5,9 @@ id: 0
 license: as-is
 name: pidgin-tlen
 requires:
-- 
+  
   category: net-im
-  description: ""
   id: 0
-  license: ""
   name: pidgin
   
   version: 2.6.5

@@ -5,11 +5,9 @@ id: 0
 license: MIT
 name: pymdown-extensions
 requires:
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: mkdocs
   
   version: 1.0.1

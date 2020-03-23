@@ -5,30 +5,24 @@ id: 0
 license: LGPL-2.1
 name: avahi-mono
 requires:
-- 
-  category: net-dns
-  description: ""
-  id: 0
-  license: ""
-  name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
   
-  version: ""
-- 
   category: net-dns
-  description: ""
   id: 0
-  license: ""
   name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
   
   version: ""
-- 
+  
   category: dev-dotnet
-  description: ""
   id: 0
-  license: ""
   name: gtk-sharp
   
   version: "2"
+  
+  category: net-dns
+  id: 0
+  name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
+  
+  version: ""
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

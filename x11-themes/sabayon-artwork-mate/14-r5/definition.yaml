@@ -1,10 +1,8 @@
 category: x11-themes
 conflicts:
-- 
+  
   category: <x11-themes
-  description: ""
   id: 0
-  license: ""
   name: sabayon-artwork-core
   
   version: 14-r2
@@ -13,23 +11,18 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-mate
 requires:
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: faenza-icon-theme
   
-  version: ""
-- 
   category: media-fonts
-  description: ""
   id: 0
-  license: ""
   name: ubuntu-font-family
   
   version: ""
-uri: []
+  
+  category: x11-themes
+  id: 0
+  name: faenza-icon-theme
+  
+  version: ""
 use_flags:
 - ""
 version: 14-r5

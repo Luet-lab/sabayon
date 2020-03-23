@@ -1,10 +1,8 @@
 category: app-misc
 conflicts:
-- 
+  
   category: media-video
-  description: ""
   id: 0
-  license: ""
   name: omxplayer
   
   version: ""
@@ -13,19 +11,15 @@ id: 0
 license: GPL-2
 name: sabayon-mce-rpi
 requires:
-- 
+  
   category: media-video
-  description: ""
   id: 0
-  license: ""
   name: raspberrypi-omxplayer
   
   version: ""
-- 
+  
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: sabayon-auto-updater
   
   version: ""

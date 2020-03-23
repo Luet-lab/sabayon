@@ -5,62 +5,48 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm-gtk-greeter
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libindicator
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  id: 0
-  license: ""
-  name: lightdm
-  
-  version: 1.2.2
-- 
   category: x11-themes
-  description: ""
   id: 0
-  license: ""
-  name: gnome-themes-standard
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: 3.14.1
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
   name: sabayon-artwork-core
   
   version: ""
-- 
+  
   category: app-eselect
-  description: ""
   id: 0
-  license: ""
   name: eselect-lightdm
   
   version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libindicator
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: gtk+
+  
+  version: ""
+  
+  category: x11-misc
+  id: 0
+  name: lightdm
+  
+  version: 1.2.2
+  
+  category: x11-themes
+  id: 0
+  name: gnome-themes-standard
+  
+  version: ""
+  
+  category: x11-themes
+  id: 0
+  name: adwaita-icon-theme
+  
+  version: 3.14.1
 uri:
 - http://launchpad.net/lightdm-gtk-greeter//2.0.3/+download/lightdm-gtk-greeter-2.0.3.tar.gz
 use_flags:

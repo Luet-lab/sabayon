@@ -5,47 +5,36 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-core
 requires:
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: findutils
   
-  version: ""
-- 
   category: x11-themes
-  description: ""
   id: 0
-  license: ""
-  name: sabayon-artwork-cursor
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: sabayon-artwork-plymouth-default
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
   name: sabayon-artwork-wallpapers
   
   version: ""
-uri: []
+  
+  category: sys-apps
+  id: 0
+  name: findutils
+  
+  version: ""
+  
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-cursor
+  
+  version: ""
+  
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-grub
+  
+  version: ""
+  
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-plymouth-default
+  
+  version: ""
 use_flags:
 - ""
 version: 14-r2

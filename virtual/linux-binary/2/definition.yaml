@@ -2,8 +2,6 @@ category: virtual
 conflicts: []
 description: Virtual for Linux kernel binaries
 id: 0
-license: ""
 name: linux-binary
 requires: []
-uri: []
 version: "2"

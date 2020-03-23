@@ -5,420 +5,316 @@ id: 0
 license: MPL-2.0
 name: brave-bin
 requires:
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libtasn1
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  id: 0
-  license: ""
-  name: gconf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libxshmfence
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: nspr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libbsd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  id: 0
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  id: 0
-  license: ""
-  name: at-spi2-core
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libunistring
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  id: 0
-  license: ""
-  name: cups
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  id: 0
-  license: ""
-  name: at-spi2-atk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libepoxy
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  id: 0
-  license: ""
-  name: graphite2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
   name: libXinerama
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXdmcp
   
-  version: ""
-- 
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
-  name: nss
+  name: expat
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
+  
+  category: app-accessibility
   id: 0
-  license: ""
-  name: dbus
+  name: at-spi2-atk
   
   version: ""
-- 
-  category: virtual
-  description: ""
+  
+  category: dev-libs
   id: 0
-  license: ""
-  name: libffi
+  name: fribidi
   
   version: ""
-- 
+  
   category: media-libs
-  description: ""
   id: 0
-  license: ""
+  name: libepoxy
+  
+  version: ""
+  
+  category: media-gfx
+  id: 0
+  name: graphite2
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libxcb
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXScrnSaver
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXau
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
   name: libpng
   
   version: 1.6.34
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
-  name: libpthread-stubs
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
   name: nettle
   
   version: ""
-- 
-  category: net-dns
-  description: ""
+  
+  category: x11-libs
   id: 0
-  license: ""
+  name: libXcursor
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXrandr
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXdmcp
+  
+  version: ""
+  
+  category: net-print
+  id: 0
+  name: cups
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: atk
+  
+  version: ""
+  
+  category: app-accessibility
+  id: 0
+  name: at-spi2-core
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libunistring
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXcomposite
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXdamage
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXext
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libxshmfence
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: alsa-lib
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: cairo
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
+  name: zlib
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: freetype
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: gmp
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libpthread-stubs
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: nspr
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libbsd
+  
+  version: ""
+  
+  category: gnome-base
+  id: 0
+  name: gconf
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: glib
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: nss
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: dbus
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: gtk+
+  
+  version: ""
+  
+  category: virtual
+  id: 0
+  name: libffi
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: pixman
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXi
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXfixes
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXrender
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libXtst
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: pango
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libpcre
+  
+  version: ""
+  
+  category: net-libs
+  id: 0
+  name: gnutls
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: harfbuzz
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: fontconfig
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libtasn1
+  
+  version: ""
+  
+  category: net-dns
+  id: 0
   name: libidn2
+  
+  version: ""
+  
+  category: app-arch
+  id: 0
+  name: bzip2
   
   version: ""
 uri:

@@ -5,23 +5,18 @@ id: 0
 license: GPL-2
 name: eselect-bzimage
 requires:
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: file
   
-  version: ""
-- 
   category: app-admin
-  description: ""
   id: 0
-  license: ""
   name: eselect
   
   version: 1.2.3
-uri: []
+  
+  category: sys-apps
+  id: 0
+  name: file
+  
+  version: ""
 use_flags:
 - ""
 version: 0.1-r2

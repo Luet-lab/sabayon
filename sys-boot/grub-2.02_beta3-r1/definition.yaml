@@ -1,10 +1,8 @@
 category: sys-boot
 conflicts:
-- 
+  
   category: sys-boot
-  description: ""
   id: 0
-  license: ""
   name: grub
   
   version: ""
@@ -13,116 +11,88 @@ id: 0
 license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
-- 
+  
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  id: 0
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  id: 0
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
   name: lvm2
   
   version: 2.02.45
-- 
-  category: sys-boot
-  description: ""
+  
+  category: sys-fs
   id: 0
-  license: ""
-  name: efibootmgr
+  name: zfs
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: ncurses
   
-  version: 5.2-r5
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  id: 0
-  license: ""
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
   name: powerpc-utils
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
+  
+  category: x11-themes
   id: 0
-  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: fuse
+  
+  version: ""
+  
+  category: app-arch
+  id: 0
+  name: xz-utils
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
+  name: ncurses
+  
+  version: 5.2-r5
+  
+  category: media-libs
+  id: 0
+  name: libsdl
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: ibm-powerpc-utils
+  
+  version: ""
+  
+  category: sys-boot
+  id: 0
+  name: os-prober
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: freetype
+  
+  version: ""
+  
+  category: sys-boot
+  id: 0
+  name: efibootmgr
+  
+  version: ""
+  
+  category: sys-devel
+  id: 0
   name: gettext
+  
+  version: ""
+  
+  category: app-crypt
+  id: 0
+  name: sbsigntools
   
   version: ""
 uri:

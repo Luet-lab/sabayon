@@ -5,35 +5,27 @@ id: 0
 license: GPL-2 unrar? ( unRAR )
 name: tuxcmd-modules
 requires:
-- 
+  
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: tuxcmd
   
   version: 0.6.70
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: glib
   
   version: 2.18.0
-- 
+  
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: gvfs
   
   version: 1.2.0
-- 
+  
   category: app-arch
-  description: ""
   id: 0
-  license: ""
   name: libarchive
   
   version: 2.5.5

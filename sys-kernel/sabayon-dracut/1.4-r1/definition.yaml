@@ -5,45 +5,34 @@ id: 0
 license: GPL-3
 name: sabayon-dracut
 requires:
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: btrfs-progs
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  id: 0
-  license: ""
-  name: plymouth
-  
-  version: ""
-- 
   category: sys-kernel
-  description: ""
   id: 0
-  license: ""
   name: dracut
   
   version: ""
-uri: []
+  
+  category: sys-fs
+  id: 0
+  name: btrfs-progs
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: mdadm
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: lvm2
+  
+  version: ""
+  
+  category: sys-boot
+  id: 0
+  name: plymouth
+  
+  version: ""
 version: 1.4-r1

@@ -5,35 +5,27 @@ id: 0
 license: GPL-2
 name: magneto-gtk
 requires:
-- 
+  
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: magneto-loader
   
   version: "324"
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: notify-python
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtk
   
   version: ""
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: magneto-gtk3
   
   version: ""

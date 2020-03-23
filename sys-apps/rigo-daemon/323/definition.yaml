@@ -5,46 +5,36 @@ id: 0
 license: GPL-3
 name: rigo-daemon
 requires:
-- 
-  category: sys-auth
-  description: ""
-  id: 0
-  license: ""
-  name: polkit
   
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  id: 0
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: dbus-python
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygobject
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: entropy
   
   version: "323"
+  
+  category: sys-auth
+  id: 0
+  name: polkit
+  
+  version: ""
+  
+  category: sys-devel
+  id: 0
+  name: gettext
+  
+  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-323.tar.bz2
 use_flags:

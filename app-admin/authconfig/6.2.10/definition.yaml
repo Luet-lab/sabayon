@@ -5,60 +5,46 @@ id: 0
 license: GPL-2+
 name: authconfig
 requires:
-- 
-  category: dev-libs
-  description: ""
+  
+  category: sys-libs
   id: 0
-  license: ""
+  name: pam
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
   name: libpwquality
   
   version: "0.9"
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: newt
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: policycoreutils
   
   version: ""
-- 
+  
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: libglade
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtk
   
   version: 2.14.0
-- 
-  category: x11-themes
-  description: ""
-  id: 0
-  license: ""
-  name: hicolor-icon-theme
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
+  category: x11-themes
   id: 0
-  license: ""
-  name: pam
+  name: hicolor-icon-theme
   
   version: ""
 uri:

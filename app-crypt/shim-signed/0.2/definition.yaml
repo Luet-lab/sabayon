@@ -5,7 +5,6 @@ id: 0
 license: as-is
 name: shim-signed
 requires: []
-uri: []
 use_flags:
 - ""
 version: "0.2"

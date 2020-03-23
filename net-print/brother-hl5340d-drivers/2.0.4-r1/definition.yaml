@@ -5,27 +5,21 @@ id: 0
 license: as-is
 name: brother-hl5340d-drivers
 requires:
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
   name: emul-linux-x86-baselibs
   
   version: ""
-- 
+  
   category: app-text
-  description: ""
   id: 0
-  license: ""
   name: ghostscript-gpl
   
   version: ""
-- 
+  
   category: net-print
-  description: ""
   id: 0
-  license: ""
   name: cups
   
   version: ""

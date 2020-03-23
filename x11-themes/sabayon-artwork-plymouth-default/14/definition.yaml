@@ -5,20 +5,16 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-default
 requires:
-- 
-  category: sys-apps
-  description: ""
+  
+  category: x11-themes
   id: 0
-  license: ""
-  name: findutils
+  name: sabayon-artwork-plymouth-base
   
   version: ""
-- 
-  category: x11-themes
-  description: ""
+  
+  category: sys-apps
   id: 0
-  license: ""
-  name: sabayon-artwork-plymouth-base
+  name: findutils
   
   version: ""
 uri:

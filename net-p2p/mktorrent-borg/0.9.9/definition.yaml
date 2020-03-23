@@ -3,7 +3,6 @@ description: Console .torrent file creator. It support Multi Trackers (tier grou
 id: 0
 license: BSD
 name: mktorrent-borg
-uri: []
 use_flags:
 - ""
 version: 0.9.9

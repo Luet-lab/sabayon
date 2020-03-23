@@ -1,10 +1,8 @@
 category: x11-misc
 conflicts:
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: xneur
   
   version: ""
@@ -13,54 +11,42 @@ id: 0
 license: GPL-2
 name: gxneur
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libappindicator
   
-  version: ""
-- 
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: gconf
   
   version: ""
-- 
+  
   category: virtual
-  description: ""
   id: 0
-  license: ""
   name: libintl
   
   version: ""
-- 
+  
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: libglade
   
   version: ""
-- 
+  
   category: sys-devel
-  description: ""
   id: 0
-  license: ""
   name: gettext
   
   version: 0.16.1
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: gtk+
   
   version: "2.18"
+  
+  category: dev-libs
+  id: 0
+  name: libappindicator
+  
+  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.20.0.orig.tar.gz
 use_flags:

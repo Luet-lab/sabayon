@@ -1,18 +1,14 @@
 category: dev-python
 conflicts:
-- 
+  
   category: <dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtk
   
   version: "2.13"
-- 
+  
   category: <dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygobject
   
   version: 2.28.6-r50
@@ -21,23 +17,18 @@ id: 0
 license: LGPL-2.1+
 name: pygobject
 requires:
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: pygobject-cairo-3.32.0[test=,]
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygobject-base-3.32.0[examples=,]
   
   version: ""
-uri: []
+  
+  category: dev-python
+  id: 0
+  name: pygobject-cairo-3.32.0[test=,]
+  
+  version: ""
 use_flags:
 - +cairo
 - examples

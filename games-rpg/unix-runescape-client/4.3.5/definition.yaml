@@ -5,108 +5,82 @@ id: 0
 license: GPL-2
 name: unix-runescape-client
 requires:
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libpng-compat
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  id: 0
-  license: ""
-  name: wine
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  id: 0
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  id: 0
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  id: 0
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
   category: net-misc
-  description: ""
   id: 0
-  license: ""
   name: wget
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
-  name: cairo
+  name: libpng-compat
   
   version: ""
-- 
-  category: app-arch
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
-  name: p7zip
+  name: alsa-oss
   
   version: ""
-- 
+  
   category: media-sound
-  description: ""
   id: 0
-  license: ""
   name: pulseaudio
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  id: 0
-  license: ""
-  name: jre
   
-  version: ""
-- 
   category: dev-lang
-  description: ""
   id: 0
-  license: ""
   name: perl
   
   version: ""
-- 
+  
   category: dev-perl
-  description: ""
   id: 0
-  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+  
+  category: dev-perl
+  id: 0
   name: IO-stringy
+  
+  version: ""
+  
+  category: dev-perl
+  id: 0
+  name: Wx
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: cairo
+  
+  version: ""
+  
+  category: app-arch
+  id: 0
+  name: p7zip
+  
+  version: ""
+  
+  category: app-emulation
+  id: 0
+  name: wine
+  
+  version: ""
+  
+  category: virtual
+  id: 0
+  name: jre
+  
+  version: ""
+  
+  category: dev-perl
+  id: 0
+  name: Archive-Extract
   
   version: ""
 uri:

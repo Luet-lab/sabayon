@@ -1,19 +1,15 @@
 category: net-dns
 conflicts:
-- 
+  
   category: net-misc
-  description: ""
   id: 0
-  license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
-- 
+  
   category: net-misc
-  description: ""
   id: 0
-  license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 description: System which facilitates service discovery on a local network (base pkg)
@@ -21,94 +17,72 @@ id: 0
 license: LGPL-2.1
 name: avahi-base
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libdaemon
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- 
   category: sec-policy
-  description: ""
   id: 0
-  license: ""
   name: selinux-avahi
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
+  name: libdaemon
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
   name: expat
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: glib
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: dbus
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: gobject-introspection
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
+  name: pygobject
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: glib
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
+  name: gdbm
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
+  name: libcap
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
   name: dbus-python
   
   version: ""
+  
+  category: dev-python
+  id: 0
+  name: twisted
+  
+  version: 16.0.0
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

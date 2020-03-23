@@ -5,102 +5,78 @@ id: 0
 license: GPL-3
 name: calamares
 requires:
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: dbus
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: dmidecode
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  id: 0
-  license: ""
-  name: polkit-qt[qt5(+)]
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: PythonQt
-  
-  version: "3.1"
-- 
-  category: net-misc
-  description: ""
-  id: 0
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  id: 0
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
-  name: boost
-  
-  version: "1.55"
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
   name: libpwquality
   
   version: ""
-- 
-  category: sys-block
-  description: ""
-  id: 0
-  license: ""
-  name: parted
   
-  version: "3.0"
-- 
-  category: sys-libs
-  description: ""
+  category: sys-apps
   id: 0
-  license: ""
+  name: dbus
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: dmidecode
+  
+  version: ""
+  
+  category: sys-auth
+  id: 0
+  name: polkit-qt[qt5(+)]
+  
+  version: ""
+  
+  category: net-misc
+  id: 0
+  name: rsync
+  
+  version: ""
+  
+  category: dev-cpp
+  id: 0
+  name: yaml-cpp
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: boost
+  
+  version: "1.55"
+  
+  category: sys-libs
+  id: 0
   name: kpmcore
   
   version: 3.0.3
-- 
-  category: app-admin
-  description: ""
+  
+  category: dev-python
   id: 0
-  license: ""
+  name: PythonQt
+  
+  version: "3.1"
+  
+  category: app-admin
+  id: 0
   name: sudo
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: libatasmart
   
   version: ""
+  
+  category: sys-block
+  id: 0
+  name: parted
+  
+  version: "3.0"
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.15/calamares-3.2.15.tar.gz
 use_flags:

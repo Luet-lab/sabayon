@@ -6,39 +6,30 @@ id: 0
 license: GPL-2
 name: pinentry
 requires:
-- 
+  
   category: app-crypt
-  description: ""
   id: 0
-  license: ""
   name: pinentry-base
   
   version: 1.1.0
-- 
+  
   category: app-crypt
-  description: ""
   id: 0
-  license: ""
   name: pinentry-gnome
   
   version: 1.1.0
-- 
+  
   category: app-crypt
-  description: ""
   id: 0
-  license: ""
   name: pinentry-gtk2
   
   version: 1.1.0
-- 
+  
   category: app-crypt
-  description: ""
   id: 0
-  license: ""
   name: pinentry-qt5
   
   version: 1.1.0
-uri: []
 use_flags:
 - caps
 - emacs

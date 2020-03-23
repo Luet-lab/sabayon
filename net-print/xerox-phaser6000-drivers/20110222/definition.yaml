@@ -5,19 +5,15 @@ id: 0
 license: as-is
 name: xerox-phaser6000-drivers
 requires:
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
   name: emul-linux-x86-baselibs
   
   version: ""
-- 
+  
   category: net-print
-  description: ""
   id: 0
-  license: ""
   name: cups
   
   version: ""

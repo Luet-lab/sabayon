@@ -1,34 +1,26 @@
 category: app-misc
 conflicts:
-- 
+  
   category: <sys-apps
-  description: ""
   id: 0
-  license: ""
   name: sysvinit
   
   version: "1000"
-- 
+  
   category: app-admin
-  description: ""
   id: 0
-  license: ""
   name: eselect-init
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: hal
   
   version: ""
-- 
+  
   category: sys-auth
-  description: ""
   id: 0
-  license: ""
   name: consolekit
   
   version: ""
@@ -37,63 +29,48 @@ id: 0
 license: GPL-2
 name: sabayon-version
 requires:
-- 
-  category: dev-lang
-  description: ""
-  id: 0
-  license: ""
-  name: python
   
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  id: 0
-  license: ""
-  name: sabayon-dracut
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  id: 0
-  license: ""
-  name: base-gcc
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  id: 0
-  license: ""
-  name: gcc-config
-  
-  version: ""
-- 
   category: app-eselect
-  description: ""
   id: 0
-  license: ""
   name: eselect-python
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
+  
+  category: dev-lang
   id: 0
-  license: ""
+  name: python
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
   name: systemd
   
   version: ""
-- 
-  category: virtual
-  description: ""
+  
+  category: sys-kernel
   id: 0
-  license: ""
+  name: sabayon-dracut
+  
+  version: ""
+  
+  category: virtual
+  id: 0
   name: man
   
   version: ""
-uri: []
+  
+  category: sys-devel
+  id: 0
+  name: base-gcc
+  
+  version: ""
+  
+  category: sys-devel
+  id: 0
+  name: gcc-config
+  
+  version: ""
 use_flags:
 - ""
 version: "19.10"

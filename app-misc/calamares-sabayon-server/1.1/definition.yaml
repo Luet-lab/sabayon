@@ -1,18 +1,14 @@
 category: app-misc
 conflicts:
-- 
+  
   category: '!app-admin'
-  description: ""
   id: 0
-  license: ""
   name: anaconda
   
   version: ""
-- 
+  
   category: '!app-misc'
-  description: ""
   id: 0
-  license: ""
   name: calamares-sabayon
   
   version: ""
@@ -21,79 +17,60 @@ id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: xfsdump
   
-  version: ""
-- 
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
-  name: ntfs3g
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
   name: reiserfsprogs
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: xfsprogs
   
-  version: ""
-- 
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: jfsutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
   name: btrfs-progs
   
   version: ""
-- 
-  category: app-misc
-  description: ""
-  id: 0
-  license: ""
-  name: calamares-sabayon-server-base-modules
   
-  version: ""
-- 
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: calamares-sabayon-server-branding
   
   version: ""
-uri: []
+  
+  category: sys-fs
+  id: 0
+  name: dosfstools
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: jfsutils
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: xfsprogs
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: xfsdump
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: ntfs3g
+  
+  version: ""
+  
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
 use_flags:
 - ""
 version: "1.1"

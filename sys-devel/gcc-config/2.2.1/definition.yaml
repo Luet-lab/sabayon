@@ -1,0 +1,11 @@
+category: sys-devel
+description: utility to manage compilers
+id: 0
+license: GPL-2
+name: gcc-config
+uri:
+- mirror://gentoo/gcc-config-2.2.1.tar.xz
+- http://dev.gentoo.org/~vapier/dist/gcc-config-2.2.1.tar.xz
+use_flags:
+- ""
+version: 2.2.1

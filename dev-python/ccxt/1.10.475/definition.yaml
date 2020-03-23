@@ -5,35 +5,27 @@ id: 0
 license: MIT
 name: ccxt
 requires:
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: aiohttp
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: chardet
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: requests
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: aiodns
   
   version: ""

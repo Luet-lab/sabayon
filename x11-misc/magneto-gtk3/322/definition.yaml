@@ -5,46 +5,36 @@ id: 0
 license: GPL-2
 name: magneto-gtk3
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gobject-introspection
   
-  version: ""
-- 
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: gdk-pixbuf
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: gtk+
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: libnotify
   
   version: ""
-- 
+  
   category: app-misc
-  description: ""
   id: 0
-  license: ""
   name: magneto-loader
   
   version: "322"
+  
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  
+  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-322.tar.bz2
 use_flags:

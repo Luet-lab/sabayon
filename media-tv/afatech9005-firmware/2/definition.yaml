@@ -5,7 +5,6 @@ id: 0
 license: AS-IS
 name: afatech9005-firmware
 requires: []
-uri: []
 use_flags:
 - ""
 version: "2"

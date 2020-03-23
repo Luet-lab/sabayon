@@ -5,36 +5,28 @@ id: 0
 license: GPL-2
 name: poppler-qt5
 requires:
-- 
-  category: dev-qt
-  description: ""
+  
+  category: app-text
   id: 0
-  license: ""
+  name: poppler-base-0.82.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
+  
+  version: ""
+  
+  category: dev-qt
+  id: 0
   name: qtcore
   
   version: ""
-- 
+  
   category: dev-qt
-  description: ""
   id: 0
-  license: ""
   name: qtgui
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  id: 0
-  license: ""
-  name: qtxml
   
-  version: ""
-- 
-  category: app-text
-  description: ""
+  category: dev-qt
   id: 0
-  license: ""
-  name: poppler-base-0.82.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
+  name: qtxml
   
   version: ""
 uri:

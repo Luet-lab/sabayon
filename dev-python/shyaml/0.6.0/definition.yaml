@@ -5,28 +5,22 @@ id: 0
 license: BSD-2
 name: shyaml
 requires:
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
+  name: d2to1
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
   name: pyyaml
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: setuptools
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
-  name: d2to1
+  name: setuptools
   
   version: ""
 uri:

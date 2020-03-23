@@ -5,75 +5,57 @@ id: 0
 license: GPL-3
 name: lightdm-slick-greeter
 requires:
-- 
-  category: x11-misc
-  description: ""
-  id: 0
-  license: ""
-  name: lightdm-base
   
-  version: "1.12"
-- 
   category: dev-util
-  description: ""
   id: 0
-  license: ""
   name: intltool
   
   version: 0.35.0
-- 
+  
   category: sys-devel
-  description: ""
   id: 0
-  license: ""
   name: gettext
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtk+
   
-  version: "3.20"
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
   category: media-libs
-  description: ""
   id: 0
-  license: ""
   name: freetype
   
   version: ""
-- 
-  category: media-libs
-  description: ""
+  
+  category: x11-misc
   id: 0
-  license: ""
+  name: lightdm-base
+  
+  version: "1.12"
+  
+  category: x11-libs
+  id: 0
+  name: cairo
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: gtk+
+  
+  version: "3.20"
+  
+  category: media-libs
+  id: 0
   name: libcanberra
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: libXext
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: pixman
   
   version: ""

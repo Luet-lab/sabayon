@@ -6,27 +6,21 @@ id: 0
 license: GPL-2
 name: cado
 requires:
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: glibc
   
   version: ""
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: pam
   
   version: ""
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: libcap
   
   version: ""

@@ -5,22 +5,18 @@ id: 0
 license: GPL-2
 name: magneto-kde
 requires:
-- 
-  category: app-misc
-  description: ""
-  id: 0
-  license: ""
-  name: magneto-loader
   
-  version: "324"
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: PyQt5
   
   version: ""
+  
+  category: app-misc
+  id: 0
+  name: magneto-loader
+  
+  version: "324"
 uri:
 - mirror://sabayon/sys-apps/entropy-324.tar.bz2
 use_flags:

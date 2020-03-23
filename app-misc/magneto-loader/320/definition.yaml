@@ -5,20 +5,16 @@ id: 0
 license: GPL-2
 name: magneto-loader
 requires:
-- 
-  category: app-admin
-  description: ""
+  
+  category: sys-apps
   id: 0
-  license: ""
-  name: rigo
+  name: magneto-core
   
   version: "320"
-- 
-  category: sys-apps
-  description: ""
+  
+  category: app-admin
   id: 0
-  license: ""
-  name: magneto-core
+  name: rigo
   
   version: "320"
 uri:

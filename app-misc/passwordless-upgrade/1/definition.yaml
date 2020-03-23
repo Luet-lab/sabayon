@@ -3,7 +3,6 @@ description: Allow users in the entropy group to run system upgrades without pas
 id: 0
 license: GPL-2
 name: passwordless-upgrade
-uri: []
 use_flags:
 - ""
 version: "1"

@@ -6,7 +6,6 @@ id: 0
 license: GPL-2
 name: sabayon-auto-updater
 requires: []
-uri: []
 use_flags:
 - ""
 version: "0.4"

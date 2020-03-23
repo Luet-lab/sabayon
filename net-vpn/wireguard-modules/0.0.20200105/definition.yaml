@@ -1,10 +1,8 @@
 category: net-vpn
 conflicts:
-- 
+  
   category: <virtual
-  description: ""
   id: 0
-  license: ""
   name: wireguard
   
   version: "1"

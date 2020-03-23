@@ -5,19 +5,15 @@ id: 0
 license: GPL-2
 name: sabayon-dockerscripts
 requires:
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
   name: docker
   
   version: ""
-- 
+  
   category: games-misc
-  description: ""
   id: 0
-  license: ""
   name: cowsay
   
   version: ""

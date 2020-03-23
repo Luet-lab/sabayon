@@ -5,23 +5,18 @@ id: 0
 license: GPL-2
 name: eselect-uimage
 requires:
-- 
+  
   category: app-admin
-  description: ""
   id: 0
-  license: ""
   name: eselect
   
   version: 1.2.3
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: file
   
   version: ""
-uri: []
 use_flags:
 - ""
 version: "0.4"

@@ -5,36 +5,28 @@ id: 0
 license: GPL-2
 name: sabayon-greeter
 requires:
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtk+
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygobject-base
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: simplejson
   
   version: ""
-- 
+  
   category: net-libs
-  description: ""
   id: 0
-  license: ""
   name: webkit-gtk
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: gtk+
   
   version: ""
 uri:

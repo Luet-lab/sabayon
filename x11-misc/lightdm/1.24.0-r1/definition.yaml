@@ -5,23 +5,18 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm
 requires:
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: lightdm-base-1.24.0[introspection=,vala=]
   
   version: ""
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: lightdm-qt5
   
   version: 1.24.0
-uri: []
 use_flags:
 - audit
 - +gtk

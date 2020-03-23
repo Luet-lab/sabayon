@@ -5,19 +5,15 @@ id: 0
 license: GPL-3
 name: pyroom
 requires:
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pyxdg
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtk
   
   version: ""

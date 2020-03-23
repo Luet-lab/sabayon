@@ -1,10 +1,8 @@
 category: x11-misc
 conflicts:
-- 
+  
   category: x11-misc
-  description: ""
   id: 0
-  license: ""
   name: gxneur
   
   version: ""
@@ -14,118 +12,90 @@ id: 0
 license: GPL-2
 name: xneur
 requires:
-- 
-  category: media-sound
-  description: ""
-  id: 0
-  license: ""
-  name: alsa-utils
   
-  version: 1.0.17
-- 
-  category: app-text
-  description: ""
-  id: 0
-  license: ""
-  name: enchant
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  id: 0
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
-  name: libX11
-  
-  version: "1.1"
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: xosd
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: freealut
-  
-  version: 1.0.1
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libnotify
-  
-  version: 0.4.0
-- 
-  category: media-plugins
-  description: ""
-  id: 0
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gstreamer
-  
-  version: 0.10.6
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
   name: gtk+
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
+  name: freealut
+  
+  version: 1.0.1
+  
+  category: media-sound
+  id: 0
+  name: alsa-utils
+  
+  version: 1.0.17
+  
+  category: x11-libs
+  id: 0
+  name: libnotify
+  
+  version: 0.4.0
+  
+  category: x11-libs
+  id: 0
+  name: xosd
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: gst-plugins-good
+  
+  version: ""
+  
+  category: media-plugins
+  id: 0
+  name: gst-plugins-alsa
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: gstreamer
+  
+  version: 0.10.6
+  
+  category: x11-libs
+  id: 0
+  name: libX11
+  
+  version: "1.1"
+  
+  category: x11-libs
+  id: 0
+  name: libXtst
+  
+  version: ""
+  
+  category: app-text
+  id: 0
+  name: enchant
+  
+  version: ""
+  
+  category: virtual
+  id: 0
+  name: libintl
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
   name: libpcre
   
   version: "5.0"
+  
+  category: sys-libs
+  id: 0
+  name: zlib
+  
+  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

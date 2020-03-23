@@ -5,132 +5,100 @@ id: 0
 license: GPL-2
 name: idjc
 requires:
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: eyeD3
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  id: 0
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: 0.116.0
-- 
-  category: media-sound
-  description: ""
-  id: 0
-  license: ""
-  name: lame
-  
-  version: ""
-- 
   category: media-libs
-  description: ""
   id: 0
-  license: ""
-  name: mutagen
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
   name: libsamplerate
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libvorbis
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  id: 0
-  license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
   category: virtual
-  description: ""
   id: 0
-  license: ""
   name: ffmpeg
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: flac
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: mysql-python
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
+  name: mutagen
+  
+  version: ""
+  
+  category: media-sound
+  id: 0
+  name: jack-audio-connection-kit
+  
+  version: 0.116.0
+  
+  category: media-sound
+  id: 0
+  name: mpg123
+  
+  version: ""
+  
+  category: sys-devel
+  id: 0
   name: gettext
   
   version: ""
-- 
+  
   category: media-libs
-  description: ""
   id: 0
-  license: ""
   name: speex
   
   version: ""
-- 
+  
   category: media-sound
-  description: ""
   id: 0
-  license: ""
   name: twolame
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: pygtk
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: libsndfile
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: libvorbis
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: flac
+  
+  version: ""
+  
+  category: media-sound
+  id: 0
+  name: lame
+  
+  version: ""
+  
+  category: media-libs
+  id: 0
+  name: opus
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: eyeD3
   
   version: ""
 uri:

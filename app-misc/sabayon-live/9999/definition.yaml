@@ -1,19 +1,15 @@
 category: app-misc
 conflicts:
-- 
-  category: app-misc
-  description: ""
+  
+  category: sys-apps
   id: 0
-  license: ""
-  name: livecd-tools
+  name: gpu-detector
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
+  
+  category: app-misc
   id: 0
-  license: ""
-  name: gpu-detector
+  name: livecd-tools
   
   version: ""
 description: Sabayon live image scripts and tools
@@ -21,71 +17,54 @@ id: 0
 license: GPL-2
 name: sabayon-live
 requires:
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: pciutils
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: keyboard-configuration-helpers
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
   category: app-eselect
-  description: ""
   id: 0
-  license: ""
   name: eselect-opengl
   
   version: ""
-- 
+  
   category: dev-util
-  description: ""
   id: 0
-  license: ""
   name: dialog
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: gawk
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: sed
   
   version: ""
-- 
+  
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: dmidecode
   
   version: ""
-uri: []
+  
+  category: sys-apps
+  id: 0
+  name: pciutils
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: keyboard-configuration-helpers
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: systemd
+  
+  version: 239-r2
 use_flags:
 - ""
 version: "9999"

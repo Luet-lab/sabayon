@@ -5,52 +5,40 @@ id: 0
 license: GPL-3
 name: autokey
 requires:
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: pyinotify
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
   name: pyatspi
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtksourceview
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: python-xlib
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: pygtk
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: pyinotify
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: dbus-python
   
   version: ""
 uri:

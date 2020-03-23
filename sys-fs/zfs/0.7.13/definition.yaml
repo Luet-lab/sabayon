@@ -1,27 +1,21 @@
 category: sys-fs
 conflicts:
-- 
-  category: <sys-boot
-  description: ""
+  
+  category: sys-fs
   id: 0
-  license: ""
+  name: zfs-fuse
+  
+  version: ""
+  
+  category: <sys-boot
+  id: 0
   name: grub
   
   version: 2.00-r2
-- 
-  category: =sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: grep-2.13*
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
+  category: =sys-apps
   id: 0
-  license: ""
-  name: zfs-fuse
+  name: grep-2.13*
   
   version: ""
 description: Userland utilities for ZFS Linux kernel module
@@ -29,108 +23,82 @@ id: 0
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: sys-fs
-  description: ""
-  id: 0
-  license: ""
-  name: zfs-kmod
   
-  version: 0.7.13
-- 
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: util-linux
   
   version: ""
-- 
+  
   category: sys-block
-  description: ""
   id: 0
-  license: ""
   name: parted
   
   version: ""
-- 
-  category: sys-process
-  description: ""
-  id: 0
-  license: ""
-  name: procps
   
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  id: 0
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
   category: sys-fs
-  description: ""
   id: 0
-  license: ""
   name: lsscsi
   
   version: ""
-- 
-  category: app-arch
-  description: ""
-  id: 0
-  license: ""
-  name: cpio
   
-  version: ""
-- 
   category: virtual
-  description: ""
   id: 0
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  id: 0
-  license: ""
   name: modutils
   
   version: ""
-- 
+  
   category: virtual
-  description: ""
   id: 0
-  license: ""
+  name: awk
+  
+  version: ""
+  
+  category: virtual
+  id: 0
   name: udev
   
   version: ""
-- 
+  
   category: sys-devel
-  description: ""
   id: 0
-  license: ""
   name: bc
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
+  
+  category: sys-process
   id: 0
-  license: ""
-  name: mdadm
+  name: procps
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
+  
+  category: app-arch
   id: 0
-  license: ""
+  name: cpio
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: zfs-kmod
+  
+  version: 0.7.13
+  
+  category: app-misc
+  id: 0
+  name: pax-utils
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
   name: udev-init-scripts
+  
+  version: ""
+  
+  category: sys-fs
+  id: 0
+  name: mdadm
   
   version: ""
 uri:
