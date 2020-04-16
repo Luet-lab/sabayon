@@ -1,70 +1,50 @@
 category: app-misc
 conflicts:
-  
-  category: sys-apps
-  id: 0
-  name: gpu-detector
-  
-  version: ""
-  
   category: app-misc
   id: 0
   name: livecd-tools
-  
+  version: ""
+  category: sys-apps
+  id: 0
+  name: gpu-detector
   version: ""
 description: Sabayon live image scripts and tools
 id: 0
 license: GPL-2
 name: sabayon-live
 requires:
-  
-  category: app-eselect
-  id: 0
-  name: eselect-opengl
-  
-  version: ""
-  
-  category: dev-util
-  id: 0
-  name: dialog
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: gawk
-  
-  version: ""
-  
   category: sys-apps
   id: 0
   name: sed
-  
   version: ""
-  
-  category: sys-apps
-  id: 0
-  name: dmidecode
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: pciutils
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: keyboard-configuration-helpers
-  
-  version: ""
-  
   category: sys-apps
   id: 0
   name: systemd
-  
   version: 239-r2
+  category: sys-apps
+  id: 0
+  name: dmidecode
+  version: ""
+  category: sys-apps
+  id: 0
+  name: gawk
+  version: ""
+  category: sys-apps
+  id: 0
+  name: pciutils
+  version: ""
+  category: sys-apps
+  id: 0
+  name: keyboard-configuration-helpers
+  version: ""
+  category: app-eselect
+  id: 0
+  name: eselect-opengl
+  version: ""
+  category: dev-util
+  id: 0
+  name: dialog
+  version: ""
 use_flags:
 - ""
 version: "9999"

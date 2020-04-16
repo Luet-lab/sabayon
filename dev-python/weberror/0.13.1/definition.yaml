@@ -5,35 +5,25 @@ id: 0
 license: MIT
 name: weberror
 requires:
-  
-  category: dev-python
-  id: 0
-  name: setuptools
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: tempita
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: webob
-  
-  version: ""
-  
   category: dev-python
   id: 0
   name: paste
-  
   version: 1.7.1
-  
   category: dev-python
   id: 0
   name: pygments
-  
+  version: ""
+  category: dev-python
+  id: 0
+  name: setuptools
+  version: ""
+  category: dev-python
+  id: 0
+  name: tempita
+  version: ""
+  category: dev-python
+  id: 0
+  name: webob
   version: ""
 uri:
 - mirror://pypi/W/WebError/WebError-0.13.1.tar.gz

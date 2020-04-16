@@ -5,11 +5,9 @@ id: 0
 license: Apache-2.0
 name: google-daemon
 requires:
-  
   category: sys-apps
   id: 0
   name: systemd
-  
   version: ""
 uri:
 - https://github.com/GoogleCloudPlatform/compute-image-packages/releases/download/1.2.10/google-daemon-1.2.10.tar.gz

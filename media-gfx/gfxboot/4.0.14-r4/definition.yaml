@@ -5,53 +5,37 @@ id: 0
 license: GPL-2
 name: gfxboot
 requires:
-  
-  category: dev-perl
-  id: 0
-  name: HTML-Parser
-  
-  version: ""
-  
-  category: app-arch
-  id: 0
-  name: cpio
-  
-  version: ""
-  
   category: dev-lang
   id: 0
   name: nasm
-  
   version: ""
-  
   category: media-libs
   id: 0
   name: freetype
-  
   version: "2"
-  
   category: dev-libs
   id: 0
   name: fribidi
-  
   version: ""
-  
   category: "(\tapp-text"
   id: 0
   name: xmlto
-  
   version: ""
-  
   category: dev-libs
   id: 0
   name: libxslt
-  
   version: ""
-  
   category: app-text
   id: 0
   name: docbook-xml-dtd
-  
+  version: ""
+  category: dev-perl
+  id: 0
+  name: HTML-Parser
+  version: ""
+  category: app-arch
+  id: 0
+  name: cpio
   version: ""
 uri:
 - http://download.opensuse.org/distribution/11.0/repo/src-oss/suse/src/gfxboot-4.0.14-.1.src.rpm

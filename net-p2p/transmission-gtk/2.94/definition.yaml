@@ -4,30 +4,22 @@ description: A Fast, Easy and Free BitTorrent client - Gtk+ UI
 id: 0
 name: transmission-gtk
 requires:
-  
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  
-  version: "0.100"
-  
   category: dev-libs
   id: 0
   name: glib
-  
   version: "2.32"
-  
   category: x11-libs
   id: 0
   name: gtk+
-  
   version: "3.4"
-  
   category: dev-libs
   id: 0
   name: libappindicator
-  
   version: 0.4.90
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: "0.100"
 use_flags:
 - ayatana
 version: "2.94"

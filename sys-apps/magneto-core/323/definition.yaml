@@ -5,17 +5,13 @@ id: 0
 license: GPL-2
 name: magneto-core
 requires:
-  
   category: sys-apps
   id: 0
   name: rigo-daemon
-  
   version: "323"
-  
   category: x11-misc
   id: 0
   name: xdg-utils
-  
   version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-323.tar.bz2

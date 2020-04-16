@@ -5,29 +5,21 @@ id: 0
 license: GPL-2 unrar? ( unRAR )
 name: tuxcmd-modules
 requires:
-  
   category: app-misc
   id: 0
   name: tuxcmd
-  
   version: 0.6.70
-  
   category: dev-libs
   id: 0
   name: glib
-  
   version: 2.18.0
-  
   category: gnome-base
   id: 0
   name: gvfs
-  
   version: 1.2.0
-  
   category: app-arch
   id: 0
   name: libarchive
-  
   version: 2.5.5
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-modules-0.6.70.tar.bz2

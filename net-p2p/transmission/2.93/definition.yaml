@@ -4,11 +4,9 @@ description: A BitTorrent client (meta package)
 id: 0
 name: transmission
 requires:
-  
   category: net-p2p
   id: 0
   name: transmission-base-2.93[lightweight=,xfs=,libressl=]
-  
   version: ""
 use_flags:
 - ayatana

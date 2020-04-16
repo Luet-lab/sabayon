@@ -1,0 +1,41 @@
+category: app-text
+conflicts: []
+description: Glib bindings for poppler
+id: 0
+license: GPL-2
+name: poppler-glib
+requires:
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: x11-libs
+  id: 0
+  name: cairo
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  version: ""
+  category: app-text
+  id: 0
+  name: poppler-base-0.85.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
+  version: ""
+uri:
+- https://poppler.freedesktop.org/poppler-0.85.0.tar.xz
+use_flags:
+- cairo
+- cjk
+- curl
+- +cxx
+- debug
+- doc
+- +introspection
+- +jpeg
+- +jpeg2k
+- +lcms
+- nss
+- png
+- tiff
+- +utils
+version: 0.85.0

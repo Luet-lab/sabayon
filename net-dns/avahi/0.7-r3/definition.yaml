@@ -5,35 +5,25 @@ id: 0
 license: LGPL-2.1
 name: avahi
 requires:
-  
   category: net-dns
   id: 0
   name: avahi-base-0.7-r3[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-compat=,introspection=,ipv6=,mdnsresponder-compat=,python=,test=,nls=,selinux=,]
-  
   version: ""
-  
   category: net-dns
   id: 0
   name: avahi-gtk-0.7-r3[gdbm=,nls=,dbus=]
-  
   version: ""
-  
   category: net-dns
   id: 0
   name: avahi-gtk3-0.7-r3[dbus=,gdbm=,introspection=,nls=,python=]
-  
   version: ""
-  
   category: net-dns
   id: 0
   name: avahi-mono
-  
   version: 0.7-r3
-  
   category: net-dns
   id: 0
   name: avahi-qt5
-  
   version: 0.7-r3
 use_flags:
 - autoipd

@@ -6,23 +6,17 @@ id: 0
 license: GPL-2
 name: cado
 requires:
-  
-  category: sys-libs
-  id: 0
-  name: glibc
-  
-  version: ""
-  
   category: sys-libs
   id: 0
   name: pam
-  
   version: ""
-  
   category: sys-libs
   id: 0
   name: libcap
-  
+  version: ""
+  category: sys-libs
+  id: 0
+  name: glibc
   version: ""
 uri:
 - https://github.com/rd235/cado/archive/v0.9.tar.gz -> cado-0.9.tar.gz

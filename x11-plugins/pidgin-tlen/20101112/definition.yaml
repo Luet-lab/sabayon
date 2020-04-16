@@ -5,11 +5,9 @@ id: 0
 license: as-is
 name: pidgin-tlen
 requires:
-  
   category: net-im
   id: 0
   name: pidgin
-  
   version: 2.6.5
 uri:
 - http://nic.com.pl/~alek/pidgin-tlen/pidgin-tlen-20101112.tar.gz

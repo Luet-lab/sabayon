@@ -5,11 +5,9 @@ id: 0
 license: GPL-2
 name: nm-tray
 requires:
-  
   category: x11-terms
   id: 0
   name: xterm
-  
   version: ""
 uri:
 - https://github.com/palinek/nm-tray/archive/0.4.3.tar.gz -> nm-tray-0.4.3.tar.gz

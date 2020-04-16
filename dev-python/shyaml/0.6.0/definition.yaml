@@ -5,23 +5,17 @@ id: 0
 license: BSD-2
 name: shyaml
 requires:
-  
-  category: dev-python
-  id: 0
-  name: d2to1
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pyyaml
-  
-  version: ""
-  
   category: dev-python
   id: 0
   name: setuptools
-  
+  version: ""
+  category: dev-python
+  id: 0
+  name: d2to1
+  version: ""
+  category: dev-python
+  id: 0
+  name: pyyaml
   version: ""
 uri:
 - https://github.com/0k/shyaml/archive/0.6.0.tar.gz -> shyaml-0.6.0.tar.gz

@@ -5,11 +5,9 @@ id: 0
 license: GPL-2
 name: cowsay
 requires:
-  
   category: dev-lang
   id: 0
   name: perl
-  
   version: "5"
 uri:
 - http://www.nog.net/~tony/warez/cowsay-3.03.tar.gz

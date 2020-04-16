@@ -5,41 +5,29 @@ id: 0
 license: GPL-2+
 name: authconfig
 requires:
-  
   category: dev-python
   id: 0
   name: pygtk
-  
   version: 2.14.0
-  
   category: x11-themes
   id: 0
   name: hicolor-icon-theme
-  
   version: ""
-  
   category: sys-libs
   id: 0
   name: pam
-  
   version: ""
-  
   category: dev-libs
   id: 0
   name: libpwquality
-  
   version: "0.9"
-  
   category: dev-libs
   id: 0
   name: newt
-  
   version: ""
-  
   category: gnome-base
   id: 0
   name: libglade
-  
   version: ""
 uri:
 - https://pagure.io/releases/authconfig/authconfig-7.0.0.tar.bz2

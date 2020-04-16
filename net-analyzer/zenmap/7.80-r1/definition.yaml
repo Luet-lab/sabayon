@@ -1,0 +1,13 @@
+category: net-analyzer
+conflicts: []
+description: Graphical frontend for nmap
+id: 0
+license: GPL-2
+name: zenmap
+requires: []
+uri:
+- https://nmap.org/dist/nmap-7.80.tar.bz2
+- https://dev.gentoo.org/~jer/nmap-logo-64.png
+use_flags:
+- nls
+version: 7.80-r1

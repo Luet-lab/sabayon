@@ -5,17 +5,13 @@ id: 0
 license: LGPL-2
 name: rsl
 requires:
-  
   category: sci-libs
   id: 0
   name: hdf
-  
   version: ""
-  
   category: virtual
   id: 0
   name: jpeg
-  
   version: ""
 uri:
 - ftp://trmm-fc.gsfc.nasa.gov/software/rsl-v1.41.tar.gz

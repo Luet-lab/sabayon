@@ -5,11 +5,9 @@ id: 0
 license: GPL-3+
 name: kupfer
 requires:
-  
   category: dev-libs
   id: 0
   name: gobject-introspection
-  
   version: ""
 uri:
 - https://github.com/kupferlauncher/kupfer/releases/download/v319/kupfer-v319.tar.xz

@@ -5,23 +5,17 @@ id: 0
 license: GPL-2
 name: sabayon-fonts
 requires:
-  
-  category: media-fonts
-  id: 0
-  name: animal-tracks
-  
-  version: ""
-  
-  category: media-fonts
-  id: 0
-  name: cicle
-  
-  version: ""
-  
   category: media-fonts
   id: 0
   name: asenine
-  
+  version: ""
+  category: media-fonts
+  id: 0
+  name: animal-tracks
+  version: ""
+  category: media-fonts
+  id: 0
+  name: cicle
   version: ""
 use_flags:
 - ""

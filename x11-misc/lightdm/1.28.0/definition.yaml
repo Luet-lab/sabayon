@@ -5,18 +5,14 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm
 requires:
-  
-  category: x11-misc
-  id: 0
-  name: lightdm-qt5
-  
-  version: 1.28.0
-  
   category: x11-misc
   id: 0
   name: lightdm-base-1.28.0[introspection=]
-  
   version: ""
+  category: x11-misc
+  id: 0
+  name: lightdm-qt5
+  version: 1.28.0
 use_flags:
 - audit
 - +gnome

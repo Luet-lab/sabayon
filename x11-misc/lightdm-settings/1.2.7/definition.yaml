@@ -5,47 +5,33 @@ id: 0
 license: GPL-3
 name: lightdm-settings
 requires:
-  
-  category: x11-themes
-  id: 0
-  name: hicolor-icon-theme
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: lsb-release
-  
-  version: ""
-  
-  category: x11-misc
-  id: 0
-  name: lightdm-slick-greeter
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: setproctitle
-  
-  version: ""
-  
   category: dev-python
   id: 0
   name: pygobject
-  
   version: ""
-  
   category: sys-auth
   id: 0
   name: polkit
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: xapp
-  
+  version: ""
+  category: x11-themes
+  id: 0
+  name: hicolor-icon-theme
+  version: ""
+  category: sys-apps
+  id: 0
+  name: lsb-release
+  version: ""
+  category: x11-misc
+  id: 0
+  name: lightdm-slick-greeter
+  version: ""
+  category: dev-python
+  id: 0
+  name: setproctitle
   version: ""
 uri:
 - https://github.com/linuxmint/lightdm-settings/archive/1.2.7.tar.gz -> lightdm-settings-1.2.7.tar.gz

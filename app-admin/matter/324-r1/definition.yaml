@@ -5,18 +5,14 @@ id: 0
 license: GPL-2
 name: matter
 requires:
-  
-  category: sys-apps
-  id: 0
-  name: file
-  
-  version: ""
-  
   category: sys-apps
   id: 0
   name: entropy
-  
   version: "324"
+  category: sys-apps
+  id: 0
+  name: file
+  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-324.tar.bz2
 use_flags:

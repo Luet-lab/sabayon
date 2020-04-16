@@ -5,17 +5,13 @@ id: 0
 license: as-is
 name: brother-hl5340d-drivers
 requires:
-  
   category: app-text
   id: 0
   name: ghostscript-gpl
-  
   version: ""
-  
   category: net-print
   id: 0
   name: cups
-  
   version: ""
 uri:
 - http://www.brother.com/pub/bsc/linux/dlf/hl5340dlpr-2.0.3-1.i386.rpm

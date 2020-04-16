@@ -5,77 +5,53 @@ id: 0
 license: GPL-3
 name: autokey
 requires:
-  
-  category: dev-libs
-  id: 0
-  name: glib
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pygobject
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pyatspi
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: python-xlib
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: gtksourceview
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: libnotify
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: pango
-  
-  version: ""
-  
   category: dev-libs
   id: 0
   name: gobject-introspection
-  
   version: ""
-  
   category: dev-python
   id: 0
-  name: dbus-python
-  
+  name: pygobject
   version: ""
-  
-  category: dev-python
-  id: 0
-  name: pyinotify
-  
-  version: ""
-  
-  category: gnome-extra
-  id: 0
-  name: zenity
-  
-  version: ""
-  
   category: x11-libs
   id: 0
   name: gtk+
-  
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtksourceview
+  version: ""
+  category: x11-libs
+  id: 0
+  name: pango
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: dev-python
+  id: 0
+  name: dbus-python
+  version: ""
+  category: dev-python
+  id: 0
+  name: pyatspi
+  version: ""
+  category: dev-python
+  id: 0
+  name: pyinotify
+  version: ""
+  category: dev-python
+  id: 0
+  name: python-xlib
+  version: ""
+  category: gnome-extra
+  id: 0
+  name: zenity
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libnotify
   version: ""
 uri:
 - https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/autokey/autokey-0.90.4.tar.gz

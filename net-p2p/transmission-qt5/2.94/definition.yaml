@@ -1,44 +1,32 @@
 category: net-p2p
 conflicts:
-  
   category: net-p2p
   id: 0
   name: transmission-qt4
-  
   version: ""
 description: A Fast, Easy and Free BitTorrent client - Qt5 UI
 id: 0
 name: transmission-qt5
 requires:
-  
-  category: dev-qt
-  id: 0
-  name: qtcore
-  
-  version: ""
-  
-  category: dev-qt
-  id: 0
-  name: qtdbus
-  
-  version: ""
-  
   category: dev-qt
   id: 0
   name: qtgui
-  
   version: ""
-  
   category: dev-qt
   id: 0
   name: qtnetwork
-  
   version: ""
-  
   category: dev-qt
   id: 0
   name: qtwidgets
-  
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtcore
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtdbus
   version: ""
 use_flags:
 - ""

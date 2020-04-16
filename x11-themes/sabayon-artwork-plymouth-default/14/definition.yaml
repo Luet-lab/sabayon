@@ -5,17 +5,13 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-default
 requires:
-  
   category: x11-themes
   id: 0
   name: sabayon-artwork-plymouth-base
-  
   version: ""
-  
   category: sys-apps
   id: 0
   name: findutils
-  
   version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-plymouth-default/sabayon-artwork-plymouth-default-14.tar.xz

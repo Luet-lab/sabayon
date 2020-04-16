@@ -5,23 +5,17 @@ id: 0
 license: GPL-2
 name: jackd-firewire
 requires:
-  
   category: media-libs
   id: 0
   name: alsa-lib
-  
   version: 1.0.27.2
-  
   category: media-libs
   id: 0
   name: libffado
-  
   version: ""
-  
   category: media-sound
   id: 0
   name: jack-audio-connection-kit
-  
   version: 0.125.0
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz

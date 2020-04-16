@@ -1,10 +1,8 @@
 category: app-misc
 conflicts:
-  
   category: <=app-misc
   id: 0
   name: sabayonlinux-skel
-  
   version: 3.5-r6
 description: Sabayon Linux skel tree
 id: 0

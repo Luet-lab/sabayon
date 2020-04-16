@@ -5,16 +5,12 @@ id: 0
 license: GPL-2
 name: korora-shell-theme
 requires:
-  
   category: gnome-extra
   id: 0
   name: gnome-shell-extensions
-  
   version: ""
-  
   category: gnome-base
   id: 0
   name: gnome-shell
-  
   version: "3.10"
 version: "20150716"

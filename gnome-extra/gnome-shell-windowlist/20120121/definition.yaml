@@ -5,17 +5,13 @@ id: 0
 license: GPL-2
 name: gnome-shell-windowlist
 requires:
-  
   category: app-eselect
   id: 0
   name: eselect-gnome-shell-extensions
-  
   version: ""
-  
   category: gnome-base
   id: 0
   name: gnome-shell
-  
   version: ""
 use_flags:
 - ""

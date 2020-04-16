@@ -5,17 +5,13 @@ id: 0
 license: GPL-2
 name: magneto-loader
 requires:
-  
   category: sys-apps
   id: 0
   name: magneto-core
-  
   version: "320"
-  
   category: app-admin
   id: 0
   name: rigo
-  
   version: "320"
 uri:
 - mirror://sabayon/sys-apps/entropy-320.tar.bz2

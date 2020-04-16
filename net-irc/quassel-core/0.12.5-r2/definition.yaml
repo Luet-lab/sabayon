@@ -5,47 +5,33 @@ id: 0
 license: GPL-3
 name: quassel-core
 requires:
-  
-  category: dev-db
-  id: 0
-  name: sqlite
-  
-  version: ""
-  
-  category: virtual
-  id: 0
-  name: logger
-  
-  version: ""
-  
-  category: dev-qt
-  id: 0
-  name: qtcore
-  
-  version: ""
-  
   category: sys-libs
   id: 0
   name: zlib
-  
   version: ""
-  
   category: dev-qt
   id: 0
   name: qtscript
-  
   version: ""
-  
   category: app-crypt
   id: 0
   name: qca
-  
   version: ""
-  
   category: dev-qt
   id: 0
   name: qtsql
-  
+  version: ""
+  category: dev-db
+  id: 0
+  name: sqlite
+  version: ""
+  category: virtual
+  id: 0
+  name: logger
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtcore
   version: ""
 uri:
 - http://quassel-irc.org/pub/quassel-0.12.5.tar.bz2

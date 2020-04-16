@@ -5,11 +5,9 @@ id: 0
 license: BitTorrent
 name: bittorrent
 requires:
-  
   category: dev-python
   id: 0
   name: pycrypto
-  
   version: "2.0"
 uri:
 - http://www.bittorrent.com/dl/BitTorrent-4.4.0.tar.gz

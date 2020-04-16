@@ -5,23 +5,17 @@ id: 0
 license: GPL-2
 name: xsane-gimp
 requires:
-  
-  category: media-gfx
-  id: 0
-  name: xsane
-  
-  version: "0.998"
-  
-  category: media-gfx
-  id: 0
-  name: gimp
-  
-  version: ""
-  
   category: media-gfx
   id: 0
   name: sane-backends
-  
+  version: ""
+  category: media-gfx
+  id: 0
+  name: xsane
+  version: "0.998"
+  category: media-gfx
+  id: 0
+  name: gimp
   version: ""
 uri:
 - http://www.xsane.org/download/xsane-0.998.tar.gz

@@ -5,17 +5,13 @@ id: 0
 license: GPL-3
 name: pyroom
 requires:
-  
   category: dev-python
   id: 0
   name: pyxdg
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: pygtk
-  
   version: ""
 uri:
 - http://launchpad.net/pyroom//0.4.1/+download/pyroom-0.4.1.tar.gz

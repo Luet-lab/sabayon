@@ -5,53 +5,37 @@ id: 0
 license: GPL-2
 name: gfxboot
 requires:
-  
-  category: app-arch
-  id: 0
-  name: cpio
-  
-  version: ""
-  
-  category: dev-lang
-  id: 0
-  name: nasm
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: freetype
-  
-  version: "2"
-  
-  category: dev-libs
-  id: 0
-  name: fribidi
-  
-  version: ""
-  
-  category: "(\tapp-text"
-  id: 0
-  name: xmlto
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: libxslt
-  
-  version: ""
-  
-  category: app-text
-  id: 0
-  name: docbook-xml-dtd
-  
-  version: ""
-  
   category: dev-perl
   id: 0
   name: HTML-Parser
-  
+  version: ""
+  category: app-arch
+  id: 0
+  name: cpio
+  version: ""
+  category: dev-lang
+  id: 0
+  name: nasm
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: "2"
+  category: dev-libs
+  id: 0
+  name: fribidi
+  version: ""
+  category: "(\tapp-text"
+  id: 0
+  name: xmlto
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libxslt
+  version: ""
+  category: app-text
+  id: 0
+  name: docbook-xml-dtd
   version: ""
 uri:
 - download.opensuse.org/repositories/Education/SLE-11/src/gfxboot-4.1.19-.1.src.rpm

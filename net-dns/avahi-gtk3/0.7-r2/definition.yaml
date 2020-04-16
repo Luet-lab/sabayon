@@ -1,51 +1,37 @@
 category: net-dns
 conflicts:
-  
   category: <net-dns
   id: 0
   name: avahi-gtk
-  
   version: "0.7"
 description: System which facilitates service discovery on a local network (gtk3 pkg)
 id: 0
 license: LGPL-2.1
 name: avahi-gtk3
 requires:
-  
   category: dev-libs
   id: 0
   name: gobject-introspection
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: dbus-python
-  
   version: ""
-  
   category: sys-apps
   id: 0
   name: dbus
-  
   version: ""
-  
   category: net-dns
   id: 0
   name: avahi-base-0.7[bookmarks=,dbus=,gdbm=,introspection=,nls=,python=]
-  
   version: ""
-  
   category: x11-libs
   id: 0
   name: gtk+
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: pygobject
-  
   version: ""
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz

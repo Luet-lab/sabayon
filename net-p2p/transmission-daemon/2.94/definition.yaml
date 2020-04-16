@@ -4,11 +4,9 @@ description: A Fast, Easy and Free BitTorrent client - daemon
 id: 0
 name: transmission-daemon
 requires:
-  
   category: sys-apps
   id: 0
   name: systemd
-  
   version: "209"
 use_flags:
 - systemd

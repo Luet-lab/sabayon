@@ -6,23 +6,17 @@ id: 0
 license: GPL-3
 name: bumblebee
 requires:
-  
   category: virtual
   id: 0
   name: opengl
-  
   version: ""
-  
   category: x11-misc
   id: 0
   name: virtualgl
-  
   version: ""
-  
   category: sys-power
   id: 0
   name: bbswitch
-  
   version: ""
 uri:
 - http://bumblebee-project.org/bumblebee-3.2.1.tar.gz

@@ -5,155 +5,105 @@ id: 0
 license: GPL-3
 name: cairo-dock-plugins
 requires:
-  
-  category: xfce-base
-  id: 0
-  name: thunar
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: dbus
-  
-  version: ""
-  
-  category: gnome-base
-  id: 0
-  name: gnome-menus
-  
-  version: ""
-  
-  category: dev-lang
-  id: 0
-  name: vala
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: alsa-lib
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: libexif
-  
-  version: ""
-  
   category: x11-libs
   id: 0
   name: libXxf86vm
-  
   version: ""
-  
-  category: x11-libs
-  id: 0
-  name: libxklavier
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: libindicator
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: cairo
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: gtk+
-  
-  version: ""
-  
-  category: x11-misc
-  id: 0
-  name: cairo-dock
-  
-  version: 3.4.1
-  
-  category: x11-libs
-  id: 0
-  name: vte
-  
-  version: ""
-  
-  category: net-libs
-  id: 0
-  name: webkit-gtk
-  
-  version: 1.4.0
-  
-  category: dev-python
-  id: 0
-  name: simplejson
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  
-  version: ""
-  
   category: dev-libs
   id: 0
   name: glib
-  
   version: ""
-  
-  category: gnome-base
+  category: sys-apps
   id: 0
-  name: librsvg
-  
+  name: dbus
   version: ""
-  
-  category: app-misc
+  category: x11-libs
   id: 0
-  name: gnote
-  
+  name: cairo
   version: ""
-  
-  category: dev-python
+  category: media-libs
   id: 0
-  name: oauth
-  
+  name: alsa-lib
   version: ""
-  
+  category: media-libs
+  id: 0
+  name: libexif
+  version: ""
+  category: net-libs
+  id: 0
+  name: webkit-gtk
+  version: 1.4.0
   category: dev-libs
   id: 0
   name: libzeitgeist
-  
   version: ""
-  
-  category: net-libs
+  category: x11-misc
   id: 0
-  name: libetpan
-  
-  version: ""
-  
-  category: dev-libs
+  name: cairo-dock
+  version: 3.4.1
+  category: gnome-base
   id: 0
-  name: libxml2
-  
+  name: gnome-menus
   version: ""
-  
-  category: x11-libs
+  category: dev-lang
   id: 0
-  name: gtkglext
-  
+  name: vala
   version: ""
-  
+  category: app-misc
+  id: 0
+  name: gnote
+  version: ""
+  category: dev-python
+  id: 0
+  name: oauth
+  version: ""
   category: kde-frameworks
   id: 0
   name: kdelibs
-  
+  version: ""
+  category: x11-libs
+  id: 0
+  name: vte
+  version: ""
+  category: xfce-base
+  id: 0
+  name: thunar
+  version: ""
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libxml2
+  version: ""
+  category: gnome-base
+  id: 0
+  name: librsvg
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtkglext
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxklavier
+  version: ""
+  category: dev-python
+  id: 0
+  name: simplejson
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libindicator
+  version: ""
+  category: net-libs
+  id: 0
+  name: libetpan
   version: ""
 uri:
 - http://launchpad.net/cairo-dock-plug-ins//3.4.1/+download/cairo-dock-plug-ins-3.4.1.tar.gz

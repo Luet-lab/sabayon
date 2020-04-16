@@ -5,36 +5,26 @@ id: 0
 license: GPL-2
 name: libideviceactivation
 requires:
-  
-  category: app-pda
-  id: 0
-  name: libimobiledevice
-  
-  version: 1.1.4
-  
-  category: app-pda
-  id: 0
-  name: libplist
-  
-  version: "1.8"
-  
-  category: dev-libs
-  id: 0
-  name: libxml2
-  
-  version: 2.9.2-r4
-  
   category: net-misc
   id: 0
   name: curl
-  
   version: ""
-  
   category: app-pda
   id: 0
   name: usbmuxd
-  
   version: ""
+  category: app-pda
+  id: 0
+  name: libimobiledevice
+  version: 1.1.4
+  category: app-pda
+  id: 0
+  name: libplist
+  version: "1.8"
+  category: dev-libs
+  id: 0
+  name: libxml2
+  version: 2.9.2-r4
 uri:
 - http://www.libimobiledevice.org/downloads/libideviceactivation-1.0.0.tar.bz2
 use_flags:

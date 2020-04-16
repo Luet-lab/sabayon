@@ -5,36 +5,26 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-gnome
 requires:
-  
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-core
-  
-  version: ""
-  
   category: x11-themes
   id: 0
   name: arc-theme
-  
   version: ""
-  
   category: x11-themes
   id: 0
   name: numix-icon-theme-circle
-  
   version: ""
-  
   category: x11-themes
   id: 0
   name: numix-icon-theme
-  
   version: ""
-  
   category: gnome-extra
   id: 0
   name: gnome-shell-extensions
-  
   version: "3.12"
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-core
+  version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-gnome/sabayon-artwork-gnome-15-r1.tar.xz
 use_flags:

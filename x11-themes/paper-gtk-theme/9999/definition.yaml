@@ -5,16 +5,12 @@ id: 0
 license: GPL-3
 name: paper-gtk-theme
 requires:
-  
   category: x11-themes
   id: 0
   name: gtk-engines
-  
   version: ""
-  
   category: x11-libs
   id: 0
   name: gdk-pixbuf
-  
   version: ""
 version: "9999"

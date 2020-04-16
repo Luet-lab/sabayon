@@ -1,33 +1,25 @@
 category: dev-python
 conflicts:
-  
   category: <dev-python
   id: 0
   name: pygtk
-  
   version: "2.13"
-  
   category: <dev-python
   id: 0
   name: pygobject
-  
   version: 2.28.6-r50
 description: GLib's GObject library bindings for Python, meta package
 id: 0
 license: LGPL-2.1+
 name: pygobject
 requires:
-  
   category: dev-python
   id: 0
   name: pygobject-base-3.32.0[examples=,]
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: pygobject-cairo-3.32.0[test=,]
-  
   version: ""
 use_flags:
 - +cairo

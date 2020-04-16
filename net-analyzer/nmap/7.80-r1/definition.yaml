@@ -1,0 +1,62 @@
+category: net-analyzer
+conflicts: []
+description: A utility for network discovery and security auditing
+id: 0
+license: GPL-2
+name: nmap
+requires:
+  category: dev-libs
+  id: 0
+  name: libpcre
+  version: ""
+  category: net-libs
+  id: 0
+  name: libssh2
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: dev-vcs
+  id: 0
+  name: subversion
+  version: ""
+  category: dev-lang
+  id: 0
+  name: lua
+  version: "5.2"
+  category: dev-libs
+  id: 0
+  name: liblinear
+  version: ""
+  category: net-libs
+  id: 0
+  name: libpcap
+  version: ""
+  category: dev-libs
+  id: 0
+  name: apr
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
+uri:
+- https://nmap.org/dist/nmap-7.80.tar.bz2
+use_flags:
+- ipv6
+- libressl
+- libssh2
+- ncat
+- ndiff
+- nls
+- nmap-update
+- nping
+- +nse
+- ssl
+- "system-lua\n\tzenmap"
+version: 7.80-r1

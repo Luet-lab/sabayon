@@ -5,11 +5,9 @@ id: 0
 license: GPL-2
 name: grub
 requires:
-  
   category: sys-libs
   id: 0
   name: ncurses
-  
   version: 5.9-r3
 uri:
 - mirror://gentoo/grub-0.97.tar.gz

@@ -1,0 +1,20 @@
+steps:
+- source /etc/profile && emerge -j 3 -t --nospinner -b =${GENTOO_CATEGORY}/rtsp-conntrack-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv rtsp-conntrack-${GENTOO_VERSION}.tbz2 rtsp-conntrack-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=4.18"
+- "GENTOO_CATEGORY=net-firewall"
+requires:
+- category: "sys-kernel"
+  version:  "5.5.5"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "5.5.5"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

@@ -5,11 +5,9 @@ id: 0
 license: BSD-2
 name: glee
 requires:
-  
   category: virtual
   id: 0
   name: opengl
-  
   version: ""
 uri:
 - http://elf-stone.com/downloads/GLee/GLee-5.4.0-src.tar.gz

@@ -5,41 +5,29 @@ id: 0
 license: GPL-3
 name: autokey
 requires:
-  
-  category: dev-python
-  id: 0
-  name: pyatspi
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pygtksourceview
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: python-xlib
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pygtk
-  
-  version: ""
-  
-  category: dev-python
-  id: 0
-  name: pyinotify
-  
-  version: ""
-  
   category: dev-python
   id: 0
   name: dbus-python
-  
+  version: ""
+  category: dev-python
+  id: 0
+  name: pyatspi
+  version: ""
+  category: dev-python
+  id: 0
+  name: pygtksourceview
+  version: ""
+  category: dev-python
+  id: 0
+  name: python-xlib
+  version: ""
+  category: dev-python
+  id: 0
+  name: pygtk
+  version: ""
+  category: dev-python
+  id: 0
+  name: pyinotify
   version: ""
 uri:
 - https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/autokey/autokey_0.81.4.tar.gz

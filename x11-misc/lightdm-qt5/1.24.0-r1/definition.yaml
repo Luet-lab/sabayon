@@ -5,29 +5,21 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm-qt5
 requires:
-  
-  category: x11-misc
-  id: 0
-  name: lightdm-base
-  
-  version: 1.24.0
-  
-  category: dev-qt
-  id: 0
-  name: qtcore
-  
-  version: ""
-  
   category: dev-qt
   id: 0
   name: qtdbus
-  
   version: ""
-  
   category: dev-qt
   id: 0
   name: qtgui
-  
+  version: ""
+  category: x11-misc
+  id: 0
+  name: lightdm-base
+  version: 1.24.0
+  category: dev-qt
+  id: 0
+  name: qtcore
   version: ""
 uri:
 - https://launchpad.net/lightdm//1.24.0/+download/lightdm-1.24.0.tar.xz

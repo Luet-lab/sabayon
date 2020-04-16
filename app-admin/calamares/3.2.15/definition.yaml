@@ -5,78 +5,54 @@ id: 0
 license: GPL-3
 name: calamares
 requires:
-  
-  category: dev-libs
-  id: 0
-  name: libpwquality
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: dbus
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: dmidecode
-  
-  version: ""
-  
-  category: sys-auth
-  id: 0
-  name: polkit-qt[qt5(+)]
-  
-  version: ""
-  
   category: net-misc
   id: 0
   name: rsync
-  
   version: ""
-  
-  category: dev-cpp
-  id: 0
-  name: yaml-cpp
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: boost
-  
-  version: "1.55"
-  
-  category: sys-libs
-  id: 0
-  name: kpmcore
-  
-  version: 3.0.3
-  
-  category: dev-python
-  id: 0
-  name: PythonQt
-  
-  version: "3.1"
-  
-  category: app-admin
-  id: 0
-  name: sudo
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: libatasmart
-  
-  version: ""
-  
   category: sys-block
   id: 0
   name: parted
-  
   version: "3.0"
+  category: dev-cpp
+  id: 0
+  name: yaml-cpp
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libpwquality
+  version: ""
+  category: sys-auth
+  id: 0
+  name: polkit-qt[qt5(+)]
+  version: ""
+  category: sys-libs
+  id: 0
+  name: kpmcore
+  version: 3.0.3
+  category: dev-libs
+  id: 0
+  name: libatasmart
+  version: ""
+  category: dev-libs
+  id: 0
+  name: boost
+  version: "1.55"
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dmidecode
+  version: ""
+  category: dev-python
+  id: 0
+  name: PythonQt
+  version: "3.1"
+  category: app-admin
+  id: 0
+  name: sudo
+  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.15/calamares-3.2.15.tar.gz
 use_flags:

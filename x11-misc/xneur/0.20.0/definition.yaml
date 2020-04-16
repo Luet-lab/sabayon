@@ -1,105 +1,73 @@
 category: x11-misc
 conflicts:
-  
   category: x11-misc
   id: 0
   name: gxneur
-  
   version: ""
 description: In-place conversion of text typed in with a wrong keyboard layout
 id: 0
 license: GPL-2
 name: xneur
 requires:
-  
-  category: media-sound
-  id: 0
-  name: alsa-utils
-  
-  version: 1.0.17
-  
-  category: x11-libs
-  id: 0
-  name: gtk+
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: xosd
-  
-  version: ""
-  
   category: dev-libs
   id: 0
   name: libpcre
-  
   version: "5.0"
-  
   category: sys-libs
   id: 0
   name: zlib
-  
   version: ""
-  
-  category: media-libs
-  id: 0
-  name: gstreamer
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: freealut
-  
-  version: 1.0.1
-  
-  category: media-libs
-  id: 0
-  name: gst-plugins-good
-  
-  version: ""
-  
-  category: media-plugins
-  id: 0
-  name: gst-plugins-alsa
-  
-  version: ""
-  
-  category: virtual
-  id: 0
-  name: libintl
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: libX11
-  
-  version: "1.1"
-  
-  category: x11-libs
-  id: 0
-  name: libXi
-  
-  version: ""
-  
-  category: x11-libs
-  id: 0
-  name: libXtst
-  
-  version: ""
-  
   category: app-text
   id: 0
   name: enchant
-  
   version: ""
-  
+  category: media-libs
+  id: 0
+  name: gst-plugins-good
+  version: ""
+  category: media-plugins
+  id: 0
+  name: gst-plugins-alsa
+  version: ""
+  category: virtual
+  id: 0
+  name: libintl
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: "1.1"
+  category: x11-libs
+  id: 0
+  name: libXi
+  version: ""
+  category: media-libs
+  id: 0
+  name: gstreamer
+  version: ""
+  category: media-libs
+  id: 0
+  name: freealut
+  version: 1.0.1
+  category: media-sound
+  id: 0
+  name: alsa-utils
+  version: 1.0.17
+  category: x11-libs
+  id: 0
+  name: xosd
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
   category: x11-libs
   id: 0
   name: libnotify
-  
   version: 0.4.0
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.20.0.orig.tar.gz

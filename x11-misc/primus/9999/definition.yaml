@@ -5,11 +5,9 @@ id: 0
 license: ISC
 name: primus
 requires:
-  
   category: x11-misc
   id: 0
   name: bumblebee[video_cards_nvidia]
-  
   version: ""
 use_flags:
 - ""

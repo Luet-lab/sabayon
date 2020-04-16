@@ -1,27 +1,21 @@
 category: x11-themes
 conflicts:
-  
   category: <x11-themes
   id: 0
   name: sabayon-artwork-core
-  
   version: 14-r2
 description: Sabayon Linux Official MATE artwork
 id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-mate
 requires:
-  
   category: media-fonts
   id: 0
   name: ubuntu-font-family
-  
   version: ""
-  
   category: x11-themes
   id: 0
   name: faenza-icon-theme
-  
   version: ""
 use_flags:
 - ""

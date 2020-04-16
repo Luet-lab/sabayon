@@ -5,11 +5,9 @@ id: 0
 license: GPL-2
 name: cairo-dock-themes
 requires:
-  
   category: x11-misc
   id: 0
   name: cairo-dock
-  
   version: 1.6.3.1
 uri:
 - mirror://sourceforge/cairo-dock.berlios/cairo-dock-themes-1.6.3.1.tar.bz2

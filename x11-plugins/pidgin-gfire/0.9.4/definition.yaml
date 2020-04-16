@@ -5,29 +5,21 @@ id: 0
 license: GPL-3
 name: pidgin-gfire
 requires:
-  
   category: net-im
   id: 0
   name: pidgin
-  
   version: ""
-  
   category: x11-libs
   id: 0
   name: gtk+
-  
   version: ""
-  
   category: dev-libs
   id: 0
   name: dbus-glib
-  
   version: ""
-  
   category: x11-libs
   id: 0
   name: libnotify
-  
   version: ""
 uri:
 - mirror://sourceforge/gfire/pidgin-gfire-0.9.4.tar.bz2

@@ -1,0 +1,20 @@
+steps:
+- source /etc/profile && emerge -j 3 -t --nospinner -b =${GENTOO_CATEGORY}/nvidia-drivers-${GENTOO_VERSION}
+
+- cd /usr/portage/packages/${GENTOO_CATEGORY}
+- mv nvidia-drivers-${GENTOO_VERSION}.tbz2 nvidia-drivers-${PACKAGE_VERSION}.tbz2
+
+env:
+- "GENTOO_VERSION=430.26"
+- "GENTOO_CATEGORY=x11-drivers"
+requires:
+- category: "sys-kernel"
+  version:  "4.9.215"
+  name:     "linux-sabayon"
+- category: "sys-kernel"
+  version:  "4.9.215"
+  name:     "sabayon-sources"
+
+includes:
+- /usr/portage/packages/.*
+

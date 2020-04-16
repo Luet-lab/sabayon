@@ -1,27 +1,21 @@
 category: x11-themes
 conflicts:
-  
   category: <x11-themes
   id: 0
   name: sabayon-artwork-core
-  
   version: 13-r1
 description: Official Sabayon Linux Plymouth base Artwork
 id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-base
 requires:
-  
   category: sys-apps
   id: 0
   name: findutils
-  
   version: ""
-  
   category: sys-boot
   id: 0
   name: plymouth
-  
   version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-plymouth-base/sabayon-artwork-plymouth-base-14.tar.xz

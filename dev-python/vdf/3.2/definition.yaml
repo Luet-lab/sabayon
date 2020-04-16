@@ -5,17 +5,13 @@ id: 0
 license: MIT
 name: vdf
 requires:
-  
   category: dev-python
   id: 0
   name: mock
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: pytest-cov
-  
   version: ""
 uri:
 - https://github.com/ValvePython/vdf/archive/v3.2.tar.gz -> vdf-3.2.tar.gz

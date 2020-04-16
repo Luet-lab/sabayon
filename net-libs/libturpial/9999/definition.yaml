@@ -5,29 +5,21 @@ id: 0
 license: GPL-3
 name: libturpial
 requires:
-  
   category: dev-python
   id: 0
   name: oauth
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: requests
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: simplejson
-  
   version: ""
-  
   category: dev-python
   id: 0
   name: setuptools
-  
   version: ""
 use_flags:
 - ""

@@ -5,11 +5,9 @@ id: 0
 license: MIT
 name: pymdown-extensions
 requires:
-  
   category: dev-python
   id: 0
   name: mkdocs
-  
   version: 1.0.1
 uri:
 - https://github.com/facelessuser/pymdown-extensions/archive/6.2.0.tar.gz -> pymdown-extensions-6.2.0.tar.gz

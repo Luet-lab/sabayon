@@ -4,13 +4,7 @@ description: Graphical frontend for nmap
 id: 0
 license: GPL-2
 name: zenmap
-requires:
-  
-  category: dev-python
-  id: 0
-  name: pygtk
-  
-  version: ""
+requires: []
 uri:
 - https://nmap.org/dist/nmap-7.70.tar.bz2
 - https://dev.gentoo.org/~jer/nmap-logo-64.png

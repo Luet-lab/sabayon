@@ -5,11 +5,9 @@ id: 0
 license: GPL-2
 name: entrofoo
 requires:
-  
   category: app-misc
   id: 0
   name: entrofoo-fail
-  
   version: ""
 use_flags:
 - ""

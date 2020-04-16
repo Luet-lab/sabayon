@@ -5,41 +5,29 @@ id: 0
 license: GPL-3
 name: libcitadel
 requires:
-  
-  category: dev-libs
-  id: 0
-  name: expat
-  
-  version: ""
-  
-  category: dev-libs
-  id: 0
-  name: libical
-  
-  version: ""
-  
-  category: net-misc
-  id: 0
-  name: curl
-  
-  version: ""
-  
-  category: mail-filter
-  id: 0
-  name: libsieve
-  
-  version: ""
-  
   category: sys-libs
   id: 0
   name: db
-  
   version: ""
-  
   category: sys-libs
   id: 0
   name: zlib
-  
+  version: ""
+  category: dev-libs
+  id: 0
+  name: expat
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libical
+  version: ""
+  category: net-misc
+  id: 0
+  name: curl
+  version: ""
+  category: mail-filter
+  id: 0
+  name: libsieve
   version: ""
 uri:
 - http://easyinstall.citadel.org/libcitadel-8.04.tar.gz

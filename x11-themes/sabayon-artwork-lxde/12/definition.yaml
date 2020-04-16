@@ -5,11 +5,9 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-lxde
 requires:
-  
   category: x11-themes
   id: 0
   name: sabayon-artwork-core
-  
   version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-lxde/sabayon-artwork-lxde-12.tar.xz

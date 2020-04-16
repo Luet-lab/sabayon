@@ -1,34 +1,26 @@
 category: dev-python
 conflicts:
-  
   category: <dev-python
   id: 0
   name: pygtk
-  
   version: "2.13"
-  
   category: <dev-python
   id: 0
   name: pygobject
-  
   version: 2.28.6-r50
 description: GLib's GObject library bindings for Python, Cairo Libraries
 id: 0
 license: LGPL-2.1+
 name: pygobject-cairo
 requires:
-  
-  category: dev-python
-  id: 0
-  name: pycairo
-  
-  version: 1.10.0
-  
   category: dev-python
   id: 0
   name: pygobject-base-3.24.1[threads=]
-  
   version: ""
+  category: dev-python
+  id: 0
+  name: pycairo
+  version: 1.10.0
 use_flags:
 - test
 - +threads

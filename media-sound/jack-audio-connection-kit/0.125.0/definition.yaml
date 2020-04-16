@@ -1,76 +1,54 @@
 category: media-sound
 conflicts:
-  
-  category: <=app-emulation
-  id: 0
-  name: emul-linux-x86-soundlibs
-  
-  version: 20130224-r7
-  
   category: media-sound
   id: 0
   name: jack-cvs
-  
   version: ""
-  
+  category: <=app-emulation
+  id: 0
+  name: emul-linux-x86-soundlibs
+  version: 20130224-r7
   category: app-emulation
   id: 0
   name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
-  
   version: ""
 description: A low-latency audio server
 id: 0
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-  
-  category: sys-libs
-  id: 0
-  name: readline
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: libsndfile
-  
-  version: 1.0.0
-  
-  category: media-libs
-  id: 0
-  name: alsa-lib
-  
-  version: 1.0.27.2
-  
-  category: sys-process
-  id: 0
-  name: lsof
-  
-  version: ""
-  
-  category: sys-auth
-  id: 0
-  name: realtime-base
-  
-  version: ""
-  
-  category: sys-libs
-  id: 0
-  name: db
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: libffado
-  
-  version: ""
-  
   category: media-libs
   id: 0
   name: libsamplerate
-  
   version: 0.1.8-r1
+  category: sys-process
+  id: 0
+  name: lsof
+  version: ""
+  category: media-libs
+  id: 0
+  name: libffado
+  version: ""
+  category: sys-libs
+  id: 0
+  name: readline
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsndfile
+  version: 1.0.0
+  category: media-libs
+  id: 0
+  name: alsa-lib
+  version: 1.0.27.2
+  category: sys-auth
+  id: 0
+  name: realtime-base
+  version: ""
+  category: sys-libs
+  id: 0
+  name: db
+  version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:

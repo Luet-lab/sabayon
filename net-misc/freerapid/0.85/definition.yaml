@@ -6,11 +6,9 @@ id: 0
 license: GPL
 name: freerapid
 requires:
-  
   category: virtual
   id: 0
   name: jre
-  
   version: "1.6"
 uri:
 - mirror://sabayon//FreeRapid-0.85u1-b566.zip
