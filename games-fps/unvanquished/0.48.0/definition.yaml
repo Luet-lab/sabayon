@@ -7,68 +7,24 @@ name: unvanquished
 requires:
   category: media-libs
   id: 0
-  name: freetype
-  version: ""
-  category: media-libs
-  id: 0
-  name: glew
-  version: ""
-  category: media-libs
-  id: 0
-  name: opusfile
-  version: ""
-  category: virtual
-  id: 0
-  name: opengl
-  version: ""
-  category: net-misc
-  id: 0
-  name: curl
-  version: ""
-  category: dev-lang
-  id: 0
-  name: lua
-  version: ""
-  category: virtual
-  id: 0
-  name: glu
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: app-misc
-  id: 0
-  name: screen
-  version: ""
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
-  category: media-libs
-  id: 0
   name: openal
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsdl2[X,opengl,video]
   version: ""
   category: virtual
   id: 0
   name: jpeg
   version: ""
-  category: media-libs
+  category: app-misc
   id: 0
-  name: libogg
+  name: screen
   version: ""
-  category: media-libs
+  category: dev-libs
   id: 0
-  name: libpng
+  name: nettle
   version: ""
-  category: games-fps
+  category: net-misc
   id: 0
-  name: unvanquished-data
-  version: 0.48.0
+  name: curl
+  version: ""
   category: sys-libs
   id: 0
   name: zlib
@@ -77,25 +33,69 @@ requires:
   id: 0
   name: libtheora
   version: ""
+  category: virtual
+  id: 0
+  name: glu
+  version: ""
+  category: virtual
+  id: 0
+  name: opengl
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: ""
   category: media-libs
   id: 0
-  name: libvorbis
+  name: glew
+  version: ""
+  category: media-libs
+  id: 0
+  name: libpng
   version: ""
   category: media-libs
   id: 0
   name: libwebp
   version: ""
-  category: dev-libs
+  category: media-libs
   id: 0
-  name: geoip
+  name: opusfile
   version: ""
-  category: dev-libs
+  category: games-fps
   id: 0
-  name: nettle
+  name: unvanquished-data
+  version: 0.48.0
+  category: dev-lang
+  id: 0
+  name: lua
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: ""
+  category: media-libs
+  id: 0
+  name: libogg
   version: ""
   category: dev-libs
   id: 0
   name: gmp
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsdl2[X,opengl,video]
+  version: ""
+  category: media-libs
+  id: 0
+  name: libvorbis
+  version: ""
+  category: dev-libs
+  id: 0
+  name: geoip
   version: ""
 uri:
 - -> unvanquished-0.48.0.tar.gz

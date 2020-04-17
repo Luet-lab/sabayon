@@ -7,6 +7,10 @@ name: libturpial
 requires:
   category: dev-python
   id: 0
+  name: setuptools
+  version: ""
+  category: dev-python
+  id: 0
   name: oauth
   version: ""
   category: dev-python
@@ -16,10 +20,6 @@ requires:
   category: dev-python
   id: 0
   name: simplejson
-  version: ""
-  category: dev-python
-  id: 0
-  name: setuptools
   version: ""
 uri:
 - https://github.com/satanas/libturpial/archive/1.7.0.tar.gz -> libturpial-1.7.0.tar.gz

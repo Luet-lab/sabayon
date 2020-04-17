@@ -5,6 +5,10 @@ id: 0
 license: GPL-3
 name: screenfetch
 requires:
+  category: media-gfx
+  id: 0
+  name: scrot
+  version: ""
   category: x11-apps
   id: 0
   name: xdpyinfo
@@ -12,10 +16,6 @@ requires:
   category: net-misc
   id: 0
   name: curl
-  version: ""
-  category: media-gfx
-  id: 0
-  name: scrot
   version: ""
 uri:
 - https://github.com/KittyKatt/screenFetch/archive/v3.8.0.tar.gz -> screenfetch-3.8.0.tar.gz

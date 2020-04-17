@@ -9,13 +9,13 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-mate
 requires:
-  category: media-fonts
-  id: 0
-  name: ubuntu-font-family
-  version: ""
   category: x11-themes
   id: 0
   name: faenza-icon-theme
+  version: ""
+  category: media-fonts
+  id: 0
+  name: ubuntu-font-family
   version: ""
 use_flags:
 - ""

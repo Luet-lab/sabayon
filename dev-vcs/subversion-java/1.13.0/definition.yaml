@@ -5,6 +5,14 @@ id: 0
 license: Subversion
 name: subversion-java
 requires:
+  category: dev-libs
+  id: 0
+  name: apr-util
+  version: "1.3"
+  category: dev-libs
+  id: 0
+  name: libutf8proc
+  version: ""
   category: sys-apps
   id: 0
   name: file
@@ -29,14 +37,6 @@ requires:
   id: 0
   name: apr
   version: "1.3"
-  category: dev-libs
-  id: 0
-  name: apr-util
-  version: "1.3"
-  category: dev-libs
-  id: 0
-  name: libutf8proc
-  version: ""
 uri:
 - mirror://apache/subversion/subversion-1.13.0.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/subversion-1.10.0_rc1-patches-1.tar.xz

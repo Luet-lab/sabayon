@@ -5,14 +5,14 @@ id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-base-modules
 requires:
-  category: sys-kernel
-  id: 0
-  name: dracut
-  version: "049"
   category: app-admin
   id: 0
   name: calamares
   version: ""
+  category: sys-kernel
+  id: 0
+  name: dracut
+  version: "049"
 uri:
 - https://github.com/Sabayon/calamares-sabayon/archive/v1.15.tar.gz -> calamares-sabayon-base-modules-1.15.tar.gz
 use_flags:

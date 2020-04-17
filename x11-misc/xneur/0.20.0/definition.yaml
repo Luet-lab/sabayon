@@ -13,34 +13,6 @@ requires:
   id: 0
   name: libpcre
   version: "5.0"
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: app-text
-  id: 0
-  name: enchant
-  version: ""
-  category: media-libs
-  id: 0
-  name: gst-plugins-good
-  version: ""
-  category: media-plugins
-  id: 0
-  name: gst-plugins-alsa
-  version: ""
-  category: virtual
-  id: 0
-  name: libintl
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: "1.1"
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
   category: media-libs
   id: 0
   name: gstreamer
@@ -53,10 +25,18 @@ requires:
   id: 0
   name: alsa-utils
   version: 1.0.17
+  category: app-text
+  id: 0
+  name: enchant
+  version: ""
+  category: media-libs
+  id: 0
+  name: gst-plugins-good
+  version: ""
   category: x11-libs
   id: 0
-  name: xosd
-  version: ""
+  name: libX11
+  version: "1.1"
   category: x11-libs
   id: 0
   name: libXtst
@@ -69,6 +49,26 @@ requires:
   id: 0
   name: libnotify
   version: 0.4.0
+  category: x11-libs
+  id: 0
+  name: xosd
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXi
+  version: ""
+  category: media-plugins
+  id: 0
+  name: gst-plugins-alsa
+  version: ""
+  category: virtual
+  id: 0
+  name: libintl
+  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.20.0.orig.tar.gz
 use_flags:

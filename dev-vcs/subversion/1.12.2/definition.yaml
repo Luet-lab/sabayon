@@ -5,6 +5,54 @@ id: 0
 license: Subversion GPL-2
 name: subversion
 requires:
+  category: dev-libs
+  id: 0
+  name: apr
+  version: "1.3"
+  category: dev-libs
+  id: 0
+  name: apr-util
+  version: "1.3"
+  category: sys-apps
+  id: 0
+  name: file
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: ki18n
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kwallet
+  version: ""
+  category: virtual
+  id: 0
+  name: libintl
+  version: ""
+  category: gnome-base
+  id: 0
+  name: libgnome-keyring
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtdbus
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtgui
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kcoreaddons
+  version: ""
+  category: www-servers
+  id: 0
+  name: apache[apache2_modules_dav]
+  version: ""
   category: app-arch
   id: 0
   name: bzip2
@@ -13,82 +61,6 @@ requires:
   id: 0
   name: sqlite
   version: 3.7.12
-  category: kde-frameworks
-  id: 0
-  name: kcoreaddons
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: ki18n
-  version: ""
-  category: www-servers
-  id: 0
-  name: apache[apache2_modules_dav]
-  version: ""
-  category: dev-perl
-  id: 0
-  name: URI
-  version: ""
-  category: dev-libs
-  id: 0
-  name: apr
-  version: "1.3"
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: net-libs
-  id: 0
-  name: serf
-  version: 1.3.4
-  category: dev-qt
-  id: 0
-  name: qtdbus
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kwallet
-  version: ""
-  category: app-arch
-  id: 0
-  name: lz4
-  version: ""
-  category: sys-apps
-  id: 0
-  name: file
-  version: ""
-  category: sys-libs
-  id: 0
-  name: db
-  version: 4.0.14
-  category: gnome-base
-  id: 0
-  name: libgnome-keyring
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtcore
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtgui
-  version: ""
-  category: dev-libs
-  id: 0
-  name: cyrus-sasl
-  version: ""
-  category: dev-libs
-  id: 0
-  name: apr-util
-  version: "1.3"
-  category: dev-libs
-  id: 0
-  name: expat
-  version: ""
   category: dev-libs
   id: 0
   name: libutf8proc
@@ -101,9 +73,37 @@ requires:
   id: 0
   name: perl
   version: ""
-  category: virtual
+  category: dev-perl
   id: 0
-  name: libintl
+  name: URI
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
+  version: ""
+  category: dev-libs
+  id: 0
+  name: expat
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: sys-libs
+  id: 0
+  name: db
+  version: 4.0.14
+  category: net-libs
+  id: 0
+  name: serf
+  version: 1.3.4
+  category: dev-qt
+  id: 0
+  name: qtcore
+  version: ""
+  category: dev-libs
+  id: 0
+  name: cyrus-sasl
   version: ""
 uri:
 - mirror://apache/subversion/subversion-1.12.2.tar.bz2

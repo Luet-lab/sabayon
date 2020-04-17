@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: tuxcmd
 requires:
+  category: media-libs
+  id: 0
+  name: libpng
+  version: "1.4"
   category: dev-libs
   id: 0
   name: atk
@@ -29,10 +33,6 @@ requires:
   id: 0
   name: expat
   version: ""
-  category: media-libs
-  id: 0
-  name: libpng
-  version: "1.4"
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-0.6.70.tar.bz2
 use_flags:

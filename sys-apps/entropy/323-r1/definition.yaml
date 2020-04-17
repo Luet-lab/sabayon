@@ -5,14 +5,6 @@ id: 0
 license: GPL-2
 name: entropy
 requires:
-  category: app-misc
-  id: 0
-  name: pax-utils
-  version: "0.7"
-  category: app-portage
-  id: 0
-  name: portage-utils
-  version: "0.81"
   category: dev-db
   id: 0
   name: sqlite
@@ -37,6 +29,14 @@ requires:
   id: 0
   name: gettext
   version: ""
+  category: app-misc
+  id: 0
+  name: pax-utils
+  version: "0.7"
+  category: app-portage
+  id: 0
+  name: portage-utils
+  version: "0.81"
 uri:
 - mirror://sabayon//entropy-323.tar.bz2
 use_flags:

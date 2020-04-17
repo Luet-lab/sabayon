@@ -5,6 +5,10 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-core
 requires:
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-wallpapers
+  version: ""
   category: sys-apps
   id: 0
   name: findutils
@@ -20,10 +24,6 @@ requires:
   category: x11-themes
   id: 0
   name: sabayon-artwork-plymouth-default
-  version: ""
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-wallpapers
   version: ""
 use_flags:
 - ""

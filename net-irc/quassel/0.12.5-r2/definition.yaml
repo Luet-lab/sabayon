@@ -5,73 +5,25 @@ id: 0
 license: GPL-3
 name: quassel
 requires:
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtsql
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtwebengine
-  version: ""
-  category: app-crypt
-  id: 0
-  name: qca
-  version: ""
   category: dev-db
   id: 0
   name: sqlite
   version: ""
   category: kde-frameworks
   id: 0
-  name: kconfigwidgets
-  version: ""
-  category: media-libs
-  id: 0
-  name: phonon[qt5(+)]
-  version: ""
-  category: x11-libs
-  id: 0
-  name: snorenotify
-  version: 0.7.0
-  category: dev-qt
-  id: 0
-  name: qtcore
+  name: ktextwidgets
   version: ""
   category: dev-qt
   id: 0
   name: qtscript
   version: ""
+  category: app-crypt
+  id: 0
+  name: qca
+  version: ""
   category: dev-qt
   id: 0
-  name: qtgui
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: knotifications
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: ktextwidgets
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kwidgetsaddons
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kxmlgui
-  version: ""
-  category: net-irc
-  id: 0
-  name: quassel-common
-  version: 0.12.5
-  category: virtual
-  id: 0
-  name: logger
+  name: qtsql
   version: ""
   category: dev-qt
   id: 0
@@ -87,15 +39,63 @@ requires:
   version: ""
   category: kde-frameworks
   id: 0
+  name: sonnet
+  version: ""
+  category: net-irc
+  id: 0
+  name: quassel-common
+  version: 0.12.5
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtgui
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kxmlgui
+  version: ""
+  category: x11-libs
+  id: 0
+  name: snorenotify
+  version: 0.7.0
+  category: dev-qt
+  id: 0
+  name: qtwebengine
+  version: ""
+  category: kde-frameworks
+  id: 0
   name: kcoreaddons
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: knotifications
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kwidgetsaddons
   version: ""
   category: kde-frameworks
   id: 0
   name: knotifyconfig
   version: ""
+  category: media-libs
+  id: 0
+  name: phonon[qt5(+)]
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtcore
+  version: ""
+  category: virtual
+  id: 0
+  name: logger
+  version: ""
   category: kde-frameworks
   id: 0
-  name: sonnet
+  name: kconfigwidgets
   version: ""
 uri:
 - http://quassel-irc.org/pub/quassel-0.12.5.tar.bz2

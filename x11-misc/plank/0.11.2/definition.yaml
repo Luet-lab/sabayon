@@ -5,6 +5,14 @@ id: 0
 license: LGPL-3
 name: plank
 requires:
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.32"
+  category: dev-libs
+  id: 0
+  name: libgee
+  version: ""
   category: x11-libs
   id: 0
   name: gtk+
@@ -24,14 +32,6 @@ requires:
   category: x11-libs
   id: 0
   name: libwnck
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.32"
-  category: dev-libs
-  id: 0
-  name: libgee
   version: ""
 uri:
 - http://launchpad.net/plank/1.0/0.11.2/+download/plank-0.11.2.tar.xz

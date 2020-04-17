@@ -13,21 +13,53 @@ id: 0
 license: GPL-2 NVIDIA-r2
 name: nvidia-userspace
 requires:
-  category: sys-power
+  category: dev-libs
   id: 0
-  name: acpid
+  name: atk
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: app-eselect
+  id: 0
+  name: eselect-opengl
+  version: 1.0.9
+  category: app-misc
+  id: 0
+  name: pax-utils
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11-1.6.2[abi_x86_32]
   version: ""
   category: dev-libs
   id: 0
-  name: wayland
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
+  name: jansson
   version: ""
   category: x11-libs
   id: 0
   name: cairo
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf[X]
+  version: ""
+  category: media-libs
+  id: 0
+  name: libglvnd[abi_x86_32]
+  version: ""
+  category: x11-base
+  id: 0
+  name: xorg-server
+  version: 1.20.99
+  category: app-eselect
+  id: 0
+  name: eselect-opencl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
   version: ""
   category: x11-libs
   id: 0
@@ -41,50 +73,26 @@ requires:
   id: 0
   name: pango[X]
   version: ""
-  category: x11-libs
+  category: sys-power
   id: 0
-  name: gtk+
+  name: acpid
+  version: ""
+  category: dev-libs
+  id: 0
+  name: wayland
   version: ""
   category: x11-libs
   id: 0
-  name: gdk-pixbuf[X]
+  name: libXext-1.3.2[abi_x86_32]
   version: ""
-  category: x11-base
-  id: 0
-  name: xorg-server
-  version: 1.20.99
   category: sys-libs
   id: 0
   name: zlib
-  version: ""
-  category: app-eselect
-  id: 0
-  name: eselect-opencl
   version: ""
   category: sys-libs
   id: 0
   name: glibc
   version: 2.6.1
-  category: media-libs
-  id: 0
-  name: libglvnd[abi_x86_32]
-  version: ""
-  category: app-misc
-  id: 0
-  name: pax-utils
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11-1.6.2[abi_x86_32]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: atk
-  version: ""
-  category: dev-libs
-  id: 0
-  name: jansson
-  version: ""
   category: x11-libs
   id: 0
   name: libXext
@@ -96,14 +104,6 @@ requires:
   category: x11-libs
   id: 0
   name: libXv
-  version: ""
-  category: app-eselect
-  id: 0
-  name: eselect-opengl
-  version: 1.0.9
-  category: x11-libs
-  id: 0
-  name: libXext-1.3.2[abi_x86_32]
   version: ""
   category: x11-libs
   id: 0

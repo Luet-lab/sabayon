@@ -5,22 +5,6 @@ id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon
 requires:
-  category: app-misc
-  id: 0
-  name: calamares-sabayon-branding
-  version: ""
-  category: sys-fs
-  id: 0
-  name: jfsutils
-  version: ""
-  category: sys-fs
-  id: 0
-  name: btrfs-progs
-  version: ""
-  category: app-misc
-  id: 0
-  name: calamares-sabayon-base-modules
-  version: ""
   category: sys-fs
   id: 0
   name: reiserfsprogs
@@ -39,7 +23,23 @@ requires:
   version: ""
   category: sys-fs
   id: 0
+  name: btrfs-progs
+  version: ""
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-base-modules
+  version: ""
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-branding
+  version: ""
+  category: sys-fs
+  id: 0
   name: dosfstools
+  version: ""
+  category: sys-fs
+  id: 0
+  name: jfsutils
   version: ""
 uri:
 - mirror://sabayon//calamares-sabayon/installer-desktop-icon.png

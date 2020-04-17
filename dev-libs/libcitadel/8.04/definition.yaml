@@ -5,6 +5,10 @@ id: 0
 license: GPL-3
 name: libcitadel
 requires:
+  category: mail-filter
+  id: 0
+  name: libsieve
+  version: ""
   category: sys-libs
   id: 0
   name: db
@@ -24,10 +28,6 @@ requires:
   category: net-misc
   id: 0
   name: curl
-  version: ""
-  category: mail-filter
-  id: 0
-  name: libsieve
   version: ""
 uri:
 - http://easyinstall.citadel.org/libcitadel-8.04.tar.gz

@@ -11,7 +11,7 @@ requires:
   version: ""
   category: app-text
   id: 0
-  name: poppler-base-0.85.0[debug=]
+  name: poppler-base-0.85.0[lcms=]
   version: ""
   category: app-text
   id: 0
@@ -23,7 +23,7 @@ requires:
   version: ""
   category: app-text
   id: 0
-  name: poppler-base-0.85.0[nss=]
+  name: poppler-base-0.85.0[utils=]
   version: ""
   category: app-text
   id: 0
@@ -31,19 +31,19 @@ requires:
   version: ""
   category: app-text
   id: 0
-  name: poppler-base-0.85.0[jpeg2k=]
-  version: ""
-  category: app-text
-  id: 0
-  name: poppler-base-0.85.0[lcms=]
-  version: ""
-  category: app-text
-  id: 0
-  name: poppler-base-0.85.0[utils=]
+  name: poppler-base-0.85.0[debug=]
   version: ""
   category: app-text
   id: 0
   name: poppler-base-0.85.0[jpeg=]
+  version: ""
+  category: app-text
+  id: 0
+  name: poppler-base-0.85.0[jpeg2k=]
+  version: ""
+  category: app-text
+  id: 0
+  name: poppler-base-0.85.0[nss=]
   version: ""
 use_flags:
 - cairo

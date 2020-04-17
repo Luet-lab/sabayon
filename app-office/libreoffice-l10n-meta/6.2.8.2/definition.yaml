@@ -7,295 +7,11 @@ name: libreoffice-l10n-meta
 requires:
   category: app-office
   id: 0
-  name: libreoffice-l10n-es
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-hr
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-pl
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-cs
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-sl
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ast
+  name: libreoffice-l10n-ug
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-sd
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-si
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-om
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-th
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-gl
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-id
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-de
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-eo
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ne
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-nb
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-zu
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-af
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-fr
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-en
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-mni
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-my
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-oc
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-pt_BR
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-tg
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-bg
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-brx
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ml
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-zh_TW
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-lt
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-sw
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-or
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-pa_IN
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-it
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sv
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sw_TZ
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-pt
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-be
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-gl
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-pl
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-hu
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-kn
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ks
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-tn
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-ru
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-nb
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ru
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-et
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ar
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-fi
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-bg
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-da
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-lv
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-ia
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-nl
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-sk
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-dgo
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-dz
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-gd
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-eo
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-he
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-lo
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-mk
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sk
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ve
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-ca
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-tn
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-fa
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-nr
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sa_IN
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-de
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-eu
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-km
+  name: libreoffice-l10n-mn
   version: 6.2.8.2
   category: app-office
   id: 0
@@ -303,107 +19,15 @@ requires:
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-rw
+  name: libreoffice-l10n-or
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-bn
+  name: libreoffice-l10n-cs
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-en_GB
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-is
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-fo
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-am
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ro
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ta
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-ga
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-he
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-as
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-en_ZA
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-da
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-es
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-gu
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-mr
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-te
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-tt
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-br
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-bs
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-nso
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sr
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-et
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ga
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sl
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ss
+  name: libreoffice-l10n-om
   version: 6.2.8.2
   category: app-dicts
   id: 0
@@ -411,31 +35,55 @@ requires:
   version: ""
   category: app-office
   id: 0
-  name: libreoffice-l10n-lt
-  version: 6.2.8.2
-  category: app-office
-  id: 0
   name: libreoffice-l10n-sat
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-sq
+  name: libreoffice-l10n-sl
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-uk
+  name: libreoffice-l10n-th
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-vi
   version: 6.2.8.2
   category: app-dicts
   id: 0
-  name: myspell-af
+  name: myspell-en
   version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-dgo
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-el
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-kok
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sk
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-br
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-brx
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-lo
+  version: 6.2.8.2
   category: app-dicts
   id: 0
-  name: myspell-cy
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-mi
+  name: myspell-nl
   version: ""
   category: app-dicts
   id: 0
@@ -443,16 +91,72 @@ requires:
   version: ""
   category: app-office
   id: 0
-  name: libreoffice-l10n-gug
+  name: libreoffice-l10n-hr
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-ka
+  name: libreoffice-l10n-tn
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-zu
   version: 6.2.8.2
   category: app-office
   id: 0
   name: libreoffice-l10n-ts
   version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-be
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-eo
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-nb
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-mi
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-nb
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-ru
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-sk
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-gd
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sw_TZ
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ta
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-pt_BR
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-uk
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-cy
+  version: ""
   category: app-office
   id: 0
   name: libreoffice-l10n-lb
@@ -463,55 +167,11 @@ requires:
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-id
+  name: libreoffice-l10n-kn
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-ja
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ko
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-el
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-sv
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-hu
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-kok
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-ug
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-zh_CN
-  version: 6.2.8.2
-  category: app-dicts
-  id: 0
-  name: myspell-mk
-  version: ""
-  category: app-dicts
-  id: 0
-  name: myspell-ro
-  version: ""
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-en_US
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-pt
+  name: libreoffice-l10n-lt
   version: 6.2.8.2
   category: app-office
   id: 0
@@ -519,63 +179,83 @@ requires:
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-zu
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-bo
-  version: 6.2.8.2
-  category: app-office
-  id: 0
   name: libreoffice-l10n-ca
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-hi
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-tr
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-uz
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-hr
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-nl
-  version: 6.2.8.2
-  category: app-office
-  id: 0
-  name: libreoffice-l10n-sid
+  name: libreoffice-l10n-en_GB
   version: 6.2.8.2
   category: app-office
   id: 0
   name: libreoffice-l10n-it
   version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-da
+  version: ""
   category: app-office
   id: 0
-  name: libreoffice-l10n-kk
+  name: libreoffice-l10n-is
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-mai
+  name: libreoffice-l10n-mk
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-mn
+  name: libreoffice-l10n-sa_IN
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-vi
+  name: libreoffice-l10n-ru
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-es
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-gl
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-fa
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-cs
+  name: libreoffice-l10n-ja
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-pl
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-tg
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ve
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-mk
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-am
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-nso
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-pt
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-bg
   version: 6.2.8.2
   category: app-office
   id: 0
@@ -583,12 +263,332 @@ requires:
   version: 6.2.8.2
   category: app-office
   id: 0
-  name: libreoffice-l10n-el
+  name: libreoffice-l10n-fi
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-ia
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-hi
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ro
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-cs
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ss
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-pl
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-sl
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ar
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-gug
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sd
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sv
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-sv
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ast
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-bn
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ko
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-te
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-ro
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ga
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-mai
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-mni
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-pt
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-sw
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-bg
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-id
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-lt
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-id
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-de
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-he
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-hr
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-af
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-nr
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-et
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-zh_CN
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-ga
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-hu
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-da
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ml
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-rw
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-kk
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-si
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sr
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-tn
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-zu
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-en_US
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-eu
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-hu
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-bs
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-mr
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-uz
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ka
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-zh_TW
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-ca
+  version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-fo
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-as
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-bo
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-es
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-tr
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-tt
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-eo
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-fr
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-lv
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ne
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-pa_IN
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sid
   version: 6.2.8.2
   category: app-dicts
   id: 0
   name: myspell-fr
   version: ""
+  category: app-dicts
+  id: 0
+  name: myspell-it
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-de
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-dz
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-nl
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-ks
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-el
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-my
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-oc
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-sq
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-en_ZA
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-he
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-km
+  version: 6.2.8.2
+  category: app-dicts
+  id: 0
+  name: myspell-af
+  version: ""
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-et
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-gl
+  version: 6.2.8.2
+  category: app-office
+  id: 0
+  name: libreoffice-l10n-gu
+  version: 6.2.8.2
 use_flags:
 - linguas_af
 - linguas_am

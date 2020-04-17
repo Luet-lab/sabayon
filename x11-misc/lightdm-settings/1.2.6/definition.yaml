@@ -7,6 +7,10 @@ name: lightdm-settings
 requires:
   category: dev-python
   id: 0
+  name: setproctitle
+  version: ""
+  category: dev-python
+  id: 0
   name: pygobject
   version: ""
   category: sys-auth
@@ -28,10 +32,6 @@ requires:
   category: x11-misc
   id: 0
   name: lightdm-slick-greeter
-  version: ""
-  category: dev-python
-  id: 0
-  name: setproctitle
   version: ""
 uri:
 - https://github.com/linuxmint/lightdm-settings/archive/1.2.6.tar.gz -> lightdm-settings-1.2.6.tar.gz

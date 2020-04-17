@@ -15,14 +15,6 @@ name: pinentry-qt5
 requires:
   category: sys-libs
   id: 0
-  name: ncurses
-  version: ""
-  category: app-crypt
-  id: 0
-  name: pinentry-base
-  version: 1.0.0
-  category: sys-libs
-  id: 0
   name: libcap
   version: ""
   category: dev-qt
@@ -37,6 +29,14 @@ requires:
   id: 0
   name: qtwidgets
   version: ""
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: ""
+  category: app-crypt
+  id: 0
+  name: pinentry-base
+  version: 1.0.0
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2
 use_flags:

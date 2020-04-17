@@ -9,6 +9,10 @@ id: 0
 license: GPL-2
 name: pinentry-gtk2
 requires:
+  category: app-crypt
+  id: 0
+  name: pinentry-base
+  version: 1.0.0
   category: sys-libs
   id: 0
   name: libcap
@@ -21,10 +25,6 @@ requires:
   id: 0
   name: ncurses
   version: ""
-  category: app-crypt
-  id: 0
-  name: pinentry-base
-  version: 1.0.0
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2
 use_flags:

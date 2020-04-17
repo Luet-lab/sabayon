@@ -5,14 +5,6 @@ id: 0
 license: GPL-3
 name: rigo-daemon
 requires:
-  category: dev-python
-  id: 0
-  name: dbus-python
-  version: ""
-  category: dev-python
-  id: 0
-  name: pygobject
-  version: ""
   category: sys-apps
   id: 0
   name: entropy
@@ -24,6 +16,14 @@ requires:
   category: sys-devel
   id: 0
   name: gettext
+  version: ""
+  category: dev-python
+  id: 0
+  name: dbus-python
+  version: ""
+  category: dev-python
+  id: 0
+  name: pygobject
   version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-323.tar.bz2

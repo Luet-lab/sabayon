@@ -5,10 +5,6 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm-qt5
 requires:
-  category: dev-qt
-  id: 0
-  name: qtgui
-  version: ""
   category: x11-misc
   id: 0
   name: lightdm-base
@@ -20,6 +16,10 @@ requires:
   category: dev-qt
   id: 0
   name: qtdbus
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtgui
   version: ""
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz

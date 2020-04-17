@@ -15,18 +15,6 @@ name: sabayon-live
 requires:
   category: sys-apps
   id: 0
-  name: sed
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: 239-r2
-  category: sys-apps
-  id: 0
-  name: dmidecode
-  version: ""
-  category: sys-apps
-  id: 0
   name: gawk
   version: ""
   category: sys-apps
@@ -37,6 +25,14 @@ requires:
   id: 0
   name: keyboard-configuration-helpers
   version: ""
+  category: sys-apps
+  id: 0
+  name: sed
+  version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: 239-r2
   category: app-eselect
   id: 0
   name: eselect-opengl
@@ -44,6 +40,10 @@ requires:
   category: dev-util
   id: 0
   name: dialog
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dmidecode
   version: ""
 use_flags:
 - ""

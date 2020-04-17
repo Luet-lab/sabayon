@@ -5,6 +5,10 @@ id: 0
 license: GPL-3
 name: rigo
 requires:
+  category: sys-devel
+  id: 0
+  name: gettext
+  version: ""
   category: x11-libs
   id: 0
   name: gtk+
@@ -25,10 +29,6 @@ requires:
   id: 0
   name: rigo-daemon
   version: "324"
-  category: sys-devel
-  id: 0
-  name: gettext
-  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-324.tar.bz2
 use_flags:

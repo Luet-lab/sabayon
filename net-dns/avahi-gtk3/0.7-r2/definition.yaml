@@ -9,14 +9,6 @@ id: 0
 license: LGPL-2.1
 name: avahi-gtk3
 requires:
-  category: dev-libs
-  id: 0
-  name: gobject-introspection
-  version: ""
-  category: dev-python
-  id: 0
-  name: dbus-python
-  version: ""
   category: sys-apps
   id: 0
   name: dbus
@@ -32,6 +24,14 @@ requires:
   category: dev-python
   id: 0
   name: pygobject
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  version: ""
+  category: dev-python
+  id: 0
+  name: dbus-python
   version: ""
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz

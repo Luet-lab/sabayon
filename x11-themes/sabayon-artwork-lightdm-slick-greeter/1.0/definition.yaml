@@ -5,6 +5,10 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-lightdm-slick-greeter
 requires:
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-core
+  version: ""
   category: x11-misc
   id: 0
   name: lightdm-slick-greeter
@@ -12,10 +16,6 @@ requires:
   category: x11-misc
   id: 0
   name: lightdm-settings
-  version: ""
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-core
   version: ""
 use_flags:
 - ""

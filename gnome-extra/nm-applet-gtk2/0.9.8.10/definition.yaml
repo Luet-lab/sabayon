@@ -9,34 +9,6 @@ id: 0
 license: GPL-2+
 name: nm-applet-gtk2
 requires:
-  category: net-misc
-  id: 0
-  name: mobile-broadband-provider-info
-  version: ""
-  category: net-misc
-  id: 0
-  name: modemmanager
-  version: 0.7.990
-  category: app-crypt
-  id: 0
-  name: libsecret
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gconf
-  version: "2.26"
-  category: x11-libs
-  id: 0
-  name: libnotify
-  version: 0.7.0
-  category: dev-libs
-  id: 0
-  name: gobject-introspection
-  version: 0.9.6
-  category: virtual
-  id: 0
-  name: freedesktop-icon-theme
-  version: ""
   category: dev-libs
   id: 0
   name: glib
@@ -44,15 +16,7 @@ requires:
   category: gnome-base
   id: 0
   name: libgnome-keyring
-  version: ""
-  category: gnome-base
-  id: 0
-  name: libgnome-keyring
   version: "2.20"
-  category: net-misc
-  id: 0
-  name: networkmanager
-  version: 0.9.8
   category: x11-libs
   id: 0
   name: gtk+
@@ -61,6 +25,26 @@ requires:
   id: 0
   name: iso-codes
   version: ""
+  category: net-misc
+  id: 0
+  name: mobile-broadband-provider-info
+  version: ""
+  category: gnome-base
+  id: 0
+  name: libgnome-keyring
+  version: ""
+  category: virtual
+  id: 0
+  name: freedesktop-icon-theme
+  version: ""
+  category: app-crypt
+  id: 0
+  name: libsecret
+  version: ""
+  category: gnome-base
+  id: 0
+  name: gconf
+  version: "2.26"
   category: net-wireless
   id: 0
   name: gnome-bluetooth
@@ -69,22 +53,38 @@ requires:
   id: 0
   name: gconf
   version: "2.20"
-  category: virtual
-  id: 0
-  name: libgudev
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: "0.88"
   category: sys-apps
   id: 0
   name: dbus
   version: 1.4.1
+  category: x11-libs
+  id: 0
+  name: libnotify
+  version: 0.7.0
+  category: net-misc
+  id: 0
+  name: networkmanager
+  version: 0.9.8
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  version: 0.9.6
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: "0.88"
   category: sys-auth
   id: 0
   name: polkit
   version: 0.96-r1
+  category: net-misc
+  id: 0
+  name: modemmanager
+  version: 0.7.990
+  category: virtual
+  id: 0
+  name: libgudev
+  version: ""
 use_flags:
 - bluetooth
 - gconf

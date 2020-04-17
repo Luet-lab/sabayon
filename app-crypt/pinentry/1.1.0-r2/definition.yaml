@@ -8,6 +8,10 @@ name: pinentry
 requires:
   category: app-crypt
   id: 0
+  name: pinentry-base
+  version: 1.1.0
+  category: app-crypt
+  id: 0
   name: pinentry-gnome
   version: 1.1.0
   category: app-crypt
@@ -17,10 +21,6 @@ requires:
   category: app-crypt
   id: 0
   name: pinentry-qt5
-  version: 1.1.0
-  category: app-crypt
-  id: 0
-  name: pinentry-base
   version: 1.1.0
 use_flags:
 - caps

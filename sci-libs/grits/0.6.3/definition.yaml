@@ -5,6 +5,10 @@ id: 0
 license: GPL-3
 name: grits
 requires:
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
   category: x11-libs
   id: 0
   name: gtk+
@@ -13,10 +17,6 @@ requires:
   id: 0
   name: libsoup
   version: "2.26"
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
 uri:
 - http://lug.rose-hulman.edu/proj/grits/grits-0.6.3.tar.gz
 use_flags:

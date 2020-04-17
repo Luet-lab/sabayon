@@ -5,21 +5,25 @@ id: 0
 license: GPL-3
 name: lightdm-slick-greeter
 requires:
+  category: x11-misc
+  id: 0
+  name: lightdm-base
+  version: "1.12"
+  category: dev-util
+  id: 0
+  name: intltool
+  version: 0.35.0
   category: x11-libs
   id: 0
-  name: libXext
+  name: cairo
   version: ""
-  category: x11-libs
+  category: media-libs
   id: 0
-  name: pixman
+  name: libcanberra
   version: ""
   category: sys-devel
   id: 0
   name: gettext
-  version: ""
-  category: x11-libs
-  id: 0
-  name: cairo
   version: ""
   category: media-libs
   id: 0
@@ -29,17 +33,13 @@ requires:
   id: 0
   name: gtk+
   version: "3.20"
-  category: x11-misc
+  category: x11-libs
   id: 0
-  name: lightdm-base
-  version: "1.12"
-  category: dev-util
+  name: libXext
+  version: ""
+  category: x11-libs
   id: 0
-  name: intltool
-  version: 0.35.0
-  category: media-libs
-  id: 0
-  name: libcanberra
+  name: pixman
   version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.7.tar.gz -> lightdm-slick-greeter-1.2.7.tar.gz

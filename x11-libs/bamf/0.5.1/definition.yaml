@@ -5,14 +5,6 @@ id: 0
 license: LGPL-3
 name: bamf
 requires:
-  category: gnome-base
-  id: 0
-  name: libgtop
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gtk+
-  version: ""
   category: x11-libs
   id: 0
   name: libX11
@@ -32,6 +24,14 @@ requires:
   category: dev-libs
   id: 0
   name: glib
+  version: ""
+  category: gnome-base
+  id: 0
+  name: libgtop
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
   version: ""
 uri:
 - http://launchpad.net/bamf/0.5/0.5.1/+download/bamf-0.5.1.tar.gz

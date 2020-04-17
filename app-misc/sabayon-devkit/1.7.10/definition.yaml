@@ -5,13 +5,9 @@ id: 0
 license: GPL-2
 name: sabayon-devkit
 requires:
-  category: app-misc
-  id: 0
-  name: pax-utils
-  version: ""
   category: app-portage
   id: 0
-  name: portage-utils
+  name: gentoolkit
   version: ""
   category: dev-lang
   id: 0
@@ -25,9 +21,9 @@ requires:
   id: 0
   name: DBD-SQLite
   version: ""
-  category: app-emulation
+  category: app-misc
   id: 0
-  name: docker
+  name: pax-utils
   version: ""
   category: app-misc
   id: 0
@@ -41,9 +37,13 @@ requires:
   id: 0
   name: layman
   version: ""
+  category: app-emulation
+  id: 0
+  name: docker
+  version: ""
   category: app-portage
   id: 0
-  name: gentoolkit
+  name: portage-utils
   version: ""
   category: app-portage
   id: 0

@@ -6,7 +6,7 @@ name: gcc
 requires:
   category: sys-devel
   id: 0
-  name: base-gcc-8.2.0[multilib?]
+  name: base-gcc-8.2.0[graphite?]
   version: ""
   category: sys-devel
   id: 0
@@ -14,27 +14,7 @@ requires:
   version: ""
   category: sys-devel
   id: 0
-  name: base-gcc-8.2.0[doc?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[objc-gc?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[nls?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[fixed-point?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[graphite?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[hardened?]
+  name: base-gcc-8.2.0[altivec?]
   version: ""
   category: sys-devel
   id: 0
@@ -42,15 +22,31 @@ requires:
   version: ""
   category: sys-devel
   id: 0
+  name: base-gcc-8.2.0[doc?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[fixed-point?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[hardened?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[objc-gc?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[multilib?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[nls?]
+  version: ""
+  category: sys-devel
+  id: 0
   name: base-gcc-8.2.0[objc+
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[vanilla?]
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc-8.2.0[altivec?]
   version: ""
   category: sys-devel
   id: 0
@@ -59,6 +55,10 @@ requires:
   category: sys-devel
   id: 0
   name: base-gcc-8.2.0[objc?]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc-8.2.0[vanilla?]
   version: ""
 use_flags:
 - fortran

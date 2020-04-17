@@ -5,6 +5,14 @@ id: 0
 license: GPL-3
 name: lightdm-slick-greeter
 requires:
+  category: x11-libs
+  id: 0
+  name: pixman
+  version: ""
+  category: x11-libs
+  id: 0
+  name: cairo
+  version: ""
   category: media-libs
   id: 0
   name: freetype
@@ -25,14 +33,6 @@ requires:
   id: 0
   name: lightdm-base
   version: "1.12"
-  category: x11-libs
-  id: 0
-  name: pixman
-  version: ""
-  category: x11-libs
-  id: 0
-  name: cairo
-  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.5.tar.gz -> slick-greeter-1.2.5.tar.gz
 version: 1.2.5

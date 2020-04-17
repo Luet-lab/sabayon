@@ -5,13 +5,17 @@ id: 0
 license: GPL-2
 name: nmap
 requires:
+  category: dev-libs
+  id: 0
+  name: apr
+  version: ""
   category: dev-vcs
   id: 0
   name: subversion
   version: ""
   category: dev-libs
   id: 0
-  name: openssl
+  name: libressl
   version: ""
   category: dev-lang
   id: 0
@@ -23,23 +27,19 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: apr
-  version: ""
-  category: net-libs
-  id: 0
-  name: libssh2
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libressl
-  version: ""
-  category: dev-libs
-  id: 0
   name: libpcre
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
   version: ""
   category: net-libs
   id: 0
   name: libpcap
+  version: ""
+  category: net-libs
+  id: 0
+  name: libssh2
   version: ""
 uri:
 - https://nmap.org/dist/nmap-7.70.tar.bz2

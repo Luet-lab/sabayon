@@ -17,6 +17,14 @@ id: 0
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
+  category: sys-libs
+  id: 0
+  name: db
+  version: ""
+  category: media-libs
+  id: 0
+  name: alsa-lib
+  version: 1.0.27.2
   category: media-libs
   id: 0
   name: libsamplerate
@@ -25,9 +33,9 @@ requires:
   id: 0
   name: lsof
   version: ""
-  category: media-libs
+  category: sys-auth
   id: 0
-  name: libffado
+  name: realtime-base
   version: ""
   category: sys-libs
   id: 0
@@ -39,15 +47,7 @@ requires:
   version: 1.0.0
   category: media-libs
   id: 0
-  name: alsa-lib
-  version: 1.0.27.2
-  category: sys-auth
-  id: 0
-  name: realtime-base
-  version: ""
-  category: sys-libs
-  id: 0
-  name: db
+  name: libffado
   version: ""
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz

@@ -5,13 +5,13 @@ id: 0
 license: GPL-2
 name: entropy-server
 requires:
-  category: sys-apps
-  id: 0
-  name: entropy
-  version: "322"
   category: app-admin
   id: 0
   name: matter
+  version: "322"
+  category: sys-apps
+  id: 0
+  name: entropy
   version: "322"
 uri:
 - mirror://sabayon/sys-apps/entropy-322.tar.bz2

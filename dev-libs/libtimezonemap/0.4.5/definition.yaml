@@ -5,14 +5,6 @@ id: 0
 license: GPL-2
 name: libtimezonemap
 requires:
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: json-glib
-  version: ""
   category: x11-libs
   id: 0
   name: cairo
@@ -24,6 +16,14 @@ requires:
   category: x11-libs
   id: 0
   name: gtk+
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: json-glib
   version: ""
 uri:
 - mirror://ubuntu/pool/main/libt/libtimezonemap/libtimezonemap_0.4.5.tar.gz

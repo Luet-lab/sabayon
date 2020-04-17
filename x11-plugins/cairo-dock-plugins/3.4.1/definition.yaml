@@ -5,57 +5,29 @@ id: 0
 license: GPL-3
 name: cairo-dock-plugins
 requires:
-  category: x11-libs
+  category: gnome-base
   id: 0
-  name: libXxf86vm
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
+  name: gnome-menus
   version: ""
   category: x11-libs
   id: 0
-  name: cairo
+  name: libxklavier
   version: ""
-  category: media-libs
+  category: dev-python
   id: 0
-  name: alsa-lib
+  name: oauth
   version: ""
-  category: media-libs
-  id: 0
-  name: libexif
-  version: ""
-  category: net-libs
-  id: 0
-  name: webkit-gtk
-  version: 1.4.0
   category: dev-libs
   id: 0
-  name: libzeitgeist
+  name: dbus-glib
   version: ""
   category: x11-misc
   id: 0
   name: cairo-dock
   version: 3.4.1
-  category: gnome-base
+  category: x11-libs
   id: 0
-  name: gnome-menus
-  version: ""
-  category: dev-lang
-  id: 0
-  name: vala
-  version: ""
-  category: app-misc
-  id: 0
-  name: gnote
-  version: ""
-  category: dev-python
-  id: 0
-  name: oauth
+  name: gtk+
   version: ""
   category: kde-frameworks
   id: 0
@@ -65,17 +37,41 @@ requires:
   id: 0
   name: vte
   version: ""
-  category: xfce-base
+  category: app-misc
   id: 0
-  name: thunar
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
+  name: gnote
   version: ""
   category: dev-libs
   id: 0
   name: libxml2
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtkglext
+  version: ""
+  category: media-libs
+  id: 0
+  name: libexif
+  version: ""
+  category: dev-lang
+  id: 0
+  name: vala
+  version: ""
+  category: net-libs
+  id: 0
+  name: webkit-gtk
+  version: 1.4.0
+  category: xfce-base
+  id: 0
+  name: thunar
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
   version: ""
   category: gnome-base
   id: 0
@@ -83,15 +79,15 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: gtk+
+  name: cairo
   version: ""
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: gtkglext
+  name: libzeitgeist
   version: ""
-  category: x11-libs
+  category: net-libs
   id: 0
-  name: libxklavier
+  name: libetpan
   version: ""
   category: dev-python
   id: 0
@@ -101,9 +97,13 @@ requires:
   id: 0
   name: libindicator
   version: ""
-  category: net-libs
+  category: dev-libs
   id: 0
-  name: libetpan
+  name: glib
+  version: ""
+  category: media-libs
+  id: 0
+  name: alsa-lib
   version: ""
 uri:
 - http://launchpad.net/cairo-dock-plug-ins//3.4.1/+download/cairo-dock-plug-ins-3.4.1.tar.gz

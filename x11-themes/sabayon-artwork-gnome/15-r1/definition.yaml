@@ -7,6 +7,18 @@ name: sabayon-artwork-gnome
 requires:
   category: x11-themes
   id: 0
+  name: equinox-themes
+  version: ""
+  category: x11-themes
+  id: 0
+  name: elementary-icon-theme
+  version: ""
+  category: x11-themes
+  id: 0
+  name: arc-theme
+  version: ""
+  category: x11-themes
+  id: 0
   name: numix-icon-theme-circle
   version: ""
   category: x11-themes
@@ -20,18 +32,6 @@ requires:
   category: x11-themes
   id: 0
   name: sabayon-artwork-core
-  version: ""
-  category: x11-themes
-  id: 0
-  name: equinox-themes
-  version: ""
-  category: x11-themes
-  id: 0
-  name: elementary-icon-theme
-  version: ""
-  category: x11-themes
-  id: 0
-  name: arc-theme
   version: ""
 uri:
 - mirror://sabayon//sabayon-artwork-gnome/sabayon-artwork-gnome-15-r1.tar.xz

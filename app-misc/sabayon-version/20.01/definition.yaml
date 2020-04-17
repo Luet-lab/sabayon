@@ -1,26 +1,34 @@
 category: app-misc
 conflicts:
-  category: <sys-apps
-  id: 0
-  name: sysvinit
-  version: "1000"
   category: sys-apps
   id: 0
   name: hal
   version: ""
-  category: app-admin
-  id: 0
-  name: eselect-init
-  version: ""
   category: sys-auth
   id: 0
   name: consolekit
+  version: ""
+  category: <sys-apps
+  id: 0
+  name: sysvinit
+  version: "1000"
+  category: app-admin
+  id: 0
+  name: eselect-init
   version: ""
 description: Sabayon system release virtual package
 id: 0
 license: GPL-2
 name: sabayon-version
 requires:
+  category: sys-devel
+  id: 0
+  name: base-gcc
+  version: ""
+  category: sys-devel
+  id: 0
+  name: gcc-config
+  version: ""
   category: app-eselect
   id: 0
   name: eselect-python
@@ -29,25 +37,17 @@ requires:
   id: 0
   name: python
   version: ""
-  category: sys-kernel
-  id: 0
-  name: sabayon-dracut
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc
-  version: ""
   category: sys-apps
   id: 0
   name: systemd
   version: ""
+  category: sys-kernel
+  id: 0
+  name: sabayon-dracut
+  version: ""
   category: virtual
   id: 0
   name: man
-  version: ""
-  category: sys-devel
-  id: 0
-  name: gcc-config
   version: ""
 use_flags:
 - ""

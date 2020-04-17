@@ -5,9 +5,25 @@ id: 0
 license: GPL-2
 name: lxpanel
 requires:
+  category: x11-libs
+  id: 0
+  name: libwnck
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXmu
+  version: ""
+  category: x11-libs
+  id: 0
+  name: cairo
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf[X]
+  version: ""
   category: lxde-base
   id: 0
-  name: lxmenu-data
+  name: menu-cache
   version: ""
   category: media-libs
   id: 0
@@ -17,33 +33,13 @@ requires:
   id: 0
   name: wireless-tools
   version: ""
-  category: dev-libs
-  id: 0
-  name: keybinder
-  version: ""
   category: x11-libs
   id: 0
   name: libfm
   version: 1.2.0
   category: x11-libs
   id: 0
-  name: libwnck
-  version: ""
-  category: x11-libs
-  id: 0
-  name: cairo
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: x11-libs
-  id: 0
   name: gtk+
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXmu
   version: ""
   category: x11-libs
   id: 0
@@ -51,11 +47,15 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: gdk-pixbuf[X]
+  name: libX11
   version: ""
   category: lxde-base
   id: 0
-  name: menu-cache
+  name: lxmenu-data
+  version: ""
+  category: dev-libs
+  id: 0
+  name: keybinder
   version: ""
 uri:
 - mirror://sourceforge/lxde/lxpanel-0.10.0.tar.xz

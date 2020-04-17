@@ -5,6 +5,18 @@ id: 0
 license: GPL-3
 name: citadel
 requires:
+  category: net-mail
+  id: 0
+  name: mailbase
+  version: ""
+  category: mail-mta
+  id: 0
+  name: postfix
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libcitadel
+  version: "8.04"
   category: sys-libs
   id: 0
   name: db
@@ -25,18 +37,6 @@ requires:
   id: 0
   name: openssl
   version: ""
-  category: net-mail
-  id: 0
-  name: mailbase
-  version: ""
-  category: mail-mta
-  id: 0
-  name: postfix
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libcitadel
-  version: "8.04"
 uri:
 - http://easyinstall.citadel.org/citadel-8.04.tar.gz
 use_flags:

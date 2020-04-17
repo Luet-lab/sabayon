@@ -5,14 +5,22 @@ id: 0
 license: GPL-3
 name: deja-dup
 requires:
-  category: app-admin
+  category: dev-libs
   id: 0
-  name: packagekit-base
+  name: appstream-glib
   version: ""
-  category: x11-libs
+  category: gnome-base
   id: 0
-  name: gtk+
-  version: "3.10"
+  name: dconf
+  version: ""
+  category: app-crypt
+  id: 0
+  name: libsecret
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.34"
   category: x11-libs
   id: 0
   name: libnotify
@@ -29,33 +37,25 @@ requires:
   id: 0
   name: gnome-online-accounts
   version: ""
-  category: dev-libs
+  category: gnome-base
   id: 0
-  name: appstream-glib
+  name: gvfs
   version: ""
-  category: app-crypt
+  category: app-admin
   id: 0
-  name: libsecret
+  name: packagekit-base
   version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.34"
   category: dev-libs
   id: 0
   name: libpeas
   version: "1.0"
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: "3.10"
   category: gnome-base
   id: 0
   name: nautilus
-  version: ""
-  category: gnome-base
-  id: 0
-  name: dconf
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gvfs
   version: ""
 uri:
 - https://launchpad.net/deja-dup/38/38.3/+download/deja-dup-38.3.tar.xz

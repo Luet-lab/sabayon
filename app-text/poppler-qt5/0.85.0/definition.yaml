@@ -7,6 +7,10 @@ name: poppler-qt5
 requires:
   category: dev-qt
   id: 0
+  name: qtcore
+  version: ""
+  category: dev-qt
+  id: 0
   name: qtgui
   version: ""
   category: dev-qt
@@ -16,10 +20,6 @@ requires:
   category: app-text
   id: 0
   name: poppler-base-0.85.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtcore
   version: ""
 uri:
 - https://poppler.freedesktop.org/poppler-0.85.0.tar.xz

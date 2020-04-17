@@ -5,25 +5,41 @@ id: 0
 license: GPL-2
 name: sabayon-devkit
 requires:
+  category: app-portage
+  id: 0
+  name: portage-utils
+  version: ""
+  category: dev-lang
+  id: 0
+  name: perl
+  version: ""
+  category: sys-apps
+  id: 0
+  name: gentoo-functions
+  version: ""
   category: app-emulation
   id: 0
   name: docker
-  version: ""
-  category: app-misc
-  id: 0
-  name: pax-utils
   version: ""
   category: app-portage
   id: 0
   name: layman
   version: ""
+  category: app-portage
+  id: 0
+  name: gentoolkit
+  version: ""
+  category: app-portage
+  id: 0
+  name: repoman
+  version: ""
   category: dev-perl
   id: 0
   name: DBD-SQLite
   version: ""
-  category: sys-apps
+  category: app-misc
   id: 0
-  name: gentoo-functions
+  name: pax-utils
   version: ""
   category: app-misc
   id: 0
@@ -32,22 +48,6 @@ requires:
   category: app-portage
   id: 0
   name: eix
-  version: ""
-  category: app-portage
-  id: 0
-  name: gentoolkit
-  version: ""
-  category: app-portage
-  id: 0
-  name: portage-utils
-  version: ""
-  category: app-portage
-  id: 0
-  name: repoman
-  version: ""
-  category: dev-lang
-  id: 0
-  name: perl
   version: ""
 uri:
 - https://github.com/Sabayon/devkit/archive/v1.7.8.tar.gz -> sabayon-devkit-1.7.8.tar.gz
